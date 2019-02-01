@@ -1,46 +1,47 @@
-#!/bin/sh
+#!/bin/bash
 # All decoding experiments for the paper should go here.
 
 set -e 
 set -o pipefail
    
+NUM_DECODES="10"
 ROOT_DIR=".."
 TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
 SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
-OUTPUT_DIR="${ROOT_DIR}/decoding_experiments"
+OUTPUT_DIR="quant_eval/${NUM_DECODES}decodes"
 MODEL="${ROOT_DIR}/models/opennmt_sample_model.pt" 
 SEED="666"
 
 mkdir -p $OUTPUT_DIR
 
-# Standard beam search, beam size 10
+# Standard beam search, beam size "${NUM_DECODES}"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs10.json" \
--beam_size 10 \
+-output "${OUTPUT_DIR}/standard_beam_search_bs"${NUM_DECODES}".json" \
+-beam_size "${NUM_DECODES}" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -fast \
--n_best 10 \
+-n_best "${NUM_DECODES}" \
 -gpu 2
 
-# Standard beam search, beam size 10, npad 0.3
+# Standard beam search, beam size "${NUM_DECODES}", npad 0.3
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs10_npad0.3.json" \
--beam_size 10 \
+-output "${OUTPUT_DIR}/standard_beam_search_bs"${NUM_DECODES}"_npad0.3.json" \
+-beam_size "${NUM_DECODES}" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -fast \
--n_best 10 \
+-n_best "${NUM_DECODES}" \
 -hidden_state_noise 0.3 \
 -gpu 2
 
@@ -53,11 +54,11 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -fast \
 -gpu 2 \
--num_random_samples 10 \
+-num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.0 \
 -random_sampling_topk -1 \
 
@@ -70,10 +71,10 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -gpu 2 \
--num_random_samples 10 \
+-num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 0.7 \
 -random_sampling_topk -1 \
 
@@ -86,36 +87,36 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -gpu 2 \
--num_random_samples 10 \
+-num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.3 \
 -random_sampling_topk -1
 
-# Random sampling, temperature=1.0, sample from top 10.
+# Random sampling, temperature=1.0, sample from top "${NUM_DECODES}".
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/random_sampling_temp1.0_top10.json" \
+-output "${OUTPUT_DIR}/random_sampling_temp1.0_top"${NUM_DECODES}".json" \
 -beam_size 1 \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size 10 \
+-batch_size "${NUM_DECODES}" \
 -seed "$SEED" \
 -gpu 2 \
--num_random_samples 10 \
+-num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.0 \
--random_sampling_topk 10
+-random_sampling_topk "${NUM_DECODES}"
 
 ## K Per Candidate beam search!
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs10_kpercand3.json" \
--beam_size 10 \
--n_best 10 \
+-output "${OUTPUT_DIR}/beam_search_bs"${NUM_DECODES}"_kpercand3.json" \
+-beam_size "${NUM_DECODES}" \
+-n_best "${NUM_DECODES}" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
@@ -128,9 +129,9 @@ python3 "$TRANSLATE" \
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs10_dbs0.8.json" \
--beam_size 10 \
--n_best 10 \
+-output "${OUTPUT_DIR}/diverse_beam_search_bs"${NUM_DECODES}"_dbs0.8.json" \
+-beam_size "${NUM_DECODES}" \
+-n_best "${NUM_DECODES}" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
@@ -143,7 +144,7 @@ python3 "$TRANSLATE" \
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs5_ibs10.json"
+-output "${OUTPUT_DIR}/iterative_beam_search_bs5_ibs"${NUM_DECODES}".json"
 -beam_size 5 \
 -n_best 5 \
 -max_length 50 \
@@ -151,7 +152,7 @@ python3 "$TRANSLATE" \
 -replace_unk \
 -gpu 1 \
 -batch_size 1 \
--beam_iters 10
+-beam_iters "${NUM_DECODES}"
 
 
 ## Clustering beam search!
@@ -159,9 +160,9 @@ python3 "$TRANSLATE" \
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/standard_beam_search_bs10_cbs5.json"
--beam_size 10 \
--n_best 10 \
+-output "${OUTPUT_DIR}/clustering_beam_search_bs"${NUM_DECODES}"_cbs5.json"
+-beam_size "${NUM_DECODES}" \
+-n_best "${NUM_DECODES}" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
