@@ -4,9 +4,10 @@
 set -e 
 set -o pipefail
    
-NUM_DECODES="10"
+NUM_DECODES="100"
+BATCH_SIZE="10"
 ROOT_DIR=".."
-TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
+TRANSLATE="${ROOT_DIR}/OpenNMT-reno/translate.py" 
 SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
 OUTPUT_DIR="quant_eval/${NUM_DECODES}decodes"
 MODEL="${ROOT_DIR}/models/opennmt_sample_model.pt" 
@@ -23,7 +24,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -fast \
 -n_best "${NUM_DECODES}" \
@@ -38,7 +39,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -fast \
 -n_best "${NUM_DECODES}" \
@@ -54,7 +55,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -fast \
 -gpu 2 \
@@ -71,7 +72,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
@@ -87,7 +88,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
@@ -103,7 +104,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 0 \
 -replace_unk \
--batch_size "${NUM_DECODES}" \
+-batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
