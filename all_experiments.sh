@@ -4,18 +4,18 @@
 set -e 
 set -o pipefail
    
-NUM_DECODES="100"
+NUM_DECODES=$1
 BATCH_SIZE="10"
 ROOT_DIR=".."
-TRANSLATE="${ROOT_DIR}/OpenNMT-reno/translate.py" 
+TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
 SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
-OUTPUT_DIR="quant_eval/${NUM_DECODES}decodes"
+OUTPUT_DIR="experiments/${NUM_DECODES}decodes"
 MODEL="${ROOT_DIR}/models/opennmt_sample_model.pt" 
 SEED="666"
 
 mkdir -p $OUTPUT_DIR
 
-# Standard beam search, beam size "${NUM_DECODES}"
+echo "Standard beam search, beam size ${NUM_DECODES}"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -30,7 +30,7 @@ python3 "$TRANSLATE" \
 -n_best "${NUM_DECODES}" \
 -gpu 2
 
-# Standard beam search, beam size "${NUM_DECODES}", npad 0.3
+echo "Standard beam search, beam size ${NUM_DECODES}, npad 0.3"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -46,7 +46,7 @@ python3 "$TRANSLATE" \
 -hidden_state_noise 0.3 \
 -gpu 2
 
-# Random sampling, temperature=1.0
+echo "Random sampling, temperature=1.0"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -63,7 +63,7 @@ python3 "$TRANSLATE" \
 -random_sampling_temp 1.0 \
 -random_sampling_topk -1 \
 
-# Random sampling, temperature=0.7
+echo "Random sampling, temperature=0.7"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -79,7 +79,7 @@ python3 "$TRANSLATE" \
 -random_sampling_temp 0.7 \
 -random_sampling_topk -1 \
 
-# Random sampling, temperature=1.3
+echo "Random sampling, temperature=1.3"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -95,7 +95,7 @@ python3 "$TRANSLATE" \
 -random_sampling_temp 1.3 \
 -random_sampling_topk -1
 
-# Random sampling, temperature=1.0, sample from top "${NUM_DECODES}".
+echo "Random sampling, temperature=1.0, sample from top 10."
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -109,9 +109,9 @@ python3 "$TRANSLATE" \
 -gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.0 \
--random_sampling_topk "${NUM_DECODES}"
+-random_sampling_topk 10
 
-## K Per Candidate beam search!
+echo "K Per Candidate beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -126,7 +126,7 @@ python3 "$TRANSLATE" \
 -k_per_cand 3
 
 
-## Diverse beam search!
+echo "Diverse beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -141,7 +141,7 @@ python3 "$TRANSLATE" \
 -hamming_penalty 0.8
 
 
-## Iterative beam search!
+echo "Iterative beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
@@ -156,7 +156,7 @@ python3 "$TRANSLATE" \
 -beam_iters "${NUM_DECODES}"
 
 
-## Clustering beam search!
+echo "Clustering beam search"
 ## (NOTE: This takes longer because it loads in GloVe embeddings)
 python3 "$TRANSLATE" \
 -model "$MODEL" \
