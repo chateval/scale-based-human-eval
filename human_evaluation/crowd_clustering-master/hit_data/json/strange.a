@@ -1,0 +1,1493 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "cute": {
+        "state": "none", 
+        "score": 1.69895, 
+        "word": "cute", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weird_about_them": {
+        "state": "none", 
+        "score": 3.01856, 
+        "word": "weird_about_them", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remarkable": {
+        "state": "none", 
+        "score": 2.796, 
+        "word": "remarkable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "noteworthy": {
+        "state": "none", 
+        "score": 1.79176, 
+        "word": "noteworthy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "random": {
+        "state": "none", 
+        "score": 1.57551, 
+        "word": "random", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "alien": {
+        "state": "none", 
+        "score": 2.87302, 
+        "word": "alien", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unclear": {
+        "state": "none", 
+        "score": 1.58594, 
+        "word": "unclear", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distant": {
+        "state": "none", 
+        "score": 1.5412, 
+        "word": "distant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "queer": {
+        "state": "none", 
+        "score": 2.17799, 
+        "word": "queer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scarce": {
+        "state": "none", 
+        "score": 1.80614, 
+        "word": "scarce", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quaint": {
+        "state": "none", 
+        "score": 2.47427, 
+        "word": "quaint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interesting": {
+        "state": "none", 
+        "score": 2.52896, 
+        "word": "interesting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "striking": {
+        "state": "none", 
+        "score": 2.38848, 
+        "word": "striking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grotesque": {
+        "state": "none", 
+        "score": 2.30348, 
+        "word": "grotesque", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraneous": {
+        "state": "none", 
+        "score": 2.71398, 
+        "word": "extraneous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peculiar": {
+        "state": "none", 
+        "score": 3.30436, 
+        "word": "peculiar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "-weird": {
+        "state": "none", 
+        "score": 2.29086, 
+        "word": "-weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "eager": {
+        "state": "none", 
+        "score": 1.63854, 
+        "word": "eager", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nosey": {
+        "state": "none", 
+        "score": 2.17406, 
+        "word": "nosey", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disconcerting": {
+        "state": "none", 
+        "score": 2.41239, 
+        "word": "disconcerting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suspect": {
+        "state": "none", 
+        "score": 1.78354, 
+        "word": "suspect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "'s-her-name": {
+        "state": "none", 
+        "score": 1.62017, 
+        "word": "'s-her-name", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unprecedented": {
+        "state": "none", 
+        "score": 1.63531, 
+        "word": "unprecedented", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "surprised": {
+        "state": "none", 
+        "score": 2.34223, 
+        "word": "surprised", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "totally_weird": {
+        "state": "none", 
+        "score": 3.05716, 
+        "word": "totally_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exceptional": {
+        "state": "none", 
+        "score": 1.87703, 
+        "word": "exceptional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "familiar": {
+        "state": "none", 
+        "score": 1.955, 
+        "word": "familiar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "undisclosed": {
+        "state": "none", 
+        "score": 1.66448, 
+        "word": "undisclosed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unfamiliar": {
+        "state": "none", 
+        "score": 2.72808, 
+        "word": "unfamiliar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dark": {
+        "state": "none", 
+        "score": 1.93053, 
+        "word": "dark", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rather_odd": {
+        "state": "none", 
+        "score": 3.82042, 
+        "word": "rather_odd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_odd": {
+        "state": "none", 
+        "score": 3.41691, 
+        "word": "very_odd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "eccentric": {
+        "state": "none", 
+        "score": 2.49786, 
+        "word": "eccentric", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unique": {
+        "state": "none", 
+        "score": 2.0364, 
+        "word": "unique", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_strange": {
+        "state": "none", 
+        "score": 4.38287, 
+        "word": "very_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cool": {
+        "state": "none", 
+        "score": 1.44904, 
+        "word": "cool", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "infrequent": {
+        "state": "none", 
+        "score": 1.65098, 
+        "word": "infrequent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impressive": {
+        "state": "none", 
+        "score": 1.65125, 
+        "word": "impressive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "somewhat_strange": {
+        "state": "none", 
+        "score": 3.46202, 
+        "word": "somewhat_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nosy": {
+        "state": "none", 
+        "score": 2.11755, 
+        "word": "nosy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "droll": {
+        "state": "none", 
+        "score": 1.86841, 
+        "word": "droll", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bad": {
+        "state": "none", 
+        "score": 1.62759, 
+        "word": "bad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unrelated": {
+        "state": "none", 
+        "score": 1.56303, 
+        "word": "unrelated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "a_bit_strange": {
+        "state": "none", 
+        "score": 3.49804, 
+        "word": "a_bit_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "obscure": {
+        "state": "none", 
+        "score": 1.95011, 
+        "word": "obscure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "insane": {
+        "state": "none", 
+        "score": 2.00388, 
+        "word": "insane", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "phoney": {
+        "state": "none", 
+        "score": 2.12736, 
+        "word": "phoney", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "abnormal": {
+        "state": "none", 
+        "score": 2.33091, 
+        "word": "abnormal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "too_weird": {
+        "state": "none", 
+        "score": 2.95416, 
+        "word": "too_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "funny_,_guys": {
+        "state": "none", 
+        "score": 3.68487, 
+        "word": "funny_,_guys", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disturbing": {
+        "state": "none", 
+        "score": 2.0805, 
+        "word": "disturbing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "just_weird": {
+        "state": "none", 
+        "score": 3.33397, 
+        "word": "just_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "odd": {
+        "state": "none", 
+        "score": 3.64108, 
+        "word": "odd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "special": {
+        "state": "none", 
+        "score": 2.30123, 
+        "word": "special", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "confusing": {
+        "state": "none", 
+        "score": 2.12638, 
+        "word": "confusing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "specific": {
+        "state": "none", 
+        "score": 2.19279, 
+        "word": "specific", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perverse": {
+        "state": "none", 
+        "score": 2.23339, 
+        "word": "perverse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "funny-looking": {
+        "state": "none", 
+        "score": 2.01942, 
+        "word": "funny-looking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distinctive": {
+        "state": "none", 
+        "score": 1.92169, 
+        "word": "distinctive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "separate": {
+        "state": "none", 
+        "score": 1.73314, 
+        "word": "separate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "artificial": {
+        "state": "none", 
+        "score": 1.41072, 
+        "word": "artificial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "witty": {
+        "state": "none", 
+        "score": 1.66164, 
+        "word": "witty", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "a_bit_weird": {
+        "state": "none", 
+        "score": 2.85135, 
+        "word": "a_bit_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pretty_weird": {
+        "state": "none", 
+        "score": 3.27928, 
+        "word": "pretty_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hilarious": {
+        "state": "none", 
+        "score": 2.29132, 
+        "word": "hilarious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "freaky": {
+        "state": "none", 
+        "score": 2.55794, 
+        "word": "freaky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "paradoxical": {
+        "state": "none", 
+        "score": 2.72862, 
+        "word": "paradoxical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "startling": {
+        "state": "none", 
+        "score": 2.45358, 
+        "word": "startling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "notable": {
+        "state": "none", 
+        "score": 1.52748, 
+        "word": "notable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_exciting": {
+        "state": "none", 
+        "score": 3.50705, 
+        "word": "very_exciting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "really_strange": {
+        "state": "none", 
+        "score": 4.01366, 
+        "word": "really_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraordinary": {
+        "state": "none", 
+        "score": 3.02157, 
+        "word": "extraordinary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weirdo": {
+        "state": "none", 
+        "score": 2.104, 
+        "word": "weirdo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shocking": {
+        "state": "none", 
+        "score": 2.11778, 
+        "word": "shocking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scary": {
+        "state": "none", 
+        "score": 1.58981, 
+        "word": "scary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unidentified": {
+        "state": "none", 
+        "score": 2.11027, 
+        "word": "unidentified", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cryptic": {
+        "state": "none", 
+        "score": 1.53418, 
+        "word": "cryptic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rare": {
+        "state": "none", 
+        "score": 2.43232, 
+        "word": "rare", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "noticeable": {
+        "state": "none", 
+        "score": 1.8088, 
+        "word": "noticeable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "anomalous": {
+        "state": "none", 
+        "score": 2.43132, 
+        "word": "anomalous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terrible": {
+        "state": "none", 
+        "score": 1.4899, 
+        "word": "terrible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "creepy": {
+        "state": "none", 
+        "score": 2.46009, 
+        "word": "creepy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign": {
+        "state": "none", 
+        "score": 2.39701, 
+        "word": "foreign", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "funky": {
+        "state": "none", 
+        "score": 1.79585, 
+        "word": "funky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "uncharted": {
+        "state": "none", 
+        "score": 1.88717, 
+        "word": "uncharted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weird": {
+        "state": "none", 
+        "score": 3.74617, 
+        "word": "weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "all_that_shocking": {
+        "state": "none", 
+        "score": 3.59858, 
+        "word": "all_that_shocking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exotic": {
+        "state": "none", 
+        "score": 2.48743, 
+        "word": "exotic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pretty_strange": {
+        "state": "none", 
+        "score": 3.89854, 
+        "word": "pretty_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "daunting": {
+        "state": "none", 
+        "score": 1.54468, 
+        "word": "daunting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra": {
+        "state": "none", 
+        "score": 1.61961, 
+        "word": "extra", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spooky": {
+        "state": "none", 
+        "score": 2.26346, 
+        "word": "spooky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "just_strange": {
+        "state": "none", 
+        "score": 3.77137, 
+        "word": "just_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inquisitive": {
+        "state": "none", 
+        "score": 2.63044, 
+        "word": "inquisitive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unexpected": {
+        "state": "none", 
+        "score": 1.80313, 
+        "word": "unexpected", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bizarre": {
+        "state": "none", 
+        "score": 3.64374, 
+        "word": "bizarre", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comical": {
+        "state": "none", 
+        "score": 2.08223, 
+        "word": "comical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "a_little_confusing": {
+        "state": "none", 
+        "score": 3.56042, 
+        "word": "a_little_confusing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unusual": {
+        "state": "none", 
+        "score": 3.12123, 
+        "word": "unusual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "undiscovered": {
+        "state": "none", 
+        "score": 1.54624, 
+        "word": "undiscovered", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distinct": {
+        "state": "none", 
+        "score": 1.5489, 
+        "word": "distinct", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unknown": {
+        "state": "none", 
+        "score": 2.37614, 
+        "word": "unknown", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_weird": {
+        "state": "none", 
+        "score": 3.19836, 
+        "word": "very_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unspecified": {
+        "state": "none", 
+        "score": 1.57132, 
+        "word": "unspecified", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_,_very_strange": {
+        "state": "none", 
+        "score": 3.56928, 
+        "word": "very_,_very_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "that_amazing": {
+        "state": "none", 
+        "score": 3.34567, 
+        "word": "that_amazing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mysterious": {
+        "state": "none", 
+        "score": 2.87238, 
+        "word": "mysterious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "troubling": {
+        "state": "none", 
+        "score": 2.09596, 
+        "word": "troubling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "awesome": {
+        "state": "none", 
+        "score": 1.52961, 
+        "word": "awesome", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "questionable": {
+        "state": "none", 
+        "score": 1.39133, 
+        "word": "questionable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "no-good": {
+        "state": "none", 
+        "score": 1.49237, 
+        "word": "no-good", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "clever": {
+        "state": "none", 
+        "score": 1.69003, 
+        "word": "clever", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perplexing": {
+        "state": "none", 
+        "score": 2.02262, 
+        "word": "perplexing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staggering": {
+        "state": "none", 
+        "score": 2.47822, 
+        "word": "staggering", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "not_known": {
+        "state": "none", 
+        "score": 3.10831, 
+        "word": "not_known", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "uncommon": {
+        "state": "none", 
+        "score": 2.36696, 
+        "word": "uncommon", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "so_weird": {
+        "state": "none", 
+        "score": 3.49065, 
+        "word": "so_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ridiculous": {
+        "state": "none", 
+        "score": 1.67596, 
+        "word": "ridiculous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "particular": {
+        "state": "none", 
+        "score": 2.18553, 
+        "word": "particular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suspected": {
+        "state": "none", 
+        "score": 1.45353, 
+        "word": "suspected", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "anonymous": {
+        "state": "none", 
+        "score": 1.46549, 
+        "word": "anonymous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quite_astonishing": {
+        "state": "none", 
+        "score": 3.88719, 
+        "word": "quite_astonishing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kind_of_weird": {
+        "state": "none", 
+        "score": 3.04331, 
+        "word": "kind_of_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intriguing": {
+        "state": "none", 
+        "score": 2.62263, 
+        "word": "intriguing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "uncertain": {
+        "state": "none", 
+        "score": 1.53606, 
+        "word": "uncertain", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rather_paradoxical": {
+        "state": "none", 
+        "score": 2.94553, 
+        "word": "rather_paradoxical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "really_twisted": {
+        "state": "none", 
+        "score": 3.86656, 
+        "word": "really_twisted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stunning": {
+        "state": "none", 
+        "score": 2.05737, 
+        "word": "stunning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "silly": {
+        "state": "none", 
+        "score": 1.59337, 
+        "word": "silly", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "uncanny": {
+        "state": "none", 
+        "score": 2.62978, 
+        "word": "uncanny", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fun": {
+        "state": "none", 
+        "score": 1.9638, 
+        "word": "fun", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rather_curious": {
+        "state": "none", 
+        "score": 2.947, 
+        "word": "rather_curious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "normal": {
+        "state": "none", 
+        "score": 1.80193, 
+        "word": "normal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crazy": {
+        "state": "none", 
+        "score": 2.35753, 
+        "word": "crazy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "freak": {
+        "state": "none", 
+        "score": 2.21805, 
+        "word": "freak", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wild": {
+        "state": "none", 
+        "score": 1.54191, 
+        "word": "wild", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "undesirable": {
+        "state": "none", 
+        "score": 1.47865, 
+        "word": "undesirable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kinda_weird": {
+        "state": "none", 
+        "score": 2.90482, 
+        "word": "kinda_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suspicious": {
+        "state": "none", 
+        "score": 2.25814, 
+        "word": "suspicious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "a_little_weird": {
+        "state": "none", 
+        "score": 3.02791, 
+        "word": "a_little_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dubious": {
+        "state": "none", 
+        "score": 1.8908, 
+        "word": "dubious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "right": {
+        "state": "none", 
+        "score": 1.39739, 
+        "word": "right", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unlikely": {
+        "state": "none", 
+        "score": 1.63045, 
+        "word": "unlikely", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "curious": {
+        "state": "none", 
+        "score": 3.37089, 
+        "word": "curious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ironic": {
+        "state": "none", 
+        "score": 2.35344, 
+        "word": "ironic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appalling": {
+        "state": "none", 
+        "score": 1.69588, 
+        "word": "appalling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "funny": {
+        "state": "none", 
+        "score": 2.87644, 
+        "word": "funny", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "different": {
+        "state": "none", 
+        "score": 1.66746, 
+        "word": "different", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "puzzling": {
+        "state": "none", 
+        "score": 2.55511, 
+        "word": "puzzling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "awkward": {
+        "state": "none", 
+        "score": 2.79944, 
+        "word": "awkward", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "eerie": {
+        "state": "none", 
+        "score": 2.61448, 
+        "word": "eerie", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "little": {
+        "state": "none", 
+        "score": 1.60162, 
+        "word": "little", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "less_known": {
+        "state": "none", 
+        "score": 3.62958, 
+        "word": "less_known", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "amazing": {
+        "state": "none", 
+        "score": 2.49137, 
+        "word": "amazing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interested": {
+        "state": "none", 
+        "score": 1.97094, 
+        "word": "interested", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "amusing": {
+        "state": "none", 
+        "score": 2.45338, 
+        "word": "amusing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sick": {
+        "state": "none", 
+        "score": 1.54532, 
+        "word": "sick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strange-looking": {
+        "state": "none", 
+        "score": 2.97365, 
+        "word": "strange-looking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ordinary": {
+        "state": "none", 
+        "score": 1.53786, 
+        "word": "ordinary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nice": {
+        "state": "none", 
+        "score": 1.41072, 
+        "word": "nice", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unbelievable": {
+        "state": "none", 
+        "score": 1.74423, 
+        "word": "unbelievable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "a_little_strange": {
+        "state": "none", 
+        "score": 3.64203, 
+        "word": "a_little_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "singular": {
+        "state": "none", 
+        "score": 2.48911, 
+        "word": "singular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rather_strange": {
+        "state": "none", 
+        "score": 4.38589, 
+        "word": "rather_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "astounding": {
+        "state": "none", 
+        "score": 2.24317, 
+        "word": "astounding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "just_so_strange": {
+        "state": "none", 
+        "score": 3.62397, 
+        "word": "just_so_strange", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wrong": {
+        "state": "none", 
+        "score": 2.03733, 
+        "word": "wrong", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outlandish": {
+        "state": "none", 
+        "score": 2.62635, 
+        "word": "outlandish", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mad": {
+        "state": "none", 
+        "score": 1.63651, 
+        "word": "mad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "that_weird": {
+        "state": "none", 
+        "score": 3.0014, 
+        "word": "that_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "illogical": {
+        "state": "none", 
+        "score": 1.48406, 
+        "word": "illogical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tricky": {
+        "state": "none", 
+        "score": 1.60469, 
+        "word": "tricky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "surprising": {
+        "state": "none", 
+        "score": 3.16644, 
+        "word": "surprising", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incredible": {
+        "state": "none", 
+        "score": 2.04568, 
+        "word": "incredible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quirky": {
+        "state": "none", 
+        "score": 2.50637, 
+        "word": "quirky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pretty_funny": {
+        "state": "none", 
+        "score": 2.85556, 
+        "word": "pretty_funny", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "astonishing": {
+        "state": "none", 
+        "score": 2.94329, 
+        "word": "astonishing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unheard": {
+        "state": "none", 
+        "score": 1.80858, 
+        "word": "unheard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "just_odd": {
+        "state": "none", 
+        "score": 3.2098, 
+        "word": "just_odd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "absurd": {
+        "state": "none", 
+        "score": 2.22873, 
+        "word": "absurd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "usual": {
+        "state": "none", 
+        "score": 1.58139, 
+        "word": "usual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-native": {
+        "state": "none", 
+        "score": 1.59556, 
+        "word": "non-native", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "really_weird": {
+        "state": "none", 
+        "score": 3.29638, 
+        "word": "really_weird", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "strange", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

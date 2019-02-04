@@ -1,0 +1,829 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "coup": {
+        "state": "none", 
+        "score": 1.53427, 
+        "word": "coup", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shot": {
+        "state": "none", 
+        "score": 1.58452, 
+        "word": "shot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telecom": {
+        "state": "none", 
+        "score": 1.61343, 
+        "word": "telecom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "laptop": {
+        "state": "none", 
+        "score": 2.32303, 
+        "word": "laptop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ringtone": {
+        "state": "none", 
+        "score": 1.81996, 
+        "word": "ringtone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telefono": {
+        "state": "none", 
+        "score": 1.41454, 
+        "word": "telefono", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correspondence": {
+        "state": "none", 
+        "score": 1.54824, 
+        "word": "correspondence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fax": {
+        "state": "none", 
+        "score": 1.54431, 
+        "word": "fax", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "phoneline": {
+        "state": "none", 
+        "score": 1.90456, 
+        "word": "phoneline", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publicity": {
+        "state": "none", 
+        "score": 1.60443, 
+        "word": "publicity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "internet": {
+        "state": "none", 
+        "score": 1.56082, 
+        "word": "internet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "payphone": {
+        "state": "none", 
+        "score": 2.52934, 
+        "word": "payphone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stateroom": {
+        "state": "none", 
+        "score": 1.83608, 
+        "word": "stateroom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trouble": {
+        "state": "none", 
+        "score": 1.40563, 
+        "word": "trouble", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "calling": {
+        "state": "none", 
+        "score": 2.09027, 
+        "word": "calling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "communications": {
+        "state": "none", 
+        "score": 2.23484, 
+        "word": "communications", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "facsimile": {
+        "state": "none", 
+        "score": 1.80127, 
+        "word": "facsimile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nose": {
+        "state": "none", 
+        "score": 1.63228, 
+        "word": "nose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tel": {
+        "state": "none", 
+        "score": 1.98217, 
+        "word": "tel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "portable": {
+        "state": "none", 
+        "score": 2.20475, 
+        "word": "portable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "horn": {
+        "state": "none", 
+        "score": 1.72552, 
+        "word": "horn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "motive": {
+        "state": "none", 
+        "score": 1.49395, 
+        "word": "motive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "computer": {
+        "state": "none", 
+        "score": 1.80461, 
+        "word": "computer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "booth": {
+        "state": "none", 
+        "score": 1.90873, 
+        "word": "booth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "headset": {
+        "state": "none", 
+        "score": 1.94461, 
+        "word": "headset", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dial": {
+        "state": "none", 
+        "score": 1.75566, 
+        "word": "dial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wire": {
+        "state": "none", 
+        "score": 1.67532, 
+        "word": "wire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "apparatus": {
+        "state": "none", 
+        "score": 1.71779, 
+        "word": "apparatus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cell": {
+        "state": "none", 
+        "score": 2.27823, 
+        "word": "cell", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "e-mail": {
+        "state": "none", 
+        "score": 1.63843, 
+        "word": "e-mail", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "landline": {
+        "state": "none", 
+        "score": 1.92815, 
+        "word": "landline", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toll": {
+        "state": "none", 
+        "score": 1.54144, 
+        "word": "toll", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appeal": {
+        "state": "none", 
+        "score": 1.84372, 
+        "word": "appeal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telecommunication": {
+        "state": "none", 
+        "score": 2.01337, 
+        "word": "telecommunication", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cockpit": {
+        "state": "none", 
+        "score": 1.44183, 
+        "word": "cockpit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aircraft": {
+        "state": "none", 
+        "score": 1.92572, 
+        "word": "aircraft", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "address": {
+        "state": "none", 
+        "score": 1.50534, 
+        "word": "address", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "teleconference": {
+        "state": "none", 
+        "score": 2.04372, 
+        "word": "teleconference", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thread": {
+        "state": "none", 
+        "score": 1.60011, 
+        "word": "thread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bureaux": {
+        "state": "none", 
+        "score": 2.87805, 
+        "word": "bureaux", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "yarn": {
+        "state": "none", 
+        "score": 1.54745, 
+        "word": "yarn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conversation": {
+        "state": "none", 
+        "score": 2.20249, 
+        "word": "conversation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "airport": {
+        "state": "none", 
+        "score": 1.55926, 
+        "word": "airport", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "notebook": {
+        "state": "none", 
+        "score": 1.64095, 
+        "word": "notebook", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "receiver": {
+        "state": "none", 
+        "score": 1.4919, 
+        "word": "receiver", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "urges": {
+        "state": "none", 
+        "score": 2.44929, 
+        "word": "urges", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "requests": {
+        "state": "none", 
+        "score": 2.44532, 
+        "word": "requests", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "battery": {
+        "state": "none", 
+        "score": 1.55908, 
+        "word": "battery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "communication": {
+        "state": "none", 
+        "score": 1.93134, 
+        "word": "communication", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "number": {
+        "state": "none", 
+        "score": 1.49926, 
+        "word": "number", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "headphone": {
+        "state": "none", 
+        "score": 2.36553, 
+        "word": "headphone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hotline": {
+        "state": "none", 
+        "score": 1.53423, 
+        "word": "hotline", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "composer": {
+        "state": "none", 
+        "score": 1.58726, 
+        "word": "composer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "message": {
+        "state": "none", 
+        "score": 1.40871, 
+        "word": "message", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telecommunications": {
+        "state": "none", 
+        "score": 2.01337, 
+        "word": "telecommunications", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gondola": {
+        "state": "none", 
+        "score": 1.39659, 
+        "word": "gondola", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "camera": {
+        "state": "none", 
+        "score": 1.61754, 
+        "word": "camera", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "call": {
+        "state": "none", 
+        "score": 2.17215, 
+        "word": "call", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "helicopter": {
+        "state": "none", 
+        "score": 1.55089, 
+        "word": "helicopter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ph": {
+        "state": "none", 
+        "score": 1.48564, 
+        "word": "ph", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "compartment": {
+        "state": "none", 
+        "score": 1.52112, 
+        "word": "compartment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mobiles": {
+        "state": "none", 
+        "score": 1.3921, 
+        "word": "mobiles", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ligne": {
+        "state": "none", 
+        "score": 1.39352, 
+        "word": "ligne", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "confinement": {
+        "state": "none", 
+        "score": 1.40391, 
+        "word": "confinement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "line": {
+        "state": "none", 
+        "score": 1.7428, 
+        "word": "line", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telephony": {
+        "state": "none", 
+        "score": 2.39521, 
+        "word": "telephony", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ride": {
+        "state": "none", 
+        "score": 1.6444, 
+        "word": "ride", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "caller": {
+        "state": "none", 
+        "score": 1.76679, 
+        "word": "caller", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appliance": {
+        "state": "none", 
+        "score": 1.66524, 
+        "word": "appliance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cabin": {
+        "state": "none", 
+        "score": 1.86213, 
+        "word": "cabin", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cab": {
+        "state": "none", 
+        "score": 1.6473, 
+        "word": "cab", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "voice": {
+        "state": "none", 
+        "score": 1.48138, 
+        "word": "voice", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ringing": {
+        "state": "none", 
+        "score": 1.41503, 
+        "word": "ringing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "handset": {
+        "state": "none", 
+        "score": 2.00751, 
+        "word": "handset", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telephone": {
+        "state": "none", 
+        "score": 3.73765, 
+        "word": "telephone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "talking": {
+        "state": "none", 
+        "score": 1.43396, 
+        "word": "talking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stroke": {
+        "state": "none", 
+        "score": 1.38843, 
+        "word": "stroke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "airplane": {
+        "state": "none", 
+        "score": 1.88754, 
+        "word": "airplane", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "handsets": {
+        "state": "none", 
+        "score": 2.00751, 
+        "word": "handsets", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "information": {
+        "state": "none", 
+        "score": 1.51936, 
+        "word": "information", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telephonic": {
+        "state": "none", 
+        "score": 1.75549, 
+        "word": "telephonic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cabana": {
+        "state": "none", 
+        "score": 1.39642, 
+        "word": "cabana", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "machine": {
+        "state": "none", 
+        "score": 1.58437, 
+        "word": "machine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "equipment": {
+        "state": "none", 
+        "score": 1.39613, 
+        "word": "equipment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "online": {
+        "state": "none", 
+        "score": 1.4239, 
+        "word": "online", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telephones": {
+        "state": "none", 
+        "score": 3.73765, 
+        "word": "telephones", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dialect": {
+        "state": "none", 
+        "score": 1.51539, 
+        "word": "dialect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "instrumentation": {
+        "state": "none", 
+        "score": 1.41456, 
+        "word": "instrumentation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "twine": {
+        "state": "none", 
+        "score": 1.4398, 
+        "word": "twine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plane": {
+        "state": "none", 
+        "score": 2.05433, 
+        "word": "plane", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "device": {
+        "state": "none", 
+        "score": 1.75401, 
+        "word": "device", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opportunity": {
+        "state": "none", 
+        "score": 1.40837, 
+        "word": "opportunity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cellphone": {
+        "state": "none", 
+        "score": 3.46523, 
+        "word": "cellphone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mobile": {
+        "state": "none", 
+        "score": 1.3921, 
+        "word": "mobile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "helpline": {
+        "state": "none", 
+        "score": 2.47132, 
+        "word": "helpline", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ext": {
+        "state": "none", 
+        "score": 1.90303, 
+        "word": "ext", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "contact": {
+        "state": "none", 
+        "score": 2.03631, 
+        "word": "contact", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "telefonica": {
+        "state": "none", 
+        "score": 1.76602, 
+        "word": "telefonica", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "machinery": {
+        "state": "none", 
+        "score": 1.41364, 
+        "word": "machinery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gsm": {
+        "state": "none", 
+        "score": 1.93802, 
+        "word": "gsm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "phone", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

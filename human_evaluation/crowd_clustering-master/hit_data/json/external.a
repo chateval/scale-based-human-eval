@@ -1,0 +1,845 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "externally": {
+        "state": "none", 
+        "score": 3.11879, 
+        "word": "externally", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outdoor": {
+        "state": "none", 
+        "score": 2.75248, 
+        "word": "outdoor", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in-house": {
+        "state": "none", 
+        "score": 1.49375, 
+        "word": "in-house", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "domestic": {
+        "state": "none", 
+        "score": 1.71074, 
+        "word": "domestic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "alien": {
+        "state": "none", 
+        "score": 2.36146, 
+        "word": "alien", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "statistical": {
+        "state": "none", 
+        "score": 1.67398, 
+        "word": "statistical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plug-in": {
+        "state": "none", 
+        "score": 1.69173, 
+        "word": "plug-in", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "superficial": {
+        "state": "none", 
+        "score": 1.60337, 
+        "word": "superficial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outer": {
+        "state": "none", 
+        "score": 3.00859, 
+        "word": "outer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "out-of-town": {
+        "state": "none", 
+        "score": 2.2267, 
+        "word": "out-of-town", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inward": {
+        "state": "none", 
+        "score": 2.33187, 
+        "word": "inward", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "freelance": {
+        "state": "none", 
+        "score": 2.04743, 
+        "word": "freelance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraterritorial": {
+        "state": "none", 
+        "score": 2.42508, 
+        "word": "extraterritorial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraneous": {
+        "state": "none", 
+        "score": 2.93002, 
+        "word": "extraneous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "internal": {
+        "state": "none", 
+        "score": 2.31028, 
+        "word": "internal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-government": {
+        "state": "none", 
+        "score": 1.63414, 
+        "word": "non-government", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign-invested": {
+        "state": "none", 
+        "score": 1.69812, 
+        "word": "foreign-invested", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "absent": {
+        "state": "none", 
+        "score": 1.46906, 
+        "word": "absent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outermost": {
+        "state": "none", 
+        "score": 1.98122, 
+        "word": "outermost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overall": {
+        "state": "none", 
+        "score": 1.54697, 
+        "word": "overall", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "out-patient": {
+        "state": "none", 
+        "score": 2.28832, 
+        "word": "out-patient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "balance-of-payments": {
+        "state": "none", 
+        "score": 1.68998, 
+        "word": "balance-of-payments", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign-funded": {
+        "state": "none", 
+        "score": 1.76621, 
+        "word": "foreign-funded", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unrelated": {
+        "state": "none", 
+        "score": 2.05842, 
+        "word": "unrelated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-eu": {
+        "state": "none", 
+        "score": 1.7296, 
+        "word": "non-eu", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "financial": {
+        "state": "none", 
+        "score": 1.59568, 
+        "word": "financial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peripheral": {
+        "state": "none", 
+        "score": 2.21925, 
+        "word": "peripheral", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "out-of-area": {
+        "state": "none", 
+        "score": 1.70287, 
+        "word": "out-of-area", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outboard": {
+        "state": "none", 
+        "score": 2.31912, 
+        "word": "outboard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "immigrant": {
+        "state": "none", 
+        "score": 1.44427, 
+        "word": "immigrant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "export": {
+        "state": "none", 
+        "score": 1.65143, 
+        "word": "export", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign-owned": {
+        "state": "none", 
+        "score": 1.93042, 
+        "word": "foreign-owned", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outward": {
+        "state": "none", 
+        "score": 2.59368, 
+        "word": "outward", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "out": {
+        "state": "none", 
+        "score": 1.5532, 
+        "word": "out", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "imported": {
+        "state": "none", 
+        "score": 1.61803, 
+        "word": "imported", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outside": {
+        "state": "none", 
+        "score": 3.11498, 
+        "word": "outside", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "international": {
+        "state": "none", 
+        "score": 2.69672, 
+        "word": "international", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off-farm": {
+        "state": "none", 
+        "score": 1.93528, 
+        "word": "off-farm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "public": {
+        "state": "none", 
+        "score": 1.46713, 
+        "word": "public", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outgoing": {
+        "state": "none", 
+        "score": 1.53044, 
+        "word": "outgoing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-residential": {
+        "state": "none", 
+        "score": 1.95575, 
+        "word": "non-residential", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-governmental": {
+        "state": "none", 
+        "score": 1.61019, 
+        "word": "non-governmental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outlying": {
+        "state": "none", 
+        "score": 2.2741, 
+        "word": "outlying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "second-hand": {
+        "state": "none", 
+        "score": 1.55735, 
+        "word": "second-hand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hke": {
+        "state": "none", 
+        "score": 1.53699, 
+        "word": "hke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incoming": {
+        "state": "none", 
+        "score": 1.4401, 
+        "word": "incoming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "offsite": {
+        "state": "none", 
+        "score": 1.69593, 
+        "word": "offsite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign": {
+        "state": "none", 
+        "score": 3.13419, 
+        "word": "foreign", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exotic": {
+        "state": "none", 
+        "score": 1.76169, 
+        "word": "exotic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra": {
+        "state": "none", 
+        "score": 1.59831, 
+        "word": "extra", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "out-of-school": {
+        "state": "none", 
+        "score": 1.88629, 
+        "word": "out-of-school", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "private": {
+        "state": "none", 
+        "score": 1.51257, 
+        "word": "private", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "migrant": {
+        "state": "none", 
+        "score": 1.65805, 
+        "word": "migrant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-united": {
+        "state": "none", 
+        "score": 1.98697, 
+        "word": "non-united", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "third-country": {
+        "state": "none", 
+        "score": 1.68968, 
+        "word": "third-country", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off-site": {
+        "state": "none", 
+        "score": 2.25141, 
+        "word": "off-site", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "total": {
+        "state": "none", 
+        "score": 1.39095, 
+        "word": "total", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "open": {
+        "state": "none", 
+        "score": 1.48659, 
+        "word": "open", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "additional": {
+        "state": "none", 
+        "score": 1.71613, 
+        "word": "additional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extrinsic": {
+        "state": "none", 
+        "score": 2.12335, 
+        "word": "extrinsic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off-reserve": {
+        "state": "none", 
+        "score": 1.69512, 
+        "word": "off-reserve", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "political": {
+        "state": "none", 
+        "score": 1.40363, 
+        "word": "political", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-federal": {
+        "state": "none", 
+        "score": 1.90525, 
+        "word": "non-federal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inner": {
+        "state": "none", 
+        "score": 1.52538, 
+        "word": "inner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-board": {
+        "state": "none", 
+        "score": 1.43784, 
+        "word": "non-board", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expatriate": {
+        "state": "none", 
+        "score": 2.17821, 
+        "word": "expatriate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "field-level": {
+        "state": "none", 
+        "score": 1.47031, 
+        "word": "field-level", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outpatient": {
+        "state": "none", 
+        "score": 1.64483, 
+        "word": "outpatient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "environmental": {
+        "state": "none", 
+        "score": 1.48511, 
+        "word": "environmental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off": {
+        "state": "none", 
+        "score": 1.63773, 
+        "word": "off", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra-mural": {
+        "state": "none", 
+        "score": 2.41733, 
+        "word": "extra-mural", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "self-employed": {
+        "state": "none", 
+        "score": 1.39695, 
+        "word": "self-employed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "diplomatic": {
+        "state": "none", 
+        "score": 2.01813, 
+        "word": "diplomatic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foreign-related": {
+        "state": "none", 
+        "score": 1.52079, 
+        "word": "foreign-related", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exogenous": {
+        "state": "none", 
+        "score": 2.60345, 
+        "word": "exogenous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exterior": {
+        "state": "none", 
+        "score": 2.80594, 
+        "word": "exterior", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ambient": {
+        "state": "none", 
+        "score": 2.26883, 
+        "word": "ambient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "physical": {
+        "state": "none", 
+        "score": 1.54062, 
+        "word": "physical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outbound": {
+        "state": "none", 
+        "score": 2.0073, 
+        "word": "outbound", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-border": {
+        "state": "none", 
+        "score": 1.46066, 
+        "word": "cross-border", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "other": {
+        "state": "none", 
+        "score": 1.90675, 
+        "word": "other", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off-course": {
+        "state": "none", 
+        "score": 1.44877, 
+        "word": "off-course", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "off-shore": {
+        "state": "none", 
+        "score": 1.71839, 
+        "word": "off-shore", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra-curricular": {
+        "state": "none", 
+        "score": 1.81103, 
+        "word": "extra-curricular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interior": {
+        "state": "none", 
+        "score": 1.59742, 
+        "word": "interior", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "contractual": {
+        "state": "none", 
+        "score": 2.096, 
+        "word": "contractual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "offshore": {
+        "state": "none", 
+        "score": 2.13617, 
+        "word": "offshore", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outsourced": {
+        "state": "none", 
+        "score": 2.17921, 
+        "word": "outsourced", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "independent": {
+        "state": "none", 
+        "score": 2.1025, 
+        "word": "independent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "separate": {
+        "state": "none", 
+        "score": 1.47963, 
+        "word": "separate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "third-party": {
+        "state": "none", 
+        "score": 2.03498, 
+        "word": "third-party", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outreach": {
+        "state": "none", 
+        "score": 1.78052, 
+        "word": "outreach", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "customs": {
+        "state": "none", 
+        "score": 1.51784, 
+        "word": "customs", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-local": {
+        "state": "none", 
+        "score": 2.09749, 
+        "word": "non-local", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "genital": {
+        "state": "none", 
+        "score": 1.66762, 
+        "word": "genital", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remote": {
+        "state": "none", 
+        "score": 1.40817, 
+        "word": "remote", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "third": {
+        "state": "none", 
+        "score": 1.79608, 
+        "word": "third", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extramural": {
+        "state": "none", 
+        "score": 2.65049, 
+        "word": "extramural", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outposted": {
+        "state": "none", 
+        "score": 1.89801, 
+        "word": "outposted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "field-based": {
+        "state": "none", 
+        "score": 1.45096, 
+        "word": "field-based", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ext": {
+        "state": "none", 
+        "score": 1.99487, 
+        "word": "ext", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overseas": {
+        "state": "none", 
+        "score": 2.54705, 
+        "word": "overseas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "external", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

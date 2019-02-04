@@ -1,0 +1,541 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "kann": {
+        "state": "none", 
+        "score": 1.98173, 
+        "word": "kann", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toilet": {
+        "state": "none", 
+        "score": 1.47617, 
+        "word": "toilet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "right": {
+        "state": "none", 
+        "score": 1.50568, 
+        "word": "right", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "help": {
+        "state": "none", 
+        "score": 1.43334, 
+        "word": "help", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "able": {
+        "state": "none", 
+        "score": 1.52574, 
+        "word": "able", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cdn": {
+        "state": "none", 
+        "score": 1.70097, 
+        "word": "cdn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mind": {
+        "state": "none", 
+        "score": 1.50188, 
+        "word": "mind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peut": {
+        "state": "none", 
+        "score": 1.93463, 
+        "word": "peut", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "everyone": {
+        "state": "none", 
+        "score": 1.37825, 
+        "word": "everyone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "looks": {
+        "state": "none", 
+        "score": 2.42214, 
+        "word": "looks", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ay": {
+        "state": "none", 
+        "score": 1.56536, 
+        "word": "ay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ca": {
+        "state": "none", 
+        "score": 1.76221, 
+        "word": "ca", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ability": {
+        "state": "none", 
+        "score": 2.12913, 
+        "word": "ability", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chance": {
+        "state": "none", 
+        "score": 1.94422, 
+        "word": "chance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nac": {
+        "state": "none", 
+        "score": 1.63821, 
+        "word": "nac", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "containing": {
+        "state": "none", 
+        "score": 1.50742, 
+        "word": "containing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "possibility": {
+        "state": "none", 
+        "score": 2.08019, 
+        "word": "possibility", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "container": {
+        "state": "none", 
+        "score": 1.59412, 
+        "word": "container", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "takes": {
+        "state": "none", 
+        "score": 2.45346, 
+        "word": "takes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "generator": {
+        "state": "none", 
+        "score": 1.75779, 
+        "word": "generator", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capable": {
+        "state": "none", 
+        "score": 1.5525, 
+        "word": "capable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kan": {
+        "state": "none", 
+        "score": 2.14796, 
+        "word": "kan", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jar": {
+        "state": "none", 
+        "score": 1.59964, 
+        "word": "jar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ne": {
+        "state": "none", 
+        "score": 1.4429, 
+        "word": "ne", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "access": {
+        "state": "none", 
+        "score": 1.48624, 
+        "word": "access", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "potential": {
+        "state": "none", 
+        "score": 2.31021, 
+        "word": "potential", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ls": {
+        "state": "none", 
+        "score": 2.63265, 
+        "word": "ls", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "way": {
+        "state": "none", 
+        "score": 1.73159, 
+        "word": "way", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "var": {
+        "state": "none", 
+        "score": 1.58063, 
+        "word": "var", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expresses": {
+        "state": "none", 
+        "score": 3.01861, 
+        "word": "expresses", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "options": {
+        "state": "none", 
+        "score": 2.63554, 
+        "word": "options", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pot": {
+        "state": "none", 
+        "score": 1.68301, 
+        "word": "pot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "available": {
+        "state": "none", 
+        "score": 1.8453, 
+        "word": "available", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "makes": {
+        "state": "none", 
+        "score": 2.19225, 
+        "word": "makes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enable": {
+        "state": "none", 
+        "score": 1.53673, 
+        "word": "enable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "option": {
+        "state": "none", 
+        "score": 1.39903, 
+        "word": "option", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "power": {
+        "state": "none", 
+        "score": 1.6897, 
+        "word": "power", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "means": {
+        "state": "none", 
+        "score": 1.83106, 
+        "word": "means", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crapper": {
+        "state": "none", 
+        "score": 1.72783, 
+        "word": "crapper", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bathroom": {
+        "state": "none", 
+        "score": 1.44, 
+        "word": "bathroom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gonna": {
+        "state": "none", 
+        "score": 1.86503, 
+        "word": "gonna", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "possible": {
+        "state": "none", 
+        "score": 1.48752, 
+        "word": "possible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "feels": {
+        "state": "none", 
+        "score": 2.46403, 
+        "word": "feels", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "authority": {
+        "state": "none", 
+        "score": 1.54559, 
+        "word": "authority", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capacity": {
+        "state": "none", 
+        "score": 1.46847, 
+        "word": "capacity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opportunity": {
+        "state": "none", 
+        "score": 1.80055, 
+        "word": "opportunity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stands": {
+        "state": "none", 
+        "score": 3.05408, 
+        "word": "stands", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "box": {
+        "state": "none", 
+        "score": 1.70682, 
+        "word": "box", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "talent": {
+        "state": "none", 
+        "score": 1.42761, 
+        "word": "talent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "room": {
+        "state": "none", 
+        "score": 1.51405, 
+        "word": "room", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "canadian": {
+        "state": "none", 
+        "score": 1.52155, 
+        "word": "canadian", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "utmost": {
+        "state": "none", 
+        "score": 1.4414, 
+        "word": "utmost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "eligible": {
+        "state": "none", 
+        "score": 1.58146, 
+        "word": "eligible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acn": {
+        "state": "none", 
+        "score": 1.47017, 
+        "word": "acn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rca": {
+        "state": "none", 
+        "score": 1.45006, 
+        "word": "rca", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capability": {
+        "state": "none", 
+        "score": 1.43766, 
+        "word": "capability", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "practicable": {
+        "state": "none", 
+        "score": 1.66637, 
+        "word": "practicable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pandora": {
+        "state": "none", 
+        "score": 1.40416, 
+        "word": "pandora", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "canadians": {
+        "state": "none", 
+        "score": 1.52155, 
+        "word": "canadians", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inability": {
+        "state": "none", 
+        "score": 1.41217, 
+        "word": "inability", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "position": {
+        "state": "none", 
+        "score": 1.86846, 
+        "word": "position", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wanna": {
+        "state": "none", 
+        "score": 1.64107, 
+        "word": "wanna", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "order": {
+        "state": "none", 
+        "score": 1.49642, 
+        "word": "order", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cad": {
+        "state": "none", 
+        "score": 1.46767, 
+        "word": "cad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "can", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

@@ -1,0 +1,301 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "periodicity": {
+        "state": "none", 
+        "score": 1.64365, 
+        "word": "periodicity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rate": {
+        "state": "none", 
+        "score": 1.64053, 
+        "word": "rate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "frequency": {
+        "state": "none", 
+        "score": 2.00398, 
+        "word": "frequency", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "melody": {
+        "state": "none", 
+        "score": 2.65743, 
+        "word": "melody", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "speed": {
+        "state": "none", 
+        "score": 2.2159, 
+        "word": "speed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "abreast": {
+        "state": "none", 
+        "score": 1.76397, 
+        "word": "abreast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acceleration": {
+        "state": "none", 
+        "score": 1.7659, 
+        "word": "acceleration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impetus": {
+        "state": "none", 
+        "score": 1.54546, 
+        "word": "impetus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "timescale": {
+        "state": "none", 
+        "score": 1.64772, 
+        "word": "timescale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pace": {
+        "state": "none", 
+        "score": 2.10283, 
+        "word": "pace", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pattern": {
+        "state": "none", 
+        "score": 1.90655, 
+        "word": "pattern", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "patterns": {
+        "state": "none", 
+        "score": 2.60073, 
+        "word": "patterns", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "timetable": {
+        "state": "none", 
+        "score": 1.79445, 
+        "word": "timetable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "progress": {
+        "state": "none", 
+        "score": 1.77363, 
+        "word": "progress", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cadence": {
+        "state": "none", 
+        "score": 2.17792, 
+        "word": "cadence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "schedule": {
+        "state": "none", 
+        "score": 1.65254, 
+        "word": "schedule", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "beat": {
+        "state": "none", 
+        "score": 2.46477, 
+        "word": "beat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rhyme": {
+        "state": "none", 
+        "score": 1.82956, 
+        "word": "rhyme", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tempo": {
+        "state": "none", 
+        "score": 2.2383, 
+        "word": "tempo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "step": {
+        "state": "none", 
+        "score": 1.40442, 
+        "word": "step", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "timing": {
+        "state": "none", 
+        "score": 2.19936, 
+        "word": "timing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pedal": {
+        "state": "none", 
+        "score": 1.73553, 
+        "word": "pedal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tune": {
+        "state": "none", 
+        "score": 1.88778, 
+        "word": "tune", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cycle": {
+        "state": "none", 
+        "score": 1.39087, 
+        "word": "cycle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "level": {
+        "state": "none", 
+        "score": 1.45619, 
+        "word": "level", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flow": {
+        "state": "none", 
+        "score": 1.45588, 
+        "word": "flow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stroke": {
+        "state": "none", 
+        "score": 1.38239, 
+        "word": "stroke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pacing": {
+        "state": "none", 
+        "score": 2.44643, 
+        "word": "pacing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stride": {
+        "state": "none", 
+        "score": 1.96996, 
+        "word": "stride", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "growth": {
+        "state": "none", 
+        "score": 1.53346, 
+        "word": "growth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "momentum": {
+        "state": "none", 
+        "score": 2.28363, 
+        "word": "momentum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "time": {
+        "state": "none", 
+        "score": 1.79874, 
+        "word": "time", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heartbeat": {
+        "state": "none", 
+        "score": 2.22866, 
+        "word": "heartbeat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "groove": {
+        "state": "none", 
+        "score": 2.06912, 
+        "word": "groove", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "rhythm", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

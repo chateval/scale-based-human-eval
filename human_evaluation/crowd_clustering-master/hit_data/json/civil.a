@@ -1,0 +1,893 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "chinese": {
+        "state": "none", 
+        "score": 1.37591, 
+        "word": "chinese", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publique": {
+        "state": "none", 
+        "score": 1.7265, 
+        "word": "publique", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "domestic": {
+        "state": "none", 
+        "score": 2.24431, 
+        "word": "domestic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unofficial": {
+        "state": "none", 
+        "score": 1.74936, 
+        "word": "unofficial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilized": {
+        "state": "none", 
+        "score": 2.93105, 
+        "word": "civilized", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "human": {
+        "state": "none", 
+        "score": 1.79272, 
+        "word": "human", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "eligible": {
+        "state": "none", 
+        "score": 1.41535, 
+        "word": "eligible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "personal": {
+        "state": "none", 
+        "score": 1.86607, 
+        "word": "personal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "people-to-people": {
+        "state": "none", 
+        "score": 2.13665, 
+        "word": "people-to-people", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "governmental": {
+        "state": "none", 
+        "score": 2.20437, 
+        "word": "governmental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "internal": {
+        "state": "none", 
+        "score": 1.96789, 
+        "word": "internal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "citizen": {
+        "state": "none", 
+        "score": 2.47515, 
+        "word": "citizen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "criminal": {
+        "state": "none", 
+        "score": 1.86764, 
+        "word": "criminal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "administrative": {
+        "state": "none", 
+        "score": 2.10204, 
+        "word": "administrative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "municipal": {
+        "state": "none", 
+        "score": 1.53768, 
+        "word": "municipal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilian": {
+        "state": "none", 
+        "score": 4.01246, 
+        "word": "civilian", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "secular": {
+        "state": "none", 
+        "score": 1.77289, 
+        "word": "secular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "indigenous": {
+        "state": "none", 
+        "score": 1.61591, 
+        "word": "indigenous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cultural": {
+        "state": "none", 
+        "score": 1.48641, 
+        "word": "cultural", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "internally": {
+        "state": "none", 
+        "score": 1.65287, 
+        "word": "internally", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "common": {
+        "state": "none", 
+        "score": 1.53444, 
+        "word": "common", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "judicial": {
+        "state": "none", 
+        "score": 1.62407, 
+        "word": "judicial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "popular": {
+        "state": "none", 
+        "score": 1.99045, 
+        "word": "popular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "courteous": {
+        "state": "none", 
+        "score": 1.82402, 
+        "word": "courteous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "undercover": {
+        "state": "none", 
+        "score": 1.65323, 
+        "word": "undercover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "community-based": {
+        "state": "none", 
+        "score": 1.85648, 
+        "word": "community-based", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "national": {
+        "state": "none", 
+        "score": 1.87966, 
+        "word": "national", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intra-state": {
+        "state": "none", 
+        "score": 1.72052, 
+        "word": "intra-state", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pubic": {
+        "state": "none", 
+        "score": 1.69897, 
+        "word": "pubic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grass-roots": {
+        "state": "none", 
+        "score": 1.81652, 
+        "word": "grass-roots", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "marital": {
+        "state": "none", 
+        "score": 2.53869, 
+        "word": "marital", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "individual": {
+        "state": "none", 
+        "score": 1.85781, 
+        "word": "individual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "organised": {
+        "state": "none", 
+        "score": 1.43307, 
+        "word": "organised", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "calendar": {
+        "state": "none", 
+        "score": 2.28962, 
+        "word": "calendar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "voluntary": {
+        "state": "none", 
+        "score": 1.49016, 
+        "word": "voluntary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "legal": {
+        "state": "none", 
+        "score": 1.71793, 
+        "word": "legal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conservative": {
+        "state": "none", 
+        "score": 1.50789, 
+        "word": "conservative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "international": {
+        "state": "none", 
+        "score": 1.83713, 
+        "word": "international", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "public": {
+        "state": "none", 
+        "score": 2.84213, 
+        "word": "public", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "al-ahli": {
+        "state": "none", 
+        "score": 2.02304, 
+        "word": "al-ahli", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "commercial": {
+        "state": "none", 
+        "score": 1.85888, 
+        "word": "commercial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pro-democracy": {
+        "state": "none", 
+        "score": 1.61936, 
+        "word": "pro-democracy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in-country": {
+        "state": "none", 
+        "score": 1.4101, 
+        "word": "in-country", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilians": {
+        "state": "none", 
+        "score": 3.08194, 
+        "word": "civilians", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "al-ahly": {
+        "state": "none", 
+        "score": 1.83059, 
+        "word": "al-ahly", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sociable": {
+        "state": "none", 
+        "score": 1.3844, 
+        "word": "sociable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mainland": {
+        "state": "none", 
+        "score": 1.76465, 
+        "word": "mainland", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilised": {
+        "state": "none", 
+        "score": 2.96276, 
+        "word": "civilised", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "citizens": {
+        "state": "none", 
+        "score": 2.43136, 
+        "word": "citizens", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "local": {
+        "state": "none", 
+        "score": 1.77386, 
+        "word": "local", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "roman": {
+        "state": "none", 
+        "score": 1.6954, 
+        "word": "roman", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "service-wide": {
+        "state": "none", 
+        "score": 1.82332, 
+        "word": "service-wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-governmental": {
+        "state": "none", 
+        "score": 2.32028, 
+        "word": "non-governmental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "social": {
+        "state": "none", 
+        "score": 2.29719, 
+        "word": "social", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "military": {
+        "state": "none", 
+        "score": 1.84478, 
+        "word": "military", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "matrimonial": {
+        "state": "none", 
+        "score": 1.90611, 
+        "word": "matrimonial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "polished": {
+        "state": "none", 
+        "score": 1.62588, 
+        "word": "polished", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civic": {
+        "state": "none", 
+        "score": 3.39028, 
+        "word": "civic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nongovernmental": {
+        "state": "none", 
+        "score": 2.65747, 
+        "word": "nongovernmental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civil-society": {
+        "state": "none", 
+        "score": 2.47584, 
+        "word": "civil-society", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "private": {
+        "state": "none", 
+        "score": 2.30947, 
+        "word": "private", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilian-use": {
+        "state": "none", 
+        "score": 2.44321, 
+        "word": "civilian-use", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "open": {
+        "state": "none", 
+        "score": 1.63824, 
+        "word": "open", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bureaucratic": {
+        "state": "none", 
+        "score": 1.65694, 
+        "word": "bureaucratic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "legislative": {
+        "state": "none", 
+        "score": 1.48752, 
+        "word": "legislative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "public-sector": {
+        "state": "none", 
+        "score": 1.67429, 
+        "word": "public-sector", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "decent": {
+        "state": "none", 
+        "score": 1.44146, 
+        "word": "decent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "political": {
+        "state": "none", 
+        "score": 2.29594, 
+        "word": "political", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sovereign": {
+        "state": "none", 
+        "score": 1.77408, 
+        "word": "sovereign", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continental": {
+        "state": "none", 
+        "score": 1.56941, 
+        "word": "continental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peaceful": {
+        "state": "none", 
+        "score": 1.73624, 
+        "word": "peaceful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "urban": {
+        "state": "none", 
+        "score": 2.11773, 
+        "word": "urban", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civil-military": {
+        "state": "none", 
+        "score": 1.85819, 
+        "word": "civil-military", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "registered": {
+        "state": "none", 
+        "score": 1.4623, 
+        "word": "registered", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilian-run": {
+        "state": "none", 
+        "score": 2.00765, 
+        "word": "civilian-run", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "societal": {
+        "state": "none", 
+        "score": 2.08663, 
+        "word": "societal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grassroots": {
+        "state": "none", 
+        "score": 1.65604, 
+        "word": "grassroots", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civil-law": {
+        "state": "none", 
+        "score": 2.75361, 
+        "word": "civil-law", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "government-owned": {
+        "state": "none", 
+        "score": 1.93917, 
+        "word": "government-owned", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lebanese": {
+        "state": "none", 
+        "score": 1.40384, 
+        "word": "lebanese", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "state-owned": {
+        "state": "none", 
+        "score": 1.69926, 
+        "word": "state-owned", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plain": {
+        "state": "none", 
+        "score": 1.55601, 
+        "word": "plain", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "der": {
+        "state": "none", 
+        "score": 3.00897, 
+        "word": "der", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "official": {
+        "state": "none", 
+        "score": 2.01295, 
+        "word": "official", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "private-sector": {
+        "state": "none", 
+        "score": 1.9016, 
+        "word": "private-sector", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "citizenship": {
+        "state": "none", 
+        "score": 2.18183, 
+        "word": "citizenship", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "general": {
+        "state": "none", 
+        "score": 1.6429, 
+        "word": "general", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-official": {
+        "state": "none", 
+        "score": 1.53439, 
+        "word": "non-official", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "clerical": {
+        "state": "none", 
+        "score": 1.66321, 
+        "word": "clerical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "personnel": {
+        "state": "none", 
+        "score": 1.55784, 
+        "word": "personnel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vocational": {
+        "state": "none", 
+        "score": 1.49522, 
+        "word": "vocational", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vital": {
+        "state": "none", 
+        "score": 1.96262, 
+        "word": "vital", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-government": {
+        "state": "none", 
+        "score": 2.29171, 
+        "word": "non-government", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civilizational": {
+        "state": "none", 
+        "score": 2.39513, 
+        "word": "civilizational", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ordinary": {
+        "state": "none", 
+        "score": 1.73644, 
+        "word": "ordinary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ming": {
+        "state": "none", 
+        "score": 1.53756, 
+        "word": "ming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "third-party": {
+        "state": "none", 
+        "score": 1.81295, 
+        "word": "third-party", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "polite": {
+        "state": "none", 
+        "score": 1.89482, 
+        "word": "polite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "non-military": {
+        "state": "none", 
+        "score": 2.50793, 
+        "word": "non-military", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "registry": {
+        "state": "none", 
+        "score": 1.59761, 
+        "word": "registry", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bourgeois": {
+        "state": "none", 
+        "score": 2.31628, 
+        "word": "bourgeois", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prescribed": {
+        "state": "none", 
+        "score": 1.44037, 
+        "word": "prescribed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "humanitarian": {
+        "state": "none", 
+        "score": 1.38582, 
+        "word": "humanitarian", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "constitutional": {
+        "state": "none", 
+        "score": 1.47768, 
+        "word": "constitutional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "civics": {
+        "state": "none", 
+        "score": 2.03977, 
+        "word": "civics", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fundamental": {
+        "state": "none", 
+        "score": 1.60648, 
+        "word": "fundamental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "the": {
+        "state": "none", 
+        "score": 1.55373, 
+        "word": "the", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "democratic": {
+        "state": "none", 
+        "score": 1.6915, 
+        "word": "democratic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "civil", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

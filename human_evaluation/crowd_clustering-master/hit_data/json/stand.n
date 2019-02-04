@@ -1,0 +1,1253 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "certification": {
+        "state": "none", 
+        "score": 1.42305, 
+        "word": "certification", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "move": {
+        "state": "none", 
+        "score": 1.48969, 
+        "word": "move", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "resistance": {
+        "state": "none", 
+        "score": 1.87998, 
+        "word": "resistance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "attitude": {
+        "state": "none", 
+        "score": 1.84621, 
+        "word": "attitude", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "proposition": {
+        "state": "none", 
+        "score": 1.834, 
+        "word": "proposition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pitch": {
+        "state": "none", 
+        "score": 1.51707, 
+        "word": "pitch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "helm": {
+        "state": "none", 
+        "score": 1.73788, 
+        "word": "helm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "settlement": {
+        "state": "none", 
+        "score": 1.61083, 
+        "word": "settlement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "centers": {
+        "state": "none", 
+        "score": 3.17307, 
+        "word": "centers", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ground": {
+        "state": "none", 
+        "score": 1.76571, 
+        "word": "ground", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "snack": {
+        "state": "none", 
+        "score": 1.51846, 
+        "word": "snack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "based": {
+        "state": "none", 
+        "score": 1.46105, 
+        "word": "based", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thinking": {
+        "state": "none", 
+        "score": 1.41064, 
+        "word": "thinking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "assertion": {
+        "state": "none", 
+        "score": 1.68588, 
+        "word": "assertion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "coordinates": {
+        "state": "none", 
+        "score": 3.21661, 
+        "word": "coordinates", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bench": {
+        "state": "none", 
+        "score": 1.53081, 
+        "word": "bench", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terminal": {
+        "state": "none", 
+        "score": 1.71315, 
+        "word": "terminal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "platform": {
+        "state": "none", 
+        "score": 1.84795, 
+        "word": "platform", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "location": {
+        "state": "none", 
+        "score": 1.79332, 
+        "word": "location", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "policy": {
+        "state": "none", 
+        "score": 1.52211, 
+        "word": "policy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "settlements": {
+        "state": "none", 
+        "score": 1.61083, 
+        "word": "settlements", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "viewpoint": {
+        "state": "none", 
+        "score": 2.0322, 
+        "word": "viewpoint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "advocate": {
+        "state": "none", 
+        "score": 2.00934, 
+        "word": "advocate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stop": {
+        "state": "none", 
+        "score": 1.46284, 
+        "word": "stop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "newsstand": {
+        "state": "none", 
+        "score": 2.04141, 
+        "word": "newsstand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "front": {
+        "state": "none", 
+        "score": 1.54965, 
+        "word": "front", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strand": {
+        "state": "none", 
+        "score": 1.66321, 
+        "word": "strand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posture": {
+        "state": "none", 
+        "score": 2.34786, 
+        "word": "posture", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bar": {
+        "state": "none", 
+        "score": 1.91029, 
+        "word": "bar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "approach": {
+        "state": "none", 
+        "score": 2.01008, 
+        "word": "approach", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "protest": {
+        "state": "none", 
+        "score": 1.59225, 
+        "word": "protest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "candy": {
+        "state": "none", 
+        "score": 1.44723, 
+        "word": "candy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "safeguarding": {
+        "state": "none", 
+        "score": 1.42744, 
+        "word": "safeguarding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "positions": {
+        "state": "none", 
+        "score": 1.97454, 
+        "word": "positions", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "adherence": {
+        "state": "none", 
+        "score": 1.41996, 
+        "word": "adherence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heading": {
+        "state": "none", 
+        "score": 1.71318, 
+        "word": "heading", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "assemblage": {
+        "state": "none", 
+        "score": 1.95944, 
+        "word": "assemblage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "auditorium": {
+        "state": "none", 
+        "score": 1.55401, 
+        "word": "auditorium", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "status": {
+        "state": "none", 
+        "score": 1.94483, 
+        "word": "status", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "martyrdom": {
+        "state": "none", 
+        "score": 1.75007, 
+        "word": "martyrdom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "battle": {
+        "state": "none", 
+        "score": 1.62309, 
+        "word": "battle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "defense": {
+        "state": "none", 
+        "score": 1.51495, 
+        "word": "defense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "booth": {
+        "state": "none", 
+        "score": 1.87557, 
+        "word": "booth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "parking": {
+        "state": "none", 
+        "score": 1.6246, 
+        "word": "parking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "witness": {
+        "state": "none", 
+        "score": 1.625, 
+        "word": "witness", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "colonialism": {
+        "state": "none", 
+        "score": 1.5401, 
+        "word": "colonialism", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "defence": {
+        "state": "none", 
+        "score": 1.4956, 
+        "word": "defence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "footing": {
+        "state": "none", 
+        "score": 1.42126, 
+        "word": "footing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comments": {
+        "state": "none", 
+        "score": 2.48764, 
+        "word": "comments", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "skid": {
+        "state": "none", 
+        "score": 1.66735, 
+        "word": "skid", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "witnesses": {
+        "state": "none", 
+        "score": 1.625, 
+        "word": "witnesses", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "state": {
+        "state": "none", 
+        "score": 1.76047, 
+        "word": "state", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slash": {
+        "state": "none", 
+        "score": 1.44992, 
+        "word": "slash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conduct": {
+        "state": "none", 
+        "score": 1.60048, 
+        "word": "conduct", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "progress": {
+        "state": "none", 
+        "score": 1.4481, 
+        "word": "progress", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gazebo": {
+        "state": "none", 
+        "score": 1.66642, 
+        "word": "gazebo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foundation": {
+        "state": "none", 
+        "score": 1.48558, 
+        "word": "foundation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stance": {
+        "state": "none", 
+        "score": 2.29527, 
+        "word": "stance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leg": {
+        "state": "none", 
+        "score": 1.51924, 
+        "word": "leg", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "colonization": {
+        "state": "none", 
+        "score": 1.67919, 
+        "word": "colonization", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "behaviour": {
+        "state": "none", 
+        "score": 1.59356, 
+        "word": "behaviour", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "base": {
+        "state": "none", 
+        "score": 1.47384, 
+        "word": "base", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "struggle": {
+        "state": "none", 
+        "score": 1.77507, 
+        "word": "struggle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opposition": {
+        "state": "none", 
+        "score": 1.73524, 
+        "word": "opposition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standpoint": {
+        "state": "none", 
+        "score": 2.83266, 
+        "word": "standpoint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "post": {
+        "state": "none", 
+        "score": 1.62845, 
+        "word": "post", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "understanding": {
+        "state": "none", 
+        "score": 1.4572, 
+        "word": "understanding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stage": {
+        "state": "none", 
+        "score": 1.66489, 
+        "word": "stage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stations": {
+        "state": "none", 
+        "score": 1.38323, 
+        "word": "stations", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "positioning": {
+        "state": "none", 
+        "score": 2.05706, 
+        "word": "positioning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "assault": {
+        "state": "none", 
+        "score": 1.53279, 
+        "word": "assault", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "place": {
+        "state": "none", 
+        "score": 1.42672, 
+        "word": "place", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "testimony": {
+        "state": "none", 
+        "score": 1.77053, 
+        "word": "testimony", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opinion": {
+        "state": "none", 
+        "score": 1.86561, 
+        "word": "opinion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "view": {
+        "state": "none", 
+        "score": 1.85789, 
+        "word": "view", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "point": {
+        "state": "none", 
+        "score": 1.42203, 
+        "word": "point", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "commitment": {
+        "state": "none", 
+        "score": 1.39807, 
+        "word": "commitment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "termini": {
+        "state": "none", 
+        "score": 1.92958, 
+        "word": "termini", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tribune": {
+        "state": "none", 
+        "score": 1.62473, 
+        "word": "tribune", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "doctrine": {
+        "state": "none", 
+        "score": 1.39317, 
+        "word": "doctrine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "marker": {
+        "state": "none", 
+        "score": 1.4147, 
+        "word": "marker", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fight": {
+        "state": "none", 
+        "score": 1.75729, 
+        "word": "fight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "resilience": {
+        "state": "none", 
+        "score": 1.55144, 
+        "word": "resilience", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standing": {
+        "state": "none", 
+        "score": 3.35813, 
+        "word": "standing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gis": {
+        "state": "none", 
+        "score": 2.74765, 
+        "word": "gis", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "certificate": {
+        "state": "none", 
+        "score": 1.69862, 
+        "word": "certificate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "basis": {
+        "state": "none", 
+        "score": 1.73864, 
+        "word": "basis", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "support": {
+        "state": "none", 
+        "score": 1.63174, 
+        "word": "support", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mark": {
+        "state": "none", 
+        "score": 1.39197, 
+        "word": "mark", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "station": {
+        "state": "none", 
+        "score": 2.12723, 
+        "word": "station", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "threshold": {
+        "state": "none", 
+        "score": 1.46873, 
+        "word": "threshold", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mindset": {
+        "state": "none", 
+        "score": 1.72962, 
+        "word": "mindset", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exhibition": {
+        "state": "none", 
+        "score": 1.41658, 
+        "word": "exhibition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "medium": {
+        "state": "none", 
+        "score": 1.37841, 
+        "word": "medium", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "statement": {
+        "state": "none", 
+        "score": 2.06546, 
+        "word": "statement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shelf": {
+        "state": "none", 
+        "score": 1.40202, 
+        "word": "shelf", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kiosk": {
+        "state": "none", 
+        "score": 1.8209, 
+        "word": "kiosk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "site": {
+        "state": "none", 
+        "score": 1.85368, 
+        "word": "site", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "construction": {
+        "state": "none", 
+        "score": 1.4313, 
+        "word": "construction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posturing": {
+        "state": "none", 
+        "score": 1.64716, 
+        "word": "posturing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "line": {
+        "state": "none", 
+        "score": 1.40452, 
+        "word": "line", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holder": {
+        "state": "none", 
+        "score": 1.59738, 
+        "word": "holder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outpost": {
+        "state": "none", 
+        "score": 1.52841, 
+        "word": "outpost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standard": {
+        "state": "none", 
+        "score": 1.66051, 
+        "word": "standard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "population": {
+        "state": "none", 
+        "score": 1.68166, 
+        "word": "population", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terminus": {
+        "state": "none", 
+        "score": 1.92958, 
+        "word": "terminus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appearance": {
+        "state": "none", 
+        "score": 1.40953, 
+        "word": "appearance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "advocacy": {
+        "state": "none", 
+        "score": 1.46939, 
+        "word": "advocacy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stall": {
+        "state": "none", 
+        "score": 2.19024, 
+        "word": "stall", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "situation": {
+        "state": "none", 
+        "score": 1.91892, 
+        "word": "situation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "voice": {
+        "state": "none", 
+        "score": 1.62672, 
+        "word": "voice", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "display": {
+        "state": "none", 
+        "score": 1.62031, 
+        "word": "display", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perspective": {
+        "state": "none", 
+        "score": 1.65694, 
+        "word": "perspective", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exhibit": {
+        "state": "none", 
+        "score": 1.38903, 
+        "word": "exhibit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "handrail": {
+        "state": "none", 
+        "score": 1.89142, 
+        "word": "handrail", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mind": {
+        "state": "none", 
+        "score": 1.52408, 
+        "word": "mind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "argument": {
+        "state": "none", 
+        "score": 1.52211, 
+        "word": "argument", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stroke": {
+        "state": "none", 
+        "score": 1.43787, 
+        "word": "stroke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tiller": {
+        "state": "none", 
+        "score": 1.68294, 
+        "word": "tiller", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "defending": {
+        "state": "none", 
+        "score": 1.7759, 
+        "word": "defending", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conn": {
+        "state": "none", 
+        "score": 1.53167, 
+        "word": "conn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "issue": {
+        "state": "none", 
+        "score": 1.45301, 
+        "word": "issue", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "media": {
+        "state": "none", 
+        "score": 1.37841, 
+        "word": "media", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "upholding": {
+        "state": "none", 
+        "score": 1.58437, 
+        "word": "upholding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "points": {
+        "state": "none", 
+        "score": 1.42203, 
+        "word": "points", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "forest": {
+        "state": "none", 
+        "score": 1.53632, 
+        "word": "forest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "depot": {
+        "state": "none", 
+        "score": 1.37693, 
+        "word": "depot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brace": {
+        "state": "none", 
+        "score": 1.38975, 
+        "word": "brace", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wheel": {
+        "state": "none", 
+        "score": 1.39069, 
+        "word": "wheel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staying": {
+        "state": "none", 
+        "score": 2.08596, 
+        "word": "staying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rise": {
+        "state": "none", 
+        "score": 1.48811, 
+        "word": "rise", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combat": {
+        "state": "none", 
+        "score": 1.54353, 
+        "word": "combat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stay": {
+        "state": "none", 
+        "score": 1.82636, 
+        "word": "stay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "podium": {
+        "state": "none", 
+        "score": 1.5275, 
+        "word": "podium", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strength": {
+        "state": "none", 
+        "score": 1.40826, 
+        "word": "strength", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grandstand": {
+        "state": "none", 
+        "score": 2.44962, 
+        "word": "grandstand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "foothold": {
+        "state": "none", 
+        "score": 1.71228, 
+        "word": "foothold", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gallery": {
+        "state": "none", 
+        "score": 1.57604, 
+        "word": "gallery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lifting": {
+        "state": "none", 
+        "score": 1.5355, 
+        "word": "lifting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rostrum": {
+        "state": "none", 
+        "score": 1.77124, 
+        "word": "rostrum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supports": {
+        "state": "none", 
+        "score": 1.63174, 
+        "word": "supports", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "placement": {
+        "state": "none", 
+        "score": 1.44669, 
+        "word": "placement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "center": {
+        "state": "none", 
+        "score": 1.37763, 
+        "word": "center", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grove": {
+        "state": "none", 
+        "score": 1.40499, 
+        "word": "grove", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lift": {
+        "state": "none", 
+        "score": 1.48409, 
+        "word": "lift", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "counter": {
+        "state": "none", 
+        "score": 1.512, 
+        "word": "counter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fighting": {
+        "state": "none", 
+        "score": 1.43134, 
+        "word": "fighting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "face": {
+        "state": "none", 
+        "score": 1.44716, 
+        "word": "face", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dynamometer": {
+        "state": "none", 
+        "score": 1.52596, 
+        "word": "dynamometer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bracket": {
+        "state": "none", 
+        "score": 1.61908, 
+        "word": "bracket", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "principle": {
+        "state": "none", 
+        "score": 1.5651, 
+        "word": "principle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "position": {
+        "state": "none", 
+        "score": 1.97454, 
+        "word": "position", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gesture": {
+        "state": "none", 
+        "score": 1.48069, 
+        "word": "gesture", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "stand", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

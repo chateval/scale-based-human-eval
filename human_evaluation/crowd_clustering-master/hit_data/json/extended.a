@@ -1,0 +1,1333 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "excessive": {
+        "state": "none", 
+        "score": 1.68312, 
+        "word": "excessive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "developed": {
+        "state": "none", 
+        "score": 2.02598, 
+        "word": "developed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broaden": {
+        "state": "none", 
+        "score": 2.56745, 
+        "word": "broaden", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plenary": {
+        "state": "none", 
+        "score": 1.41125, 
+        "word": "plenary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "far-reaching": {
+        "state": "none", 
+        "score": 2.16167, 
+        "word": "far-reaching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide-ranging": {
+        "state": "none", 
+        "score": 2.52109, 
+        "word": "wide-ranging", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "top-up": {
+        "state": "none", 
+        "score": 1.53009, 
+        "word": "top-up", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distant": {
+        "state": "none", 
+        "score": 1.41907, 
+        "word": "distant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thorough": {
+        "state": "none", 
+        "score": 1.856, 
+        "word": "thorough", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broader": {
+        "state": "none", 
+        "score": 2.58901, 
+        "word": "broader", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sustained": {
+        "state": "none", 
+        "score": 2.52909, 
+        "word": "sustained", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supplemented": {
+        "state": "none", 
+        "score": 2.2833, 
+        "word": "supplemented", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "renewed": {
+        "state": "none", 
+        "score": 2.461, 
+        "word": "renewed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "longstanding": {
+        "state": "none", 
+        "score": 2.03482, 
+        "word": "longstanding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra": {
+        "state": "none", 
+        "score": 2.07191, 
+        "word": "extra", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extenso": {
+        "state": "none", 
+        "score": 1.92539, 
+        "word": "extenso", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intensive": {
+        "state": "none", 
+        "score": 1.93816, 
+        "word": "intensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "advanced": {
+        "state": "none", 
+        "score": 1.89723, 
+        "word": "advanced", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "complements": {
+        "state": "none", 
+        "score": 1.5076, 
+        "word": "complements", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extensive": {
+        "state": "none", 
+        "score": 3.15603, 
+        "word": "extensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "indepth": {
+        "state": "none", 
+        "score": 1.68458, 
+        "word": "indepth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drawn-out": {
+        "state": "none", 
+        "score": 2.15152, 
+        "word": "drawn-out", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ample": {
+        "state": "none", 
+        "score": 1.56406, 
+        "word": "ample", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "big": {
+        "state": "none", 
+        "score": 1.62504, 
+        "word": "big", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scalable": {
+        "state": "none", 
+        "score": 1.5368, 
+        "word": "scalable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sweeping": {
+        "state": "none", 
+        "score": 1.75633, 
+        "word": "sweeping", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continued": {
+        "state": "none", 
+        "score": 2.34706, 
+        "word": "continued", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vast": {
+        "state": "none", 
+        "score": 2.122, 
+        "word": "vast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "generalised": {
+        "state": "none", 
+        "score": 1.63403, 
+        "word": "generalised", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entire": {
+        "state": "none", 
+        "score": 1.55884, 
+        "word": "entire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heightened": {
+        "state": "none", 
+        "score": 1.85349, 
+        "word": "heightened", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accompanying": {
+        "state": "none", 
+        "score": 1.49886, 
+        "word": "accompanying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "applicable": {
+        "state": "none", 
+        "score": 1.46903, 
+        "word": "applicable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "large": {
+        "state": "none", 
+        "score": 2.03747, 
+        "word": "large", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "common": {
+        "state": "none", 
+        "score": 1.59264, 
+        "word": "common", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enhance": {
+        "state": "none", 
+        "score": 1.4261, 
+        "word": "enhance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lasting": {
+        "state": "none", 
+        "score": 1.65237, 
+        "word": "lasting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strengthened": {
+        "state": "none", 
+        "score": 2.43272, 
+        "word": "strengthened", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-running": {
+        "state": "none", 
+        "score": 1.90331, 
+        "word": "long-running", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "majeure": {
+        "state": "none", 
+        "score": 1.5098, 
+        "word": "majeure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prolonged": {
+        "state": "none", 
+        "score": 3.31193, 
+        "word": "prolonged", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supplementary": {
+        "state": "none", 
+        "score": 2.01392, 
+        "word": "supplementary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enhanced": {
+        "state": "none", 
+        "score": 2.89415, 
+        "word": "enhanced", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "duration": {
+        "state": "none", 
+        "score": 1.55694, 
+        "word": "duration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "further": {
+        "state": "none", 
+        "score": 2.20985, 
+        "word": "further", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exhaustive": {
+        "state": "none", 
+        "score": 2.01003, 
+        "word": "exhaustive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broad": {
+        "state": "none", 
+        "score": 2.58901, 
+        "word": "broad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "increase": {
+        "state": "none", 
+        "score": 1.73639, 
+        "word": "increase", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-standing": {
+        "state": "none", 
+        "score": 2.08835, 
+        "word": "long-standing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide-area": {
+        "state": "none", 
+        "score": 2.14546, 
+        "word": "wide-area", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "time-consuming": {
+        "state": "none", 
+        "score": 2.11322, 
+        "word": "time-consuming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "increasing": {
+        "state": "none", 
+        "score": 1.9022, 
+        "word": "increasing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supporting": {
+        "state": "none", 
+        "score": 1.38436, 
+        "word": "supporting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expansive": {
+        "state": "none", 
+        "score": 2.38163, 
+        "word": "expansive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "full": {
+        "state": "none", 
+        "score": 1.62072, 
+        "word": "full", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extend": {
+        "state": "none", 
+        "score": 3.80255, 
+        "word": "extend", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "complementary": {
+        "state": "none", 
+        "score": 2.17472, 
+        "word": "complementary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continuing": {
+        "state": "none", 
+        "score": 1.8938, 
+        "word": "continuing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "generous": {
+        "state": "none", 
+        "score": 1.46402, 
+        "word": "generous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-lasting": {
+        "state": "none", 
+        "score": 2.03746, 
+        "word": "long-lasting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraordinary": {
+        "state": "none", 
+        "score": 1.81584, 
+        "word": "extraordinary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "upgrade": {
+        "state": "none", 
+        "score": 1.50568, 
+        "word": "upgrade", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extent": {
+        "state": "none", 
+        "score": 2.54846, 
+        "word": "extent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intense": {
+        "state": "none", 
+        "score": 1.45001, 
+        "word": "intense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elaborated": {
+        "state": "none", 
+        "score": 1.63255, 
+        "word": "elaborated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "great": {
+        "state": "none", 
+        "score": 1.79739, 
+        "word": "great", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "improved": {
+        "state": "none", 
+        "score": 1.91301, 
+        "word": "improved", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extension": {
+        "state": "none", 
+        "score": 3.00411, 
+        "word": "extension", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enlargement": {
+        "state": "none", 
+        "score": 2.62574, 
+        "word": "enlargement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broad-based": {
+        "state": "none", 
+        "score": 2.42569, 
+        "word": "broad-based", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elaborate": {
+        "state": "none", 
+        "score": 1.60653, 
+        "word": "elaborate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "larger": {
+        "state": "none", 
+        "score": 1.68889, 
+        "word": "larger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "longterm": {
+        "state": "none", 
+        "score": 1.83149, 
+        "word": "longterm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in-depth": {
+        "state": "none", 
+        "score": 2.10082, 
+        "word": "in-depth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "length": {
+        "state": "none", 
+        "score": 1.80026, 
+        "word": "length", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massive": {
+        "state": "none", 
+        "score": 1.71115, 
+        "word": "massive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-term": {
+        "state": "none", 
+        "score": 2.30845, 
+        "word": "long-term", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postponed": {
+        "state": "none", 
+        "score": 1.96105, 
+        "word": "postponed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whole": {
+        "state": "none", 
+        "score": 1.46803, 
+        "word": "whole", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elongated": {
+        "state": "none", 
+        "score": 2.38086, 
+        "word": "elongated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "major": {
+        "state": "none", 
+        "score": 1.49936, 
+        "word": "major", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "widen": {
+        "state": "none", 
+        "score": 2.19625, 
+        "word": "widen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-lived": {
+        "state": "none", 
+        "score": 1.69988, 
+        "word": "long-lived", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "large-scale": {
+        "state": "none", 
+        "score": 1.68822, 
+        "word": "large-scale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "period": {
+        "state": "none", 
+        "score": 1.56849, 
+        "word": "period", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "increased": {
+        "state": "none", 
+        "score": 2.93156, 
+        "word": "increased", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chronic": {
+        "state": "none", 
+        "score": 1.67475, 
+        "word": "chronic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enlarged": {
+        "state": "none", 
+        "score": 3.43257, 
+        "word": "enlarged", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stretched": {
+        "state": "none", 
+        "score": 2.85939, 
+        "word": "stretched", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "add-on": {
+        "state": "none", 
+        "score": 1.64705, 
+        "word": "add-on", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wider": {
+        "state": "none", 
+        "score": 2.44802, 
+        "word": "wider", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "better": {
+        "state": "none", 
+        "score": 3.04085, 
+        "word": "better", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fuller": {
+        "state": "none", 
+        "score": 1.62072, 
+        "word": "fuller", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "additional": {
+        "state": "none", 
+        "score": 2.22064, 
+        "word": "additional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "renewal": {
+        "state": "none", 
+        "score": 2.01744, 
+        "word": "renewal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "protracted": {
+        "state": "none", 
+        "score": 2.91656, 
+        "word": "protracted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long": {
+        "state": "none", 
+        "score": 2.53944, 
+        "word": "long", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "much": {
+        "state": "none", 
+        "score": 1.43347, 
+        "word": "much", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expand": {
+        "state": "none", 
+        "score": 2.89271, 
+        "word": "expand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extra-curricular": {
+        "state": "none", 
+        "score": 1.56663, 
+        "word": "extra-curricular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scope": {
+        "state": "none", 
+        "score": 2.13954, 
+        "word": "scope", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enlarging": {
+        "state": "none", 
+        "score": 2.5712, 
+        "word": "enlarging", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pervasive": {
+        "state": "none", 
+        "score": 2.03209, 
+        "word": "pervasive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "complete": {
+        "state": "none", 
+        "score": 1.66688, 
+        "word": "complete", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "verbatim": {
+        "state": "none", 
+        "score": 1.44793, 
+        "word": "verbatim", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continuous": {
+        "state": "none", 
+        "score": 1.75602, 
+        "word": "continuous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "delayed": {
+        "state": "none", 
+        "score": 2.23859, 
+        "word": "delayed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enduring": {
+        "state": "none", 
+        "score": 1.79465, 
+        "word": "enduring", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extracurricular": {
+        "state": "none", 
+        "score": 1.75558, 
+        "word": "extracurricular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "longer-term": {
+        "state": "none", 
+        "score": 1.80735, 
+        "word": "longer-term", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rampant": {
+        "state": "none", 
+        "score": 1.6472, 
+        "word": "rampant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "considerable": {
+        "state": "none", 
+        "score": 1.86843, 
+        "word": "considerable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supplemental": {
+        "state": "none", 
+        "score": 1.79027, 
+        "word": "supplemental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continuance": {
+        "state": "none", 
+        "score": 2.2153, 
+        "word": "continuance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide": {
+        "state": "none", 
+        "score": 2.44802, 
+        "word": "wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expanded": {
+        "state": "none", 
+        "score": 3.87428, 
+        "word": "expanded", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deferred": {
+        "state": "none", 
+        "score": 2.25397, 
+        "word": "deferred", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "substantial": {
+        "state": "none", 
+        "score": 1.76498, 
+        "word": "substantial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ongoing": {
+        "state": "none", 
+        "score": 1.55438, 
+        "word": "ongoing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "growing": {
+        "state": "none", 
+        "score": 1.66645, 
+        "word": "growing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elongate": {
+        "state": "none", 
+        "score": 1.93702, 
+        "word": "elongate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "detailed": {
+        "state": "none", 
+        "score": 2.27479, 
+        "word": "detailed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broadened": {
+        "state": "none", 
+        "score": 2.26813, 
+        "word": "broadened", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inclusive": {
+        "state": "none", 
+        "score": 1.64298, 
+        "word": "inclusive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expanding": {
+        "state": "none", 
+        "score": 2.84618, 
+        "word": "expanding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "well-developed": {
+        "state": "none", 
+        "score": 1.5982, 
+        "word": "well-developed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deep": {
+        "state": "none", 
+        "score": 1.56455, 
+        "word": "deep", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "general": {
+        "state": "none", 
+        "score": 1.41722, 
+        "word": "general", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incremental": {
+        "state": "none", 
+        "score": 1.41739, 
+        "word": "incremental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "iong": {
+        "state": "none", 
+        "score": 1.53834, 
+        "word": "iong", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "follow-up": {
+        "state": "none", 
+        "score": 1.48675, 
+        "word": "follow-up", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "greater": {
+        "state": "none", 
+        "score": 1.98557, 
+        "word": "greater", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "huge": {
+        "state": "none", 
+        "score": 1.47718, 
+        "word": "huge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lengthy": {
+        "state": "none", 
+        "score": 2.66097, 
+        "word": "lengthy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-duration": {
+        "state": "none", 
+        "score": 1.62133, 
+        "word": "long-duration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "endurance": {
+        "state": "none", 
+        "score": 1.89448, 
+        "word": "endurance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elevated": {
+        "state": "none", 
+        "score": 1.44825, 
+        "word": "elevated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "generalized": {
+        "state": "none", 
+        "score": 1.90945, 
+        "word": "generalized", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grand": {
+        "state": "none", 
+        "score": 1.42963, 
+        "word": "grand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "significant": {
+        "state": "none", 
+        "score": 1.65692, 
+        "word": "significant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-time": {
+        "state": "none", 
+        "score": 1.61289, 
+        "word": "long-time", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "widespread": {
+        "state": "none", 
+        "score": 2.7365, 
+        "word": "widespread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-drawn-out": {
+        "state": "none", 
+        "score": 2.00435, 
+        "word": "long-drawn-out", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-life": {
+        "state": "none", 
+        "score": 1.52011, 
+        "word": "long-life", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "added": {
+        "state": "none", 
+        "score": 1.61986, 
+        "word": "added", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-form": {
+        "state": "none", 
+        "score": 1.63249, 
+        "word": "long-form", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comprehensive": {
+        "state": "none", 
+        "score": 2.26294, 
+        "word": "comprehensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outreach": {
+        "state": "none", 
+        "score": 1.95419, 
+        "word": "outreach", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extending": {
+        "state": "none", 
+        "score": 3.51409, 
+        "word": "extending", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extender": {
+        "state": "none", 
+        "score": 1.54888, 
+        "word": "extender", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-": {
+        "state": "none", 
+        "score": 1.65149, 
+        "word": "long-", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scaling-up": {
+        "state": "none", 
+        "score": 2.01805, 
+        "word": "scaling-up", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "renewable": {
+        "state": "none", 
+        "score": 1.41568, 
+        "word": "renewable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "complimentary": {
+        "state": "none", 
+        "score": 1.96452, 
+        "word": "complimentary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remote": {
+        "state": "none", 
+        "score": 1.56281, 
+        "word": "remote", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prevalent": {
+        "state": "none", 
+        "score": 2.25428, 
+        "word": "prevalent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "long-range": {
+        "state": "none", 
+        "score": 1.52485, 
+        "word": "long-range", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide-range": {
+        "state": "none", 
+        "score": 1.65085, 
+        "word": "wide-range", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "persistent": {
+        "state": "none", 
+        "score": 1.46524, 
+        "word": "persistent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rife": {
+        "state": "none", 
+        "score": 1.87426, 
+        "word": "rife", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "depth": {
+        "state": "none", 
+        "score": 1.47884, 
+        "word": "depth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "greatest": {
+        "state": "none", 
+        "score": 1.60444, 
+        "word": "greatest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "augmented": {
+        "state": "none", 
+        "score": 2.65127, 
+        "word": "augmented", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "extended", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}
