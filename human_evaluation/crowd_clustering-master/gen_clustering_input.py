@@ -31,11 +31,10 @@ def load_directory(directory):
                 prds.append([" ".join(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
 
-        for inp in inps:
-            inp = inp.replace('&apos;', "'")
-        for ps in prds:
-            for p in ps:
-                p = p.replace('&apos;', "'")
+        for j in range(len(inps)):
+            inps[j] = inps[j].replace('&apos;', "'")
+            for k in range(len(prds[i])):
+                prds[j][k] = prds.replace('&apos;', "'")
             
         inputs.append(inps)
         preds.append(prds)
@@ -59,7 +58,7 @@ def output_format(inputs, preds, scores, system_inds, output_file):
         for i in random_inds:
             f.write(inputs[i] + ";;;" + str(system_inds[i]) + " :: ")
 
-            prds = [preds[i][j] + ";;;" + str(scores[i]) for j in range(len(preds[i]))]
+            prds = [preds[i][j] + ";;;" + str(scores[i][j]) for j in range(len(preds[i]))]
             f.write("; ".join(prds) + ";\n")
                 
 
