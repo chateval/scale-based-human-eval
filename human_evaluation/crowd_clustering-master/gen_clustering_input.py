@@ -14,7 +14,7 @@ def load_directory(directory):
     filepaths = [directory + "/" + file for file in files]
 
     for path in filepaths:
-        with open(path, 'rb') as f:
+        with open(path) as f:
             outputs = json.load(path)
 
             for k,v in outputs.items():
@@ -30,3 +30,8 @@ def main(system_outputs_folder):
 if __name__ == '__main__':
     system_outputs_folder = sys.argv[1]
     main(system_outputs_folder)
+
+'''
+python3 gen_clustering_input.py \
+/data2/the_beamers/the_beamers_reno/experiments/10decodes/
+'''
