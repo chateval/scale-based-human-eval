@@ -1,0 +1,437 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "vent": {
+        "state": "none", 
+        "score": 1.66794, 
+        "word": "vent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "atmosphere": {
+        "state": "none", 
+        "score": 1.69962, 
+        "word": "atmosphere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fashion": {
+        "state": "none", 
+        "score": 1.4357, 
+        "word": "fashion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "murmur": {
+        "state": "none", 
+        "score": 1.73961, 
+        "word": "murmur", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "windward": {
+        "state": "none", 
+        "score": 2.52037, 
+        "word": "windward", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "energy": {
+        "state": "none", 
+        "score": 1.42113, 
+        "word": "energy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "walk": {
+        "state": "none", 
+        "score": 1.52355, 
+        "word": "walk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tide": {
+        "state": "none", 
+        "score": 1.64479, 
+        "word": "tide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gale": {
+        "state": "none", 
+        "score": 1.41683, 
+        "word": "gale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "windy": {
+        "state": "none", 
+        "score": 2.50441, 
+        "word": "windy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "violin": {
+        "state": "none", 
+        "score": 1.77523, 
+        "word": "violin", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "turbine": {
+        "state": "none", 
+        "score": 1.71493, 
+        "word": "turbine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lightning": {
+        "state": "none", 
+        "score": 1.82736, 
+        "word": "lightning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "speed": {
+        "state": "none", 
+        "score": 1.85399, 
+        "word": "speed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blow": {
+        "state": "none", 
+        "score": 1.62212, 
+        "word": "blow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nothing": {
+        "state": "none", 
+        "score": 1.38338, 
+        "word": "nothing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "style": {
+        "state": "none", 
+        "score": 1.71898, 
+        "word": "style", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fiddler": {
+        "state": "none", 
+        "score": 1.38209, 
+        "word": "fiddler", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tailwind": {
+        "state": "none", 
+        "score": 1.49637, 
+        "word": "tailwind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flash": {
+        "state": "none", 
+        "score": 1.56764, 
+        "word": "flash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breath": {
+        "state": "none", 
+        "score": 2.08386, 
+        "word": "breath", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trend": {
+        "state": "none", 
+        "score": 1.63607, 
+        "word": "trend", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "air": {
+        "state": "none", 
+        "score": 2.02192, 
+        "word": "air", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "storm": {
+        "state": "none", 
+        "score": 1.92346, 
+        "word": "storm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vents": {
+        "state": "none", 
+        "score": 1.66794, 
+        "word": "vents", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "momentum": {
+        "state": "none", 
+        "score": 1.66188, 
+        "word": "momentum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "windmill": {
+        "state": "none", 
+        "score": 2.92401, 
+        "word": "windmill", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "direction": {
+        "state": "none", 
+        "score": 1.88635, 
+        "word": "direction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blowing": {
+        "state": "none", 
+        "score": 1.76748, 
+        "word": "blowing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "draught": {
+        "state": "none", 
+        "score": 2.07362, 
+        "word": "draught", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impetus": {
+        "state": "none", 
+        "score": 1.39101, 
+        "word": "impetus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "downwind": {
+        "state": "none", 
+        "score": 2.17521, 
+        "word": "downwind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wave": {
+        "state": "none", 
+        "score": 1.93984, 
+        "word": "wave", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "moment": {
+        "state": "none", 
+        "score": 1.39173, 
+        "word": "moment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plane": {
+        "state": "none", 
+        "score": 1.42283, 
+        "word": "plane", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "typhoon": {
+        "state": "none", 
+        "score": 2.28777, 
+        "word": "typhoon", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kiss": {
+        "state": "none", 
+        "score": 1.56109, 
+        "word": "kiss", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dust": {
+        "state": "none", 
+        "score": 1.44431, 
+        "word": "dust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gasp": {
+        "state": "none", 
+        "score": 1.51819, 
+        "word": "gasp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blast": {
+        "state": "none", 
+        "score": 1.88737, 
+        "word": "blast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spirit": {
+        "state": "none", 
+        "score": 1.76346, 
+        "word": "spirit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "airflow": {
+        "state": "none", 
+        "score": 2.14724, 
+        "word": "airflow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "word": {
+        "state": "none", 
+        "score": 1.61739, 
+        "word": "word", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breather": {
+        "state": "none", 
+        "score": 1.48755, 
+        "word": "breather", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breeze": {
+        "state": "none", 
+        "score": 2.55164, 
+        "word": "breeze", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fiddle": {
+        "state": "none", 
+        "score": 1.50268, 
+        "word": "fiddle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "smoke": {
+        "state": "none", 
+        "score": 1.4042, 
+        "word": "smoke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fun": {
+        "state": "none", 
+        "score": 1.54314, 
+        "word": "fun", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "velocity": {
+        "state": "none", 
+        "score": 1.59415, 
+        "word": "velocity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "riddance": {
+        "state": "none", 
+        "score": 1.88347, 
+        "word": "riddance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "luck": {
+        "state": "none", 
+        "score": 1.51952, 
+        "word": "luck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "wind", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

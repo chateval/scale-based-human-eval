@@ -1,0 +1,565 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "heart": {
+        "state": "none", 
+        "score": 1.47662, 
+        "word": "heart", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "traverse": {
+        "state": "none", 
+        "score": 2.01032, 
+        "word": "traverse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "removals": {
+        "state": "none", 
+        "score": 2.46266, 
+        "word": "removals", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "croix": {
+        "state": "none", 
+        "score": 2.42312, 
+        "word": "croix", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crusader": {
+        "state": "none", 
+        "score": 2.40651, 
+        "word": "crusader", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transit": {
+        "state": "none", 
+        "score": 1.382, 
+        "word": "transit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossover": {
+        "state": "none", 
+        "score": 1.95485, 
+        "word": "crossover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sample": {
+        "state": "none", 
+        "score": 1.53196, 
+        "word": "sample", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-sectional": {
+        "state": "none", 
+        "score": 1.8283, 
+        "word": "cross-sectional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-section": {
+        "state": "none", 
+        "score": 2.27781, 
+        "word": "cross-section", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crescent": {
+        "state": "none", 
+        "score": 1.89012, 
+        "word": "crescent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "corner": {
+        "state": "none", 
+        "score": 1.67868, 
+        "word": "corner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dagger": {
+        "state": "none", 
+        "score": 1.74088, 
+        "word": "dagger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-contamination": {
+        "state": "none", 
+        "score": 2.28674, 
+        "word": "cross-contamination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transom": {
+        "state": "none", 
+        "score": 1.73478, 
+        "word": "transom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intersection": {
+        "state": "none", 
+        "score": 1.78143, 
+        "word": "intersection", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "span": {
+        "state": "none", 
+        "score": 1.59439, 
+        "word": "span", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "efficacious": {
+        "state": "none", 
+        "score": 1.83446, 
+        "word": "efficacious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "roja": {
+        "state": "none", 
+        "score": 1.81873, 
+        "word": "roja", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "efficient": {
+        "state": "none", 
+        "score": 1.78887, 
+        "word": "efficient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overlap": {
+        "state": "none", 
+        "score": 1.51581, 
+        "word": "overlap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combined": {
+        "state": "none", 
+        "score": 1.49512, 
+        "word": "combined", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dipped-beam": {
+        "state": "none", 
+        "score": 1.84415, 
+        "word": "dipped-beam", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tie": {
+        "state": "none", 
+        "score": 1.45283, 
+        "word": "tie", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breeding": {
+        "state": "none", 
+        "score": 1.5775, 
+        "word": "breeding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "effectiveness": {
+        "state": "none", 
+        "score": 1.83082, 
+        "word": "effectiveness", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "across": {
+        "state": "none", 
+        "score": 1.80802, 
+        "word": "across", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "medals": {
+        "state": "none", 
+        "score": 2.52043, 
+        "word": "medals", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crucifix": {
+        "state": "none", 
+        "score": 2.76925, 
+        "word": "crucifix", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crosscutting": {
+        "state": "none", 
+        "score": 2.55599, 
+        "word": "crosscutting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reciprocal": {
+        "state": "none", 
+        "score": 1.38142, 
+        "word": "reciprocal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "junction": {
+        "state": "none", 
+        "score": 1.90592, 
+        "word": "junction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combination": {
+        "state": "none", 
+        "score": 1.5937, 
+        "word": "combination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "icrc": {
+        "state": "none", 
+        "score": 1.54057, 
+        "word": "icrc", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vc": {
+        "state": "none", 
+        "score": 1.76808, 
+        "word": "vc", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flows": {
+        "state": "none", 
+        "score": 2.49208, 
+        "word": "flows", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transverse": {
+        "state": "none", 
+        "score": 1.70916, 
+        "word": "transverse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dismissals": {
+        "state": "none", 
+        "score": 2.41632, 
+        "word": "dismissals", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "beam": {
+        "state": "none", 
+        "score": 1.8963, 
+        "word": "beam", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cruz": {
+        "state": "none", 
+        "score": 2.29519, 
+        "word": "cruz", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "awards": {
+        "state": "none", 
+        "score": 2.47653, 
+        "word": "awards", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-boundary": {
+        "state": "none", 
+        "score": 1.62424, 
+        "word": "cross-boundary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transfers": {
+        "state": "none", 
+        "score": 2.64868, 
+        "word": "transfers", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rist": {
+        "state": "none", 
+        "score": 1.3813, 
+        "word": "rist", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "walk": {
+        "state": "none", 
+        "score": 1.4162, 
+        "word": "walk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "boundary": {
+        "state": "none", 
+        "score": 1.44524, 
+        "word": "boundary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-references": {
+        "state": "none", 
+        "score": 2.91254, 
+        "word": "cross-references", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "straddling": {
+        "state": "none", 
+        "score": 1.68852, 
+        "word": "straddling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crosses": {
+        "state": "none", 
+        "score": 3.17561, 
+        "word": "crosses", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transversal": {
+        "state": "none", 
+        "score": 1.70731, 
+        "word": "transversal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bilateral": {
+        "state": "none", 
+        "score": 2.12846, 
+        "word": "bilateral", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "effective": {
+        "state": "none", 
+        "score": 1.93435, 
+        "word": "effective", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "efficiency": {
+        "state": "none", 
+        "score": 1.52265, 
+        "word": "efficiency", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-cutting": {
+        "state": "none", 
+        "score": 1.98146, 
+        "word": "cross-cutting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "croce": {
+        "state": "none", 
+        "score": 2.18753, 
+        "word": "croce", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crusade": {
+        "state": "none", 
+        "score": 2.41938, 
+        "word": "crusade", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossroads": {
+        "state": "none", 
+        "score": 2.18979, 
+        "word": "crossroads", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stamp": {
+        "state": "none", 
+        "score": 1.53483, 
+        "word": "stamp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossed": {
+        "state": "none", 
+        "score": 2.89689, 
+        "word": "crossed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "red": {
+        "state": "none", 
+        "score": 1.90484, 
+        "word": "red", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossing": {
+        "state": "none", 
+        "score": 2.73793, 
+        "word": "crossing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "x": {
+        "state": "none", 
+        "score": 1.39258, 
+        "word": "x", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "passing": {
+        "state": "none", 
+        "score": 2.11461, 
+        "word": "passing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "croix-rouge": {
+        "state": "none", 
+        "score": 1.80928, 
+        "word": "croix-rouge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mating": {
+        "state": "none", 
+        "score": 1.69145, 
+        "word": "mating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cross-fertilization": {
+        "state": "none", 
+        "score": 1.93454, 
+        "word": "cross-fertilization", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rossa": {
+        "state": "none", 
+        "score": 1.51888, 
+        "word": "rossa", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "cross", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

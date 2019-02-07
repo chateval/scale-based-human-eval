@@ -1,0 +1,2149 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "precise": {
+        "state": "none", 
+        "score": 1.54838, 
+        "word": "precise", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tagged": {
+        "state": "none", 
+        "score": 1.41178, 
+        "word": "tagged", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stringent": {
+        "state": "none", 
+        "score": 1.76495, 
+        "word": "stringent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "excessive": {
+        "state": "none", 
+        "score": 1.43172, 
+        "word": "excessive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remarkable": {
+        "state": "none", 
+        "score": 1.63728, 
+        "word": "remarkable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "noteworthy": {
+        "state": "none", 
+        "score": 1.44476, 
+        "word": "noteworthy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crucial": {
+        "state": "none", 
+        "score": 2.17369, 
+        "word": "crucial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accurate": {
+        "state": "none", 
+        "score": 2.03089, 
+        "word": "accurate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "precarious": {
+        "state": "none", 
+        "score": 1.81767, 
+        "word": "precarious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "far-reaching": {
+        "state": "none", 
+        "score": 1.68641, 
+        "word": "far-reaching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "violent": {
+        "state": "none", 
+        "score": 2.0435, 
+        "word": "violent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perceptive": {
+        "state": "none", 
+        "score": 2.34552, 
+        "word": "perceptive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elevated": {
+        "state": "none", 
+        "score": 1.76041, 
+        "word": "elevated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "controversial": {
+        "state": "none", 
+        "score": 1.40554, 
+        "word": "controversial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "responsive": {
+        "state": "none", 
+        "score": 1.43417, 
+        "word": "responsive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "utter": {
+        "state": "none", 
+        "score": 1.61807, 
+        "word": "utter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aggressive": {
+        "state": "none", 
+        "score": 1.53429, 
+        "word": "aggressive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fine": {
+        "state": "none", 
+        "score": 1.44831, 
+        "word": "fine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perilous": {
+        "state": "none", 
+        "score": 1.48274, 
+        "word": "perilous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "worrisome": {
+        "state": "none", 
+        "score": 1.86449, 
+        "word": "worrisome", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distressing": {
+        "state": "none", 
+        "score": 1.86128, 
+        "word": "distressing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dreadful": {
+        "state": "none", 
+        "score": 1.46197, 
+        "word": "dreadful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rapid": {
+        "state": "none", 
+        "score": 1.66014, 
+        "word": "rapid", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "susceptible": {
+        "state": "none", 
+        "score": 1.63413, 
+        "word": "susceptible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nervous": {
+        "state": "none", 
+        "score": 1.43191, 
+        "word": "nervous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intensive": {
+        "state": "none", 
+        "score": 2.37965, 
+        "word": "intensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "topical": {
+        "state": "none", 
+        "score": 1.97, 
+        "word": "topical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blatant": {
+        "state": "none", 
+        "score": 1.76767, 
+        "word": "blatant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "compelling": {
+        "state": "none", 
+        "score": 2.22287, 
+        "word": "compelling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crying": {
+        "state": "none", 
+        "score": 1.42623, 
+        "word": "crying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "problematic": {
+        "state": "none", 
+        "score": 1.92838, 
+        "word": "problematic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "imperative": {
+        "state": "none", 
+        "score": 2.02074, 
+        "word": "imperative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extensive": {
+        "state": "none", 
+        "score": 1.74243, 
+        "word": "extensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fatal": {
+        "state": "none", 
+        "score": 1.88753, 
+        "word": "fatal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pointed": {
+        "state": "none", 
+        "score": 2.02626, 
+        "word": "pointed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "real": {
+        "state": "none", 
+        "score": 1.63961, 
+        "word": "real", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intractable": {
+        "state": "none", 
+        "score": 2.06608, 
+        "word": "intractable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grievous": {
+        "state": "none", 
+        "score": 2.26128, 
+        "word": "grievous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "insistent": {
+        "state": "none", 
+        "score": 1.5919, 
+        "word": "insistent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_pressing": {
+        "state": "none", 
+        "score": 3.32592, 
+        "word": "very_pressing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exceptional": {
+        "state": "none", 
+        "score": 1.38778, 
+        "word": "exceptional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "big": {
+        "state": "none", 
+        "score": 1.72599, 
+        "word": "big", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disquieting": {
+        "state": "none", 
+        "score": 1.73921, 
+        "word": "disquieting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "earnest": {
+        "state": "none", 
+        "score": 1.78028, 
+        "word": "earnest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overriding": {
+        "state": "none", 
+        "score": 1.64943, 
+        "word": "overriding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "worst": {
+        "state": "none", 
+        "score": 1.67513, 
+        "word": "worst", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "marked": {
+        "state": "none", 
+        "score": 2.19427, 
+        "word": "marked", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "specific": {
+        "state": "none", 
+        "score": 1.7641, 
+        "word": "specific", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "frightening": {
+        "state": "none", 
+        "score": 1.52551, 
+        "word": "frightening", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grim": {
+        "state": "none", 
+        "score": 1.94853, 
+        "word": "grim", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vast": {
+        "state": "none", 
+        "score": 1.70937, 
+        "word": "vast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prominent": {
+        "state": "none", 
+        "score": 2.24951, 
+        "word": "prominent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "timely": {
+        "state": "none", 
+        "score": 1.38002, 
+        "word": "timely", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "imminent": {
+        "state": "none", 
+        "score": 1.93466, 
+        "word": "imminent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "respiratory": {
+        "state": "none", 
+        "score": 1.94703, 
+        "word": "respiratory", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heightened": {
+        "state": "none", 
+        "score": 2.35735, 
+        "word": "heightened", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "profound": {
+        "state": "none", 
+        "score": 2.2322, 
+        "word": "profound", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conspicuous": {
+        "state": "none", 
+        "score": 2.17266, 
+        "word": "conspicuous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vibrant": {
+        "state": "none", 
+        "score": 1.4009, 
+        "word": "vibrant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stiff": {
+        "state": "none", 
+        "score": 1.71765, 
+        "word": "stiff", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bright": {
+        "state": "none", 
+        "score": 1.61219, 
+        "word": "bright", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "large": {
+        "state": "none", 
+        "score": 1.86676, 
+        "word": "large", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bad": {
+        "state": "none", 
+        "score": 1.67513, 
+        "word": "bad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "magnitude": {
+        "state": "none", 
+        "score": 1.50104, 
+        "word": "magnitude", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spiny": {
+        "state": "none", 
+        "score": 1.46263, 
+        "word": "spiny", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quick": {
+        "state": "none", 
+        "score": 1.40269, 
+        "word": "quick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "passionate": {
+        "state": "none", 
+        "score": 1.78392, 
+        "word": "passionate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "worrying": {
+        "state": "none", 
+        "score": 1.74251, 
+        "word": "worrying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heavy": {
+        "state": "none", 
+        "score": 1.97985, 
+        "word": "heavy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catastrophic": {
+        "state": "none", 
+        "score": 1.4694, 
+        "word": "catastrophic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hard": {
+        "state": "none", 
+        "score": 1.55578, 
+        "word": "hard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "direct": {
+        "state": "none", 
+        "score": 1.47941, 
+        "word": "direct", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "potent": {
+        "state": "none", 
+        "score": 1.54526, 
+        "word": "potent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aggravated": {
+        "state": "none", 
+        "score": 2.16109, 
+        "word": "aggravated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "urgent": {
+        "state": "none", 
+        "score": 2.92147, 
+        "word": "urgent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accused": {
+        "state": "none", 
+        "score": 1.72765, 
+        "word": "accused", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gravest": {
+        "state": "none", 
+        "score": 2.64791, 
+        "word": "gravest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "desperate": {
+        "state": "none", 
+        "score": 2.33113, 
+        "word": "desperate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "horrendous": {
+        "state": "none", 
+        "score": 1.42897, 
+        "word": "horrendous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rigorous": {
+        "state": "none", 
+        "score": 1.70182, 
+        "word": "rigorous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disturbing": {
+        "state": "none", 
+        "score": 1.85113, 
+        "word": "disturbing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "short-term": {
+        "state": "none", 
+        "score": 2.17036, 
+        "word": "short-term", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acrimonious": {
+        "state": "none", 
+        "score": 2.16769, 
+        "word": "acrimonious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pronounced": {
+        "state": "none", 
+        "score": 2.54459, 
+        "word": "pronounced", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "indictable": {
+        "state": "none", 
+        "score": 1.76081, 
+        "word": "indictable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "serious": {
+        "state": "none", 
+        "score": 3.0367, 
+        "word": "serious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "short-lived": {
+        "state": "none", 
+        "score": 2.13808, 
+        "word": "short-lived", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "alarming": {
+        "state": "none", 
+        "score": 2.07884, 
+        "word": "alarming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vehement": {
+        "state": "none", 
+        "score": 1.87502, 
+        "word": "vehement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "searing": {
+        "state": "none", 
+        "score": 1.56173, 
+        "word": "searing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brief": {
+        "state": "none", 
+        "score": 1.6677, 
+        "word": "brief", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "critical": {
+        "state": "none", 
+        "score": 2.59917, 
+        "word": "critical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "volatile": {
+        "state": "none", 
+        "score": 1.38871, 
+        "word": "volatile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "obvious": {
+        "state": "none", 
+        "score": 1.80107, 
+        "word": "obvious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acute-care": {
+        "state": "none", 
+        "score": 2.78955, 
+        "word": "acute-care", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acutely": {
+        "state": "none", 
+        "score": 3.00162, 
+        "word": "acutely", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "melancholy": {
+        "state": "none", 
+        "score": 2.31992, 
+        "word": "melancholy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "notable": {
+        "state": "none", 
+        "score": 1.75089, 
+        "word": "notable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strained": {
+        "state": "none", 
+        "score": 1.59575, 
+        "word": "strained", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vicious": {
+        "state": "none", 
+        "score": 1.41844, 
+        "word": "vicious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extraordinary": {
+        "state": "none", 
+        "score": 1.58958, 
+        "word": "extraordinary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "highly_charged": {
+        "state": "none", 
+        "score": 3.53845, 
+        "word": "highly_charged", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disastrous": {
+        "state": "none", 
+        "score": 1.49622, 
+        "word": "disastrous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "worse_than_it_looks": {
+        "state": "none", 
+        "score": 3.27124, 
+        "word": "worse_than_it_looks", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dire": {
+        "state": "none", 
+        "score": 2.30097, 
+        "word": "dire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "active": {
+        "state": "none", 
+        "score": 2.43839, 
+        "word": "active", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "short-duration": {
+        "state": "none", 
+        "score": 2.07723, 
+        "word": "short-duration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ominous": {
+        "state": "none", 
+        "score": 1.55523, 
+        "word": "ominous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intense": {
+        "state": "none", 
+        "score": 2.65388, 
+        "word": "intense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extreme": {
+        "state": "none", 
+        "score": 2.52113, 
+        "word": "extreme", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "still-serving": {
+        "state": "none", 
+        "score": 1.68263, 
+        "word": "still-serving", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enormous": {
+        "state": "none", 
+        "score": 2.1242, 
+        "word": "enormous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tangible": {
+        "state": "none", 
+        "score": 1.38941, 
+        "word": "tangible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "noticeable": {
+        "state": "none", 
+        "score": 1.95688, 
+        "word": "noticeable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "poignant": {
+        "state": "none", 
+        "score": 1.90532, 
+        "word": "poignant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brutal": {
+        "state": "none", 
+        "score": 1.72211, 
+        "word": "brutal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flagged": {
+        "state": "none", 
+        "score": 1.56019, 
+        "word": "flagged", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sensitive": {
+        "state": "none", 
+        "score": 2.11466, 
+        "word": "sensitive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "egregious": {
+        "state": "none", 
+        "score": 2.0073, 
+        "word": "egregious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massive": {
+        "state": "none", 
+        "score": 1.84981, 
+        "word": "massive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "torrential": {
+        "state": "none", 
+        "score": 1.42819, 
+        "word": "torrential", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "loud": {
+        "state": "none", 
+        "score": 1.51962, 
+        "word": "loud", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "astute": {
+        "state": "none", 
+        "score": 2.12932, 
+        "word": "astute", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "delicate": {
+        "state": "none", 
+        "score": 2.17047, 
+        "word": "delicate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "treble": {
+        "state": "none", 
+        "score": 2.3095, 
+        "word": "treble", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "major": {
+        "state": "none", 
+        "score": 2.08018, 
+        "word": "major", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "daunting": {
+        "state": "none", 
+        "score": 2.03707, 
+        "word": "daunting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cutting-edge": {
+        "state": "none", 
+        "score": 1.87329, 
+        "word": "cutting-edge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "burning": {
+        "state": "none", 
+        "score": 1.7396, 
+        "word": "burning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "striking": {
+        "state": "none", 
+        "score": 1.7424, 
+        "word": "striking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "radical": {
+        "state": "none", 
+        "score": 1.69738, 
+        "word": "radical", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "powerful": {
+        "state": "none", 
+        "score": 1.74669, 
+        "word": "powerful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intellectual": {
+        "state": "none", 
+        "score": 1.50277, 
+        "word": "intellectual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chronic": {
+        "state": "none", 
+        "score": 2.2593, 
+        "word": "chronic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lively": {
+        "state": "none", 
+        "score": 1.71009, 
+        "word": "lively", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stern": {
+        "state": "none", 
+        "score": 1.89149, 
+        "word": "stern", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accentuated": {
+        "state": "none", 
+        "score": 2.47549, 
+        "word": "accentuated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pulmonary": {
+        "state": "none", 
+        "score": 2.13932, 
+        "word": "pulmonary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crisis": {
+        "state": "none", 
+        "score": 1.63357, 
+        "word": "crisis", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "very_serious": {
+        "state": "none", 
+        "score": 2.9044, 
+        "word": "very_serious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "short-stay": {
+        "state": "none", 
+        "score": 1.71743, 
+        "word": "short-stay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strong": {
+        "state": "none", 
+        "score": 2.26161, 
+        "word": "strong", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vivid": {
+        "state": "none", 
+        "score": 1.61125, 
+        "word": "vivid", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heated": {
+        "state": "none", 
+        "score": 2.06027, 
+        "word": "heated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "immense": {
+        "state": "none", 
+        "score": 1.78014, 
+        "word": "immense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tremendous": {
+        "state": "none", 
+        "score": 1.96284, 
+        "word": "tremendous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "escalated": {
+        "state": "none", 
+        "score": 1.56429, 
+        "word": "escalated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stark": {
+        "state": "none", 
+        "score": 2.08192, 
+        "word": "stark", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strict": {
+        "state": "none", 
+        "score": 1.62527, 
+        "word": "strict", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deep-rooted": {
+        "state": "none", 
+        "score": 1.57225, 
+        "word": "deep-rooted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acutely_toxic": {
+        "state": "none", 
+        "score": 2.86629, 
+        "word": "acutely_toxic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grave": {
+        "state": "none", 
+        "score": 2.64791, 
+        "word": "grave", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "high-profile": {
+        "state": "none", 
+        "score": 1.39291, 
+        "word": "high-profile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tragic": {
+        "state": "none", 
+        "score": 1.74424, 
+        "word": "tragic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "definite": {
+        "state": "none", 
+        "score": 1.41246, 
+        "word": "definite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bitter": {
+        "state": "none", 
+        "score": 1.97541, 
+        "word": "bitter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "urgently": {
+        "state": "none", 
+        "score": 1.86953, 
+        "word": "urgently", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "painful": {
+        "state": "none", 
+        "score": 1.62726, 
+        "word": "painful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distinct": {
+        "state": "none", 
+        "score": 1.58301, 
+        "word": "distinct", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pervasive": {
+        "state": "none", 
+        "score": 1.75821, 
+        "word": "pervasive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flagrant": {
+        "state": "none", 
+        "score": 1.75511, 
+        "word": "flagrant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vigorous": {
+        "state": "none", 
+        "score": 1.81716, 
+        "word": "vigorous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exigency": {
+        "state": "none", 
+        "score": 1.68976, 
+        "word": "exigency", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "apparent": {
+        "state": "none", 
+        "score": 1.87961, 
+        "word": "apparent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "great": {
+        "state": "none", 
+        "score": 2.35306, 
+        "word": "great", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "immediate": {
+        "state": "none", 
+        "score": 2.47738, 
+        "word": "immediate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heinous": {
+        "state": "none", 
+        "score": 1.53705, 
+        "word": "heinous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dramatic": {
+        "state": "none", 
+        "score": 2.2838, 
+        "word": "dramatic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tense": {
+        "state": "none", 
+        "score": 1.91674, 
+        "word": "tense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "labelled": {
+        "state": "none", 
+        "score": 1.60697, 
+        "word": "labelled", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "particular": {
+        "state": "none", 
+        "score": 1.61917, 
+        "word": "particular", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "abject": {
+        "state": "none", 
+        "score": 2.06717, 
+        "word": "abject", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overwhelming": {
+        "state": "none", 
+        "score": 1.92158, 
+        "word": "overwhelming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rampant": {
+        "state": "none", 
+        "score": 1.67579, 
+        "word": "rampant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "considerable": {
+        "state": "none", 
+        "score": 2.06492, 
+        "word": "considerable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide": {
+        "state": "none", 
+        "score": 1.40265, 
+        "word": "wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terrible": {
+        "state": "none", 
+        "score": 1.8669, 
+        "word": "terrible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "utmost": {
+        "state": "none", 
+        "score": 1.78323, 
+        "word": "utmost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incisive": {
+        "state": "none", 
+        "score": 2.16665, 
+        "word": "incisive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "evident": {
+        "state": "none", 
+        "score": 1.8417, 
+        "word": "evident", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dialed": {
+        "state": "none", 
+        "score": 1.62624, 
+        "word": "dialed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dangerous": {
+        "state": "none", 
+        "score": 1.92563, 
+        "word": "dangerous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "maximum": {
+        "state": "none", 
+        "score": 1.39533, 
+        "word": "maximum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cruel": {
+        "state": "none", 
+        "score": 1.79197, 
+        "word": "cruel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pressing": {
+        "state": "none", 
+        "score": 2.58218, 
+        "word": "pressing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "abrupt": {
+        "state": "none", 
+        "score": 1.50617, 
+        "word": "abrupt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "visible": {
+        "state": "none", 
+        "score": 1.52595, 
+        "word": "visible", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "emotional": {
+        "state": "none", 
+        "score": 1.42737, 
+        "word": "emotional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "steep": {
+        "state": "none", 
+        "score": 2.33877, 
+        "word": "steep", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "clear": {
+        "state": "none", 
+        "score": 1.56982, 
+        "word": "clear", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sombre": {
+        "state": "none", 
+        "score": 1.60898, 
+        "word": "sombre", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "penetrating": {
+        "state": "none", 
+        "score": 2.13014, 
+        "word": "penetrating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "contentious": {
+        "state": "none", 
+        "score": 1.61412, 
+        "word": "contentious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "challenging": {
+        "state": "none", 
+        "score": 1.97031, 
+        "word": "challenging", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "life-threatening": {
+        "state": "none", 
+        "score": 1.95318, 
+        "word": "life-threatening", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outstanding": {
+        "state": "none", 
+        "score": 2.01601, 
+        "word": "outstanding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sincere": {
+        "state": "none", 
+        "score": 1.38825, 
+        "word": "sincere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deep": {
+        "state": "none", 
+        "score": 2.21369, 
+        "word": "deep", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in-depth": {
+        "state": "none", 
+        "score": 1.65491, 
+        "word": "in-depth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "high": {
+        "state": "none", 
+        "score": 1.97504, 
+        "word": "high", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "substantial": {
+        "state": "none", 
+        "score": 2.04326, 
+        "word": "substantial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drastic": {
+        "state": "none", 
+        "score": 2.23937, 
+        "word": "drastic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sharp": {
+        "state": "none", 
+        "score": 2.80187, 
+        "word": "sharp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "absolute": {
+        "state": "none", 
+        "score": 2.18089, 
+        "word": "absolute", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "huge": {
+        "state": "none", 
+        "score": 1.95641, 
+        "word": "huge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thoughtful": {
+        "state": "none", 
+        "score": 1.37797, 
+        "word": "thoughtful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "harsh": {
+        "state": "none", 
+        "score": 2.16432, 
+        "word": "harsh", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tough": {
+        "state": "none", 
+        "score": 2.0822, 
+        "word": "tough", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "keen": {
+        "state": "none", 
+        "score": 2.20419, 
+        "word": "keen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deadly": {
+        "state": "none", 
+        "score": 1.53454, 
+        "word": "deadly", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "individual": {
+        "state": "none", 
+        "score": 1.71294, 
+        "word": "individual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sudden": {
+        "state": "none", 
+        "score": 2.09102, 
+        "word": "sudden", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "troubling": {
+        "state": "none", 
+        "score": 1.74639, 
+        "word": "troubling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thorough": {
+        "state": "none", 
+        "score": 1.70464, 
+        "word": "thorough", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tight": {
+        "state": "none", 
+        "score": 1.48877, 
+        "word": "tight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hot": {
+        "state": "none", 
+        "score": 1.3907, 
+        "word": "hot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vital": {
+        "state": "none", 
+        "score": 1.56917, 
+        "word": "vital", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deep-seated": {
+        "state": "none", 
+        "score": 1.66642, 
+        "word": "deep-seated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "actual": {
+        "state": "none", 
+        "score": 1.58988, 
+        "word": "actual", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "unfortunate": {
+        "state": "none", 
+        "score": 1.4569, 
+        "word": "unfortunate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grand": {
+        "state": "none", 
+        "score": 1.56715, 
+        "word": "grand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aggravating": {
+        "state": "none", 
+        "score": 1.74343, 
+        "word": "aggravating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "widespread": {
+        "state": "none", 
+        "score": 1.67618, 
+        "word": "widespread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "glaring": {
+        "state": "none", 
+        "score": 1.82494, 
+        "word": "glaring", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "predominant": {
+        "state": "none", 
+        "score": 1.73828, 
+        "word": "predominant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "emphatic": {
+        "state": "none", 
+        "score": 1.65481, 
+        "word": "emphatic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "difficult": {
+        "state": "none", 
+        "score": 2.3303, 
+        "word": "difficult", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heartfelt": {
+        "state": "none", 
+        "score": 1.51686, 
+        "word": "heartfelt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "paramount": {
+        "state": "none", 
+        "score": 1.70616, 
+        "word": "paramount", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "separate": {
+        "state": "none", 
+        "score": 1.53568, 
+        "word": "separate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toxic": {
+        "state": "none", 
+        "score": 1.61873, 
+        "word": "toxic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broad": {
+        "state": "none", 
+        "score": 1.39424, 
+        "word": "broad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "onerous": {
+        "state": "none", 
+        "score": 1.52718, 
+        "word": "onerous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "harmful": {
+        "state": "none", 
+        "score": 1.40651, 
+        "word": "harmful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "severe": {
+        "state": "none", 
+        "score": 3.18559, 
+        "word": "severe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "important": {
+        "state": "none", 
+        "score": 1.8484, 
+        "word": "important", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appreciable": {
+        "state": "none", 
+        "score": 1.42, 
+        "word": "appreciable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "significant": {
+        "state": "none", 
+        "score": 2.39127, 
+        "word": "significant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "harrowing": {
+        "state": "none", 
+        "score": 1.69264, 
+        "word": "harrowing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fierce": {
+        "state": "none", 
+        "score": 2.34571, 
+        "word": "fierce", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "robust": {
+        "state": "none", 
+        "score": 1.57691, 
+        "word": "robust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "meaningful": {
+        "state": "none", 
+        "score": 1.42628, 
+        "word": "meaningful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fervent": {
+        "state": "none", 
+        "score": 1.64962, 
+        "word": "fervent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bleak": {
+        "state": "none", 
+        "score": 1.5336, 
+        "word": "bleak", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tricky": {
+        "state": "none", 
+        "score": 1.70466, 
+        "word": "tricky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "short": {
+        "state": "none", 
+        "score": 1.92366, 
+        "word": "short", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "austere": {
+        "state": "none", 
+        "score": 1.57886, 
+        "word": "austere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prevalent": {
+        "state": "none", 
+        "score": 1.59187, 
+        "word": "prevalent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peremptory": {
+        "state": "none", 
+        "score": 1.52441, 
+        "word": "peremptory", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "preoccupying": {
+        "state": "none", 
+        "score": 1.78938, 
+        "word": "preoccupying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "anxious": {
+        "state": "none", 
+        "score": 1.38947, 
+        "word": "anxious", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "forceful": {
+        "state": "none", 
+        "score": 1.52485, 
+        "word": "forceful", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "devastating": {
+        "state": "none", 
+        "score": 1.89735, 
+        "word": "devastating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "arduous": {
+        "state": "none", 
+        "score": 1.46092, 
+        "word": "arduous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "persistent": {
+        "state": "none", 
+        "score": 1.45107, 
+        "word": "persistent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appalling": {
+        "state": "none", 
+        "score": 1.48044, 
+        "word": "appalling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "formidable": {
+        "state": "none", 
+        "score": 1.94609, 
+        "word": "formidable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gross": {
+        "state": "none", 
+        "score": 1.88497, 
+        "word": "gross", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thorny": {
+        "state": "none", 
+        "score": 1.83224, 
+        "word": "thorny", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weighty": {
+        "state": "none", 
+        "score": 1.56792, 
+        "word": "weighty", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fundamental": {
+        "state": "none", 
+        "score": 1.45586, 
+        "word": "fundamental", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distinctive": {
+        "state": "none", 
+        "score": 1.48883, 
+        "word": "distinctive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "salient": {
+        "state": "none", 
+        "score": 1.8673, 
+        "word": "salient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "draconian": {
+        "state": "none", 
+        "score": 1.55167, 
+        "word": "draconian", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strenuous": {
+        "state": "none", 
+        "score": 1.86233, 
+        "word": "strenuous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "acute", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

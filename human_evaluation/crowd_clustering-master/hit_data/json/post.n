@@ -1,0 +1,2317 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "gs": {
+        "state": "none", 
+        "score": 2.11131, 
+        "word": "gs", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "office": {
+        "state": "none", 
+        "score": 1.61757, 
+        "word": "office", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "show": {
+        "state": "none", 
+        "score": 1.417, 
+        "word": "show", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gate": {
+        "state": "none", 
+        "score": 1.47036, 
+        "word": "gate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "desk": {
+        "state": "none", 
+        "score": 1.7854, 
+        "word": "desk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "results": {
+        "state": "none", 
+        "score": 2.48963, 
+        "word": "results", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "feature": {
+        "state": "none", 
+        "score": 1.49886, 
+        "word": "feature", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vacancy": {
+        "state": "none", 
+        "score": 2.01516, 
+        "word": "vacancy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "facilities": {
+        "state": "none", 
+        "score": 2.51682, 
+        "word": "facilities", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correspondance": {
+        "state": "none", 
+        "score": 1.73193, 
+        "word": "correspondance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postcode": {
+        "state": "none", 
+        "score": 2.16194, 
+        "word": "postcode", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "signs": {
+        "state": "none", 
+        "score": 2.29163, 
+        "word": "signs", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "portfolio": {
+        "state": "none", 
+        "score": 2.30538, 
+        "word": "portfolio", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chair": {
+        "state": "none", 
+        "score": 1.65491, 
+        "word": "chair", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "adjustment": {
+        "state": "none", 
+        "score": 1.40307, 
+        "word": "adjustment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postcards": {
+        "state": "none", 
+        "score": 1.77878, 
+        "word": "postcards", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staff": {
+        "state": "none", 
+        "score": 1.37604, 
+        "word": "staff", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slot": {
+        "state": "none", 
+        "score": 1.48835, 
+        "word": "slot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inlet": {
+        "state": "none", 
+        "score": 1.3914, 
+        "word": "inlet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "candidate": {
+        "state": "none", 
+        "score": 1.65334, 
+        "word": "candidate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "title": {
+        "state": "none", 
+        "score": 1.87471, 
+        "word": "title", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pcs": {
+        "state": "none", 
+        "score": 2.35012, 
+        "word": "pcs", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "occupations": {
+        "state": "none", 
+        "score": 2.78668, 
+        "word": "occupations", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "send": {
+        "state": "none", 
+        "score": 1.56122, 
+        "word": "send", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outpost": {
+        "state": "none", 
+        "score": 3.1197, 
+        "word": "outpost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terminal": {
+        "state": "none", 
+        "score": 1.65258, 
+        "word": "terminal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grade": {
+        "state": "none", 
+        "score": 1.62194, 
+        "word": "grade", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "charge": {
+        "state": "none", 
+        "score": 2.087, 
+        "word": "charge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "offers": {
+        "state": "none", 
+        "score": 2.50969, 
+        "word": "offers", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pile": {
+        "state": "none", 
+        "score": 1.52334, 
+        "word": "pile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postale": {
+        "state": "none", 
+        "score": 1.87761, 
+        "word": "postale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hind": {
+        "state": "none", 
+        "score": 1.5564, 
+        "word": "hind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "employee": {
+        "state": "none", 
+        "score": 1.55987, 
+        "word": "employee", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mail": {
+        "state": "none", 
+        "score": 2.07183, 
+        "word": "mail", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posted": {
+        "state": "none", 
+        "score": 2.23064, 
+        "word": "posted", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spot": {
+        "state": "none", 
+        "score": 2.28254, 
+        "word": "spot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postings": {
+        "state": "none", 
+        "score": 2.71459, 
+        "word": "postings", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staffing": {
+        "state": "none", 
+        "score": 1.65731, 
+        "word": "staffing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correspondence": {
+        "state": "none", 
+        "score": 2.33937, 
+        "word": "correspondence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ranking": {
+        "state": "none", 
+        "score": 1.54344, 
+        "word": "ranking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "counter": {
+        "state": "none", 
+        "score": 1.49057, 
+        "word": "counter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appointment": {
+        "state": "none", 
+        "score": 1.44513, 
+        "word": "appointment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incumbent": {
+        "state": "none", 
+        "score": 1.78948, 
+        "word": "incumbent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stop": {
+        "state": "none", 
+        "score": 1.78261, 
+        "word": "stop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mission": {
+        "state": "none", 
+        "score": 1.81053, 
+        "word": "mission", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "personnel": {
+        "state": "none", 
+        "score": 1.68825, 
+        "word": "personnel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appropriation": {
+        "state": "none", 
+        "score": 1.78899, 
+        "word": "appropriation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rank": {
+        "state": "none", 
+        "score": 1.96271, 
+        "word": "rank", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mandate": {
+        "state": "none", 
+        "score": 1.86663, 
+        "word": "mandate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "precinct": {
+        "state": "none", 
+        "score": 1.89981, 
+        "word": "precinct", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postal": {
+        "state": "none", 
+        "score": 2.86643, 
+        "word": "postal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "post-secondary": {
+        "state": "none", 
+        "score": 1.41568, 
+        "word": "post-secondary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mails": {
+        "state": "none", 
+        "score": 2.07183, 
+        "word": "mails", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "claims": {
+        "state": "none", 
+        "score": 2.32537, 
+        "word": "claims", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "term": {
+        "state": "none", 
+        "score": 1.42395, 
+        "word": "term", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "designation": {
+        "state": "none", 
+        "score": 1.7793, 
+        "word": "designation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "level": {
+        "state": "none", 
+        "score": 1.64154, 
+        "word": "level", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postcard": {
+        "state": "none", 
+        "score": 1.77878, 
+        "word": "postcard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "positions": {
+        "state": "none", 
+        "score": 2.87089, 
+        "word": "positions", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pillar": {
+        "state": "none", 
+        "score": 1.52863, 
+        "word": "pillar", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "board": {
+        "state": "none", 
+        "score": 1.45763, 
+        "word": "board", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "venue": {
+        "state": "none", 
+        "score": 1.51274, 
+        "word": "venue", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comptoir": {
+        "state": "none", 
+        "score": 1.45883, 
+        "word": "comptoir", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "item": {
+        "state": "none", 
+        "score": 1.95666, 
+        "word": "item", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "officer": {
+        "state": "none", 
+        "score": 1.74656, 
+        "word": "officer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "courrier": {
+        "state": "none", 
+        "score": 1.84339, 
+        "word": "courrier", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossing": {
+        "state": "none", 
+        "score": 1.45317, 
+        "word": "crossing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "poste": {
+        "state": "none", 
+        "score": 2.49041, 
+        "word": "poste", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heading": {
+        "state": "none", 
+        "score": 1.51988, 
+        "word": "heading", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "view": {
+        "state": "none", 
+        "score": 1.57313, 
+        "word": "view", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posn": {
+        "state": "none", 
+        "score": 2.01701, 
+        "word": "posn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "requirement": {
+        "state": "none", 
+        "score": 1.427, 
+        "word": "requirement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "set": {
+        "state": "none", 
+        "score": 1.60187, 
+        "word": "set", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "says": {
+        "state": "none", 
+        "score": 2.38869, 
+        "word": "says", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "methods": {
+        "state": "none", 
+        "score": 2.50324, 
+        "word": "methods", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "picket": {
+        "state": "none", 
+        "score": 1.58504, 
+        "word": "picket", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "count": {
+        "state": "none", 
+        "score": 1.41309, 
+        "word": "count", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "authority": {
+        "state": "none", 
+        "score": 1.4128, 
+        "word": "authority", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "seat": {
+        "state": "none", 
+        "score": 1.51926, 
+        "word": "seat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recruitment": {
+        "state": "none", 
+        "score": 1.71641, 
+        "word": "recruitment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cost": {
+        "state": "none", 
+        "score": 1.53147, 
+        "word": "cost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "displays": {
+        "state": "none", 
+        "score": 1.50404, 
+        "word": "displays", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "operation": {
+        "state": "none", 
+        "score": 1.50683, 
+        "word": "operation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "functioning": {
+        "state": "none", 
+        "score": 1.49957, 
+        "word": "functioning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "employment": {
+        "state": "none", 
+        "score": 1.45237, 
+        "word": "employment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recognition": {
+        "state": "none", 
+        "score": 1.38669, 
+        "word": "recognition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reclassification": {
+        "state": "none", 
+        "score": 1.40271, 
+        "word": "reclassification", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "category": {
+        "state": "none", 
+        "score": 1.7757, 
+        "word": "category", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cargo": {
+        "state": "none", 
+        "score": 1.63366, 
+        "word": "cargo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capacity": {
+        "state": "none", 
+        "score": 1.842, 
+        "word": "capacity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stands": {
+        "state": "none", 
+        "score": 1.65931, 
+        "word": "stands", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ex-post": {
+        "state": "none", 
+        "score": 1.93978, 
+        "word": "ex-post", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "subsequent": {
+        "state": "none", 
+        "score": 1.61993, 
+        "word": "subsequent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "section": {
+        "state": "none", 
+        "score": 1.41914, 
+        "word": "section", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sites": {
+        "state": "none", 
+        "score": 1.56042, 
+        "word": "sites", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publish": {
+        "state": "none", 
+        "score": 1.74842, 
+        "word": "publish", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "e-mail": {
+        "state": "none", 
+        "score": 1.76813, 
+        "word": "e-mail", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posteriori": {
+        "state": "none", 
+        "score": 1.9156, 
+        "word": "posteriori", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entry": {
+        "state": "none", 
+        "score": 1.38992, 
+        "word": "entry", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "messenger": {
+        "state": "none", 
+        "score": 1.47228, 
+        "word": "messenger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shipment": {
+        "state": "none", 
+        "score": 1.38325, 
+        "word": "shipment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "debit": {
+        "state": "none", 
+        "score": 1.83403, 
+        "word": "debit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "occupation": {
+        "state": "none", 
+        "score": 1.9319, 
+        "word": "occupation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "induction": {
+        "state": "none", 
+        "score": 1.44199, 
+        "word": "induction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "email": {
+        "state": "none", 
+        "score": 1.63311, 
+        "word": "email", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mail-out": {
+        "state": "none", 
+        "score": 1.46688, 
+        "word": "mail-out", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "coefficient": {
+        "state": "none", 
+        "score": 1.64992, 
+        "word": "coefficient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "edited": {
+        "state": "none", 
+        "score": 1.77925, 
+        "word": "edited", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "after": {
+        "state": "none", 
+        "score": 1.58825, 
+        "word": "after", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jobs": {
+        "state": "none", 
+        "score": 2.23936, 
+        "word": "jobs", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stance": {
+        "state": "none", 
+        "score": 1.73545, 
+        "word": "stance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tenure": {
+        "state": "none", 
+        "score": 1.98997, 
+        "word": "tenure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prosecution": {
+        "state": "none", 
+        "score": 1.68645, 
+        "word": "prosecution", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "complement": {
+        "state": "none", 
+        "score": 1.41379, 
+        "word": "complement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "punch": {
+        "state": "none", 
+        "score": 1.50552, 
+        "word": "punch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mailbox": {
+        "state": "none", 
+        "score": 1.53976, 
+        "word": "mailbox", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "job": {
+        "state": "none", 
+        "score": 2.23936, 
+        "word": "job", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "les": {
+        "state": "none", 
+        "score": 2.36794, 
+        "word": "les", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "milepost": {
+        "state": "none", 
+        "score": 2.60227, 
+        "word": "milepost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wp": {
+        "state": "none", 
+        "score": 1.41458, 
+        "word": "wp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pasta": {
+        "state": "none", 
+        "score": 1.55082, 
+        "word": "pasta", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aftermath": {
+        "state": "none", 
+        "score": 1.84666, 
+        "word": "aftermath", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "paste": {
+        "state": "none", 
+        "score": 1.5843, 
+        "word": "paste", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publication": {
+        "state": "none", 
+        "score": 1.38923, 
+        "word": "publication", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "box": {
+        "state": "none", 
+        "score": 1.51513, 
+        "word": "box", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "missions": {
+        "state": "none", 
+        "score": 1.81053, 
+        "word": "missions", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extension": {
+        "state": "none", 
+        "score": 1.90923, 
+        "word": "extension", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stations": {
+        "state": "none", 
+        "score": 1.9012, 
+        "word": "stations", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "backside": {
+        "state": "none", 
+        "score": 1.72394, 
+        "word": "backside", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "items": {
+        "state": "none", 
+        "score": 1.95666, 
+        "word": "items", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plaza": {
+        "state": "none", 
+        "score": 1.58982, 
+        "word": "plaza", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "approaches": {
+        "state": "none", 
+        "score": 2.49275, 
+        "word": "approaches", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reports": {
+        "state": "none", 
+        "score": 2.72493, 
+        "word": "reports", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "times": {
+        "state": "none", 
+        "score": 1.41732, 
+        "word": "times", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "caption": {
+        "state": "none", 
+        "score": 1.67302, 
+        "word": "caption", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "amount": {
+        "state": "none", 
+        "score": 1.44331, 
+        "word": "amount", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leadership": {
+        "state": "none", 
+        "score": 1.38032, 
+        "word": "leadership", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "place": {
+        "state": "none", 
+        "score": 1.97725, 
+        "word": "place", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "workplace": {
+        "state": "none", 
+        "score": 1.8078, 
+        "word": "workplace", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "misery": {
+        "state": "none", 
+        "score": 1.40315, 
+        "word": "misery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expense": {
+        "state": "none", 
+        "score": 1.57859, 
+        "word": "expense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "makes": {
+        "state": "none", 
+        "score": 2.07941, 
+        "word": "makes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "op": {
+        "state": "none", 
+        "score": 1.391, 
+        "word": "op", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "duty": {
+        "state": "none", 
+        "score": 1.99102, 
+        "word": "duty", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ext": {
+        "state": "none", 
+        "score": 1.52818, 
+        "word": "ext", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "destination": {
+        "state": "none", 
+        "score": 2.00423, 
+        "word": "destination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "advertisement": {
+        "state": "none", 
+        "score": 1.51068, 
+        "word": "advertisement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "classification": {
+        "state": "none", 
+        "score": 1.44217, 
+        "word": "classification", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "point": {
+        "state": "none", 
+        "score": 1.4636, 
+        "word": "point", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mailroom": {
+        "state": "none", 
+        "score": 1.60975, 
+        "word": "mailroom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pot": {
+        "state": "none", 
+        "score": 1.67888, 
+        "word": "pot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scene": {
+        "state": "none", 
+        "score": 1.53497, 
+        "word": "scene", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dispatch": {
+        "state": "none", 
+        "score": 1.60864, 
+        "word": "dispatch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outcomes": {
+        "state": "none", 
+        "score": 2.59842, 
+        "word": "outcomes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "offerings": {
+        "state": "none", 
+        "score": 2.51886, 
+        "word": "offerings", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standpoint": {
+        "state": "none", 
+        "score": 1.38244, 
+        "word": "standpoint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pole": {
+        "state": "none", 
+        "score": 2.22018, 
+        "word": "pole", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hindsight": {
+        "state": "none", 
+        "score": 1.49508, 
+        "word": "hindsight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "operator": {
+        "state": "none", 
+        "score": 1.38258, 
+        "word": "operator", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "responsibility": {
+        "state": "none", 
+        "score": 2.21848, 
+        "word": "responsibility", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "message": {
+        "state": "none", 
+        "score": 1.65743, 
+        "word": "message", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "resignation": {
+        "state": "none", 
+        "score": 1.60014, 
+        "word": "resignation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tools": {
+        "state": "none", 
+        "score": 2.53253, 
+        "word": "tools", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "career": {
+        "state": "none", 
+        "score": 1.64369, 
+        "word": "career", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standing": {
+        "state": "none", 
+        "score": 1.38012, 
+        "word": "standing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tn": {
+        "state": "none", 
+        "score": 1.62101, 
+        "word": "tn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in-office": {
+        "state": "none", 
+        "score": 1.53994, 
+        "word": "in-office", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publishing": {
+        "state": "none", 
+        "score": 1.79428, 
+        "word": "publishing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "service": {
+        "state": "none", 
+        "score": 2.05827, 
+        "word": "service", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "basis": {
+        "state": "none", 
+        "score": 1.57644, 
+        "word": "basis", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nomination": {
+        "state": "none", 
+        "score": 1.73374, 
+        "word": "nomination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "engagement": {
+        "state": "none", 
+        "score": 1.42955, 
+        "word": "engagement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "column": {
+        "state": "none", 
+        "score": 1.71665, 
+        "word": "column", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "checkpoint": {
+        "state": "none", 
+        "score": 2.13751, 
+        "word": "checkpoint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "proprietor": {
+        "state": "none", 
+        "score": 1.65568, 
+        "word": "proprietor", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "station": {
+        "state": "none", 
+        "score": 1.95465, 
+        "word": "station", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "po": {
+        "state": "none", 
+        "score": 1.92531, 
+        "word": "po", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "location": {
+        "state": "none", 
+        "score": 2.11991, 
+        "word": "location", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "function": {
+        "state": "none", 
+        "score": 1.48505, 
+        "word": "function", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "substation": {
+        "state": "none", 
+        "score": 1.93166, 
+        "word": "substation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entrance": {
+        "state": "none", 
+        "score": 1.59755, 
+        "word": "entrance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "zip": {
+        "state": "none", 
+        "score": 1.62687, 
+        "word": "zip", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posting": {
+        "state": "none", 
+        "score": 2.71459, 
+        "word": "posting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "courier": {
+        "state": "none", 
+        "score": 2.1544, 
+        "word": "courier", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ownership": {
+        "state": "none", 
+        "score": 1.5102, 
+        "word": "ownership", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "poster": {
+        "state": "none", 
+        "score": 2.37238, 
+        "word": "poster", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "factor": {
+        "state": "none", 
+        "score": 1.45539, 
+        "word": "factor", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kiosk": {
+        "state": "none", 
+        "score": 1.65955, 
+        "word": "kiosk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postmortem": {
+        "state": "none", 
+        "score": 1.50283, 
+        "word": "postmortem", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "posterior": {
+        "state": "none", 
+        "score": 2.19622, 
+        "word": "posterior", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "task": {
+        "state": "none", 
+        "score": 1.86886, 
+        "word": "task", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wake": {
+        "state": "none", 
+        "score": 1.46253, 
+        "word": "wake", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "input": {
+        "state": "none", 
+        "score": 1.60113, 
+        "word": "input", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "line": {
+        "state": "none", 
+        "score": 1.44317, 
+        "word": "line", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "departure": {
+        "state": "none", 
+        "score": 1.51987, 
+        "word": "departure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holder": {
+        "state": "none", 
+        "score": 1.61664, 
+        "word": "holder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "institution": {
+        "state": "none", 
+        "score": 1.89816, 
+        "word": "institution", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "women": {
+        "state": "none", 
+        "score": 2.32333, 
+        "word": "women", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "emploi": {
+        "state": "none", 
+        "score": 1.49349, 
+        "word": "emploi", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postsecondary": {
+        "state": "none", 
+        "score": 1.49273, 
+        "word": "postsecondary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "berth": {
+        "state": "none", 
+        "score": 1.72036, 
+        "word": "berth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "terminus": {
+        "state": "none", 
+        "score": 1.56003, 
+        "word": "terminus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "target": {
+        "state": "none", 
+        "score": 1.51761, 
+        "word": "target", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "presidency": {
+        "state": "none", 
+        "score": 1.82849, 
+        "word": "presidency", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accordance": {
+        "state": "none", 
+        "score": 1.40119, 
+        "word": "accordance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vacancies": {
+        "state": "none", 
+        "score": 2.53249, 
+        "word": "vacancies", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sentry": {
+        "state": "none", 
+        "score": 1.90405, 
+        "word": "sentry", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bids": {
+        "state": "none", 
+        "score": 2.37448, 
+        "word": "bids", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "budget": {
+        "state": "none", 
+        "score": 1.55918, 
+        "word": "budget", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "axiom": {
+        "state": "none", 
+        "score": 1.69587, 
+        "word": "axiom", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wallet": {
+        "state": "none", 
+        "score": 1.38385, 
+        "word": "wallet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chairmanship": {
+        "state": "none", 
+        "score": 1.66062, 
+        "word": "chairmanship", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "publications": {
+        "state": "none", 
+        "score": 1.38923, 
+        "word": "publications", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bureaux": {
+        "state": "none", 
+        "score": 1.58534, 
+        "word": "bureaux", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "following": {
+        "state": "none", 
+        "score": 1.82425, 
+        "word": "following", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "situation": {
+        "state": "none", 
+        "score": 1.69665, 
+        "word": "situation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entries": {
+        "state": "none", 
+        "score": 1.38992, 
+        "word": "entries", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "display": {
+        "state": "none", 
+        "score": 1.50404, 
+        "word": "display", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "election": {
+        "state": "none", 
+        "score": 1.58168, 
+        "word": "election", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "possession": {
+        "state": "none", 
+        "score": 1.37827, 
+        "word": "possession", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bureau": {
+        "state": "none", 
+        "score": 1.58534, 
+        "word": "bureau", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "servant": {
+        "state": "none", 
+        "score": 1.41605, 
+        "word": "servant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "official": {
+        "state": "none", 
+        "score": 1.60793, 
+        "word": "official", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "site": {
+        "state": "none", 
+        "score": 1.56042, 
+        "word": "site", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "efter": {
+        "state": "none", 
+        "score": 1.41065, 
+        "word": "efter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "post-production": {
+        "state": "none", 
+        "score": 2.23672, 
+        "word": "post-production", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accounting": {
+        "state": "none", 
+        "score": 1.44662, 
+        "word": "accounting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ship": {
+        "state": "none", 
+        "score": 1.42144, 
+        "word": "ship", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "work": {
+        "state": "none", 
+        "score": 1.71294, 
+        "word": "work", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "border": {
+        "state": "none", 
+        "score": 1.53126, 
+        "word": "border", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "retrospect": {
+        "state": "none", 
+        "score": 1.72381, 
+        "word": "retrospect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transmittal": {
+        "state": "none", 
+        "score": 1.38858, 
+        "word": "transmittal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "functions": {
+        "state": "none", 
+        "score": 1.48505, 
+        "word": "functions", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strength": {
+        "state": "none", 
+        "score": 1.48829, 
+        "word": "strength", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "revocation": {
+        "state": "none", 
+        "score": 1.56305, 
+        "word": "revocation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "corporation": {
+        "state": "none", 
+        "score": 1.48734, 
+        "word": "corporation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stake": {
+        "state": "none", 
+        "score": 1.54011, 
+        "word": "stake", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "administration": {
+        "state": "none", 
+        "score": 1.49169, 
+        "word": "administration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tour": {
+        "state": "none", 
+        "score": 1.39908, 
+        "word": "tour", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "website": {
+        "state": "none", 
+        "score": 1.55772, 
+        "word": "website", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mast": {
+        "state": "none", 
+        "score": 1.82435, 
+        "word": "mast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "role": {
+        "state": "none", 
+        "score": 2.02073, 
+        "word": "role", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correos": {
+        "state": "none", 
+        "score": 1.7197, 
+        "word": "correos", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "department": {
+        "state": "none", 
+        "score": 1.50618, 
+        "word": "department", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "performance": {
+        "state": "none", 
+        "score": 1.61162, 
+        "word": "performance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "establishment": {
+        "state": "none", 
+        "score": 1.55749, 
+        "word": "establishment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stand": {
+        "state": "none", 
+        "score": 1.65931, 
+        "word": "stand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perimeter": {
+        "state": "none", 
+        "score": 1.37929, 
+        "word": "perimeter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appointments": {
+        "state": "none", 
+        "score": 1.44513, 
+        "word": "appointments", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postmaster": {
+        "state": "none", 
+        "score": 1.64934, 
+        "word": "postmaster", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "centre": {
+        "state": "none", 
+        "score": 1.51962, 
+        "word": "centre", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "models": {
+        "state": "none", 
+        "score": 2.31568, 
+        "word": "models", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "assignment": {
+        "state": "none", 
+        "score": 2.33305, 
+        "word": "assignment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "finale": {
+        "state": "none", 
+        "score": 1.37982, 
+        "word": "finale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "upon": {
+        "state": "none", 
+        "score": 1.54618, 
+        "word": "upon", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "workforce": {
+        "state": "none", 
+        "score": 1.59818, 
+        "word": "workforce", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "allocation": {
+        "state": "none", 
+        "score": 1.61407, 
+        "word": "allocation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "membership": {
+        "state": "none", 
+        "score": 1.71939, 
+        "word": "membership", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "power": {
+        "state": "none", 
+        "score": 1.54835, 
+        "word": "power", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "purpose": {
+        "state": "none", 
+        "score": 1.67637, 
+        "word": "purpose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "letter": {
+        "state": "none", 
+        "score": 1.72685, 
+        "word": "letter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "position": {
+        "state": "none", 
+        "score": 2.87089, 
+        "word": "position", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shift": {
+        "state": "none", 
+        "score": 1.44839, 
+        "word": "shift", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "functionality": {
+        "state": "none", 
+        "score": 1.87063, 
+        "word": "functionality", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "autopsy": {
+        "state": "none", 
+        "score": 1.39951, 
+        "word": "autopsy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "postage": {
+        "state": "none", 
+        "score": 1.83793, 
+        "word": "postage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "structure": {
+        "state": "none", 
+        "score": 1.47877, 
+        "word": "structure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "status": {
+        "state": "none", 
+        "score": 1.93013, 
+        "word": "status", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "workstation": {
+        "state": "none", 
+        "score": 1.85868, 
+        "word": "workstation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "washpost": {
+        "state": "none", 
+        "score": 1.66726, 
+        "word": "washpost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "placement": {
+        "state": "none", 
+        "score": 1.51722, 
+        "word": "placement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "center": {
+        "state": "none", 
+        "score": 1.58905, 
+        "word": "center", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scourge": {
+        "state": "none", 
+        "score": 1.4008, 
+        "word": "scourge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "in.": {
+        "state": "none", 
+        "score": 1.38657, 
+        "word": "in.", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "later": {
+        "state": "none", 
+        "score": 1.3978, 
+        "word": "later", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "philatelic": {
+        "state": "none", 
+        "score": 1.70684, 
+        "word": "philatelic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "headquarters": {
+        "state": "none", 
+        "score": 1.43968, 
+        "word": "headquarters", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remit": {
+        "state": "none", 
+        "score": 1.40818, 
+        "word": "remit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "afterwards": {
+        "state": "none", 
+        "score": 1.43932, 
+        "word": "afterwards", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "booth": {
+        "state": "none", 
+        "score": 1.84219, 
+        "word": "booth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "points": {
+        "state": "none", 
+        "score": 1.4636, 
+        "word": "points", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "command": {
+        "state": "none", 
+        "score": 1.5557, 
+        "word": "command", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correlation": {
+        "state": "none", 
+        "score": 1.54711, 
+        "word": "correlation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "representation": {
+        "state": "none", 
+        "score": 1.62566, 
+        "word": "representation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "freighter": {
+        "state": "none", 
+        "score": 1.93245, 
+        "word": "freighter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mailing": {
+        "state": "none", 
+        "score": 1.44811, 
+        "word": "mailing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "post", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

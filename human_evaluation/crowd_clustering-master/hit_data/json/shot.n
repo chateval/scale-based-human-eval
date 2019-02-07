@@ -1,0 +1,2597 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "cease-fire": {
+        "state": "none", 
+        "score": 1.4196, 
+        "word": "cease-fire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "coup": {
+        "state": "none", 
+        "score": 1.95582, 
+        "word": "coup", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "influenza": {
+        "state": "none", 
+        "score": 1.76522, 
+        "word": "influenza", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "show": {
+        "state": "none", 
+        "score": 1.42914, 
+        "word": "show", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "photo": {
+        "state": "none", 
+        "score": 2.2741, 
+        "word": "photo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "move": {
+        "state": "none", 
+        "score": 1.69437, 
+        "word": "move", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "setback": {
+        "state": "none", 
+        "score": 1.40332, 
+        "word": "setback", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dose": {
+        "state": "none", 
+        "score": 2.14003, 
+        "word": "dose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "course": {
+        "state": "none", 
+        "score": 1.49254, 
+        "word": "course", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wounded": {
+        "state": "none", 
+        "score": 1.94826, 
+        "word": "wounded", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kill": {
+        "state": "none", 
+        "score": 2.05153, 
+        "word": "kill", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fishing": {
+        "state": "none", 
+        "score": 1.41012, 
+        "word": "fishing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pitch": {
+        "state": "none", 
+        "score": 1.716, 
+        "word": "pitch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "touch": {
+        "state": "none", 
+        "score": 1.91388, 
+        "word": "touch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "corner": {
+        "state": "none", 
+        "score": 1.43588, 
+        "word": "corner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "yes": {
+        "state": "none", 
+        "score": 1.39027, 
+        "word": "yes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bit": {
+        "state": "none", 
+        "score": 1.62287, 
+        "word": "bit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blow": {
+        "state": "none", 
+        "score": 2.14347, 
+        "word": "blow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ambit": {
+        "state": "none", 
+        "score": 1.49486, 
+        "word": "ambit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "death": {
+        "state": "none", 
+        "score": 1.7747, 
+        "word": "death", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "layout": {
+        "state": "none", 
+        "score": 1.3796, 
+        "word": "layout", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "goblet": {
+        "state": "none", 
+        "score": 1.38604, 
+        "word": "goblet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hunting": {
+        "state": "none", 
+        "score": 1.66197, 
+        "word": "hunting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "title": {
+        "state": "none", 
+        "score": 1.5735, 
+        "word": "title", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "photographer": {
+        "state": "none", 
+        "score": 1.6117, 
+        "word": "photographer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fix": {
+        "state": "none", 
+        "score": 1.64778, 
+        "word": "fix", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thrust": {
+        "state": "none", 
+        "score": 1.54849, 
+        "word": "thrust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pickup": {
+        "state": "none", 
+        "score": 1.56837, 
+        "word": "pickup", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opportunities": {
+        "state": "none", 
+        "score": 2.25957, 
+        "word": "opportunities", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "arrest": {
+        "state": "none", 
+        "score": 1.48501, 
+        "word": "arrest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "score": {
+        "state": "none", 
+        "score": 1.7176, 
+        "word": "score", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swoop": {
+        "state": "none", 
+        "score": 1.95652, 
+        "word": "swoop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rifleman": {
+        "state": "none", 
+        "score": 1.93321, 
+        "word": "rifleman", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "captures": {
+        "state": "none", 
+        "score": 1.66148, 
+        "word": "captures", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bullet": {
+        "state": "none", 
+        "score": 2.50336, 
+        "word": "bullet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "has": {
+        "state": "none", 
+        "score": 2.33959, 
+        "word": "has", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hat": {
+        "state": "none", 
+        "score": 1.69006, 
+        "word": "hat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whack": {
+        "state": "none", 
+        "score": 1.68871, 
+        "word": "whack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hope": {
+        "state": "none", 
+        "score": 1.55622, 
+        "word": "hope", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sniper": {
+        "state": "none", 
+        "score": 1.99994, 
+        "word": "sniper", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shoot": {
+        "state": "none", 
+        "score": 2.40594, 
+        "word": "shoot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nightcap": {
+        "state": "none", 
+        "score": 1.53524, 
+        "word": "nightcap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jurisdiction": {
+        "state": "none", 
+        "score": 1.45737, 
+        "word": "jurisdiction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hit": {
+        "state": "none", 
+        "score": 2.14738, 
+        "word": "hit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swig": {
+        "state": "none", 
+        "score": 1.76917, 
+        "word": "swig", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "killer": {
+        "state": "none", 
+        "score": 1.53558, 
+        "word": "killer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "injection": {
+        "state": "none", 
+        "score": 2.48476, 
+        "word": "injection", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "expectation": {
+        "state": "none", 
+        "score": 1.47839, 
+        "word": "expectation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "break": {
+        "state": "none", 
+        "score": 1.61286, 
+        "word": "break", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "test": {
+        "state": "none", 
+        "score": 1.74752, 
+        "word": "test", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bang": {
+        "state": "none", 
+        "score": 1.44755, 
+        "word": "bang", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "touching": {
+        "state": "none", 
+        "score": 1.45402, 
+        "word": "touching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breather": {
+        "state": "none", 
+        "score": 1.83602, 
+        "word": "breather", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outlet": {
+        "state": "none", 
+        "score": 1.64415, 
+        "word": "outlet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stunt": {
+        "state": "none", 
+        "score": 1.73784, 
+        "word": "stunt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drinking": {
+        "state": "none", 
+        "score": 1.40044, 
+        "word": "drinking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blast": {
+        "state": "none", 
+        "score": 1.69369, 
+        "word": "blast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prick": {
+        "state": "none", 
+        "score": 1.79673, 
+        "word": "prick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "killed": {
+        "state": "none", 
+        "score": 1.733, 
+        "word": "killed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "target": {
+        "state": "none", 
+        "score": 1.71858, 
+        "word": "target", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "knock": {
+        "state": "none", 
+        "score": 1.71101, 
+        "word": "knock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catches": {
+        "state": "none", 
+        "score": 1.57445, 
+        "word": "catches", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pistol": {
+        "state": "none", 
+        "score": 2.00212, 
+        "word": "pistol", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fortune": {
+        "state": "none", 
+        "score": 1.62824, 
+        "word": "fortune", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tir": {
+        "state": "none", 
+        "score": 1.43134, 
+        "word": "tir", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stimulus": {
+        "state": "none", 
+        "score": 1.68897, 
+        "word": "stimulus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pinch": {
+        "state": "none", 
+        "score": 1.64923, 
+        "word": "pinch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heist": {
+        "state": "none", 
+        "score": 1.95691, 
+        "word": "heist", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shock": {
+        "state": "none", 
+        "score": 1.84857, 
+        "word": "shock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sharpshooter": {
+        "state": "none", 
+        "score": 2.18022, 
+        "word": "sharpshooter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gun": {
+        "state": "none", 
+        "score": 1.81764, 
+        "word": "gun", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "detonation": {
+        "state": "none", 
+        "score": 2.03941, 
+        "word": "detonation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "try": {
+        "state": "none", 
+        "score": 1.84883, 
+        "word": "try", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shelling": {
+        "state": "none", 
+        "score": 1.55595, 
+        "word": "shelling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "snort": {
+        "state": "none", 
+        "score": 1.77715, 
+        "word": "snort", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sinker": {
+        "state": "none", 
+        "score": 1.93404, 
+        "word": "sinker", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kroner": {
+        "state": "none", 
+        "score": 2.89429, 
+        "word": "kroner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quickie": {
+        "state": "none", 
+        "score": 1.62722, 
+        "word": "quickie", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunman": {
+        "state": "none", 
+        "score": 1.82557, 
+        "word": "gunman", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tower": {
+        "state": "none", 
+        "score": 1.4793, 
+        "word": "tower", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "steal": {
+        "state": "none", 
+        "score": 1.46289, 
+        "word": "steal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "round": {
+        "state": "none", 
+        "score": 1.69204, 
+        "word": "round", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "luck": {
+        "state": "none", 
+        "score": 2.19227, 
+        "word": "luck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flick": {
+        "state": "none", 
+        "score": 1.69122, 
+        "word": "flick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shit": {
+        "state": "none", 
+        "score": 1.73946, 
+        "word": "shit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deal": {
+        "state": "none", 
+        "score": 1.37999, 
+        "word": "deal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sequence": {
+        "state": "none", 
+        "score": 1.46789, 
+        "word": "sequence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bump": {
+        "state": "none", 
+        "score": 1.61164, 
+        "word": "bump", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "affects": {
+        "state": "none", 
+        "score": 2.88026, 
+        "word": "affects", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "footage": {
+        "state": "none", 
+        "score": 1.75426, 
+        "word": "footage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "draw": {
+        "state": "none", 
+        "score": 1.51044, 
+        "word": "draw", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dead": {
+        "state": "none", 
+        "score": 1.45213, 
+        "word": "dead", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "go": {
+        "state": "none", 
+        "score": 1.44419, 
+        "word": "go", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catching": {
+        "state": "none", 
+        "score": 1.4054, 
+        "word": "catching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "injecting": {
+        "state": "none", 
+        "score": 1.85184, 
+        "word": "injecting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "perspective": {
+        "state": "none", 
+        "score": 1.60511, 
+        "word": "perspective", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "firepower": {
+        "state": "none", 
+        "score": 1.51134, 
+        "word": "firepower", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "murderer": {
+        "state": "none", 
+        "score": 1.40976, 
+        "word": "murderer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunfighter": {
+        "state": "none", 
+        "score": 1.90915, 
+        "word": "gunfighter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slew": {
+        "state": "none", 
+        "score": 1.60593, 
+        "word": "slew", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "etir": {
+        "state": "none", 
+        "score": 1.3853, 
+        "word": "etir", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "poke": {
+        "state": "none", 
+        "score": 1.59989, 
+        "word": "poke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trapping": {
+        "state": "none", 
+        "score": 1.54267, 
+        "word": "trapping", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lead": {
+        "state": "none", 
+        "score": 1.49312, 
+        "word": "lead", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pictures": {
+        "state": "none", 
+        "score": 2.18677, 
+        "word": "pictures", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "confess": {
+        "state": "none", 
+        "score": 1.51163, 
+        "word": "confess", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "token": {
+        "state": "none", 
+        "score": 1.62553, 
+        "word": "token", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rounds": {
+        "state": "none", 
+        "score": 2.4072, 
+        "word": "rounds", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "filming": {
+        "state": "none", 
+        "score": 1.4187, 
+        "word": "filming", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pounding": {
+        "state": "none", 
+        "score": 1.5296, 
+        "word": "pounding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "experiment": {
+        "state": "none", 
+        "score": 1.4721, 
+        "word": "experiment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tyre": {
+        "state": "none", 
+        "score": 1.59588, 
+        "word": "tyre", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ammunition": {
+        "state": "none", 
+        "score": 1.57935, 
+        "word": "ammunition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "boost": {
+        "state": "none", 
+        "score": 1.73753, 
+        "word": "boost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "knife": {
+        "state": "none", 
+        "score": 1.42302, 
+        "word": "knife", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tent": {
+        "state": "none", 
+        "score": 1.49723, 
+        "word": "tent", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "caper": {
+        "state": "none", 
+        "score": 1.78147, 
+        "word": "caper", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "explosion": {
+        "state": "none", 
+        "score": 1.45375, 
+        "word": "explosion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "essay": {
+        "state": "none", 
+        "score": 1.42248, 
+        "word": "essay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hang": {
+        "state": "none", 
+        "score": 1.51383, 
+        "word": "hang", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "screen": {
+        "state": "none", 
+        "score": 1.50507, 
+        "word": "screen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sedation": {
+        "state": "none", 
+        "score": 1.56504, 
+        "word": "sedation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impetus": {
+        "state": "none", 
+        "score": 1.70285, 
+        "word": "impetus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slaughter": {
+        "state": "none", 
+        "score": 1.93805, 
+        "word": "slaughter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "punch": {
+        "state": "none", 
+        "score": 1.93033, 
+        "word": "punch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "job": {
+        "state": "none", 
+        "score": 1.93997, 
+        "word": "job", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "derive": {
+        "state": "none", 
+        "score": 1.55933, 
+        "word": "derive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "baseball": {
+        "state": "none", 
+        "score": 1.65739, 
+        "word": "baseball", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "possibility": {
+        "state": "none", 
+        "score": 1.80916, 
+        "word": "possibility", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standpoint": {
+        "state": "none", 
+        "score": 1.4731, 
+        "word": "standpoint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "killing": {
+        "state": "none", 
+        "score": 1.43459, 
+        "word": "killing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "likelihood": {
+        "state": "none", 
+        "score": 1.74606, 
+        "word": "likelihood", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "throw": {
+        "state": "none", 
+        "score": 1.8221, 
+        "word": "throw", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vaccine": {
+        "state": "none", 
+        "score": 1.838, 
+        "word": "vaccine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stage": {
+        "state": "none", 
+        "score": 1.5359, 
+        "word": "stage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stone": {
+        "state": "none", 
+        "score": 1.80754, 
+        "word": "stone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tire": {
+        "state": "none", 
+        "score": 1.44429, 
+        "word": "tire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toast": {
+        "state": "none", 
+        "score": 1.65652, 
+        "word": "toast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shag": {
+        "state": "none", 
+        "score": 1.66608, 
+        "word": "shag", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "taking": {
+        "state": "none", 
+        "score": 1.48655, 
+        "word": "taking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wounding": {
+        "state": "none", 
+        "score": 1.48903, 
+        "word": "wounding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "paperboard": {
+        "state": "none", 
+        "score": 1.54196, 
+        "word": "paperboard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "murdered": {
+        "state": "none", 
+        "score": 1.69807, 
+        "word": "murdered", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunfire": {
+        "state": "none", 
+        "score": 1.43442, 
+        "word": "gunfire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "turn": {
+        "state": "none", 
+        "score": 1.46347, 
+        "word": "turn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cliche": {
+        "state": "none", 
+        "score": 1.85783, 
+        "word": "cliche", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "takeover": {
+        "state": "none", 
+        "score": 1.69306, 
+        "word": "takeover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acquisition": {
+        "state": "none", 
+        "score": 1.39397, 
+        "word": "acquisition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swing": {
+        "state": "none", 
+        "score": 1.46421, 
+        "word": "swing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toma": {
+        "state": "none", 
+        "score": 1.4536, 
+        "word": "toma", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lancer": {
+        "state": "none", 
+        "score": 1.55263, 
+        "word": "lancer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ammo": {
+        "state": "none", 
+        "score": 1.48715, 
+        "word": "ammo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nowhere": {
+        "state": "none", 
+        "score": 1.44208, 
+        "word": "nowhere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunshot": {
+        "state": "none", 
+        "score": 3.1118, 
+        "word": "gunshot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shootings": {
+        "state": "none", 
+        "score": 2.78305, 
+        "word": "shootings", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "probability": {
+        "state": "none", 
+        "score": 1.59061, 
+        "word": "probability", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "point": {
+        "state": "none", 
+        "score": 1.38022, 
+        "word": "point", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pussy": {
+        "state": "none", 
+        "score": 1.39265, 
+        "word": "pussy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "image": {
+        "state": "none", 
+        "score": 1.67825, 
+        "word": "image", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scene": {
+        "state": "none", 
+        "score": 1.68154, 
+        "word": "scene", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "seizure": {
+        "state": "none", 
+        "score": 1.45914, 
+        "word": "seizure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bonnet": {
+        "state": "none", 
+        "score": 1.97184, 
+        "word": "bonnet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hook": {
+        "state": "none", 
+        "score": 1.47108, 
+        "word": "hook", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brush": {
+        "state": "none", 
+        "score": 1.39454, 
+        "word": "brush", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hindsight": {
+        "state": "none", 
+        "score": 1.60708, 
+        "word": "hindsight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "touchdown": {
+        "state": "none", 
+        "score": 1.61435, 
+        "word": "touchdown", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "illumination": {
+        "state": "none", 
+        "score": 1.80859, 
+        "word": "illumination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "glance": {
+        "state": "none", 
+        "score": 1.38486, 
+        "word": "glance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "range": {
+        "state": "none", 
+        "score": 1.59102, 
+        "word": "range", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "firearm": {
+        "state": "none", 
+        "score": 1.66747, 
+        "word": "firearm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fuck": {
+        "state": "none", 
+        "score": 1.54888, 
+        "word": "fuck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "builet": {
+        "state": "none", 
+        "score": 1.6382, 
+        "word": "builet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "story": {
+        "state": "none", 
+        "score": 1.45354, 
+        "word": "story", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cardboard": {
+        "state": "none", 
+        "score": 1.55902, 
+        "word": "cardboard", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "beating": {
+        "state": "none", 
+        "score": 1.51474, 
+        "word": "beating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jet": {
+        "state": "none", 
+        "score": 1.41226, 
+        "word": "jet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "resort": {
+        "state": "none", 
+        "score": 1.41721, 
+        "word": "resort", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vaccination": {
+        "state": "none", 
+        "score": 1.69451, 
+        "word": "vaccination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bite": {
+        "state": "none", 
+        "score": 2.2053, 
+        "word": "bite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swipe": {
+        "state": "none", 
+        "score": 1.41272, 
+        "word": "swipe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crossfire": {
+        "state": "none", 
+        "score": 1.50134, 
+        "word": "crossfire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slug": {
+        "state": "none", 
+        "score": 1.70521, 
+        "word": "slug", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gig": {
+        "state": "none", 
+        "score": 1.41397, 
+        "word": "gig", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "throwing": {
+        "state": "none", 
+        "score": 1.47453, 
+        "word": "throwing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bolt": {
+        "state": "none", 
+        "score": 1.38724, 
+        "word": "bolt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trigger": {
+        "state": "none", 
+        "score": 1.86519, 
+        "word": "trigger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rush": {
+        "state": "none", 
+        "score": 1.53121, 
+        "word": "rush", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lot": {
+        "state": "none", 
+        "score": 1.59069, 
+        "word": "lot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strike": {
+        "state": "none", 
+        "score": 1.6227, 
+        "word": "strike", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scope": {
+        "state": "none", 
+        "score": 1.67587, 
+        "word": "scope", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "injury": {
+        "state": "none", 
+        "score": 1.46888, 
+        "word": "injury", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "start": {
+        "state": "none", 
+        "score": 1.41666, 
+        "word": "start", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "launching": {
+        "state": "none", 
+        "score": 1.76943, 
+        "word": "launching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "phone": {
+        "state": "none", 
+        "score": 1.60231, 
+        "word": "phone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blueprint": {
+        "state": "none", 
+        "score": 1.38791, 
+        "word": "blueprint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "setup": {
+        "state": "none", 
+        "score": 1.38585, 
+        "word": "setup", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "murder": {
+        "state": "none", 
+        "score": 1.76882, 
+        "word": "murder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "retrospect": {
+        "state": "none", 
+        "score": 1.6044, 
+        "word": "retrospect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "appropriateness": {
+        "state": "none", 
+        "score": 1.42707, 
+        "word": "appropriateness", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fire": {
+        "state": "none", 
+        "score": 1.47873, 
+        "word": "fire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fora": {
+        "state": "none", 
+        "score": 2.90431, 
+        "word": "fora", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blessing": {
+        "state": "none", 
+        "score": 1.57829, 
+        "word": "blessing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "serve": {
+        "state": "none", 
+        "score": 1.54744, 
+        "word": "serve", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "infusion": {
+        "state": "none", 
+        "score": 1.82525, 
+        "word": "infusion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "infection": {
+        "state": "none", 
+        "score": 1.41168, 
+        "word": "infection", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hurt": {
+        "state": "none", 
+        "score": 1.83343, 
+        "word": "hurt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "revolver": {
+        "state": "none", 
+        "score": 1.92939, 
+        "word": "revolver", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shootout": {
+        "state": "none", 
+        "score": 2.22978, 
+        "word": "shootout", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stick": {
+        "state": "none", 
+        "score": 1.66521, 
+        "word": "stick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impulse": {
+        "state": "none", 
+        "score": 1.4765, 
+        "word": "impulse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rifle": {
+        "state": "none", 
+        "score": 1.76637, 
+        "word": "rifle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catch": {
+        "state": "none", 
+        "score": 1.57445, 
+        "word": "catch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cases": {
+        "state": "none", 
+        "score": 2.27417, 
+        "word": "cases", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grouting": {
+        "state": "none", 
+        "score": 1.38407, 
+        "word": "grouting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "harvest": {
+        "state": "none", 
+        "score": 1.6538, 
+        "word": "harvest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capturing": {
+        "state": "none", 
+        "score": 1.43685, 
+        "word": "capturing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "socket": {
+        "state": "none", 
+        "score": 1.58303, 
+        "word": "socket", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dex": {
+        "state": "none", 
+        "score": 1.62884, 
+        "word": "dex", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pull": {
+        "state": "none", 
+        "score": 1.78073, 
+        "word": "pull", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "photograph": {
+        "state": "none", 
+        "score": 2.32903, 
+        "word": "photograph", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "soccer": {
+        "state": "none", 
+        "score": 1.39939, 
+        "word": "soccer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "look": {
+        "state": "none", 
+        "score": 1.42973, 
+        "word": "look", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hitter": {
+        "state": "none", 
+        "score": 1.83106, 
+        "word": "hitter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "apprehension": {
+        "state": "none", 
+        "score": 1.63916, 
+        "word": "apprehension", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "challenge": {
+        "state": "none", 
+        "score": 1.39424, 
+        "word": "challenge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "launch": {
+        "state": "none", 
+        "score": 1.79225, 
+        "word": "launch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fishery": {
+        "state": "none", 
+        "score": 1.46317, 
+        "word": "fishery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "boss": {
+        "state": "none", 
+        "score": 1.67373, 
+        "word": "boss", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breath": {
+        "state": "none", 
+        "score": 1.79919, 
+        "word": "breath", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trick": {
+        "state": "none", 
+        "score": 1.821, 
+        "word": "trick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whiskey": {
+        "state": "none", 
+        "score": 1.86073, 
+        "word": "whiskey", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "iuck": {
+        "state": "none", 
+        "score": 1.50629, 
+        "word": "iuck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kick": {
+        "state": "none", 
+        "score": 1.89054, 
+        "word": "kick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "making": {
+        "state": "none", 
+        "score": 1.51797, 
+        "word": "making", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "piece": {
+        "state": "none", 
+        "score": 1.41575, 
+        "word": "piece", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dosage": {
+        "state": "none", 
+        "score": 1.74935, 
+        "word": "dosage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bet": {
+        "state": "none", 
+        "score": 1.3806, 
+        "word": "bet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "risky": {
+        "state": "none", 
+        "score": 1.39859, 
+        "word": "risky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prospect": {
+        "state": "none", 
+        "score": 1.84377, 
+        "word": "prospect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fisheries": {
+        "state": "none", 
+        "score": 1.46317, 
+        "word": "fisheries", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "firing": {
+        "state": "none", 
+        "score": 1.5207, 
+        "word": "firing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tomas": {
+        "state": "none", 
+        "score": 1.4515, 
+        "word": "tomas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toss": {
+        "state": "none", 
+        "score": 1.43618, 
+        "word": "toss", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bust": {
+        "state": "none", 
+        "score": 1.57277, 
+        "word": "bust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "marksmanship": {
+        "state": "none", 
+        "score": 2.18248, 
+        "word": "marksmanship", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intake": {
+        "state": "none", 
+        "score": 1.51334, 
+        "word": "intake", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "encouragement": {
+        "state": "none", 
+        "score": 1.52721, 
+        "word": "encouragement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "twist": {
+        "state": "none", 
+        "score": 1.50065, 
+        "word": "twist", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sphere": {
+        "state": "none", 
+        "score": 1.59261, 
+        "word": "sphere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stroke": {
+        "state": "none", 
+        "score": 2.21241, 
+        "word": "stroke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shell": {
+        "state": "none", 
+        "score": 1.54075, 
+        "word": "shell", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "photography": {
+        "state": "none", 
+        "score": 1.59381, 
+        "word": "photography", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "something": {
+        "state": "none", 
+        "score": 1.63337, 
+        "word": "something", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "marksman": {
+        "state": "none", 
+        "score": 1.97053, 
+        "word": "marksman", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "immunization": {
+        "state": "none", 
+        "score": 1.4097, 
+        "word": "immunization", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "portrait": {
+        "state": "none", 
+        "score": 1.45241, 
+        "word": "portrait", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plan": {
+        "state": "none", 
+        "score": 1.75899, 
+        "word": "plan", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shooting": {
+        "state": "none", 
+        "score": 2.78305, 
+        "word": "shooting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sedative": {
+        "state": "none", 
+        "score": 2.03477, 
+        "word": "sedative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "casualty": {
+        "state": "none", 
+        "score": 1.56181, 
+        "word": "casualty", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunnery": {
+        "state": "none", 
+        "score": 1.67653, 
+        "word": "gunnery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chance": {
+        "state": "none", 
+        "score": 2.50396, 
+        "word": "chance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "capture": {
+        "state": "none", 
+        "score": 1.66148, 
+        "word": "capture", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "par": {
+        "state": "none", 
+        "score": 1.5625, 
+        "word": "par", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sip": {
+        "state": "none", 
+        "score": 1.62794, 
+        "word": "sip", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "angle": {
+        "state": "none", 
+        "score": 1.74791, 
+        "word": "angle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "momentum": {
+        "state": "none", 
+        "score": 1.70543, 
+        "word": "momentum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trial": {
+        "state": "none", 
+        "score": 1.48887, 
+        "word": "trial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whisky": {
+        "state": "none", 
+        "score": 1.78951, 
+        "word": "whisky", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "video": {
+        "state": "none", 
+        "score": 1.55571, 
+        "word": "video", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tour": {
+        "state": "none", 
+        "score": 1.69096, 
+        "word": "tour", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incentive": {
+        "state": "none", 
+        "score": 1.48156, 
+        "word": "incentive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunner": {
+        "state": "none", 
+        "score": 1.82336, 
+        "word": "gunner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lamp": {
+        "state": "none", 
+        "score": 1.40097, 
+        "word": "lamp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "descend": {
+        "state": "none", 
+        "score": 1.46816, 
+        "word": "descend", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "option": {
+        "state": "none", 
+        "score": 1.6088, 
+        "word": "option", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vegetable": {
+        "state": "none", 
+        "score": 1.67995, 
+        "word": "vegetable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "timeliness": {
+        "state": "none", 
+        "score": 1.48034, 
+        "word": "timeliness", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "glassware": {
+        "state": "none", 
+        "score": 1.39309, 
+        "word": "glassware", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "roll": {
+        "state": "none", 
+        "score": 1.46713, 
+        "word": "roll", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pint": {
+        "state": "none", 
+        "score": 1.46281, 
+        "word": "pint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "injured": {
+        "state": "none", 
+        "score": 1.81303, 
+        "word": "injured", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "picture": {
+        "state": "none", 
+        "score": 2.18677, 
+        "word": "picture", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "play": {
+        "state": "none", 
+        "score": 1.43676, 
+        "word": "play", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ball": {
+        "state": "none", 
+        "score": 2.16553, 
+        "word": "ball", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "star": {
+        "state": "none", 
+        "score": 1.48193, 
+        "word": "star", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "screenshot": {
+        "state": "none", 
+        "score": 2.05163, 
+        "word": "screenshot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "needle": {
+        "state": "none", 
+        "score": 1.88632, 
+        "word": "needle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "camera": {
+        "state": "none", 
+        "score": 1.41907, 
+        "word": "camera", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drink": {
+        "state": "none", 
+        "score": 1.86023, 
+        "word": "drink", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spot": {
+        "state": "none", 
+        "score": 1.97262, 
+        "word": "spot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "carton": {
+        "state": "none", 
+        "score": 1.42725, 
+        "word": "carton", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lens": {
+        "state": "none", 
+        "score": 1.41405, 
+        "word": "lens", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "oviposition": {
+        "state": "none", 
+        "score": 1.54567, 
+        "word": "oviposition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stab": {
+        "state": "none", 
+        "score": 2.01511, 
+        "word": "stab", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lay": {
+        "state": "none", 
+        "score": 1.40382, 
+        "word": "lay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sting": {
+        "state": "none", 
+        "score": 2.19207, 
+        "word": "sting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "softball": {
+        "state": "none", 
+        "score": 1.72985, 
+        "word": "softball", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "contest": {
+        "state": "none", 
+        "score": 1.37692, 
+        "word": "contest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opportunity": {
+        "state": "none", 
+        "score": 2.25957, 
+        "word": "opportunity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thing": {
+        "state": "none", 
+        "score": 1.64185, 
+        "word": "thing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "noodle": {
+        "state": "none", 
+        "score": 1.5356, 
+        "word": "noodle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "attempt": {
+        "state": "none", 
+        "score": 1.71049, 
+        "word": "attempt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wound": {
+        "state": "none", 
+        "score": 1.61715, 
+        "word": "wound", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "batting": {
+        "state": "none", 
+        "score": 1.66339, 
+        "word": "batting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "glass": {
+        "state": "none", 
+        "score": 1.92794, 
+        "word": "glass", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shotgun": {
+        "state": "none", 
+        "score": 2.39301, 
+        "word": "shotgun", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weapon": {
+        "state": "none", 
+        "score": 1.46379, 
+        "word": "weapon", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shooter": {
+        "state": "none", 
+        "score": 2.81089, 
+        "word": "shooter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "purview": {
+        "state": "none", 
+        "score": 1.52895, 
+        "word": "purview", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "game": {
+        "state": "none", 
+        "score": 1.3844, 
+        "word": "game", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "initiate": {
+        "state": "none", 
+        "score": 1.42677, 
+        "word": "initiate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scoop": {
+        "state": "none", 
+        "score": 1.55478, 
+        "word": "scoop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "snapshot": {
+        "state": "none", 
+        "score": 2.24586, 
+        "word": "snapshot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "time": {
+        "state": "none", 
+        "score": 1.636, 
+        "word": "time", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "basket": {
+        "state": "none", 
+        "score": 1.93444, 
+        "word": "basket", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "occasion": {
+        "state": "none", 
+        "score": 1.67185, 
+        "word": "occasion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scotch": {
+        "state": "none", 
+        "score": 1.7448, 
+        "word": "scotch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "playing": {
+        "state": "none", 
+        "score": 1.53135, 
+        "word": "playing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "initiating": {
+        "state": "none", 
+        "score": 1.4366, 
+        "word": "initiating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jack": {
+        "state": "none", 
+        "score": 1.4984, 
+        "word": "jack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "shot", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

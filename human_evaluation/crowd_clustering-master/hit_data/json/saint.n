@@ -1,0 +1,213 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "sao": {
+        "state": "none", 
+        "score": 1.71213, 
+        "word": "sao", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "san": {
+        "state": "none", 
+        "score": 2.59921, 
+        "word": "san", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "angel": {
+        "state": "none", 
+        "score": 2.06708, 
+        "word": "angel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blessed": {
+        "state": "none", 
+        "score": 1.95634, 
+        "word": "blessed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pieces": {
+        "state": "none", 
+        "score": 2.3382, 
+        "word": "pieces", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cuts": {
+        "state": "none", 
+        "score": 2.07259, 
+        "word": "cuts", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "st.": {
+        "state": "none", 
+        "score": 3.20914, 
+        "word": "st.", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ts": {
+        "state": "none", 
+        "score": 2.51549, 
+        "word": "ts", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nas": {
+        "state": "none", 
+        "score": 2.48125, 
+        "word": "nas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sacred": {
+        "state": "none", 
+        "score": 1.69766, 
+        "word": "sacred", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "saint-jean": {
+        "state": "none", 
+        "score": 1.80749, 
+        "word": "saint-jean", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sainte": {
+        "state": "none", 
+        "score": 2.60079, 
+        "word": "sainte", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holy": {
+        "state": "none", 
+        "score": 2.34193, 
+        "word": "holy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sint": {
+        "state": "none", 
+        "score": 2.20961, 
+        "word": "sint", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sant": {
+        "state": "none", 
+        "score": 2.3174, 
+        "word": "sant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "santa": {
+        "state": "none", 
+        "score": 2.72335, 
+        "word": "santa", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "santo": {
+        "state": "none", 
+        "score": 2.39945, 
+        "word": "santo", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sankt": {
+        "state": "none", 
+        "score": 2.23181, 
+        "word": "sankt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "seong": {
+        "state": "none", 
+        "score": 1.45406, 
+        "word": "seong", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "apostolos": {
+        "state": "none", 
+        "score": 1.60109, 
+        "word": "apostolos", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shing": {
+        "state": "none", 
+        "score": 1.39608, 
+        "word": "shing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sans": {
+        "state": "none", 
+        "score": 1.48435, 
+        "word": "sans", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "st": {
+        "state": "none", 
+        "score": 2.60343, 
+        "word": "st", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "saint", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

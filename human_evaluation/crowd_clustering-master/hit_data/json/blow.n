@@ -1,0 +1,1701 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "coup": {
+        "state": "none", 
+        "score": 2.62794, 
+        "word": "coup", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shot": {
+        "state": "none", 
+        "score": 2.16207, 
+        "word": "shot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kiss": {
+        "state": "none", 
+        "score": 1.56325, 
+        "word": "kiss", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "violation": {
+        "state": "none", 
+        "score": 1.65349, 
+        "word": "violation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "move": {
+        "state": "none", 
+        "score": 1.70172, 
+        "word": "move", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "setback": {
+        "state": "none", 
+        "score": 2.85099, 
+        "word": "setback", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "destruction": {
+        "state": "none", 
+        "score": 1.66398, 
+        "word": "destruction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "affect": {
+        "state": "none", 
+        "score": 1.39947, 
+        "word": "affect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "touch": {
+        "state": "none", 
+        "score": 1.62014, 
+        "word": "touch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "coking": {
+        "state": "none", 
+        "score": 1.48009, 
+        "word": "coking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impact": {
+        "state": "none", 
+        "score": 2.20889, 
+        "word": "impact", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "glimpse": {
+        "state": "none", 
+        "score": 1.54752, 
+        "word": "glimpse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jolt": {
+        "state": "none", 
+        "score": 1.9364, 
+        "word": "jolt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bust": {
+        "state": "none", 
+        "score": 1.82597, 
+        "word": "bust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swoop": {
+        "state": "none", 
+        "score": 2.00757, 
+        "word": "swoop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crack": {
+        "state": "none", 
+        "score": 1.7635, 
+        "word": "crack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whips": {
+        "state": "none", 
+        "score": 1.63262, 
+        "word": "whips", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breach": {
+        "state": "none", 
+        "score": 1.42548, 
+        "word": "breach", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whack": {
+        "state": "none", 
+        "score": 1.89069, 
+        "word": "whack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kick": {
+        "state": "none", 
+        "score": 2.05046, 
+        "word": "kick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breathing": {
+        "state": "none", 
+        "score": 1.39632, 
+        "word": "breathing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hit": {
+        "state": "none", 
+        "score": 1.63071, 
+        "word": "hit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sucking": {
+        "state": "none", 
+        "score": 1.93081, 
+        "word": "sucking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "knock": {
+        "state": "none", 
+        "score": 2.3473, 
+        "word": "knock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "infringement": {
+        "state": "none", 
+        "score": 1.62116, 
+        "word": "infringement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dope": {
+        "state": "none", 
+        "score": 1.4699, 
+        "word": "dope", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kind": {
+        "state": "none", 
+        "score": 1.69206, 
+        "word": "kind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wave": {
+        "state": "none", 
+        "score": 1.68427, 
+        "word": "wave", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "break": {
+        "state": "none", 
+        "score": 1.8, 
+        "word": "break", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "set-back": {
+        "state": "none", 
+        "score": 1.75621, 
+        "word": "set-back", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "smack": {
+        "state": "none", 
+        "score": 1.75009, 
+        "word": "smack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "effects": {
+        "state": "none", 
+        "score": 1.49255, 
+        "word": "effects", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reversal": {
+        "state": "none", 
+        "score": 1.93698, 
+        "word": "reversal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stunt": {
+        "state": "none", 
+        "score": 1.69173, 
+        "word": "stunt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bit": {
+        "state": "none", 
+        "score": 1.58708, 
+        "word": "bit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blast": {
+        "state": "none", 
+        "score": 2.28509, 
+        "word": "blast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bullshit": {
+        "state": "none", 
+        "score": 1.40503, 
+        "word": "bullshit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disadvantage": {
+        "state": "none", 
+        "score": 1.92299, 
+        "word": "disadvantage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "loss": {
+        "state": "none", 
+        "score": 1.76734, 
+        "word": "loss", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "roll": {
+        "state": "none", 
+        "score": 1.67655, 
+        "word": "roll", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heist": {
+        "state": "none", 
+        "score": 1.91194, 
+        "word": "heist", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shock": {
+        "state": "none", 
+        "score": 2.78864, 
+        "word": "shock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gun": {
+        "state": "none", 
+        "score": 1.39392, 
+        "word": "gun", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "morning": {
+        "state": "none", 
+        "score": 1.5473, 
+        "word": "morning", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "explode": {
+        "state": "none", 
+        "score": 2.59956, 
+        "word": "explode", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "token": {
+        "state": "none", 
+        "score": 1.62484, 
+        "word": "token", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stuff": {
+        "state": "none", 
+        "score": 1.45154, 
+        "word": "stuff", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cokehead": {
+        "state": "none", 
+        "score": 1.82912, 
+        "word": "cokehead", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "robbery": {
+        "state": "none", 
+        "score": 1.64253, 
+        "word": "robbery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "output": {
+        "state": "none", 
+        "score": 1.39779, 
+        "word": "output", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "round": {
+        "state": "none", 
+        "score": 1.37987, 
+        "word": "round", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flick": {
+        "state": "none", 
+        "score": 1.78688, 
+        "word": "flick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "harm": {
+        "state": "none", 
+        "score": 1.91311, 
+        "word": "harm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drop": {
+        "state": "none", 
+        "score": 1.46426, 
+        "word": "drop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disaster": {
+        "state": "none", 
+        "score": 1.91345, 
+        "word": "disaster", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deal": {
+        "state": "none", 
+        "score": 1.57574, 
+        "word": "deal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "burst": {
+        "state": "none", 
+        "score": 1.96813, 
+        "word": "burst", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bump": {
+        "state": "none", 
+        "score": 1.7747, 
+        "word": "bump", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jump": {
+        "state": "none", 
+        "score": 2.18283, 
+        "word": "jump", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "battle": {
+        "state": "none", 
+        "score": 1.81029, 
+        "word": "battle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "powder": {
+        "state": "none", 
+        "score": 1.98272, 
+        "word": "powder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whip": {
+        "state": "none", 
+        "score": 1.63262, 
+        "word": "whip", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "misfortune": {
+        "state": "none", 
+        "score": 1.50838, 
+        "word": "misfortune", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "poke": {
+        "state": "none", 
+        "score": 1.62455, 
+        "word": "poke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "clash": {
+        "state": "none", 
+        "score": 1.7433, 
+        "word": "clash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tackling": {
+        "state": "none", 
+        "score": 1.61708, 
+        "word": "tackling", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "affects": {
+        "state": "none", 
+        "score": 1.39947, 
+        "word": "affects", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interference": {
+        "state": "none", 
+        "score": 1.37713, 
+        "word": "interference", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brunt": {
+        "state": "none", 
+        "score": 2.1157, 
+        "word": "brunt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "everything": {
+        "state": "none", 
+        "score": 1.38382, 
+        "word": "everything", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pounding": {
+        "state": "none", 
+        "score": 2.02331, 
+        "word": "pounding", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "score": {
+        "state": "none", 
+        "score": 1.72581, 
+        "word": "score", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trauma": {
+        "state": "none", 
+        "score": 1.83669, 
+        "word": "trauma", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "toll": {
+        "state": "none", 
+        "score": 1.80427, 
+        "word": "toll", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "downturn": {
+        "state": "none", 
+        "score": 1.71499, 
+        "word": "downturn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "beating": {
+        "state": "none", 
+        "score": 1.52835, 
+        "word": "beating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "boost": {
+        "state": "none", 
+        "score": 1.56021, 
+        "word": "boost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "knife": {
+        "state": "none", 
+        "score": 1.60137, 
+        "word": "knife", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "caper": {
+        "state": "none", 
+        "score": 1.79121, 
+        "word": "caper", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blowing": {
+        "state": "none", 
+        "score": 3.10649, 
+        "word": "blowing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "explosion": {
+        "state": "none", 
+        "score": 1.58406, 
+        "word": "explosion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nature": {
+        "state": "none", 
+        "score": 1.42974, 
+        "word": "nature", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hang": {
+        "state": "none", 
+        "score": 1.53744, 
+        "word": "hang", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "punch": {
+        "state": "none", 
+        "score": 2.27369, 
+        "word": "punch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "deathblow": {
+        "state": "none", 
+        "score": 1.83453, 
+        "word": "deathblow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combating": {
+        "state": "none", 
+        "score": 1.87998, 
+        "word": "combating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "job": {
+        "state": "none", 
+        "score": 1.97246, 
+        "word": "job", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "takeover": {
+        "state": "none", 
+        "score": 2.10601, 
+        "word": "takeover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bolt": {
+        "state": "none", 
+        "score": 1.68103, 
+        "word": "bolt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "murmur": {
+        "state": "none", 
+        "score": 1.96038, 
+        "word": "murmur", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whammy": {
+        "state": "none", 
+        "score": 2.31803, 
+        "word": "whammy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "backlash": {
+        "state": "none", 
+        "score": 2.04299, 
+        "word": "backlash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stone": {
+        "state": "none", 
+        "score": 1.76289, 
+        "word": "stone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reverse": {
+        "state": "none", 
+        "score": 1.58378, 
+        "word": "reverse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "assault": {
+        "state": "none", 
+        "score": 1.97377, 
+        "word": "assault", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "millionaire": {
+        "state": "none", 
+        "score": 1.4847, 
+        "word": "millionaire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thing": {
+        "state": "none", 
+        "score": 1.5519, 
+        "word": "thing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "prejudice": {
+        "state": "none", 
+        "score": 1.69837, 
+        "word": "prejudice", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impetus": {
+        "state": "none", 
+        "score": 1.5331, 
+        "word": "impetus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swing": {
+        "state": "none", 
+        "score": 1.63917, 
+        "word": "swing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stab": {
+        "state": "none", 
+        "score": 1.80427, 
+        "word": "stab", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "con": {
+        "state": "none", 
+        "score": 1.40913, 
+        "word": "con", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "purview": {
+        "state": "none", 
+        "score": 1.5285, 
+        "word": "purview", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "countering": {
+        "state": "none", 
+        "score": 1.8028, 
+        "word": "countering", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "straw": {
+        "state": "none", 
+        "score": 1.52238, 
+        "word": "straw", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sweep": {
+        "state": "none", 
+        "score": 1.55153, 
+        "word": "sweep", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pop": {
+        "state": "none", 
+        "score": 1.47322, 
+        "word": "pop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hook": {
+        "state": "none", 
+        "score": 1.48983, 
+        "word": "hook", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "downside": {
+        "state": "none", 
+        "score": 1.59628, 
+        "word": "downside", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hindsight": {
+        "state": "none", 
+        "score": 1.47998, 
+        "word": "hindsight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bang": {
+        "state": "none", 
+        "score": 1.90896, 
+        "word": "bang", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cocaine": {
+        "state": "none", 
+        "score": 1.87039, 
+        "word": "cocaine", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "belt": {
+        "state": "none", 
+        "score": 1.50457, 
+        "word": "belt", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breath": {
+        "state": "none", 
+        "score": 1.74912, 
+        "word": "breath", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "defeat": {
+        "state": "none", 
+        "score": 1.9409, 
+        "word": "defeat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crap": {
+        "state": "none", 
+        "score": 1.53141, 
+        "word": "crap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scourge": {
+        "state": "none", 
+        "score": 1.63353, 
+        "word": "scourge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "concussion": {
+        "state": "none", 
+        "score": 1.66811, 
+        "word": "concussion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swipe": {
+        "state": "none", 
+        "score": 1.60772, 
+        "word": "swipe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fight": {
+        "state": "none", 
+        "score": 1.52132, 
+        "word": "fight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gig": {
+        "state": "none", 
+        "score": 1.47942, 
+        "word": "gig", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "percussion": {
+        "state": "none", 
+        "score": 1.77133, 
+        "word": "percussion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "attack": {
+        "state": "none", 
+        "score": 2.36917, 
+        "word": "attack", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outflow": {
+        "state": "none", 
+        "score": 1.40463, 
+        "word": "outflow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "storm": {
+        "state": "none", 
+        "score": 1.60249, 
+        "word": "storm", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strike": {
+        "state": "none", 
+        "score": 1.99096, 
+        "word": "strike", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scope": {
+        "state": "none", 
+        "score": 1.46934, 
+        "word": "scope", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "injury": {
+        "state": "none", 
+        "score": 1.60743, 
+        "word": "injury", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "backhand": {
+        "state": "none", 
+        "score": 1.9542, 
+        "word": "backhand", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sort": {
+        "state": "none", 
+        "score": 1.55406, 
+        "word": "sort", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "enforcement": {
+        "state": "none", 
+        "score": 1.45207, 
+        "word": "enforcement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flaw": {
+        "state": "none", 
+        "score": 1.44911, 
+        "word": "flaw", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "retrospect": {
+        "state": "none", 
+        "score": 1.57705, 
+        "word": "retrospect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "coke": {
+        "state": "none", 
+        "score": 2.15564, 
+        "word": "coke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strikes": {
+        "state": "none", 
+        "score": 1.99096, 
+        "word": "strikes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "snap": {
+        "state": "none", 
+        "score": 1.51665, 
+        "word": "snap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catch": {
+        "state": "none", 
+        "score": 1.49222, 
+        "word": "catch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gunpowder": {
+        "state": "none", 
+        "score": 1.66463, 
+        "word": "gunpowder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rush": {
+        "state": "none", 
+        "score": 1.42396, 
+        "word": "rush", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "affront": {
+        "state": "none", 
+        "score": 1.5802, 
+        "word": "affront", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "defeats": {
+        "state": "none", 
+        "score": 1.9409, 
+        "word": "defeats", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "challenge": {
+        "state": "none", 
+        "score": 1.54063, 
+        "word": "challenge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accomplishment": {
+        "state": "none", 
+        "score": 1.5015, 
+        "word": "accomplishment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trick": {
+        "state": "none", 
+        "score": 1.82977, 
+        "word": "trick", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sonne": {
+        "state": "none", 
+        "score": 1.45991, 
+        "word": "sonne", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slapping": {
+        "state": "none", 
+        "score": 1.7039, 
+        "word": "slapping", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "loop": {
+        "state": "none", 
+        "score": 1.45674, 
+        "word": "loop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breathe": {
+        "state": "none", 
+        "score": 1.38092, 
+        "word": "breathe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "look": {
+        "state": "none", 
+        "score": 1.61674, 
+        "word": "look", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "onslaught": {
+        "state": "none", 
+        "score": 1.94058, 
+        "word": "onslaught", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "influence": {
+        "state": "none", 
+        "score": 1.77701, 
+        "word": "influence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fuck": {
+        "state": "none", 
+        "score": 1.83416, 
+        "word": "fuck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slap": {
+        "state": "none", 
+        "score": 2.72594, 
+        "word": "slap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "twist": {
+        "state": "none", 
+        "score": 1.65685, 
+        "word": "twist", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "collision": {
+        "state": "none", 
+        "score": 1.64127, 
+        "word": "collision", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stroke": {
+        "state": "none", 
+        "score": 2.32862, 
+        "word": "stroke", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stash": {
+        "state": "none", 
+        "score": 1.63753, 
+        "word": "stash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "offense": {
+        "state": "none", 
+        "score": 1.53543, 
+        "word": "offense", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "work": {
+        "state": "none", 
+        "score": 1.41815, 
+        "word": "work", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "takedown": {
+        "state": "none", 
+        "score": 1.3823, 
+        "word": "takedown", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shit": {
+        "state": "none", 
+        "score": 1.7611, 
+        "word": "shit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "putsch": {
+        "state": "none", 
+        "score": 1.90883, 
+        "word": "putsch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ambit": {
+        "state": "none", 
+        "score": 1.48845, 
+        "word": "ambit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "turn": {
+        "state": "none", 
+        "score": 1.41069, 
+        "word": "turn", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wound": {
+        "state": "none", 
+        "score": 2.32043, 
+        "word": "wound", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "damage": {
+        "state": "none", 
+        "score": 2.03276, 
+        "word": "damage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shocked": {
+        "state": "none", 
+        "score": 1.56256, 
+        "word": "shocked", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drawback": {
+        "state": "none", 
+        "score": 1.77477, 
+        "word": "drawback", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shag": {
+        "state": "none", 
+        "score": 1.54254, 
+        "word": "shag", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hop": {
+        "state": "none", 
+        "score": 1.74953, 
+        "word": "hop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shuttle": {
+        "state": "none", 
+        "score": 1.54684, 
+        "word": "shuttle", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "destroy": {
+        "state": "none", 
+        "score": 1.49232, 
+        "word": "destroy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "swig": {
+        "state": "none", 
+        "score": 1.73429, 
+        "word": "swig", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "failure": {
+        "state": "none", 
+        "score": 1.40341, 
+        "word": "failure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disappointment": {
+        "state": "none", 
+        "score": 1.44272, 
+        "word": "disappointment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ball": {
+        "state": "none", 
+        "score": 1.52038, 
+        "word": "ball", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combat": {
+        "state": "none", 
+        "score": 2.02136, 
+        "word": "combat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "screw": {
+        "state": "none", 
+        "score": 1.45191, 
+        "word": "screw", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drink": {
+        "state": "none", 
+        "score": 1.53119, 
+        "word": "drink", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spot": {
+        "state": "none", 
+        "score": 1.48743, 
+        "word": "spot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "effect": {
+        "state": "none", 
+        "score": 1.41123, 
+        "word": "effect", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crash": {
+        "state": "none", 
+        "score": 1.40393, 
+        "word": "crash", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fart": {
+        "state": "none", 
+        "score": 1.77916, 
+        "word": "fart", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chance": {
+        "state": "none", 
+        "score": 1.4767, 
+        "word": "chance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shake-up": {
+        "state": "none", 
+        "score": 1.74897, 
+        "word": "shake-up", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lay": {
+        "state": "none", 
+        "score": 1.49344, 
+        "word": "lay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suppression": {
+        "state": "none", 
+        "score": 1.75685, 
+        "word": "suppression", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gasp": {
+        "state": "none", 
+        "score": 1.83247, 
+        "word": "gasp", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suck": {
+        "state": "none", 
+        "score": 1.91219, 
+        "word": "suck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lanza": {
+        "state": "none", 
+        "score": 1.43217, 
+        "word": "lanza", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "achievement": {
+        "state": "none", 
+        "score": 1.57933, 
+        "word": "achievement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inspiration": {
+        "state": "none", 
+        "score": 1.51055, 
+        "word": "inspiration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crackdown": {
+        "state": "none", 
+        "score": 2.13936, 
+        "word": "crackdown", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bullet": {
+        "state": "none", 
+        "score": 1.81252, 
+        "word": "bullet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disruption": {
+        "state": "none", 
+        "score": 1.7423, 
+        "word": "disruption", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cordite": {
+        "state": "none", 
+        "score": 1.5218, 
+        "word": "cordite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wreck": {
+        "state": "none", 
+        "score": 1.45299, 
+        "word": "wreck", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flow": {
+        "state": "none", 
+        "score": 1.50559, 
+        "word": "flow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blowjob": {
+        "state": "none", 
+        "score": 2.30327, 
+        "word": "blowjob", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fighting": {
+        "state": "none", 
+        "score": 1.63476, 
+        "word": "fighting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breather": {
+        "state": "none", 
+        "score": 1.92977, 
+        "word": "breather", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pipe": {
+        "state": "none", 
+        "score": 1.5881, 
+        "word": "pipe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scoop": {
+        "state": "none", 
+        "score": 1.65962, 
+        "word": "scoop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shocker": {
+        "state": "none", 
+        "score": 1.64053, 
+        "word": "shocker", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "combatting": {
+        "state": "none", 
+        "score": 1.77757, 
+        "word": "combatting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "time": {
+        "state": "none", 
+        "score": 1.42519, 
+        "word": "time", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "detriment": {
+        "state": "none", 
+        "score": 1.73092, 
+        "word": "detriment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "attacking": {
+        "state": "none", 
+        "score": 1.8618, 
+        "word": "attacking", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wind": {
+        "state": "none", 
+        "score": 1.63998, 
+        "word": "wind", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "blow", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

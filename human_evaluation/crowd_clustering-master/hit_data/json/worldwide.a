@@ -1,0 +1,357 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "planetary": {
+        "state": "none", 
+        "score": 2.30184, 
+        "word": "planetary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "large-scale": {
+        "state": "none", 
+        "score": 1.46521, 
+        "word": "large-scale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "consolidated": {
+        "state": "none", 
+        "score": 1.52468, 
+        "word": "consolidated", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "universal": {
+        "state": "none", 
+        "score": 2.80587, 
+        "word": "universal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "global": {
+        "state": "none", 
+        "score": 3.21486, 
+        "word": "global", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "al-alam": {
+        "state": "none", 
+        "score": 1.41932, 
+        "word": "al-alam", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "general": {
+        "state": "none", 
+        "score": 1.40471, 
+        "word": "general", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "globally": {
+        "state": "none", 
+        "score": 3.11728, 
+        "word": "globally", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "globalized": {
+        "state": "none", 
+        "score": 2.20223, 
+        "word": "globalized", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inter-country": {
+        "state": "none", 
+        "score": 1.56757, 
+        "word": "inter-country", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "total": {
+        "state": "none", 
+        "score": 1.49523, 
+        "word": "total", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holistic": {
+        "state": "none", 
+        "score": 1.67219, 
+        "word": "holistic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broad": {
+        "state": "none", 
+        "score": 1.46364, 
+        "word": "broad", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "europe-wide": {
+        "state": "none", 
+        "score": 1.4881, 
+        "word": "europe-wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "internacional": {
+        "state": "none", 
+        "score": 1.67801, 
+        "word": "internacional", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "various": {
+        "state": "none", 
+        "score": 1.49583, 
+        "word": "various", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "world-famous": {
+        "state": "none", 
+        "score": 2.32838, 
+        "word": "world-famous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "international": {
+        "state": "none", 
+        "score": 2.97527, 
+        "word": "international", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "widespread": {
+        "state": "none", 
+        "score": 1.64936, 
+        "word": "widespread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "full": {
+        "state": "none", 
+        "score": 1.4924, 
+        "word": "full", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nationwide": {
+        "state": "none", 
+        "score": 2.21675, 
+        "word": "nationwide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide": {
+        "state": "none", 
+        "score": 2.27981, 
+        "word": "wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comprehensive": {
+        "state": "none", 
+        "score": 1.96974, 
+        "word": "comprehensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overall": {
+        "state": "none", 
+        "score": 2.19807, 
+        "word": "overall", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "round-the-world": {
+        "state": "none", 
+        "score": 2.01003, 
+        "word": "round-the-world", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "monde": {
+        "state": "none", 
+        "score": 1.82329, 
+        "word": "monde", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aggregate": {
+        "state": "none", 
+        "score": 1.52128, 
+        "word": "aggregate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "all-embracing": {
+        "state": "none", 
+        "score": 1.46473, 
+        "word": "all-embracing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intercountry": {
+        "state": "none", 
+        "score": 1.62097, 
+        "word": "intercountry", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "global-level": {
+        "state": "none", 
+        "score": 2.14742, 
+        "word": "global-level", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entire": {
+        "state": "none", 
+        "score": 1.60854, 
+        "word": "entire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "globalised": {
+        "state": "none", 
+        "score": 2.14215, 
+        "word": "globalised", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overarching": {
+        "state": "none", 
+        "score": 1.73407, 
+        "word": "overarching", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "all-encompassing": {
+        "state": "none", 
+        "score": 1.70733, 
+        "word": "all-encompassing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "world-class": {
+        "state": "none", 
+        "score": 2.75954, 
+        "word": "world-class", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "all-inclusive": {
+        "state": "none", 
+        "score": 1.43197, 
+        "word": "all-inclusive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mundial": {
+        "state": "none", 
+        "score": 1.69661, 
+        "word": "mundial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overseas": {
+        "state": "none", 
+        "score": 1.96067, 
+        "word": "overseas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mondial": {
+        "state": "none", 
+        "score": 1.78378, 
+        "word": "mondial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whole": {
+        "state": "none", 
+        "score": 1.73288, 
+        "word": "whole", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "world-renowned": {
+        "state": "none", 
+        "score": 2.54912, 
+        "word": "world-renowned", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "worldwide", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "a", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

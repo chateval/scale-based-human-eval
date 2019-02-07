@@ -1,0 +1,581 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "heart": {
+        "state": "none", 
+        "score": 2.00448, 
+        "word": "heart", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pulsed": {
+        "state": "none", 
+        "score": 1.44621, 
+        "word": "pulsed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "listening": {
+        "state": "none", 
+        "score": 1.61583, 
+        "word": "listening", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supply": {
+        "state": "none", 
+        "score": 1.49175, 
+        "word": "supply", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "press": {
+        "state": "none", 
+        "score": 1.79022, 
+        "word": "press", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blas": {
+        "state": "none", 
+        "score": 1.65015, 
+        "word": "blas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "upsurge": {
+        "state": "none", 
+        "score": 1.45345, 
+        "word": "upsurge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "period": {
+        "state": "none", 
+        "score": 1.61374, 
+        "word": "period", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "encouragement": {
+        "state": "none", 
+        "score": 1.93153, 
+        "word": "encouragement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transponder": {
+        "state": "none", 
+        "score": 2.59852, 
+        "word": "transponder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leguminous": {
+        "state": "none", 
+        "score": 2.33942, 
+        "word": "leguminous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "behest": {
+        "state": "none", 
+        "score": 1.87276, 
+        "word": "behest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rate": {
+        "state": "none", 
+        "score": 1.51415, 
+        "word": "rate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "initiative": {
+        "state": "none", 
+        "score": 1.49322, 
+        "word": "initiative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pulser": {
+        "state": "none", 
+        "score": 2.68703, 
+        "word": "pulser", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ripple": {
+        "state": "none", 
+        "score": 2.12697, 
+        "word": "ripple", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "click": {
+        "state": "none", 
+        "score": 1.45297, 
+        "word": "click", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fillip": {
+        "state": "none", 
+        "score": 1.64955, 
+        "word": "fillip", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "acceleration": {
+        "state": "none", 
+        "score": 2.05581, 
+        "word": "acceleration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impetus": {
+        "state": "none", 
+        "score": 1.99365, 
+        "word": "impetus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "strength": {
+        "state": "none", 
+        "score": 1.45408, 
+        "word": "strength", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leverage": {
+        "state": "none", 
+        "score": 1.49865, 
+        "word": "leverage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "driving": {
+        "state": "none", 
+        "score": 1.45159, 
+        "word": "driving", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plus": {
+        "state": "none", 
+        "score": 1.47286, 
+        "word": "plus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "guidance": {
+        "state": "none", 
+        "score": 1.64734, 
+        "word": "guidance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "incentive": {
+        "state": "none", 
+        "score": 1.78362, 
+        "word": "incentive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "traction": {
+        "state": "none", 
+        "score": 1.42332, 
+        "word": "traction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "choose": {
+        "state": "none", 
+        "score": 1.5996, 
+        "word": "choose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "input": {
+        "state": "none", 
+        "score": 1.65073, 
+        "word": "input", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "las": {
+        "state": "none", 
+        "score": 2.36184, 
+        "word": "las", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "boost": {
+        "state": "none", 
+        "score": 1.99069, 
+        "word": "boost", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "momentum": {
+        "state": "none", 
+        "score": 2.17384, 
+        "word": "momentum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stock": {
+        "state": "none", 
+        "score": 1.43744, 
+        "word": "stock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "kicks": {
+        "state": "none", 
+        "score": 2.81736, 
+        "word": "kicks", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "urge": {
+        "state": "none", 
+        "score": 1.40093, 
+        "word": "urge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "life": {
+        "state": "none", 
+        "score": 1.46181, 
+        "word": "life", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leguminosae": {
+        "state": "none", 
+        "score": 1.94891, 
+        "word": "leguminosae", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "touch": {
+        "state": "none", 
+        "score": 1.69925, 
+        "word": "touch", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "beat": {
+        "state": "none", 
+        "score": 1.66478, 
+        "word": "beat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disposition": {
+        "state": "none", 
+        "score": 1.48019, 
+        "word": "disposition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "driver": {
+        "state": "none", 
+        "score": 1.46224, 
+        "word": "driver", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spate": {
+        "state": "none", 
+        "score": 1.48789, 
+        "word": "spate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wave": {
+        "state": "none", 
+        "score": 2.01424, 
+        "word": "wave", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "legumes": {
+        "state": "none", 
+        "score": 2.17736, 
+        "word": "legumes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "viewing": {
+        "state": "none", 
+        "score": 1.4006, 
+        "word": "viewing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leadership": {
+        "state": "none", 
+        "score": 2.27263, 
+        "word": "leadership", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "catalyst": {
+        "state": "none", 
+        "score": 1.5109, 
+        "word": "catalyst", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "impulse": {
+        "state": "none", 
+        "score": 2.80813, 
+        "word": "impulse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heartbeat": {
+        "state": "none", 
+        "score": 2.87437, 
+        "word": "heartbeat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "thrust": {
+        "state": "none", 
+        "score": 1.83695, 
+        "word": "thrust", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spur": {
+        "state": "none", 
+        "score": 1.86266, 
+        "word": "spur", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vein": {
+        "state": "none", 
+        "score": 1.55708, 
+        "word": "vein", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inspiration": {
+        "state": "none", 
+        "score": 1.41206, 
+        "word": "inspiration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tide": {
+        "state": "none", 
+        "score": 1.44115, 
+        "word": "tide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pulsing": {
+        "state": "none", 
+        "score": 1.56818, 
+        "word": "pulsing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stimulus": {
+        "state": "none", 
+        "score": 2.26213, 
+        "word": "stimulus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "signal": {
+        "state": "none", 
+        "score": 1.93927, 
+        "word": "signal", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "differential": {
+        "state": "none", 
+        "score": 2.02267, 
+        "word": "differential", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "drive": {
+        "state": "none", 
+        "score": 1.60481, 
+        "word": "drive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "surge": {
+        "state": "none", 
+        "score": 1.77575, 
+        "word": "surge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "instigation": {
+        "state": "none", 
+        "score": 2.14054, 
+        "word": "instigation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "legume": {
+        "state": "none", 
+        "score": 2.17736, 
+        "word": "legume", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "grain": {
+        "state": "none", 
+        "score": 1.44579, 
+        "word": "grain", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "groundswell": {
+        "state": "none", 
+        "score": 1.41864, 
+        "word": "groundswell", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "push": {
+        "state": "none", 
+        "score": 1.64854, 
+        "word": "push", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "opinion": {
+        "state": "none", 
+        "score": 1.41226, 
+        "word": "opinion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "promotion": {
+        "state": "none", 
+        "score": 1.5374, 
+        "word": "promotion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pulsation": {
+        "state": "none", 
+        "score": 2.98329, 
+        "word": "pulsation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "influx": {
+        "state": "none", 
+        "score": 1.68933, 
+        "word": "influx", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "pulse", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

@@ -1,0 +1,1245 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "andere": {
+        "state": "none", 
+        "score": 1.42144, 
+        "word": "andere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recess": {
+        "state": "none", 
+        "score": 2.18547, 
+        "word": "recess", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "surplus": {
+        "state": "none", 
+        "score": 1.81263, 
+        "word": "surplus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "repose": {
+        "state": "none", 
+        "score": 2.54649, 
+        "word": "repose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "course": {
+        "state": "none", 
+        "score": 1.71167, 
+        "word": "course", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sleep": {
+        "state": "none", 
+        "score": 2.06146, 
+        "word": "sleep", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "alternative": {
+        "state": "none", 
+        "score": 1.89992, 
+        "word": "alternative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "welcomes": {
+        "state": "none", 
+        "score": 2.41844, 
+        "word": "welcomes", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "completion": {
+        "state": "none", 
+        "score": 1.56035, 
+        "word": "completion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pause": {
+        "state": "none", 
+        "score": 1.77846, 
+        "word": "pause", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outer": {
+        "state": "none", 
+        "score": 1.91723, 
+        "word": "outer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "implementation": {
+        "state": "none", 
+        "score": 1.44882, 
+        "word": "implementation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entirety": {
+        "state": "none", 
+        "score": 1.67736, 
+        "word": "entirety", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stopover": {
+        "state": "none", 
+        "score": 2.31425, 
+        "word": "stopover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "arrest": {
+        "state": "none", 
+        "score": 1.65939, 
+        "word": "arrest", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tranquillity": {
+        "state": "none", 
+        "score": 1.83165, 
+        "word": "tranquillity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "halftime": {
+        "state": "none", 
+        "score": 1.64362, 
+        "word": "halftime", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "suite": {
+        "state": "none", 
+        "score": 1.97322, 
+        "word": "suite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holiday": {
+        "state": "none", 
+        "score": 1.77656, 
+        "word": "holiday", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intermediation": {
+        "state": "none", 
+        "score": 1.3895, 
+        "word": "intermediation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recuperation": {
+        "state": "none", 
+        "score": 2.2589, 
+        "word": "recuperation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mainstream": {
+        "state": "none", 
+        "score": 1.72481, 
+        "word": "mainstream", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "roosting": {
+        "state": "none", 
+        "score": 2.17121, 
+        "word": "roosting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stop": {
+        "state": "none", 
+        "score": 1.72047, 
+        "word": "stop", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leisure": {
+        "state": "none", 
+        "score": 1.66985, 
+        "word": "leisure", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "break": {
+        "state": "none", 
+        "score": 2.18252, 
+        "word": "break", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "subtraction": {
+        "state": "none", 
+        "score": 1.64157, 
+        "word": "subtraction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "world": {
+        "state": "none", 
+        "score": 1.64704, 
+        "word": "world", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bit": {
+        "state": "none", 
+        "score": 1.47551, 
+        "word": "bit", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "difference": {
+        "state": "none", 
+        "score": 1.6819, 
+        "word": "difference", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continued": {
+        "state": "none", 
+        "score": 1.57399, 
+        "word": "continued", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "entire": {
+        "state": "none", 
+        "score": 1.77465, 
+        "word": "entire", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recreation": {
+        "state": "none", 
+        "score": 1.91371, 
+        "word": "recreation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "standstill": {
+        "state": "none", 
+        "score": 1.78143, 
+        "word": "standstill", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "brother": {
+        "state": "none", 
+        "score": 1.65107, 
+        "word": "brother", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ensemble": {
+        "state": "none", 
+        "score": 1.46887, 
+        "word": "ensemble", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "leave": {
+        "state": "none", 
+        "score": 1.67688, 
+        "word": "leave", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "convenience": {
+        "state": "none", 
+        "score": 1.70282, 
+        "word": "convenience", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stuff": {
+        "state": "none", 
+        "score": 1.64605, 
+        "word": "stuff", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "alia": {
+        "state": "none", 
+        "score": 1.68714, 
+        "word": "alia", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inter": {
+        "state": "none", 
+        "score": 1.52208, 
+        "word": "inter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interruption": {
+        "state": "none", 
+        "score": 1.6708, 
+        "word": "interruption", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "set": {
+        "state": "none", 
+        "score": 1.62319, 
+        "word": "set", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crowd": {
+        "state": "none", 
+        "score": 1.39981, 
+        "word": "crowd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "series": {
+        "state": "none", 
+        "score": 1.37594, 
+        "word": "series", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "second": {
+        "state": "none", 
+        "score": 1.62836, 
+        "word": "second", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "result": {
+        "state": "none", 
+        "score": 2.10387, 
+        "word": "result", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "layover": {
+        "state": "none", 
+        "score": 2.12079, 
+        "word": "layover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "duration": {
+        "state": "none", 
+        "score": 1.46735, 
+        "word": "duration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peace": {
+        "state": "none", 
+        "score": 1.4801, 
+        "word": "peace", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "residue": {
+        "state": "none", 
+        "score": 1.8294, 
+        "word": "residue", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dormancy": {
+        "state": "none", 
+        "score": 1.42017, 
+        "word": "dormancy", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "everything": {
+        "state": "none", 
+        "score": 1.89006, 
+        "word": "everything", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outside": {
+        "state": "none", 
+        "score": 1.65842, 
+        "word": "outside", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "order": {
+        "state": "none", 
+        "score": 1.57126, 
+        "word": "order", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "contrast": {
+        "state": "none", 
+        "score": 1.38438, 
+        "word": "contrast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "missing": {
+        "state": "none", 
+        "score": 1.3874, 
+        "word": "missing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "men": {
+        "state": "none", 
+        "score": 2.7896, 
+        "word": "men", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "retirement": {
+        "state": "none", 
+        "score": 1.76827, 
+        "word": "retirement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "respite": {
+        "state": "none", 
+        "score": 1.87914, 
+        "word": "respite", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "others": {
+        "state": "none", 
+        "score": 1.52734, 
+        "word": "others", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staging": {
+        "state": "none", 
+        "score": 2.04194, 
+        "word": "staging", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remainder": {
+        "state": "none", 
+        "score": 2.5653, 
+        "word": "remainder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "accommodation": {
+        "state": "none", 
+        "score": 1.4342, 
+        "word": "accommodation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "diner": {
+        "state": "none", 
+        "score": 2.20683, 
+        "word": "diner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "survivor": {
+        "state": "none", 
+        "score": 1.41807, 
+        "word": "survivor", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "restaurant": {
+        "state": "none", 
+        "score": 2.51571, 
+        "word": "restaurant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quiet": {
+        "state": "none", 
+        "score": 1.6261, 
+        "word": "quiet", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "addition": {
+        "state": "none", 
+        "score": 1.8099, 
+        "word": "addition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dinner": {
+        "state": "none", 
+        "score": 1.70393, 
+        "word": "dinner", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "place": {
+        "state": "none", 
+        "score": 1.38715, 
+        "word": "place", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holdover": {
+        "state": "none", 
+        "score": 1.48128, 
+        "word": "holdover", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "consequence": {
+        "state": "none", 
+        "score": 1.63905, 
+        "word": "consequence", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whole": {
+        "state": "none", 
+        "score": 2.15382, 
+        "word": "whole", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "otherwise": {
+        "state": "none", 
+        "score": 1.7874, 
+        "word": "otherwise", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "continuation": {
+        "state": "none", 
+        "score": 2.01967, 
+        "word": "continuation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "relaxation": {
+        "state": "none", 
+        "score": 2.26195, 
+        "word": "relaxation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "whatever": {
+        "state": "none", 
+        "score": 1.44446, 
+        "word": "whatever", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remnant": {
+        "state": "none", 
+        "score": 2.35354, 
+        "word": "remnant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "everyone": {
+        "state": "none", 
+        "score": 1.44306, 
+        "word": "everyone", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "aftermath": {
+        "state": "none", 
+        "score": 1.67334, 
+        "word": "aftermath", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "everybody": {
+        "state": "none", 
+        "score": 1.5857, 
+        "word": "everybody", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remains": {
+        "state": "none", 
+        "score": 1.93196, 
+        "word": "remains", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stoppage": {
+        "state": "none", 
+        "score": 1.63617, 
+        "word": "stoppage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "vacation": {
+        "state": "none", 
+        "score": 1.72375, 
+        "word": "vacation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "trigger": {
+        "state": "none", 
+        "score": 1.6679, 
+        "word": "trigger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "totality": {
+        "state": "none", 
+        "score": 1.62844, 
+        "word": "totality", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "store": {
+        "state": "none", 
+        "score": 1.60581, 
+        "word": "store", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "resting": {
+        "state": "none", 
+        "score": 2.80703, 
+        "word": "resting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "elsewhere": {
+        "state": "none", 
+        "score": 2.11004, 
+        "word": "elsewhere", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sequel": {
+        "state": "none", 
+        "score": 1.63826, 
+        "word": "sequel", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "else": {
+        "state": "none", 
+        "score": 1.47214, 
+        "word": "else", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bulk": {
+        "state": "none", 
+        "score": 1.45716, 
+        "word": "bulk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "part": {
+        "state": "none", 
+        "score": 1.60586, 
+        "word": "part", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wake": {
+        "state": "none", 
+        "score": 1.45327, 
+        "word": "wake", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "external": {
+        "state": "none", 
+        "score": 1.41915, 
+        "word": "external", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sleeping": {
+        "state": "none", 
+        "score": 1.83397, 
+        "word": "sleeping", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exception": {
+        "state": "none", 
+        "score": 1.50439, 
+        "word": "exception", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "slumber": {
+        "state": "none", 
+        "score": 2.15312, 
+        "word": "slumber", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "matter": {
+        "state": "none", 
+        "score": 2.01241, 
+        "word": "matter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "remain": {
+        "state": "none", 
+        "score": 1.38787, 
+        "word": "remain", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "future": {
+        "state": "none", 
+        "score": 1.64694, 
+        "word": "future", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "magnesium": {
+        "state": "none", 
+        "score": 1.40842, 
+        "word": "magnesium", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stopping": {
+        "state": "none", 
+        "score": 1.46258, 
+        "word": "stopping", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "closing": {
+        "state": "none", 
+        "score": 1.43577, 
+        "word": "closing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "balance": {
+        "state": "none", 
+        "score": 2.28458, 
+        "word": "balance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "salvage": {
+        "state": "none", 
+        "score": 1.42634, 
+        "word": "salvage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "discontinuation": {
+        "state": "none", 
+        "score": 1.84279, 
+        "word": "discontinuation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "subtract": {
+        "state": "none", 
+        "score": 1.41021, 
+        "word": "subtract", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nursing": {
+        "state": "none", 
+        "score": 1.61283, 
+        "word": "nursing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pauses": {
+        "state": "none", 
+        "score": 1.77846, 
+        "word": "pauses", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "correction": {
+        "state": "none", 
+        "score": 1.57599, 
+        "word": "correction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "share": {
+        "state": "none", 
+        "score": 1.42263, 
+        "word": "share", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fellow": {
+        "state": "none", 
+        "score": 1.6714, 
+        "word": "fellow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "way": {
+        "state": "none", 
+        "score": 1.43647, 
+        "word": "way", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exterior": {
+        "state": "none", 
+        "score": 1.55233, 
+        "word": "exterior", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reprieve": {
+        "state": "none", 
+        "score": 1.69343, 
+        "word": "reprieve", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "end": {
+        "state": "none", 
+        "score": 1.88829, 
+        "word": "end", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recovery": {
+        "state": "none", 
+        "score": 1.69867, 
+        "word": "recovery", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "etc": {
+        "state": "none", 
+        "score": 1.4856, 
+        "word": "etc", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "latter": {
+        "state": "none", 
+        "score": 1.53178, 
+        "word": "latter", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comfort": {
+        "state": "none", 
+        "score": 1.52725, 
+        "word": "comfort", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dismissed": {
+        "state": "none", 
+        "score": 1.71087, 
+        "word": "dismissed", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lounge": {
+        "state": "none", 
+        "score": 1.4783, 
+        "word": "lounge", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "majority": {
+        "state": "none", 
+        "score": 1.69029, 
+        "word": "majority", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "nap": {
+        "state": "none", 
+        "score": 1.43229, 
+        "word": "nap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "other": {
+        "state": "none", 
+        "score": 1.92793, 
+        "word": "other", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "interior": {
+        "state": "none", 
+        "score": 1.44002, 
+        "word": "interior", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reminder": {
+        "state": "none", 
+        "score": 1.82535, 
+        "word": "reminder", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "anderen": {
+        "state": "none", 
+        "score": 1.64345, 
+        "word": "anderen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "intermediary": {
+        "state": "none", 
+        "score": 1.45086, 
+        "word": "intermediary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "conclusion": {
+        "state": "none", 
+        "score": 1.46688, 
+        "word": "conclusion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "staying": {
+        "state": "none", 
+        "score": 2.13993, 
+        "word": "staying", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "finish": {
+        "state": "none", 
+        "score": 1.44233, 
+        "word": "finish", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "miscellaneous": {
+        "state": "none", 
+        "score": 1.60984, 
+        "word": "miscellaneous", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stay": {
+        "state": "none", 
+        "score": 1.92242, 
+        "word": "stay", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "cessation": {
+        "state": "none", 
+        "score": 1.63438, 
+        "word": "cessation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "purpose": {
+        "state": "none", 
+        "score": 1.77697, 
+        "word": "purpose", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "termination": {
+        "state": "none", 
+        "score": 1.59128, 
+        "word": "termination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "judgment": {
+        "state": "none", 
+        "score": 1.71594, 
+        "word": "judgment", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "response": {
+        "state": "none", 
+        "score": 1.60289, 
+        "word": "response", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "recapture": {
+        "state": "none", 
+        "score": 1.45598, 
+        "word": "recapture", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "judgement": {
+        "state": "none", 
+        "score": 1.51766, 
+        "word": "judgement", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "breather": {
+        "state": "none", 
+        "score": 1.60023, 
+        "word": "breather", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "portion": {
+        "state": "none", 
+        "score": 1.58093, 
+        "word": "portion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "relief": {
+        "state": "none", 
+        "score": 1.65575, 
+        "word": "relief", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "time": {
+        "state": "none", 
+        "score": 1.52166, 
+        "word": "time", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shortfall": {
+        "state": "none", 
+        "score": 1.58064, 
+        "word": "shortfall", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "left": {
+        "state": "none", 
+        "score": 1.82948, 
+        "word": "left", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "retrieval": {
+        "state": "none", 
+        "score": 1.43736, 
+        "word": "retrieval", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "fact": {
+        "state": "none", 
+        "score": 1.73931, 
+        "word": "fact", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "reserve": {
+        "state": "none", 
+        "score": 1.56492, 
+        "word": "reserve", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "rest", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}

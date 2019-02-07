@@ -1,0 +1,1117 @@
+{
+  "old_data": [], 
+  "crowdstarter": {}, 
+  "ppset": {
+    "pp_dict": {
+      "volume": {
+        "state": "none", 
+        "score": 1.99785, 
+        "word": "volume", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "messe": {
+        "state": "none", 
+        "score": 1.77094, 
+        "word": "messe", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massage": {
+        "state": "none", 
+        "score": 1.66725, 
+        "word": "massage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dough": {
+        "state": "none", 
+        "score": 1.43685, 
+        "word": "dough", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gang": {
+        "state": "none", 
+        "score": 1.57598, 
+        "word": "gang", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "earth": {
+        "state": "none", 
+        "score": 1.53952, 
+        "word": "earth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ground": {
+        "state": "none", 
+        "score": 1.62925, 
+        "word": "ground", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "holistic": {
+        "state": "none", 
+        "score": 1.60706, 
+        "word": "holistic", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "group": {
+        "state": "none", 
+        "score": 1.54814, 
+        "word": "group", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "density": {
+        "state": "none", 
+        "score": 1.61915, 
+        "word": "density", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plethora": {
+        "state": "none", 
+        "score": 1.41826, 
+        "word": "plethora", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massing": {
+        "state": "none", 
+        "score": 2.42551, 
+        "word": "massing", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "spread": {
+        "state": "none", 
+        "score": 1.52812, 
+        "word": "spread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pile": {
+        "state": "none", 
+        "score": 1.46408, 
+        "word": "pile", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "instruments": {
+        "state": "none", 
+        "score": 2.68028, 
+        "word": "instruments", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "extensive": {
+        "state": "none", 
+        "score": 1.88982, 
+        "word": "extensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massif": {
+        "state": "none", 
+        "score": 1.96444, 
+        "word": "massif", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mainstream": {
+        "state": "none", 
+        "score": 1.92797, 
+        "word": "mainstream", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "means": {
+        "state": "none", 
+        "score": 1.38203, 
+        "word": "means", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "blanket": {
+        "state": "none", 
+        "score": 1.50937, 
+        "word": "blanket", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massacre": {
+        "state": "none", 
+        "score": 2.02044, 
+        "word": "massacre", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "press": {
+        "state": "none", 
+        "score": 1.37849, 
+        "word": "press", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mob": {
+        "state": "none", 
+        "score": 1.66754, 
+        "word": "mob", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "meat": {
+        "state": "none", 
+        "score": 1.92759, 
+        "word": "meat", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "transmission": {
+        "state": "none", 
+        "score": 1.52431, 
+        "word": "transmission", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "collective": {
+        "state": "none", 
+        "score": 1.97339, 
+        "word": "collective", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "summary": {
+        "state": "none", 
+        "score": 1.40756, 
+        "word": "summary", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "communications": {
+        "state": "none", 
+        "score": 1.49489, 
+        "word": "communications", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "magnitude": {
+        "state": "none", 
+        "score": 1.7946, 
+        "word": "magnitude", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "common": {
+        "state": "none", 
+        "score": 1.46272, 
+        "word": "common", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "overview": {
+        "state": "none", 
+        "score": 1.45613, 
+        "word": "overview", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "qualitative": {
+        "state": "none", 
+        "score": 1.42363, 
+        "word": "qualitative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weight": {
+        "state": "none", 
+        "score": 1.82644, 
+        "word": "weight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "series": {
+        "state": "none", 
+        "score": 1.49753, 
+        "word": "series", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "biomass": {
+        "state": "none", 
+        "score": 1.91898, 
+        "word": "biomass", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "signage": {
+        "state": "none", 
+        "score": 1.38823, 
+        "word": "signage", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "umbrella": {
+        "state": "none", 
+        "score": 1.63258, 
+        "word": "umbrella", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "hammer": {
+        "state": "none", 
+        "score": 1.88443, 
+        "word": "hammer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "shamil": {
+        "state": "none", 
+        "score": 1.45938, 
+        "word": "shamil", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "scale": {
+        "state": "none", 
+        "score": 2.08576, 
+        "word": "scale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sum": {
+        "state": "none", 
+        "score": 1.38685, 
+        "word": "sum", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "public": {
+        "state": "none", 
+        "score": 1.87151, 
+        "word": "public", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "multitude": {
+        "state": "none", 
+        "score": 1.88425, 
+        "word": "multitude", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "body": {
+        "state": "none", 
+        "score": 1.86167, 
+        "word": "body", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "exodus": {
+        "state": "none", 
+        "score": 1.60107, 
+        "word": "exodus", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "volkswagen": {
+        "state": "none", 
+        "score": 1.5874, 
+        "word": "volkswagen", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "les": {
+        "state": "none", 
+        "score": 2.32765, 
+        "word": "les", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pasta": {
+        "state": "none", 
+        "score": 1.47781, 
+        "word": "pasta", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "distribution": {
+        "state": "none", 
+        "score": 1.55399, 
+        "word": "distribution", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "collectivity": {
+        "state": "none", 
+        "score": 1.65631, 
+        "word": "collectivity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "limits": {
+        "state": "none", 
+        "score": 2.48681, 
+        "word": "limits", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disseminate": {
+        "state": "none", 
+        "score": 1.56772, 
+        "word": "disseminate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "tumor": {
+        "state": "none", 
+        "score": 1.4248, 
+        "word": "tumor", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "amount": {
+        "state": "none", 
+        "score": 1.79694, 
+        "word": "amount", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "chassis": {
+        "state": "none", 
+        "score": 1.60343, 
+        "word": "chassis", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "genocide": {
+        "state": "none", 
+        "score": 1.50885, 
+        "word": "genocide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massive": {
+        "state": "none", 
+        "score": 2.75406, 
+        "word": "massive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "influx": {
+        "state": "none", 
+        "score": 1.56277, 
+        "word": "influx", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "load": {
+        "state": "none", 
+        "score": 1.4851, 
+        "word": "load", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "significant": {
+        "state": "none", 
+        "score": 1.71453, 
+        "word": "significant", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "large-scale": {
+        "state": "none", 
+        "score": 1.8385, 
+        "word": "large-scale", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "communication": {
+        "state": "none", 
+        "score": 1.56439, 
+        "word": "communication", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "forklift": {
+        "state": "none", 
+        "score": 1.47825, 
+        "word": "forklift", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "community": {
+        "state": "none", 
+        "score": 1.4903, 
+        "word": "community", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "church": {
+        "state": "none", 
+        "score": 1.72936, 
+        "word": "church", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quality": {
+        "state": "none", 
+        "score": 1.54039, 
+        "word": "quality", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "size": {
+        "state": "none", 
+        "score": 1.62298, 
+        "word": "size", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sledgehammer": {
+        "state": "none", 
+        "score": 2.20687, 
+        "word": "sledgehammer", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "devastation": {
+        "state": "none", 
+        "score": 1.68997, 
+        "word": "devastation", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "landmass": {
+        "state": "none", 
+        "score": 2.30633, 
+        "word": "landmass", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wealth": {
+        "state": "none", 
+        "score": 1.84521, 
+        "word": "wealth", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "service": {
+        "state": "none", 
+        "score": 1.47198, 
+        "word": "service", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mobilization": {
+        "state": "none", 
+        "score": 1.49392, 
+        "word": "mobilization", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "addition": {
+        "state": "none", 
+        "score": 1.38355, 
+        "word": "addition", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "inclusive": {
+        "state": "none", 
+        "score": 1.62782, 
+        "word": "inclusive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "teamwork": {
+        "state": "none", 
+        "score": 1.53827, 
+        "word": "teamwork", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lot": {
+        "state": "none", 
+        "score": 1.468, 
+        "word": "lot", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bloc": {
+        "state": "none", 
+        "score": 1.78607, 
+        "word": "bloc", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "las": {
+        "state": "none", 
+        "score": 2.90201, 
+        "word": "las", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "sufficient": {
+        "state": "none", 
+        "score": 1.38303, 
+        "word": "sufficient", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broadcast": {
+        "state": "none", 
+        "score": 1.66128, 
+        "word": "broadcast", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "dissemination": {
+        "state": "none", 
+        "score": 1.59476, 
+        "word": "dissemination", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "heap": {
+        "state": "none", 
+        "score": 1.45058, 
+        "word": "heap", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "raft": {
+        "state": "none", 
+        "score": 1.39798, 
+        "word": "raft", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "collectives": {
+        "state": "none", 
+        "score": 1.97339, 
+        "word": "collectives", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "considerable": {
+        "state": "none", 
+        "score": 1.74754, 
+        "word": "considerable", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "population": {
+        "state": "none", 
+        "score": 1.56184, 
+        "word": "population", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "diffusion": {
+        "state": "none", 
+        "score": 1.64693, 
+        "word": "diffusion", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "wide": {
+        "state": "none", 
+        "score": 1.43455, 
+        "word": "wide", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "ma": {
+        "state": "none", 
+        "score": 1.57989, 
+        "word": "ma", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "value": {
+        "state": "none", 
+        "score": 1.40049, 
+        "word": "value", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "peso": {
+        "state": "none", 
+        "score": 1.43263, 
+        "word": "peso", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "highlight": {
+        "state": "none", 
+        "score": 1.40704, 
+        "word": "highlight", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mound": {
+        "state": "none", 
+        "score": 1.52812, 
+        "word": "mound", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "supply": {
+        "state": "none", 
+        "score": 1.7063, 
+        "word": "supply", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "larger": {
+        "state": "none", 
+        "score": 1.48075, 
+        "word": "larger", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "estate": {
+        "state": "none", 
+        "score": 2.35598, 
+        "word": "estate", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "all-round": {
+        "state": "none", 
+        "score": 1.68084, 
+        "word": "all-round", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "surface": {
+        "state": "none", 
+        "score": 1.55915, 
+        "word": "surface", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "rally": {
+        "state": "none", 
+        "score": 1.73484, 
+        "word": "rally", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "concentration": {
+        "state": "none", 
+        "score": 2.01495, 
+        "word": "concentration", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "serial": {
+        "state": "none", 
+        "score": 1.59285, 
+        "word": "serial", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "information": {
+        "state": "none", 
+        "score": 1.81109, 
+        "word": "information", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "media": {
+        "state": "none", 
+        "score": 2.53393, 
+        "word": "media", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "gravity": {
+        "state": "none", 
+        "score": 1.73541, 
+        "word": "gravity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "masse": {
+        "state": "none", 
+        "score": 2.43846, 
+        "word": "masse", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "majority": {
+        "state": "none", 
+        "score": 1.7068, 
+        "word": "majority", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "significance": {
+        "state": "none", 
+        "score": 1.39034, 
+        "word": "significance", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "widespread": {
+        "state": "none", 
+        "score": 1.9639, 
+        "word": "widespread", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "stock": {
+        "state": "none", 
+        "score": 1.39725, 
+        "word": "stock", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "disseminating": {
+        "state": "none", 
+        "score": 1.81752, 
+        "word": "disseminating", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mas": {
+        "state": "none", 
+        "score": 1.57989, 
+        "word": "mas", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "collaborative": {
+        "state": "none", 
+        "score": 1.54496, 
+        "word": "collaborative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mess": {
+        "state": "none", 
+        "score": 1.51207, 
+        "word": "mess", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "comprehensive": {
+        "state": "none", 
+        "score": 1.76607, 
+        "word": "comprehensive", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "outreach": {
+        "state": "none", 
+        "score": 1.69955, 
+        "word": "outreach", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "lump": {
+        "state": "none", 
+        "score": 1.81187, 
+        "word": "lump", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "seriousness": {
+        "state": "none", 
+        "score": 1.38993, 
+        "word": "seriousness", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mace": {
+        "state": "none", 
+        "score": 1.7287, 
+        "word": "mace", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "massachusetts": {
+        "state": "none", 
+        "score": 2.23213, 
+        "word": "massachusetts", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "plenty": {
+        "state": "none", 
+        "score": 1.38533, 
+        "word": "plenty", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "mesa": {
+        "state": "none", 
+        "score": 1.71729, 
+        "word": "mesa", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "class": {
+        "state": "none", 
+        "score": 1.75904, 
+        "word": "class", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "pool": {
+        "state": "none", 
+        "score": 1.57295, 
+        "word": "pool", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "destruction": {
+        "state": "none", 
+        "score": 1.65417, 
+        "word": "destruction", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "bulk": {
+        "state": "none", 
+        "score": 1.55617, 
+        "word": "bulk", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "masa": {
+        "state": "none", 
+        "score": 1.97463, 
+        "word": "masa", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crowded": {
+        "state": "none", 
+        "score": 1.42348, 
+        "word": "crowded", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "flow": {
+        "state": "none", 
+        "score": 1.40764, 
+        "word": "flow", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "crowd": {
+        "state": "none", 
+        "score": 2.06141, 
+        "word": "crowd", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "jamahiriya": {
+        "state": "none", 
+        "score": 1.52179, 
+        "word": "jamahiriya", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "broadcasting": {
+        "state": "none", 
+        "score": 1.42751, 
+        "word": "broadcasting", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "weights": {
+        "state": "none", 
+        "score": 1.82644, 
+        "word": "weights", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "block": {
+        "state": "none", 
+        "score": 1.48656, 
+        "word": "block", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quantitative": {
+        "state": "none", 
+        "score": 1.57905, 
+        "word": "quantitative", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }, 
+      "quantity": {
+        "state": "none", 
+        "score": 1.95187, 
+        "word": "quantity", 
+        "matches": {}, 
+        "workers": [], 
+        "attempts": 0
+      }
+    }
+  }, 
+  "tgt": "mass", 
+  "seeded": false, 
+  "lock": 0, 
+  "crowd_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "num_anno": 0, 
+  "pos": "n", 
+  "wn_gold": {
+    "merges": {}, 
+    "cluster_count": 0, 
+    "sense_clustering": {}
+  }, 
+  "latest_timestamp": "", 
+  "unsorted": [], 
+  "bogusword": "bogus", 
+  "sorted": [], 
+  "trash": [], 
+  "complete": 0
+}
