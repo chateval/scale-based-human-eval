@@ -141,12 +141,10 @@ if __name__ == "__main__":
 
     destdir = opts.jsondir
     for wt, cpps in crowdpps.items():
-        print("\n\n")
-        print(cpps)
         filename = wt.word+'.'+wt.type
         with open(os.path.join(destdir, filename), 'w') as fout:
-            json.dumps(fout, cpps, indent=2, default=jdefault)
+            json.dump(fout, cpps, indent=2, default=jdefault)
 
     workers = {}
     with open(os.path.join(opts.workerdir, '0_workers.json'),'w') as fout:
-        json.dumps(fout, workers, indent=2, default=jdefault)
+        json.dump(fout, workers, indent=2, default=jdefault)
