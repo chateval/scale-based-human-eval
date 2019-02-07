@@ -26,7 +26,7 @@ def load_directory(directory):
                     for k2, v2 in item.items():
                         if i == 0:                           
                             print(k2)
-                            print(str(v).encode('ascii', 'ignore'))
+                            print(str(v2).encode('ascii', 'ignore'))
                         i += 1
         print("\n\n")
 
