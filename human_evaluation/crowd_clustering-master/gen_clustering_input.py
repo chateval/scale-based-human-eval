@@ -21,10 +21,13 @@ def load_directory(directory):
             for k,v in outputs.items():
                 print(k)
 
+                i = 0
                 for item in v:
                     for k2, v2 in item.items():
-                        print(k2)
-                        print(str(v).encode('ascii', 'ignore'))
+                        if i == 0:                           
+                            print(k2)
+                            print(str(v).encode('ascii', 'ignore'))
+                        i += 1
         print("\n\n")
 
 def main(system_outputs_folder):
