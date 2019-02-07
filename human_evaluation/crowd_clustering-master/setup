@@ -6,6 +6,7 @@ mkdir hit_data/json
 mkdir hit_data/scores
 mkdir hit_data/workerjson
 mkdir hit_data/results
+echo "hit_data/pp/input_test_responses.txt"
 python datasetup.py \
 -t hit_data/pp/input_test_prompts.txt \
 —p hit_data/pp/input_test_responses.txt \
