@@ -21,7 +21,7 @@ def load_directory(directory):
 
             for result_dict in outputs["results"]:
                 inputs.append(' '.join(result_dict["input"]))
-                preds.append([" ".join(p) for p in result_dict["preds"]])
+                preds.append([" ".join(p) for p in result_dict["pred"]])
                 scores.append(result_dict["scores"])
 
     print(len(inputs))
