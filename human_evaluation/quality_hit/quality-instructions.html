@@ -27,31 +27,35 @@
 
 <p>In this task you will read a series of sentences and their simpler versions created by a computer program. The program performs simplification by removing content but also by changing the structure and wording of the sentences so that they are easier to read. Examples of individual sentences and their simplifications are shown below. The original complex sentences are indicated with bold face:</p>
 
-<ol>
-	<li><b>John Smith, who was very tired, walked his dog to the supermarket because he was hungry but he returned to his home still hungry and even more tired because the market was closed.</b><br />
-	John Smith was very tired. Nevertheless, he walked his dog to the supermarket because he was hungry. But the market was closed. So he returned to his home still hungry and even more tired.</li>
-	<br />
-	<li><b>These alterations are humble, but assist in circumventing the difficulties of ascertaining the meaning of obfuscated sentences.</b><br />
-	These alterations are simple, but help in getting around the difficulties of finding the meaning of confusing sentences</li>
-	<br />
-	<li><b>Previous calculations show that, due to the solar wind (which drops 30% of the sun&rsquo;s mass), Earth could escape to a higher orbit.</b><br />
-	Previous calculations show that Earth could escape to a higher orbit. This is due to the solar wind, which drops 30% of the sun&rsquo;s mass.</li>
-</ol>
+<p>In this task, you will read a series of prompts, and responses to these prompts created by a computer program. The program attempts to generate responses that are relevant, while also making an interesting contribution to the conversation.</p>
 
-<p>For every complex sentence you will read five simpler alternatives and judge whether the simplified sentence is (a) grammatical, i.e., whether it is written in well-formed English, (b) simpler than the complex sentence, and (c) whether it preserves the meaning of the original sentence. You will do this using a 1-5 rating scale, where 5 is best and 1 is worst. There are no &quot;correct&quot; answers, so whatever choice seems appropriate to you is a valid response. For example, if you were given the following complex sentence and simplifications:</p>
-
-<p><b>Financial markets had anticipated Portugal&#39;s need for assistance as its costs of financing had risen to unsustainable levels, and investors generally shrugged off the news on Thursday.</b></p>
+<p>For each prompt, you will read 5 responses, and judge the quality of each response on a scale from 1 to 3. The descriptions of these levels are as follows:</p>
 
 <ol>
-	<li>Financial markets had expected Portugal&#39;s need for help because&nbsp; costs had become unsustainable and investors dismissed the news on Thursday.</li>
-	<li>Financial markets had expected Portugal&#39;s need for help as its costs of financing had risen to unsustainable levels, and investors generally shrugged off the news on Thursday</li>
-	<li>Financial markets the need for assistance had anticipated, costs of financing unsustainable shrugged off the news Thursday.</li>
-	<li>Financial markets had anticipated Portugal&#39;s need for assistance.</li>
+	<li> The response is ungrammatical.</li>
+	<li> The response is basically grammatical, but is either irrelevant to the input prompt, or not an interesting contrigution to the conversation.</li>
+	<li> The response is grammatical, relevant to the input prompt, and is an interesting contribution to the conversation.</li>
 </ol>
 
-<p>You would probably give simplified sentence (1) above a high rating (4 or 5) with respect to simplicity since the long and complex sentence has been simplified considerably. Some words (e.g.,&nbsp;<i>generally, of financing</i>) have been dropped, whereas others have been substituted with more familiar ones (e.g.,&nbsp;<i>anticipated</i>). The sentence is also fluent and generally grammatical, so you would probably also give it a high rating (4 or 5) with respect to grammaticality. As the simpler sentence preserves most of the meaning of the original, you would also give it a high rating (4 or 5) with respct to meaning. Sentence (2) should also rate high in terms of grammaticality. However, it is not as simple as sentence (1) although some unfamiliar words have been substituted with simpler alternatives. You should thus give it a modest simplicity rating (e.g., 2 or 3). Simiplified sentence (3) makes little sense. It is rather difficult to read and you should give it a low rating (e.g., 1 or 2) in terms of simplicity. The sentence is not very grammatical or meaningful either, the phrases seem scrambled, so you would probably give it a low grammaticality&nbsp; and meaning rating too (e.g., 1 or 2). Sentence (4) is fluent and would thus rate high in terms of grammaticality. Although it is simpler than the original, it has omitted a large part of the sentence&#39;s content.&nbsp;<span style="color: rgb(255, 0, 0);"><b>Simplifications that drastically change the meaning of the original sentence should be rated low in terms&nbsp;</b></span><span style="color: rgb(255, 0, 0);"><b>of&nbsp;</b></span><span style="color: rgb(255, 0, 0);"><b>meaning</b></span><b>&nbsp;</b>(e.g., 2 or 3).</p>
+<p>For example, suppose you were given the following prompt and responses:</p>
 
-<p>In some cases the computer program will chose not to change the original sentence at all. In such cases try to think if you could make the sentence simpler. If this is the case then you should probably rate the computer generated sentence low in terms of simplicity.</p>
+<p><b>What do you do for work?</b></p>
+
+<ol>
+	<li>I'm a what?</li>
+	<li>What the what?</li>
+	<li>I like pancakes.</li>
+	<li>How are you?</li>
+	<li>I don't know.</li>
+	<li>What?</li>
+	<li>I'm an artist.</li>
+	<li>I work at the police department.</li>
+</ol>
+
+<p>Here, you would give responses (1) and (2) above a score of 1, since these are not coherent responses. Responses (3) and (4) are grammatical, but not relevant to the input post, so these should be given a score of 2. Responses (5) and (6) are grammatical, and reasonable responses in a vacuum, but they are extremely generic, and do not add anything to the conversation, so these should be given a score of 2. Finally, responses (7) and (8) are both relevant to the input prompt and provide additional interesting information, so these should be given a score of 3.</p> 
+
+<p>These prompts and responses have been pre-processed by converting all letters to lowercase, separating punctuation, and splitting conjunctions. Please ignore this in your work and do not allow it to affect your judgments of prompt quality.</p>
+
 
 <p>&nbsp;</p>
 <style type="text/css">table {
@@ -72,8 +76,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -81,8 +83,6 @@
 				<td align="center"><input name="quality11" type="radio" value="1" /></td>
 				<td align="center"><input name="quality11" type="radio" value="2" /></td>
 				<td align="center"><input name="quality11" type="radio" value="3" /></td>
-				<td align="center"><input name="quality11" type="radio" value="4" /></td>
-				<td align="center"><input name="quality11" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -98,8 +98,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -107,8 +105,6 @@
 				<td align="center"><input name="quality12" type="radio" value="1" /></td>
 				<td align="center"><input name="quality12" type="radio" value="2" /></td>
 				<td align="center"><input name="quality12" type="radio" value="3" /></td>
-				<td align="center"><input name="quality12" type="radio" value="4" /></td>
-				<td align="center"><input name="quality12" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -124,8 +120,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -133,8 +127,6 @@
 				<td align="center"><input name="quality13" type="radio" value="1" /></td>
 				<td align="center"><input name="quality13" type="radio" value="2" /></td>
 				<td align="center"><input name="quality13" type="radio" value="3" /></td>
-				<td align="center"><input name="quality13" type="radio" value="4" /></td>
-				<td align="center"><input name="quality13" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -150,8 +142,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -159,8 +149,29 @@
 				<td align="center"><input name="quality14" type="radio" value="1" /></td>
 				<td align="center"><input name="quality14" type="radio" value="2" /></td>
 				<td align="center"><input name="quality14" type="radio" value="3" /></td>
-				<td align="center"><input name="quality14" type="radio" value="4" /></td>
-				<td align="center"><input name="quality14" type="radio" value="5" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr align="left" width="75%" /> <strong>System 5: </strong>${sys54}
+
+	<table border="0" cellpadding="0" cellspacing="0" rules="NONE">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td rowspan="2"><b><font color="#ff0000">Quality</font></b></td>
+				<td align="center">&nbsp; 1 &nbsp;</td>
+				<td align="center">&nbsp; 2 &nbsp;</td>
+				<td align="center">&nbsp; 3 &nbsp;</td>
+
+			</tr>
+			<tr style="border-bottom: 1px solid #000;">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="center"><input name="quality15" type="radio" value="1" /></td>
+				<td align="center"><input name="quality15" type="radio" value="2" /></td>
+				<td align="center"><input name="quality15" type="radio" value="3" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -178,8 +189,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -187,8 +196,6 @@
 				<td align="center"><input name="quality21" type="radio" value="1" /></td>
 				<td align="center"><input name="quality21" type="radio" value="2" /></td>
 				<td align="center"><input name="quality21" type="radio" value="3" /></td>
-				<td align="center"><input name="quality21" type="radio" value="4" /></td>
-				<td align="center"><input name="quality21" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -204,8 +211,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -213,8 +218,6 @@
 				<td align="center"><input name="quality22" type="radio" value="1" /></td>
 				<td align="center"><input name="quality22" type="radio" value="2" /></td>
 				<td align="center"><input name="quality22" type="radio" value="3" /></td>
-				<td align="center"><input name="quality22" type="radio" value="4" /></td>
-				<td align="center"><input name="quality22" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -230,8 +233,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -239,8 +240,6 @@
 				<td align="center"><input name="quality23" type="radio" value="1" /></td>
 				<td align="center"><input name="quality23" type="radio" value="2" /></td>
 				<td align="center"><input name="quality23" type="radio" value="3" /></td>
-				<td align="center"><input name="quality23" type="radio" value="4" /></td>
-				<td align="center"><input name="quality23" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -256,8 +255,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -265,8 +262,29 @@
 				<td align="center"><input name="quality24" type="radio" value="1" /></td>
 				<td align="center"><input name="quality24" type="radio" value="2" /></td>
 				<td align="center"><input name="quality24" type="radio" value="3" /></td>
-				<td align="center"><input name="quality24" type="radio" value="4" /></td>
-				<td align="center"><input name="quality24" type="radio" value="5" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr align="left" width="75%" /> <strong>System 5: </strong>${sys54}
+
+	<table border="0" cellpadding="0" cellspacing="0" rules="NONE">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td rowspan="2"><b><font color="#ff0000">Quality</font></b></td>
+				<td align="center">&nbsp; 1 &nbsp;</td>
+				<td align="center">&nbsp; 2 &nbsp;</td>
+				<td align="center">&nbsp; 3 &nbsp;</td>
+
+			</tr>
+			<tr style="border-bottom: 1px solid #000;">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="center"><input name="quality25" type="radio" value="1" /></td>
+				<td align="center"><input name="quality25" type="radio" value="2" /></td>
+				<td align="center"><input name="quality25" type="radio" value="3" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -284,8 +302,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -293,8 +309,6 @@
 				<td align="center"><input name="quality31" type="radio" value="1" /></td>
 				<td align="center"><input name="quality31" type="radio" value="2" /></td>
 				<td align="center"><input name="quality31" type="radio" value="3" /></td>
-				<td align="center"><input name="quality31" type="radio" value="4" /></td>
-				<td align="center"><input name="quality31" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -310,8 +324,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -319,8 +331,6 @@
 				<td align="center"><input name="quality32" type="radio" value="1" /></td>
 				<td align="center"><input name="quality32" type="radio" value="2" /></td>
 				<td align="center"><input name="quality32" type="radio" value="3" /></td>
-				<td align="center"><input name="quality32" type="radio" value="4" /></td>
-				<td align="center"><input name="quality32" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -336,8 +346,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -345,8 +353,6 @@
 				<td align="center"><input name="quality33" type="radio" value="1" /></td>
 				<td align="center"><input name="quality33" type="radio" value="2" /></td>
 				<td align="center"><input name="quality33" type="radio" value="3" /></td>
-				<td align="center"><input name="quality33" type="radio" value="4" /></td>
-				<td align="center"><input name="quality33" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -362,8 +368,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -371,8 +375,29 @@
 				<td align="center"><input name="quality34" type="radio" value="1" /></td>
 				<td align="center"><input name="quality34" type="radio" value="2" /></td>
 				<td align="center"><input name="quality34" type="radio" value="3" /></td>
-				<td align="center"><input name="quality34" type="radio" value="4" /></td>
-				<td align="center"><input name="quality34" type="radio" value="5" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr align="left" width="75%" /> <strong>System 5: </strong>${sys54}
+
+	<table border="0" cellpadding="0" cellspacing="0" rules="NONE">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td rowspan="2"><b><font color="#ff0000">Quality</font></b></td>
+				<td align="center">&nbsp; 1 &nbsp;</td>
+				<td align="center">&nbsp; 2 &nbsp;</td>
+				<td align="center">&nbsp; 3 &nbsp;</td>
+
+			</tr>
+			<tr style="border-bottom: 1px solid #000;">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="center"><input name="quality35" type="radio" value="1" /></td>
+				<td align="center"><input name="quality35" type="radio" value="2" /></td>
+				<td align="center"><input name="quality35" type="radio" value="3" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -390,8 +415,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -399,8 +422,6 @@
 				<td align="center"><input name="quality41" type="radio" value="1" /></td>
 				<td align="center"><input name="quality41" type="radio" value="2" /></td>
 				<td align="center"><input name="quality41" type="radio" value="3" /></td>
-				<td align="center"><input name="quality41" type="radio" value="4" /></td>
-				<td align="center"><input name="quality41" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -416,8 +437,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -425,8 +444,6 @@
 				<td align="center"><input name="quality42" type="radio" value="1" /></td>
 				<td align="center"><input name="quality42" type="radio" value="2" /></td>
 				<td align="center"><input name="quality42" type="radio" value="3" /></td>
-				<td align="center"><input name="quality42" type="radio" value="4" /></td>
-				<td align="center"><input name="quality42" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -442,8 +459,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -451,8 +466,6 @@
 				<td align="center"><input name="quality43" type="radio" value="1" /></td>
 				<td align="center"><input name="quality43" type="radio" value="2" /></td>
 				<td align="center"><input name="quality43" type="radio" value="3" /></td>
-				<td align="center"><input name="quality43" type="radio" value="4" /></td>
-				<td align="center"><input name="quality43" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -468,8 +481,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -477,8 +488,29 @@
 				<td align="center"><input name="quality44" type="radio" value="1" /></td>
 				<td align="center"><input name="quality44" type="radio" value="2" /></td>
 				<td align="center"><input name="quality44" type="radio" value="3" /></td>
-				<td align="center"><input name="quality44" type="radio" value="4" /></td>
-				<td align="center"><input name="quality44" type="radio" value="5" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr align="left" width="75%" /> <strong>System 5: </strong>${sys54}
+
+	<table border="0" cellpadding="0" cellspacing="0" rules="NONE">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td rowspan="2"><b><font color="#ff0000">Quality</font></b></td>
+				<td align="center">&nbsp; 1 &nbsp;</td>
+				<td align="center">&nbsp; 2 &nbsp;</td>
+				<td align="center">&nbsp; 3 &nbsp;</td>
+
+			</tr>
+			<tr style="border-bottom: 1px solid #000;">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="center"><input name="quality45" type="radio" value="1" /></td>
+				<td align="center"><input name="quality45" type="radio" value="2" /></td>
+				<td align="center"><input name="quality45" type="radio" value="3" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -496,8 +528,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -505,8 +535,6 @@
 				<td align="center"><input name="quality51" type="radio" value="1" /></td>
 				<td align="center"><input name="quality51" type="radio" value="2" /></td>
 				<td align="center"><input name="quality51" type="radio" value="3" /></td>
-				<td align="center"><input name="quality51" type="radio" value="4" /></td>
-				<td align="center"><input name="quality51" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -522,8 +550,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -531,8 +557,6 @@
 				<td align="center"><input name="quality52" type="radio" value="1" /></td>
 				<td align="center"><input name="quality52" type="radio" value="2" /></td>
 				<td align="center"><input name="quality52" type="radio" value="3" /></td>
-				<td align="center"><input name="quality52" type="radio" value="4" /></td>
-				<td align="center"><input name="quality52" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -548,8 +572,6 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -557,8 +579,6 @@
 				<td align="center"><input name="quality53" type="radio" value="1" /></td>
 				<td align="center"><input name="quality53" type="radio" value="2" /></td>
 				<td align="center"><input name="quality53" type="radio" value="3" /></td>
-				<td align="center"><input name="quality53" type="radio" value="4" /></td>
-				<td align="center"><input name="quality53" type="radio" value="5" /></td>
 			</tr>
 		</tbody>
 	</table>
@@ -574,8 +594,7 @@
 				<td align="center">&nbsp; 1 &nbsp;</td>
 				<td align="center">&nbsp; 2 &nbsp;</td>
 				<td align="center">&nbsp; 3 &nbsp;</td>
-				<td align="center">&nbsp; 4 &nbsp;</td>
-				<td align="center">&nbsp; 5 &nbsp;</td>
+
 			</tr>
 			<tr style="border-bottom: 1px solid #000;">
 				<td>&nbsp;</td>
@@ -583,8 +602,29 @@
 				<td align="center"><input name="quality54" type="radio" value="1" /></td>
 				<td align="center"><input name="quality54" type="radio" value="2" /></td>
 				<td align="center"><input name="quality54" type="radio" value="3" /></td>
-				<td align="center"><input name="quality54" type="radio" value="4" /></td>
-				<td align="center"><input name="quality54" type="radio" value="5" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr align="left" width="75%" /> <strong>System 5: </strong>${sys54}
+
+	<table border="0" cellpadding="0" cellspacing="0" rules="NONE">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td rowspan="2"><b><font color="#ff0000">Quality</font></b></td>
+				<td align="center">&nbsp; 1 &nbsp;</td>
+				<td align="center">&nbsp; 2 &nbsp;</td>
+				<td align="center">&nbsp; 3 &nbsp;</td>
+
+			</tr>
+			<tr style="border-bottom: 1px solid #000;">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="center"><input name="quality55" type="radio" value="1" /></td>
+				<td align="center"><input name="quality55" type="radio" value="2" /></td>
+				<td align="center"><input name="quality55" type="radio" value="3" /></td>
 			</tr>
 		</tbody>
 	</table>
