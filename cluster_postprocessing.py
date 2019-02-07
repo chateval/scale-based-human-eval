@@ -5,6 +5,7 @@ import editdistance
 import nltk
 from bert_serving.client import BertClient
 from mosestokenizer import MosesDetokenizer
+from sklearn.cluster import KMeans
 import collections
 
 import configargparse
@@ -12,7 +13,7 @@ import numpy as np
 import os
 
 
-def get_embs(candidates):
+def get_embs(candidates, normalize=False):
   """Returns the sequence embedding for each candidate."""
 
   bc = BertClient()
@@ -27,7 +28,10 @@ def get_embs(candidates):
       print(detokenize(cand))
 
   embs = bc.encode(detoked_cands)
-  embs = [e / np.linalg.norm(e) for e in embs]
+  if normalize:
+    embs = [e / np.linalg.norm(e) for e in embs]
+
+  # This line is necessary depending on how the BERT server is setup.
   # embs = [np.mean(emb, 0) for emb in embs]
 
   return embs
@@ -41,6 +45,58 @@ def remove_duplicates(candidates, scores):
       new_candidates.append(cand)
       new_scores.append(score)
   return new_candidates, new_scores
+
+
+def distance_filtering(candidates, scores, new_count, normalize_embs):
+  """Greedily take the furthest candidate from the ones taken so far."""
+
+  embs = get_embs(candidates, normalize_embs)
+
+  # Take the most likely candidate a sthe first to keep.
+  most_likely_cand_idx = np.argmin(scores)
+  cand_ids_to_keep = [most_likely_cand_idx]
+
+  # At every step, choose the next candidate to be the one that is most
+  # different from the ones that have been chosen so far.
+  for _ in range(new_count - 1):
+    best_idx_so_far = -1
+    best_dist_so_far = 0.0
+    for cdx, cand in enumerate(candidates):
+      if cdx not in cand_ids_to_keep:
+        d = sum(np.linalg.norm(embs[cdx] - embs[mdx]) for mdx in cand_ids_to_keep)
+        if d > best_dist_so_far:
+          best_dist_so_far = d
+          best_idx_so_far = cdx
+    cand_ids_to_keep.append(best_idx_so_far)
+   
+    filtered_cands = [candidates[cdx] for cdx in cand_ids_to_keep]
+    filtered_scores = [scores[cdx] for cdx in cand_ids_to_keep]
+    return filtered_cands, filtered_scores
+
+
+def kmeans_filtering(candidates, scores, new_count, normalize_embs):
+  """Take the most likely candidate from each cluster returned by kmeans."""
+ 
+  embs = get_embs(candidates, normalize_embs)
+  kmeans = KMeans(n_clusters=new_count).fit(embs)
+
+  filtered_cands = []
+  filtered_scores = []
+
+  print('\n===EXAMPLE===')
+  for cluster_idx in range(new_count):
+    labels = kmeans.labels_
+    r_in_cluster = [x for x in zip(candidates, scores, labels) if x[-1] == cluster_idx]
+
+    # Output all of the responses in the cluster, sorted hy likelihood.
+    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1])
+    print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
+
+    filtered_cands.append(r_in_cluster[0][0])
+    filtered_scores.append(r_in_cluster[0][1])
+
+  return filtered_cands, filtered_scores
+
 
 def main(opt):
   if not os.path.exists(opt.output_dir):
@@ -61,26 +117,18 @@ def main(opt):
         candidates = example['pred']
         scores = example['scores']
         candidates, scores = remove_duplicates(candidates, scores)
-        embs = get_embs(candidates)
 
-        # Take the most likely candidate a sthe first to keep.
-        most_likely_cand_idx = np.argmax(scores)
-        cand_ids_to_keep = [most_likely_cand_idx]
+        if opt.method == 'kmeans':
+          candidates, scores = kmeans_filtering(
+              candidates, scores, opt.num_cands, True)
+        elif opt.method == 'distance':
+          candidates, scores = distance_filtering(
+              candidates, scores, opt.num_cands, False)
+        else:
+          raise ValueError('Not a valid filtering method')
 
-        # At every step, choose the next candidate to be the one that is most
-        # different from the ones that have been chosen so far.
-        for _ in range(opt.num_cands - 1):
-          best_idx_so_far = -1
-          best_dist_so_far = 0.0
-          for cdx, cand in enumerate(candidates):
-            if cdx not in cand_ids_to_keep:
-              d = sum(np.linalg.norm(embs[cdx] - embs[mdx]) for mdx in cand_ids_to_keep)
-              if d > best_dist_so_far:
-                best_dist_so_far = d
-                best_idx_so_far = cdx
-          cand_ids_to_keep.append(best_idx_so_far)
-        example['pred'] = [candidates[cdx] for cdx in cand_ids_to_keep]
-        example['scores'] = [scores[cdx] for cdx in cand_ids_to_keep]
+        example['pred'] = candidates
+        example['scores'] = scores
 
     out_json_file = os.path.join(opt.output_dir, os.path.basename(json_file))
     with open(out_json_file, 'w') as f:
@@ -99,6 +147,8 @@ if __name__ == '__main__':
             help='Directory to write out files.')
   group.add('--num_cands', type=int, default=10,
             help='The target number of candidates.')
+  group.add('--method', type=str, default='kmeans',
+            help='One of [distance, kmeans].')
   opt = parser.parse_args()
 
   main(opt)
