@@ -144,9 +144,8 @@ def read_pps(infile):
     :param infile: str
     :return: dict {word_type -> ParaphraseSet}
     '''
-    print(infile)
     ppsets = {}
-    with open(infile, 'rU') as fin:
+    with open(infile, 'r', encoding='utf8') as fin:
         for line in fin:
             try:
                 tgt, pps = line.split(' ::: ')
