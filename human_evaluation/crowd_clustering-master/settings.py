@@ -8,7 +8,7 @@ settings = {
 	'HOST' : 'mechanicalturk.sandbox.amazonaws.com',  # uncomment to use the AMT sandbox
 #	 'HOST' : 'mechanicalturk.amazonaws.com',  # uncomment to use production AMT
 	'PRICE' : 0.25,  # price per HIT
-	'REDUNDANCY' : 6,  # number of turkers who must sort each word
+	'REDUNDANCY' : 1,  # number of turkers who must sort each word
     'LIFETIME' : datetime.timedelta(days=7),
 	'DURATION' : datetime.timedelta(minutes=10),
     'APPROVAL' : datetime.timedelta(days=1),
