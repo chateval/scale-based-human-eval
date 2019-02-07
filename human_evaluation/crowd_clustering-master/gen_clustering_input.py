@@ -15,7 +15,7 @@ def load_directory(directory):
 
     for path in filepaths:
         with open(path) as f:
-            outputs = json.load(path)
+            outputs = json.load(f)
 
             for k,v in outputs.items():
                 print(k)
