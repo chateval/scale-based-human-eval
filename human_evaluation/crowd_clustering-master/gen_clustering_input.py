@@ -17,7 +17,7 @@ def flatten(listoflists):
 
 ## Load all json files!
 def load_directory(directory):
-    files = get_all_files(directory)
+    files = get_all_files(directory)[:1]
     filepaths = [directory + "/" + file for file in files]
 
     inputs, preds, scores, system_inds = [], [], [], []
