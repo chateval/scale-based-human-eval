@@ -108,6 +108,8 @@ if __name__ == "__main__":
         sys.stderr.write('Provide target word file following -t flag\n')
         exit(0)
 
+    print("HIIII")
+
     tgtlist = []
     with open(opts.tgtlist, 'rU') as fin:
         for line in fin:
