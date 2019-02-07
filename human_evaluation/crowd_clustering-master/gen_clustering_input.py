@@ -20,7 +20,7 @@ def load_directory(directory):
 
             for k,v in outputs.items():
                 print(k)
-                print(v)
+                print(str(v).encode('ascii', 'ignore'))
 
                 i = 0
                 for item in v:
