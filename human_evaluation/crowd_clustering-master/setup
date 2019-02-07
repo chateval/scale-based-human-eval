@@ -7,8 +7,8 @@ mkdir hit_data/scores
 mkdir hit_data/workerjson
 mkdir hit_data/results
 python datasetup.py \
--t hit_data/pp/test_input_prompts.txt \
-—p hit_data/pp/test_input_responses.txt \
+-t hit_data/pp/input_test_prompts.txt \
+—p hit_data/pp/input_test_responses.txt \
 -o hit_data/json \
 -w hit_data/workerjson
 python create_batch.py -j hit_data/json -o hit_data/batch
