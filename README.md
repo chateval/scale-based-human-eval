@@ -12,7 +12,11 @@ to produce 10 diverse decodings from each method.
 Run
 ```
 ./run_experiments.sh 100
-python cluster_postprocessing.py --input_dir experiments/100decodes/ --output_dir experiments/100to10decodes --num_cands 10
+python cluster_postprocessing.py \
+--input_dir experiments/100decodes/ \
+--output_dir experiments/100to10decodes \
+--method kmeans \
+--num_cands 10
 ```
 to first produce 100 diverse decodings from each method, and then narrow these down to 10 each using clustering post-processing.
 
