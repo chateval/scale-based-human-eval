@@ -14,25 +14,28 @@ def load_directory(directory):
     print(files)
     filepaths = [directory + "/" + file for file in files]
 
+    inputs, preds, scores = [], [], []
     for path in filepaths:
         with open(path) as f:
             outputs = json.load(f)
 
-            for k,v in outputs.items():
-                print(k)
-                print(str(v).encode('ascii', 'ignore'))
+            for result_dict in outputs["results"]:
+                inputs.append(' '.join(result_dict["input"]))
+                preds.append([" ".join(p) for p in result_dict["preds"]])
+                scores.append(result_dict["scores"])
 
-                i = 0
-                for item in v:
-                    for k2, v2 in item.items():
-                        if i == 0:                           
-                            print(k2)
-                            print(v2)
-                        i += 1
-        print("\n\n")
+    print(len(inputs))
+    print(inputs[0])
+    print(preds[0])
+    print(scores[0])
+
+    return inputs, preds, scores
+
+                
+                
 
 def main(system_outputs_folder):
-    examples = load_directory(system_outputs_folder)
+    inputs, preds, scores = load_directory(system_outputs_folder)
     
     
 
