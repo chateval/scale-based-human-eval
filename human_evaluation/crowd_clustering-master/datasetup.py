@@ -111,6 +111,7 @@ if __name__ == "__main__":
     tgtlist = []
     with open(opts.tgtlist, 'rU') as fin:
         for line in fin:
+            print(line.strip.split(' === '))
             w, ind = line.strip().split(' === ')
             tgt = word_type(w, ind)
             tgtlist.append(tgt)
