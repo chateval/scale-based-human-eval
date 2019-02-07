@@ -61,7 +61,7 @@ def output_format(inputs, preds, scores, system_inds, output_base):
             f.write(inputs[i] + " === " + str(system_inds[i]) + " ::: ")
 
             prds = [preds[i][j] + " ||| " + str(scores[i][j]) for j in range(len(preds[i]))]
-            f.write(" ;;; ".join(prds) + ";\n")
+            f.write(" ;;; ".join(prds) + " ;;; \n")
 
     with open(output_base + "_prompts.txt", 'w', encoding='utf8') as f:
         for i in random_inds:
