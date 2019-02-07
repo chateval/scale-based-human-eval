@@ -60,7 +60,7 @@ class CrowdPPSet:
         del tempppset.word_type
         del tempppset.sense_clustering
         del tempppset.cluster_count
-        for pword, p in tempppset.pp_dict.iteritems():
+        for pword, p in tempppset.pp_dict.items():
             del p.word_type
             del p.vector
             del p.pos
@@ -104,8 +104,6 @@ if __name__ == "__main__":
     optparser.add_option("-w", "--workerdir", type="string", default='hit_data/workerjson', dest="workerdir")
     (opts, _) = optparser.parse_args()
 
-    print(opts.ppfile)
-
     if opts.ppfile is None:
         sys.stderr.write('Provide target word file following -t flag\n')
         exit(0)
@@ -116,7 +114,7 @@ if __name__ == "__main__":
             w, ind = line.strip().split(' === ')
             tgt = word_type(w, ind)
             tgtlist.append(tgt)
-    ppsets = {p: pps for p, pps in pp.read_pps(opts.ppfile).iteritems()
+    ppsets = {p: pps for p, pps in pp.read_pps(opts.ppfile).items()
               if p in tgtlist}
 
     print("\nTARGET_LIST")
@@ -142,7 +140,7 @@ if __name__ == "__main__":
                     for k in ppsets.keys()}
 
     destdir = opts.jsondir
-    for wt, cpps in crowdpps.iteritems():
+    for wt, cpps in crowdpps.items():
         filename = wt.word+'.'+wt.type
         with open(os.path.join(destdir, filename), 'w') as fout:
             print >> fout, json.dumps(cpps, indent=2, default=jdefault)

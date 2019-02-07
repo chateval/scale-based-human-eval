@@ -104,8 +104,8 @@ class ParaphraseSet:
         else:
             filtered = set([w.word for w in otherppset.get_paraphrase_wtypes()])
         self.sense_clustering = \
-            {num: (clus & filtered) for num, clus in self.sense_clustering.iteritems()}
-        self.sense_clustering = {k: v for k,v in self.sense_clustering.iteritems() if len(v) > 0}
+            {num: (clus & filtered) for num, clus in self.sense_clustering.items()}
+        self.sense_clustering = {k: v for k,v in self.sense_clustering.items() if len(v) > 0}
         self.cluster_count = len(self.sense_clustering)
 
     def get_paraphrase_wtypes(self):
@@ -134,7 +134,7 @@ def read_gold(infile):
             if len(poss_class) > 0:
                 classes[wtype].add_sense_cluster(poss_class)
     for wtype in classes:
-        ppset = set().union(*[s for c,s in classes[wtype].sense_clustering.iteritems()])
+        ppset = set().union(*[s for c,s in classes[wtype].sense_clustering.items()])
         classes[wtype].pp_dict = {w: Paraphrase(word_type(w, wtype.type)) for w in ppset}
     return classes
 
