@@ -20,8 +20,12 @@ def load_directory(directory):
 
             for k,v in outputs.items():
                 print(k)
-                print(str(v).encode('ascii', 'ignore'))
-                new_sys = a
+
+                for item in v:
+                    for k2, v2 in item:
+                        print(k2)
+                        print(str(v).encode('ascii', 'ignore'))
+        print("\n\n")
 
 def main(system_outputs_folder):
     examples = load_directory(system_outputs_folder)
