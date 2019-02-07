@@ -31,9 +31,11 @@ def load_directory(directory):
                 prds.append([" ".join(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
 
-        inps = inps.replace('&apos;', "'")
-        for p in prds:
-            p = p.replace('&apos;', "'")
+        for inp in inps:
+            inp = inp.replace('&apos;', "'")
+        for ps in prds:
+            for p in ps:
+                p = p.replace('&apos;', "'")
             
         inputs.append(inps)
         preds.append(prds)
