@@ -136,21 +136,21 @@ if __name__ == "__main__":
                 print >> fout2, json.dumps(pps, indent=2, default=jdefault)
 
     if all_files_complete:
-        print 'All finished clustering this group of json files. Thanks.'
+        print('All finished clustering this group of json files. Thanks.')
     else:
         ## Write to new batch file
         outfile = os.path.join(opts.outdir, 'batch_'+timestamp+'.csv')
-        print 'Manually writing batch to csv file', outfile+'...',
+        print('Manually writing batch to csv file', outfile+'...',)
         with open(outfile, 'w') as fout:
             headers = ['tgt','pos','bogus','unsorted','sorted','seeded',
                        'num_classes','num_anno','latest_timestamp','crowdstarter']
             writer = csv.DictWriter(fout, fieldnames=headers)
             writer.writeheader()
             writer.writerows(hits)
-            print 'Done'
+            print('Done')
         ## optionally auto-upload to AMT
         if opts.mode=='auto':
-            print 'Auto-uploading HITs to', settings['HOST']
+            print('Auto-uploading HITs to', settings['HOST'])
             conn = connection.MTurkConnection(
                 aws_access_key_id=settings['ACCESS_ID'],
                 aws_secret_access_key=settings['SECRET_KEY'],
@@ -159,7 +159,7 @@ if __name__ == "__main__":
             for q in settings['QUALIFICATIONS'] : qualifications.add(q)
 
             for i, h in enumerate(hits):
-                print 'posting HIT %d of %d'%(i, len(hits))
+                print('posting HIT %d of %d'%(i, len(hits)))
                 params = [layoutparam.LayoutParameter(k,v) for k,v in h.iteritems()]
                 result = conn.create_hit(hit_layout=settings['HIT_LAYOUT_ID'], qualifications=qualifications,
                                          max_assignments=settings['REDUNDANCY'], title=settings['TITLE'],
@@ -168,5 +168,5 @@ if __name__ == "__main__":
                                          layout_params=layoutparam.LayoutParameters(params),
                                          lifetime=settings['LIFETIME'], approval_delay=settings['APPROVAL'],
                                          annotation='paraclust_'+timestamp)
-            print 'Done. Now go to https://workersandbox.mturk.com/ to do the HITs.'
+            print('Done. Now go to https://workersandbox.mturk.com/ to do the HITs.')
 
