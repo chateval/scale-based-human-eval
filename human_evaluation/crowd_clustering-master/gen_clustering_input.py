@@ -33,8 +33,10 @@ def load_directory(directory):
 
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
+            inps[j] = inps[j].replace('&#124;', "|")
             for k in range(len(prds[j])):
                 prds[j][k] = prds[j][k].replace('&apos;', "'")
+                prds[j][k] = prds[j][k].replace('&#124;', "'")
             
         inputs.append(inps)
         preds.append(prds)
