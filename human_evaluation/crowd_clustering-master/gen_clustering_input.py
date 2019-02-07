@@ -50,9 +50,9 @@ def output_format(inputs, preds, scores, system_inds, output_file):
 
     with open(output_file, 'w', encoding='utf8') as f:
         for i in random_inds:
-            f.write(inputs[i] + " :: ")
+            f.write(inputs[i] + ";;;" + str(system_inds[i]) + " :: ")
 
-            prds = [preds[i] + ";;;" + str(scores[i]) + ";;;" + str(system_inds[i]) for j in range(len(preds[i]))]
+            prds = [preds[i][j] + ";;;" + str(scores[i]) for j in range(len(preds[i]))]
             f.write("; ".join(prds) + ";\n")
                 
 
