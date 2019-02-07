@@ -149,7 +149,11 @@ def read_pps(infile):
         for line in fin:
             try:
                 tgt, pps = line.split(' ::: ')
+                print(tgt)
+                print(pps)
             except ValueError:
+                print("\n\nHII")
+                print(line)
                 pass
             wtype = word_type(tgt.split(' === ')[0], tgt.split(' === ')[1])
             ppdict = {w: Paraphrase(word_type(w, wtype.type), score=float(s)) for w, s in
