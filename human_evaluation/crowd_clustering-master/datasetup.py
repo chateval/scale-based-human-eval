@@ -104,6 +104,8 @@ if __name__ == "__main__":
     optparser.add_option("-w", "--workerdir", type="string", default='hit_data/workerjson', dest="workerdir")
     (opts, _) = optparser.parse_args()
 
+    print(opts.ppfile)
+
     if opts.ppfile is None:
         sys.stderr.write('Provide target word file following -t flag\n')
         exit(0)
