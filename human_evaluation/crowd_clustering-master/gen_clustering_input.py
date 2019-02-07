@@ -22,7 +22,7 @@ def load_directory(directory):
                 print(k)
 
                 for item in v:
-                    for k2, v2 in item:
+                    for k2, v2 in item.items():
                         print(k2)
                         print(str(v).encode('ascii', 'ignore'))
         print("\n\n")
