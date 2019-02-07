@@ -34,7 +34,7 @@ def jdefault(obj):
 
 def byteify(input):
     if isinstance(input, dict):
-        return {byteify(key):byteify(value) for key,value in input.iteritems()}
+        return {byteify(key):byteify(value) for key,value in input.items()}
     elif isinstance(input, list):
         return [byteify(element) for element in input]
     elif isinstance(input, unicode):
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
             ## Pick random grab bag of unsorted words
             tosort = set([w for w,d in
-                          pps['ppset']['pp_dict'].iteritems()
+                          pps['ppset']['pp_dict'].items()
                           if d['state'] in ['attempted','none']])
             randtosort = list(tosort)
             random.shuffle(randtosort)
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
             ## Choose a random sample of the crowd_gold to start off the hit
             pps['crowdstarter'] = {int(k): random.sample(v, min(6, len(v))) for k,v in
-                                   pps['crowd_gold']['sense_clustering'].iteritems()}
+                                   pps['crowd_gold']['sense_clustering'].items()}
             pps['sorted'] = pps['crowdstarter'].values()
             seeded = len(pps['sorted']) > 0
 
@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
             for i, h in enumerate(hits):
                 print('posting HIT %d of %d'%(i, len(hits)))
-                params = [layoutparam.LayoutParameter(k,v) for k,v in h.iteritems()]
+                params = [layoutparam.LayoutParameter(k,v) for k,v in h.items()]
                 result = conn.create_hit(hit_layout=settings['HIT_LAYOUT_ID'], qualifications=qualifications,
                                          max_assignments=settings['REDUNDANCY'], title=settings['TITLE'],
                                          description=settings['DESCRIPTION'], keywords=settings['KEYWORDS'],
