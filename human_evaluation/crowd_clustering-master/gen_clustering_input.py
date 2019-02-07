@@ -20,6 +20,7 @@ def load_directory(directory):
 
             for k,v in outputs.items():
                 print(k)
+                print(v)
 
                 i = 0
                 for item in v:
