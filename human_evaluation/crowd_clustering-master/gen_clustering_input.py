@@ -60,9 +60,11 @@ def output_format(inputs, preds, scores, system_inds, output_base):
             f.write(str(system_inds[i]) + "\n")
                 
 
-def main(system_outputs_folder):
+def main(system_outputs_folder, output_base):
     random.seed(37)
-    inputs, preds, scores = load_directory(system_outputs_folder)
+    inputs, preds, scores, system_inds = load_directory(system_outputs_folder)
+
+    output_format(inputs, preds, scores, system_inds, output_base)
 
     
     
@@ -75,6 +77,6 @@ if __name__ == '__main__':
 
 '''
 python3 gen_clustering_input.py \
-/data2/the_beamers/the_beamers_reno/experiments/10decodes/
+/data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
 /hit/pp/input_test
 '''
