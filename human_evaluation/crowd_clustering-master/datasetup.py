@@ -111,8 +111,8 @@ if __name__ == "__main__":
     tgtlist = []
     with open(opts.tgtlist, 'rU') as fin:
         for line in fin:
-            w, pos = line.strip().split('.')
-            tgt = word_type(w, pos)
+            w, ind = line.strip().split(' === ')
+            tgt = word_type(w, ind)
             tgtlist.append(tgt)
     ppsets = {p: pps for p, pps in pp.read_pps(opts.ppfile).iteritems()
               if p in tgtlist}

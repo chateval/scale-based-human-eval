@@ -58,20 +58,19 @@ def output_format(inputs, preds, scores, system_inds, output_base):
 
     with open(output_base + "_responses.txt", 'w', encoding='utf8') as f:
         for i in random_inds:
-            f.write(inputs[i] + ";;;" + str(system_inds[i]) + " :: ")
+            f.write(inputs[i] + " === " + str(system_inds[i]) + " ::: ")
 
-            prds = [preds[i][j] + ";;;" + str(scores[i][j]) for j in range(len(preds[i]))]
-            f.write("; ".join(prds) + ";\n")
+            prds = [preds[i][j] + " ||| " + str(scores[i][j]) for j in range(len(preds[i]))]
+            f.write(" ;;; ".join(prds) + ";\n")
 
     with open(output_base + "_prompts.txt", 'w', encoding='utf8') as f:
         for i in random_inds:
-            f.write(inputs[i] + ";;;" + str(system_inds[i]) + "\n")
+            f.write(inputs[i] + " === " + str(system_inds[i]) + "\n")
                 
 
 def main(system_outputs_folder, output_base):
     random.seed(37)
     inputs, preds, scores, system_inds = load_directory(system_outputs_folder)
-
     output_format(inputs, preds, scores, system_inds, output_base)
 
     

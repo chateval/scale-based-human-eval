@@ -148,12 +148,12 @@ def read_pps(infile):
     with open(infile, 'rU') as fin:
         for line in fin:
             try:
-                tgt, pps = line.split(' :: ')
+                tgt, pps = line.split(' === ')
             except ValueError:
                 pass
-            wtype = word_type(tgt.split('.')[0], tgt.split('.')[1])
+            wtype = word_type(tgt.split(' ||| ')[0], tgt.split(' ||| ')[1])
             ppdict = {w: Paraphrase(word_type(w, wtype.type), score=float(s)) for w, s in
-                      [(ent.split()[0], ent.split()[1]) for ent in pps.split(';')[:-1]]}
+                      [(ent.split(" ;;; ")[0], ent.split(" ;;; ")[1]) for ent in pps.split(' ||| ')[:-1]]}
             ppsets[wtype] = ParaphraseSet(wtype, ppdict)
     return ppsets
 
