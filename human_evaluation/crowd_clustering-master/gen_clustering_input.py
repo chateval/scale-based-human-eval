@@ -11,6 +11,7 @@ def get_all_files(directory):
 
 def load_directory(directory):
     files = get_all_files(directory)[:1]
+    print(files)
     filepaths = [directory + "/" + file for file in files]
 
     for path in filepaths:
@@ -19,7 +20,7 @@ def load_directory(directory):
 
             for k,v in outputs.items():
                 print(k)
-                print(v)
+                print(v.encode('ascii', 'ignore'))
                 new_sys = a
 
 def main(system_outputs_folder):
