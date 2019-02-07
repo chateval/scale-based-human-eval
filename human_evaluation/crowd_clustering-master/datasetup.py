@@ -143,8 +143,8 @@ if __name__ == "__main__":
     for wt, cpps in crowdpps.items():
         filename = wt.word+'.'+wt.type
         with open(os.path.join(destdir, filename), 'w') as fout:
-            print >> fout, json.dump(cpps, indent=2, default=jdefault)
+            json.dumps(fout, cpps, indent=2, default=jdefault)
 
     workers = {}
     with open(os.path.join(opts.workerdir, '0_workers.json'),'w') as fout:
-        print >> fout, json.dump(workers, indent=2, default=jdefault)
+        json.dumps(fout, workers, indent=2, default=jdefault)
