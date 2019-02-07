@@ -10,13 +10,18 @@ def get_all_files(directory):
     files = [f for f in listdir(directory) if isfile(join(directory, f))]
     return files
 
+## Flattens a two-dimensional list   
+def flatten(listoflists):
+    list = [item for sublist in listoflists for item in sublist]
+    return list
+
 ## Load all json files!
 def load_directory(directory):
     files = get_all_files(directory)[:1]
     filepaths = [directory + "/" + file for file in files]
 
-    inputs, preds, scores = [], [], []
-    for path in filepaths:
+    inputs, preds, scores, system_inds = [], [], [], []
+    for i, path in enumerate(filepaths):
         inps, prds, scrs = [], [], []
         with open(path) as f:
             outputs = json.load(f)
@@ -28,29 +33,48 @@ def load_directory(directory):
         inputs.append(inps)
         preds.append(prds)
         scores.append(scrs)
+        system_inds.append([i for j in range(len(inps))]) 
 
     print(len(inputs))
     print(inputs[0][0])
     print(preds[0][0])
     print(scores[0][0])
+    print(system_inds[0][0])
 
-    return inputs, preds, scores
+    return flatten(inputs), flatten(preds), flatten(scores), flatten(system_inds)
 
-def output_format(inputs, preds, scores, output_base):
-    
+## Return output format required
+def output_format(inputs, preds, scores, system_inds, output_base):
+    random_inds = [i for i in range(len(inputs))]
+    random.shuffle(random_inds)
+
+    with open(output_base + ".txt", 'w', encoding='utf8') as f:
+        for i in random_inds:
+            f.write(inputs[i] + " :: ")
+
+            prds = [preds[i][j] + " " + str(scores[i][j]) for j in range(len(preds[i]))]
+            f.write("; ".join(prds) + ";\n")
+
+    with open(output_base + "_inds.txt", 'w', encoding='utf8') as f:
+        for i in random_inds:
+            f.write(str(system_inds[i]) + "\n")
                 
 
 def main(system_outputs_folder):
     random.seed(37)
     inputs, preds, scores = load_directory(system_outputs_folder)
+
+    
     
     
 
 if __name__ == '__main__':
     system_outputs_folder = sys.argv[1]
-    main(system_outputs_folder)
+    output_base = sys.argv[2]
+    main(system_outputs_folder, output_base)
 
 '''
 python3 gen_clustering_input.py \
 /data2/the_beamers/the_beamers_reno/experiments/10decodes/
+/hit/pp/input_test
 '''
