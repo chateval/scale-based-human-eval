@@ -9,7 +9,7 @@ mkdir hit_data/results
 echo "hit_data/pp/input_test_responses.txt"
 python datasetup.py \
 -t hit_data/pp/input_test_prompts.txt \
-—p hit_data/pp/input_test_responses.txt \
+-p hit_data/pp/input_test_responses.txt \
 -o hit_data/json \
 -w hit_data/workerjson
 python create_batch.py -j hit_data/json -o hit_data/batch
