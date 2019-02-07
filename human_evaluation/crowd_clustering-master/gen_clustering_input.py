@@ -20,7 +20,7 @@ def load_directory(directory):
 
             for k,v in outputs.items():
                 print(k)
-                print(v.encode('ascii', 'ignore'))
+                print(str(v).encode('ascii', 'ignore'))
                 new_sys = a
 
 def main(system_outputs_folder):
