@@ -44,27 +44,23 @@ def load_directory(directory):
     return flatten(inputs), flatten(preds), flatten(scores), flatten(system_inds)
 
 ## Return output format required
-def output_format(inputs, preds, scores, system_inds, output_base):
+def output_format(inputs, preds, scores, system_inds, output_file):
     random_inds = [i for i in range(len(inputs))]
     random.shuffle(random_inds)
 
-    with open(output_base + ".txt", 'w', encoding='utf8') as f:
+    with open(output_file, 'w', encoding='utf8') as f:
         for i in random_inds:
             f.write(inputs[i] + " :: ")
 
-            prds = [preds[i][j] + " " + str(scores[i][j]) for j in range(len(preds[i]))]
+            prds = [preds[i] + ";;;" + str(scores[i]) + ";;;" + str(system_inds[i]) for j in range(len(preds[i]))]
             f.write("; ".join(prds) + ";\n")
-
-    with open(output_base + "_inds.txt", 'w', encoding='utf8') as f:
-        for i in random_inds:
-            f.write(str(system_inds[i]) + "\n")
                 
 
-def main(system_outputs_folder, output_base):
+def main(system_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, system_inds = load_directory(system_outputs_folder)
 
-    output_format(inputs, preds, scores, system_inds, output_base)
+    output_format(inputs, preds, scores, system_inds, output_file)
 
     
     
@@ -72,11 +68,11 @@ def main(system_outputs_folder, output_base):
 
 if __name__ == '__main__':
     system_outputs_folder = sys.argv[1]
-    output_base = sys.argv[2]
-    main(system_outputs_folder, output_base)
+    output_file = sys.argv[2]
+    main(system_outputs_folder, output_file)
 
 '''
 python3 gen_clustering_input.py \
 /data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
-hit_data/pp/input_test
+hit_data/pp/input_test.txt
 '''
