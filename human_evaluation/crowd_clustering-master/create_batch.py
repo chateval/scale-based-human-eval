@@ -77,14 +77,16 @@ if __name__ == "__main__":
         else:
             all_files_complete = False
 
+            '''
             ## Choose appropriate bogus term
             ok = False
             while not ok:
                 b = random.sample(boguswords, 1)[0]
-                validate = raw_input("Bogus for "+pps['tgt']+": "+b+". OK? (y/n)")
+                validate = input("Bogus for "+pps['tgt']+": "+b+". OK? (y/n)")
                 if validate == 'y':
                     ok = True
                     pps['bogusword'] = b
+            '''
 
             ## Pick random grab bag of unsorted words
             tosort = set([w for w,d in
