@@ -78,7 +78,6 @@ if __name__ == "__main__":
         else:
             all_files_complete = False
 
-            '''
             ## Choose appropriate bogus term
             ok = False
             while not ok:
@@ -87,7 +86,6 @@ if __name__ == "__main__":
                 if validate == 'y':
                     ok = True
                     pps['bogusword'] = b
-            '''
 
             ## Pick random grab bag of unsorted words
             tosort = set([w for w,d in
