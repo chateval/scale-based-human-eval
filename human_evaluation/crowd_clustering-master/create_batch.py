@@ -34,11 +34,11 @@ def jdefault(obj):
 
 def byteify(input):
     if isinstance(input, dict):
-        return {byteify(key):byteify(value) for key,value in input.iteritems()}
+        return {byteify(key):byteify(value) for key,value in input.items()}
     elif isinstance(input, list):
         return [byteify(element) for element in input]
-    elif isinstance(input, unicode):
-        return input.encode('utf-8')
+    #elif isinstance(input, unicode):
+    #    return input.encode('utf-8')
     else:
         return input
 
@@ -77,18 +77,20 @@ if __name__ == "__main__":
         else:
             all_files_complete = False
 
+            '''
             ## Choose appropriate bogus term
             ok = False
             while not ok:
                 b = random.sample(boguswords, 1)[0]
-                validate = raw_input("Bogus for "+pps['tgt']+": "+b+". OK? (y/n)")
+                validate = input("Bogus for "+pps['tgt']+": "+b+". OK? (y/n)")
                 if validate == 'y':
                     ok = True
                     pps['bogusword'] = b
+            '''
 
             ## Pick random grab bag of unsorted words
             tosort = set([w for w,d in
-                          pps['ppset']['pp_dict'].iteritems()
+                          pps['ppset']['pp_dict'].items()
                           if d['state'] in ['attempted','none']])
             randtosort = list(tosort)
             random.shuffle(randtosort)
@@ -98,8 +100,8 @@ if __name__ == "__main__":
 
             ## Choose a random sample of the crowd_gold to start off the hit
             pps['crowdstarter'] = {int(k): random.sample(v, min(6, len(v))) for k,v in
-                                   pps['crowd_gold']['sense_clustering'].iteritems()}
-            pps['sorted'] = pps['crowdstarter'].values()
+                                   pps['crowd_gold']['sense_clustering'].items()}
+            pps['sorted'] = list(pps['crowdstarter'].values())
             seeded = len(pps['sorted']) > 0
 
             ## Update parameters with batch information
@@ -114,8 +116,11 @@ if __name__ == "__main__":
             tgt = pps['tgt']
             pos = pps['pos']
             bogus = pps['bogusword']
-            unsorted = str(pps['unsorted'])
-            sorted = str(pps['sorted'])
+            unsorted = str([p.encode('ascii', 'ignore') for p in pps['unsorted']])
+            print("\n\n")
+            print(unsorted)
+            sortedy = str([p.encode('ascii', 'ignore') for p in pps['sorted']])
+            print(sortedy)
             starter = json.dumps(pps['crowdstarter'], default=jdefault)
             num_classes = str(pps['crowd_gold']['cluster_count'])
             num_anno = pps['num_anno']
@@ -124,7 +129,7 @@ if __name__ == "__main__":
                          'pos':pos,
                          'bogus':bogus,
                          'unsorted':unsorted,
-                         'sorted':sorted,
+                         'sorted':sortedy,
                          'seeded':seeded,
                          'num_classes':num_classes,
                          'num_anno':num_anno,
@@ -133,24 +138,24 @@ if __name__ == "__main__":
 
             ## Update json file
             with open(file, 'w') as fout2:
-                print >> fout2, json.dumps(pps, indent=2, default=jdefault)
+                json.dump(pps, fout2, indent=2, default=jdefault)
 
     if all_files_complete:
-        print 'All finished clustering this group of json files. Thanks.'
+        print('All finished clustering this group of json files. Thanks.')
     else:
         ## Write to new batch file
         outfile = os.path.join(opts.outdir, 'batch_'+timestamp+'.csv')
-        print 'Manually writing batch to csv file', outfile+'...',
+        print('Manually writing batch to csv file', outfile+'...',)
         with open(outfile, 'w') as fout:
             headers = ['tgt','pos','bogus','unsorted','sorted','seeded',
                        'num_classes','num_anno','latest_timestamp','crowdstarter']
             writer = csv.DictWriter(fout, fieldnames=headers)
             writer.writeheader()
             writer.writerows(hits)
-            print 'Done'
+            print('Done')
         ## optionally auto-upload to AMT
         if opts.mode=='auto':
-            print 'Auto-uploading HITs to', settings['HOST']
+            print('Auto-uploading HITs to', settings['HOST'])
             conn = connection.MTurkConnection(
                 aws_access_key_id=settings['ACCESS_ID'],
                 aws_secret_access_key=settings['SECRET_KEY'],
@@ -159,8 +164,10 @@ if __name__ == "__main__":
             for q in settings['QUALIFICATIONS'] : qualifications.add(q)
 
             for i, h in enumerate(hits):
-                print 'posting HIT %d of %d'%(i, len(hits))
-                params = [layoutparam.LayoutParameter(k,v) for k,v in h.iteritems()]
+                print('posting HIT %d of %d'%(i, len(hits)))
+                print(h)
+                params = [layoutparam.LayoutParameter(k,v) for k,v in h.items()]
+                print(params)
                 result = conn.create_hit(hit_layout=settings['HIT_LAYOUT_ID'], qualifications=qualifications,
                                          max_assignments=settings['REDUNDANCY'], title=settings['TITLE'],
                                          description=settings['DESCRIPTION'], keywords=settings['KEYWORDS'],
@@ -168,5 +175,5 @@ if __name__ == "__main__":
                                          layout_params=layoutparam.LayoutParameters(params),
                                          lifetime=settings['LIFETIME'], approval_delay=settings['APPROVAL'],
                                          annotation='paraclust_'+timestamp)
-            print 'Done. Now go to https://workersandbox.mturk.com/ to do the HITs.'
+            print('Done. Now go to https://workersandbox.mturk.com/ to do the HITs.')
 

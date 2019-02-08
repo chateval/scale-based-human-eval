@@ -104,8 +104,8 @@ class ParaphraseSet:
         else:
             filtered = set([w.word for w in otherppset.get_paraphrase_wtypes()])
         self.sense_clustering = \
-            {num: (clus & filtered) for num, clus in self.sense_clustering.iteritems()}
-        self.sense_clustering = {k: v for k,v in self.sense_clustering.iteritems() if len(v) > 0}
+            {num: (clus & filtered) for num, clus in self.sense_clustering.items()}
+        self.sense_clustering = {k: v for k,v in self.sense_clustering.items() if len(v) > 0}
         self.cluster_count = len(self.sense_clustering)
 
     def get_paraphrase_wtypes(self):
@@ -134,7 +134,7 @@ def read_gold(infile):
             if len(poss_class) > 0:
                 classes[wtype].add_sense_cluster(poss_class)
     for wtype in classes:
-        ppset = set().union(*[s for c,s in classes[wtype].sense_clustering.iteritems()])
+        ppset = set().union(*[s for c,s in classes[wtype].sense_clustering.items()])
         classes[wtype].pp_dict = {w: Paraphrase(word_type(w, wtype.type)) for w in ppset}
     return classes
 
@@ -145,15 +145,15 @@ def read_pps(infile):
     :return: dict {word_type -> ParaphraseSet}
     '''
     ppsets = {}
-    with open(infile, 'rU') as fin:
+    with open(infile, 'r', encoding='utf8') as fin:
         for line in fin:
             try:
-                tgt, pps = line.split(' :: ')
+                tgt, pps = line.split(' ::: ')
             except ValueError:
                 pass
-            wtype = word_type(tgt.split('.')[0], tgt.split('.')[1])
+            wtype = word_type(tgt.split(' === ')[0], tgt.split(' === ')[1])
             ppdict = {w: Paraphrase(word_type(w, wtype.type), score=float(s)) for w, s in
-                      [(ent.split()[0], ent.split()[1]) for ent in pps.split(';')[:-1]]}
+                      [(ent.split(" ||| ")[0], ent.split(" ||| ")[1]) for ent in pps.split(' ;;; ')[:-1]]}
             ppsets[wtype] = ParaphraseSet(wtype, ppdict)
     return ppsets
 
