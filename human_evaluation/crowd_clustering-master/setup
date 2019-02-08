@@ -13,7 +13,7 @@ python datasetup.py \
 -o hit_data/json \
 -w hit_data/workerjson
 
-python create_batch.py \
+python2 create_batch.py \
 -j hit_data/json \
 -o hit_data/batch \
 -m auto
