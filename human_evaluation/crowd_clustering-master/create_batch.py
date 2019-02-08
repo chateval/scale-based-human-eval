@@ -116,9 +116,11 @@ if __name__ == "__main__":
             tgt = pps['tgt']
             pos = pps['pos']
             bogus = pps['bogusword']
-            unsorted = str([p.decode('ascii', 'ignore') for p in pps['unsorted']])
+            unsorted = str([p.encode('ascii', 'ignore') for p in pps['unsorted']])
+            print("\n\n")
             print(unsorted)
-            sortedy = str([p.decode('ascii', 'ignore') for p in pps['sorted']])
+            sortedy = str([p.encode('ascii', 'ignore') for p in pps['sorted']])
+            print(sortedy)
             starter = json.dumps(pps['crowdstarter'], default=jdefault)
             num_classes = str(pps['crowd_gold']['cluster_count'])
             num_anno = pps['num_anno']
