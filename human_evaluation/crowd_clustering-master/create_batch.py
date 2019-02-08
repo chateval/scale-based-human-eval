@@ -30,7 +30,7 @@ def escape_string(s) : return escape(s.replace('"', "''"))
 def jdefault(obj):
     if isinstance(obj, set):
         return list(obj)
-    return obj.__dict__
+    return obj._asdict()
 
 def byteify(input):
     if isinstance(input, dict):
