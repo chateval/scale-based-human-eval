@@ -164,6 +164,7 @@ if __name__ == "__main__":
                 print('posting HIT %d of %d'%(i, len(hits)))
                 params = [layoutparam.LayoutParameter(k,v) for k,v in h.items()]
                 print(settings)
+                print(params)
                 result = conn.create_hit(hit_layout=settings['HIT_LAYOUT_ID'], qualifications=qualifications,
                                          max_assignments=settings['REDUNDANCY'], title=settings['TITLE'],
                                          description=settings['DESCRIPTION'], keywords=settings['KEYWORDS'],
