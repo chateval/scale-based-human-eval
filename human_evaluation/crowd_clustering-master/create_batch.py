@@ -28,7 +28,6 @@ from xml.sax.saxutils import escape
 def escape_string(s) : return escape(s.replace('"', "''"))
 
 def jdefault(obj):
-    print(obj)
     if isinstance(obj, set):
         return list(obj)
     return obj.__dict__
@@ -136,7 +135,6 @@ if __name__ == "__main__":
 
             ## Update json file
             with open(file, 'w') as fout2:
-                print(pps)
                 json.dump(pps, fout2, indent=2, default=jdefault)
 
     if all_files_complete:
