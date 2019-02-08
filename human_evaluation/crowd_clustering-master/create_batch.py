@@ -28,12 +28,10 @@ from xml.sax.saxutils import escape
 def escape_string(s) : return escape(s.replace('"', "''"))
 
 def jdefault(obj):
+    print(obj)
     if isinstance(obj, set):
         return list(obj)
-    try:
-        return obj.__dict__
-    except AttributeError:
-        return list(obj).__dict__
+    return obj.__dict__
 
 def byteify(input):
     if isinstance(input, dict):
