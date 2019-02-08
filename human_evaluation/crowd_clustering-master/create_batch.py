@@ -135,6 +135,7 @@ if __name__ == "__main__":
 
             ## Update json file
             with open(file, 'w') as fout2:
+                print(pps)
                 json.dump(pps, fout2, indent=2, default=jdefault)
 
     if all_files_complete:
