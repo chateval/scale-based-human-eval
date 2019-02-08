@@ -78,6 +78,7 @@ if __name__ == "__main__":
         else:
             all_files_complete = False
 
+            '''
             ## Choose appropriate bogus term
             ok = False
             while not ok:
@@ -86,6 +87,7 @@ if __name__ == "__main__":
                 if validate == 'y':
                     ok = True
                     pps['bogusword'] = b
+            '''
 
             ## Pick random grab bag of unsorted words
             tosort = set([w for w,d in
@@ -100,7 +102,7 @@ if __name__ == "__main__":
             ## Choose a random sample of the crowd_gold to start off the hit
             pps['crowdstarter'] = {int(k): random.sample(v, min(6, len(v))) for k,v in
                                    pps['crowd_gold']['sense_clustering'].items()}
-            pps['sorted'] = pps['crowdstarter'].values()
+            pps['sorted'] = list(pps['crowdstarter'].values())
             seeded = len(pps['sorted']) > 0
 
             ## Update parameters with batch information
@@ -116,7 +118,7 @@ if __name__ == "__main__":
             pos = pps['pos']
             bogus = pps['bogusword']
             unsorted = str(pps['unsorted'])
-            sorted = str(pps['sorted'])
+            sortedy = str(pps['sorted'])
             starter = json.dumps(pps['crowdstarter'], default=jdefault)
             num_classes = str(pps['crowd_gold']['cluster_count'])
             num_anno = pps['num_anno']
@@ -125,7 +127,7 @@ if __name__ == "__main__":
                          'pos':pos,
                          'bogus':bogus,
                          'unsorted':unsorted,
-                         'sorted':sorted,
+                         'sorted':sortedy,
                          'seeded':seeded,
                          'num_classes':num_classes,
                          'num_anno':num_anno,
