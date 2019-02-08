@@ -30,8 +30,10 @@ def escape_string(s) : return escape(s.replace('"', "''"))
 def jdefault(obj):
     if isinstance(obj, set):
         return list(obj)
-    print(obj)
-    return obj.__dict__
+    try:
+        return obj.__dict__
+    except AttributeError:
+        return list(obj).__dict__
 
 def byteify(input):
     if isinstance(input, dict):
