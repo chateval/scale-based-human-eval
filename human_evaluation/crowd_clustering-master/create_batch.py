@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
             ## Update json file
             with open(file, 'w') as fout2:
-                print >> fout2, json.dumps(pps, indent=2, default=jdefault)
+                json.dump(pps, fout2, indent=2, default=jdefault)
 
     if all_files_complete:
         print('All finished clustering this group of json files. Thanks.')
