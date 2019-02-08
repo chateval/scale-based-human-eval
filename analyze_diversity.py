@@ -5,7 +5,7 @@ import editdistance
 import nltk
 from bert_serving.client import BertClient
 from mosestokenizer import MosesDetokenizer
-
+import collections
 import configargparse
 import numpy as np
 import os
@@ -64,6 +64,16 @@ def eval_edit_distance(candidates):
       distances.append(dist)
   return min(distances), np.mean(distances), max(distances)
 
+def eval_entropy(candidates, k):
+  """Entropy method which takes into account word frequency."""
+  kgram_counter = collections.Counter()
+  for cand in candidates:
+    for i in range(0, len(cand)-k+1):
+      kgram_counter.update([tuple(cand[i:i+k])])
+
+  counts = kgram_counter.values()
+  s = sum(counts)
+  return (-1.0 / s) * sum(f * np.log(f / s) for f in counts)
 
 def main(opt):
   all_results = {}
@@ -87,26 +97,37 @@ def main(opt):
         ex_results['dist_from_mean_emb'] = eval_emb_stats(candidates)
         ex_results['num_distinct_1grams'] = eval_distinct_k(candidates, 1)
         ex_results['num_distinct_2grams'] = eval_distinct_k(candidates, 2)
+        ex_results['entropy_2grams'] = eval_entropy(candidates, 2)
+        ex_results['entropy_4grams'] = eval_entropy(candidates, 4)
         min_edit, mean_edit, max_edit = eval_edit_distance(candidates)
         ex_results['min_edit_distance'] = min_edit
         ex_results['mean_edit_distance'] = mean_edit
         ex_results['max_edit_distance'] = max_edit
         eval_results.append(ex_results)
-
+    
     all_results[exp_name] = {'ex_results': eval_results,
                              'perplexity': experiment['ppl'],
                              'score': experiment['score']}
 
-  keys = list(all_results[exp_name].keys())
-  with open(os.path.join(opt.dir, 'results.csv'), 'w') as csv_file:
-    writer = csv.writer(csv_file)
-    writer.writerow(['exp'] + keys)
+  per_experiment_keys = ['perplexity', 'score']
+  per_example_keys = list(all_results[exp_name]['ex_results'][0].keys())
 
-    for json_file, results in all_results.items():
-      means = []
-      for key in keys:
-        means.append(np.mean([r[key] for r in results]))
-      writer.writerow([json_file] + means)
+  outfile = os.path.join(opt.dir, 'results.csv')
+  with open(outfile, 'w') as csv_file:
+    fieldnames = ['exp'] + per_experiment_keys + per_example_keys
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+    writer.writeheader()
+    
+    for exp_name, results in all_results.items():
+      csv_line = {'exp': exp_name}
+
+      for key in per_experiment_keys:
+        csv_line[key] = results[key]
+      for key in per_example_keys:
+        csv_line[key] = np.mean([r[key] for r in results['ex_results']])
+
+      writer.writerow(csv_line)
+  print('Evaluation results written to %s' % outfile) 
 
 
 if __name__ == '__main__':
