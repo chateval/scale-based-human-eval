@@ -18,7 +18,6 @@ settings = {
 	'QUALIFICATIONS' : [NumberHitsApprovedRequirement('GreaterThanOrEqualTo', 50), 
 		PercentAssignmentsApprovedRequirement('GreaterThanOrEqualTo', 90)],
 	'HIT_LAYOUT_ID' : '39Y093LR6PHBZHW76NT4FJHIXFDOE1',  # fill in your own
-        'HITLayoutParameter' : '39Y093LR6PHBZHW76NT4FJHIXFDOE1',  # fill in your own
     'APPROVE_FEEDBACK': 'Thank you!',
     'APPROVE_FEEDBACK_BOGALONE': 'Thank you for working on our HIT! Please note: We insert control words (false paraphrases) into each HIT as a quality control measure, and ask that workers place these control words into the red trash bin. You placed the control word %s for target word %s into a sort bin. Please place control words in the trash bin on future HITs.',
 	'REJECT_BLACKLIST': 'We insert false paraphrase words (that are not paraphrases of the target) into each HIT as a control measure. We require workers to correctly identify the false paraphrases on at least %0.2f of their HITs in order to accept the work. I\'m sorry, but your accuracy in discarding false paraphrases is only %d out of %d. Please take care to cluster only words that are actual paraphrases of the target, and place false paraphrases into the trash on future HITs.',
