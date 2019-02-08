@@ -143,7 +143,7 @@ if __name__ == "__main__":
         ## Write to new batch file
         outfile = os.path.join(opts.outdir, 'batch_'+timestamp+'.csv')
         print('Manually writing batch to csv file', outfile+'...',)
-        with open(outfile, 'w') as fout:
+        with open(outfile, 'w', encoding='utf8') as fout:
             headers = ['tgt','pos','bogus','unsorted','sorted','seeded',
                        'num_classes','num_anno','latest_timestamp','crowdstarter']
             writer = csv.DictWriter(fout, fieldnames=headers)
