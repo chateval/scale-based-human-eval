@@ -12,4 +12,8 @@ python datasetup.py \
 -p hit_data/pp/input_test_responses.txt \
 -o hit_data/json \
 -w hit_data/workerjson
-python create_batch.py -j hit_data/json -o hit_data/batch
+
+python create_batch.py \
+-j hit_data/json \
+-o hit_data/batch \
+-m auto
