@@ -105,7 +105,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   """
 
   embs = get_embs(candidates, normalize_embs)
-  kmeans = KMeans(n_clusters=num_clustersc).fit(embs)
+  kmeans = KMeans(n_clusters=num_clusters).fit(embs)
 
   
 
