@@ -145,7 +145,7 @@ echo "Iterative beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/iterative_beam_search_bs5_ibs"${NUM_DECODES}".json"
+-output "${OUTPUT_DIR}/iterative_beam_search_bs5_ibs"${NUM_DECODES}".json" \
 -beam_size 5 \
 -n_best 5 \
 -max_length 50 \
@@ -161,7 +161,7 @@ echo "Clustering beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/clustering_beam_search_bs"${NUM_DECODES}"_cbs5.json"
+-output "${OUTPUT_DIR}/clustering_beam_search_bs"${NUM_DECODES}"_cbs5.json" \
 -beam_size "${NUM_DECODES}" \
 -n_best "${NUM_DECODES}" \
 -max_length 50 \
