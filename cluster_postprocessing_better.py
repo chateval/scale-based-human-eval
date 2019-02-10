@@ -127,6 +127,10 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   # Sort clusters by size
   r_clusters = sorted(r_clusters, key=len, reverse=True)
 
+  for cluster in r_clusters:
+    print([p[0] for p in cluster])
+  print("\n\n")
+
   # Get top remaining element from each cluster, prioritizing larger clusters first,
   # until we have the required number of items
   filtered_cands = []
@@ -140,6 +144,10 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
       except IndexError:
         continue
     i += 1
+
+  for fc in filtered_cands:
+    print(fc)
+  print("\n\n")
 
   return filtered_cands, filtered_scores
 
@@ -160,13 +168,17 @@ def main(opt):
         print('Skipping it.')
         continue
 
-      for ex_num, example in enumerate(experiment['results']):
+      for ex_num, example in enumerate(experiment['results'][:5]):
         if ex_num % 10 == 0:
           print(ex_num)
         
         candidates = example['pred']
         scores = example['scores']
         candidates, scores = remove_duplicates(candidates, scores)
+
+        for c in candidates:
+          print(c)
+        print("\n\n")
 
         if opt.method == 'kmeans':
           candidates, scores = kmeans_filtering(
