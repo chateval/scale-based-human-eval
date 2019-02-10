@@ -128,7 +128,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   print("\n\n")
   for c in r_clusters:
     print(c)
-  r_clusters.sort(key=len)
+  r_clusters.sort(key=len, reverse=True)
   print("\n\n")
   for c in r_clusters:
     print(c)
