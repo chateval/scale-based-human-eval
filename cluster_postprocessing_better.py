@@ -135,16 +135,22 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   # until we have the required number of items
   filtered_cands = []
   filtered_scores = []
-  while len(filtered_cands) < num_clusters:
-    i = 0
+  
+  candidate_index = 0
+  while len(filtered_cands) < num_clusters
     for c in r_clusters:
       try:
-        filtered_cands.append(c[i][0])
-        filtered_scores.append(c[i][1])
+        filtered_cands.append(c[candidate_index][0])
+        filtered_scores.append(c[candidate_index][1])
+
+        if len(filtered_cands) == num_clusters:
+          break
       except IndexError:
         continue
-    i += 1
-
+    candidate_index += 1
+    
+    
+  print(len(filtered_candidates))
   for fc in filtered_cands:
     print(fc)
   print("\n\n")
