@@ -7,7 +7,8 @@
 
 <h2>Informed Consent</h2>
 
-<p>This is a linguistic experiment performed at the University of Pennsylvania. If you have any question about this study, feel free to contact Dr. Chris Callison-Burch. Participation in this research is voluntary. You have the right to withdraw from the experiment at any time. The collected data will be used&nbsp; for research purposes only. Personal data will be kept confidential and will not be shared with third parties.</p>
+<p>This is a linguistic experiment performed at the University of Pennsylvania. If you have any question about this study, feel free to contact Dr. Chris Callison-Burch. Participation in this research is voluntary. You have the right to withdraw from the experiment at any time. The collected data will be used for research purposes only. Personal data will be kept confidential and will not be shared with third parties.</p>
+
 
 <h2>Personal Details Questionnaire</h2>
 
@@ -19,49 +20,82 @@
 
 <p>3. Please specify the country where you have learned your first language:</p>
 
-<p><select name="region"><option value="United States">United States</option><option value="Canada">Canada</option><option value="Australia">Australia</option><option value="New Zealand">New Zealand</option><option value="United Kingdom">United Kingdom</option><option value="Ireland">Ireland</option><option value="Other">Other</option><option value="Non-native English speaker">Non-native English speaker</option> </select></p>
+<p><select name="region"><option value="United States">United States</option><option value="Canada">Canada</option><option value="Australia">Australia</option><option value="New 
+Zealand">New Zealand</option><option value="United Kingdom">United Kingdom</option><option value="Ireland">Ireland</option><option value="Other">Other</option><option value="Non-
+native English speaker">Non-native English speaker</option> </select></p>
 
 <h2>&nbsp;</h2>
 
 <h2>Instructions</h2>
 
-<p>In this task you will read a series of sentences and their simpler versions created by a computer program. The program performs simplification by removing content but also by changing the structure and wording of the sentences so that they are easier to read. Examples of individual sentences and their simplifications are shown below. The original complex sentences are indicated with bold face:</p>
+<p>In this task you will read part of a conversation. You will see a series of prompts, and possible responses to these prompts created by a computer program. The program attemp$
+s to generate responses that are relevant, while also making an interesting contribution to the conversation.</p>
 
-<p>In this task, you will read a series of prompts, and responses to these prompts created by a computer program. The program attempts to generate responses that are relevant, while also making an interesting contribution to the conversation.</p>
-
-<p>For each prompt, you will read 5 responses, and judge the quality of each response on a scale from 1 to 3. The descriptions of these levels are as follows:</p>
-
-<ol>
-	<li> The response is ungrammatical.</li>
-	<li> The response is basically grammatical, but is either irrelevant to the input prompt, or not an interesting contrigution to the conversation.</li>
-	<li> The response is grammatical, relevant to the input prompt, and is an interesting contribution to the conversation.</li>
-</ol>
-
-<p>For example, suppose you were given the following prompt and responses:</p>
-
-<p><b>What do you do for work?</b></p>
+<p>For each prompt, you will read five possible responses, and judge the quality of each response on a scale from 1 to 3. The descriptions of these levels are as follows:</p>
 
 <ol>
-	<li>I'm a what?</li>
-	<li>What the what?</li>
-	<li>I like pancakes.</li>
-	<li>How are you?</li>
-	<li>I don't know.</li>
-	<li>What?</li>
-	<li>I'm an artist.</li>
-	<li>I work at the police department.</li>
+        <li> The response is ungrammatical or incoherent.</li>
+        <li> The response is basically grammatical, but is either irrelevant to the input prompt, or is not interesting enough to continue the conversation.</li>
+        <li> The response is grammatical, relevant to the input prompt, and is an interesting contribution to the conversation.</li>
 </ol>
 
-<p>Here, you would give responses (1) and (2) above a score of 1, since these are not coherent responses. Responses (3) and (4) are grammatical, but not relevant to the input post, so these should be given a score of 2. Responses (5) and (6) are grammatical, and reasonable responses in a vacuum, but they are extremely generic, and do not add anything to the conversation, so these should be given a score of 2. Finally, responses (7) and (8) are both relevant to the input prompt and provide additional interesting information, so these should be given a score of 3.</p> 
+<p><i>Example:</i> Below we show a prompt and several possible responses, along with a suggested score for each response.</p>
 
-<p>These prompts and responses have been pre-processed by converting all letters to lowercase, separating punctuation, and splitting conjunctions. Please ignore this in your work and do not allow it to affect your judgments of prompt quality.</p>
+<p><b>Prompt: What do you do for work?</b></p>
 
+<table>
+  <thead>
+  <tr>
+    <th><b>Responses</b></th>
+    <th><b>Suggested score</b></th>
+  </tr>
+  </thead>
+  <tr>
+    <th>I'm a what?</th>
+    <th>1, due to incoherence.</th>
+  </tr>
+  <tr>
+    <th>What the what?</th>
+    <th>1, due to ungrammaticality.</th>
+  </tr>
+  <tr>
+    <th>I like pancakes.</th>
+    <th>2, grammatical but not relevant to the input.</th>
+  </tr>
+  <tr>
+    <th>How are you?</th>
+    <th>2, same reason as previous</th>
+  </tr>
+  <tr>
+    <th>I don't know.</th>
+    <th>2, grammatical, and reasonable in a vacuum, but extrelemely generic and does contribute to the conversation.</th>
+  </tr>
+  <tr>
+    <th>What?</th>
+    <th>2, same reason as previous</th>
+  </tr>
+  <tr>
+    <th>I'm an artist.</th>
+    <th>3, relevant and provides additional interesting information</th>
+  </tr>
+  <tr>
+    <th>I work at the police department.</th>
+    <th>3, same reason as previous</th>
+  </tr>
+</table>
 
-<p>&nbsp;</p>
-<style type="text/css">table {
-	    font-size: 80%;
-		margin-top: 5px;
-	}
+<p>These prompts and responses have been pre-processed by converting all letters to lowercase, separating punctuation, and splitting conjunctions. Please ignore this in your workand do not allow it to affect your judgments of prompt quality.</p>
+
+<style type="text/css">
+th {
+  text-align: left;
+  font-weight: normal;
+}
+
+table {
+  font-size: 80%;
+  margin-top: 5px;
+}
 </style>
 <ol>
 	<li><strong>&nbsp;Prompt: </strong>${sys10}
