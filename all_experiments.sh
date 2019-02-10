@@ -12,6 +12,7 @@ SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
 OUTPUT_DIR="experiments/${NUM_DECODES}decodes"
 MODEL="${ROOT_DIR}/models/opennmt_sample_model.pt" 
 SEED="666"
+GPU=2
 
 mkdir -p $OUTPUT_DIR
 
@@ -28,7 +29,7 @@ python3 "$TRANSLATE" \
 -seed "$SEED" \
 -fast \
 -n_best "${NUM_DECODES}" \
--gpu 2
+-gpu "${GPU}"
 
 echo "Standard beam search, beam size ${NUM_DECODES}, npad 0.3"
 python3 "$TRANSLATE" \
@@ -44,7 +45,7 @@ python3 "$TRANSLATE" \
 -fast \
 -n_best "${NUM_DECODES}" \
 -hidden_state_noise 0.3 \
--gpu 2
+-gpu "${GPU}"
 
 echo "Random sampling, temperature=1.0"
 python3 "$TRANSLATE" \
@@ -58,10 +59,10 @@ python3 "$TRANSLATE" \
 -batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -fast \
--gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.0 \
 -random_sampling_topk -1 \
+-gpu "${GPU}"
 
 echo "Random sampling, temperature=0.7"
 python3 "$TRANSLATE" \
@@ -74,10 +75,10 @@ python3 "$TRANSLATE" \
 -replace_unk \
 -batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
--gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 0.7 \
 -random_sampling_topk -1 \
+-gpu "${GPU}"
 
 echo "Random sampling, temperature=1.3"
 python3 "$TRANSLATE" \
@@ -90,10 +91,10 @@ python3 "$TRANSLATE" \
 -replace_unk \
 -batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
--gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.3 \
--random_sampling_topk -1
+-random_sampling_topk -1 \
+-gpu "${GPU}"
 
 echo "Random sampling, temperature=1.0, sample from top 10."
 python3 "$TRANSLATE" \
@@ -106,10 +107,10 @@ python3 "$TRANSLATE" \
 -replace_unk \
 -batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
--gpu 2 \
 -num_random_samples "${NUM_DECODES}" \
 -random_sampling_temp 1.0 \
--random_sampling_topk 10
+-random_sampling_topk 10 \
+-gpu "${GPU}"
 
 echo "K Per Candidate beam search"
 python3 "$TRANSLATE" \
@@ -121,9 +122,9 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
--gpu 1 \
 -batch_size 1 \
--k_per_cand 3
+-k_per_cand 3 \
+-gpu "${GPU}"
 
 
 echo "Diverse beam search"
@@ -136,10 +137,9 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
--gpu 0 \
 -batch_size 1 \
--hamming_penalty 0.8
-
+-hamming_penalty 0.8 \
+-gpu "${GPU}"
 
 echo "Iterative beam search"
 python3 "$TRANSLATE" \
@@ -151,9 +151,9 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
--gpu 1 \
 -batch_size 1 \
--beam_iters "${NUM_DECODES}"
+-beam_iters "${NUM_DECODES}" \
+-gpu "${GPU}"
 
 
 echo "Clustering beam search"
@@ -167,7 +167,7 @@ python3 "$TRANSLATE" \
 -max_length 50 \
 -block_ngram_repeat 1 \
 -replace_unk \
--gpu 0 \
 -batch_size 1 \
 -num_clusters 5 \
--cluster_embeddings_file /data1/embeddings/eng/glove.42B.300d.txt
+-cluster_embeddings_file /data1/embeddings/eng/glove.42B.300d.txt \
+-gpu "${GPU}"
