@@ -150,7 +150,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
     candidate_index += 1
     
     
-  print(len(filtered_candidates))
+  print(len(filtered_cands))
   for fc in filtered_cands:
     print(fc)
   print("\n\n")
