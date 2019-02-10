@@ -105,7 +105,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   """
 
   embs = get_embs(candidates, normalize_embs)
-  kmeans = KMeans(n_clusters=new_count).fit(embs)
+  kmeans = KMeans(n_clusters=num_clustersc).fit(embs)
 
   
 
@@ -121,7 +121,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
     print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
 
     # Do not consider the responses from clusters of size <= 2
-    if len(r_in_clusters) > 2:
+    if len(r_in_cluster) > 2:
       r_clusters.append(r_in_cluster)
 
   # Sort clusters by size
