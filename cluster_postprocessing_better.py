@@ -125,9 +125,13 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
       r_clusters.append(r_in_cluster)
 
   # Sort clusters by size
-  print(r_clusters)
+  print("\n\n")
+  for c in r_clusters:
+    print(c)
   r_clusters.sort(key=len)
-  print(r_clusters)
+  print("\n\n")
+  for c in r_clusters:
+    print(c)
 
   # Get top remaining element from each cluster, prioritizing larger clusters first,
   # until we have the required number of items
