@@ -118,7 +118,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
 
     # Output all of the responses in the cluster, sorted by likelihood.
     r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1])
-    print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
+    #print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
 
     # Do not consider the responses from clusters of size <= 2
     if len(r_in_cluster) > 2:
@@ -160,7 +160,10 @@ def main(opt):
         print('Skipping it.')
         continue
 
-      for example in experiment['results']:
+      for ex_num, example in enumerate(experiment['results']):
+        if ex_num % 10 == 0:
+          print(ex_num)
+        
         candidates = example['pred']
         scores = example['scores']
         candidates, scores = remove_duplicates(candidates, scores)
