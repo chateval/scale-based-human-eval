@@ -89,7 +89,7 @@ def kmeans_filtering(candidates, scores, new_count, normalize_embs):
     r_in_cluster = [x for x in zip(candidates, scores, labels) if x[-1] == cluster_idx]
 
     # Output all of the responses in the cluster, sorted by likelihood.
-    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1])
+    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1], reverse=True)
     print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
 
     filtered_cands.append(r_in_cluster[0][0])
@@ -118,7 +118,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
 
     # Output all of the responses in the cluster, sorted by likelihood.
     r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1], reverse=True)
-    #print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
+    print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
 
     # Do not consider the responses from clusters of size <= 2
     if len(r_in_cluster) > 2:
@@ -129,6 +129,7 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
 
   for c in r_clusters:
     print(c)
+  print("\n\n")
 
   # Get top remaining element from each cluster, prioritizing larger clusters first,
   # until we have the required number of items
