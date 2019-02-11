@@ -9,25 +9,38 @@ import collections
 import configargparse
 import numpy as np
 import os
+import time
+import timeit
+
+def timeit(method):
+  """To use timer, add @timeit decorator above any method."""
+  def timed(*args, **kw):
+    ts = time.time()
+    result = method(*args, **kw)
+    te = time.time()
+    if 'log_time' in kw:
+      name = kw.get('log_name', method.__name__.upper())
+      kw['log_time'][name] = int((te - ts) * 1000)
+    else:
+      print ('%r  %2.2f ms' % (method.__name__, (te - ts) * 1000))
+    return result
+  return timed
 
 
-def eval_emb_stats(candidates):
+# @timeit
+def eval_emb_stats(candidates, bert_client, detokenize):
   """Computed several statistics based on sequence embeddings.
   
   These include:
     * average distance of the embeddings from the mean embedding.
     * standard deviation of the 
   """
-
-  bc = BertClient()
-  detokenize = MosesDetokenizer('en')
-
   detoked_cands = []
   for cand in candidates:
     detoked_cands.append(detokenize(cand))
   detoked_cands = [c for c in detoked_cands if len(c) > 0]
-
-  embs = bc.encode(detoked_cands)
+  
+  embs = bert_client.encode(detoked_cands)
   embs = [np.mean(emb, 0) for emb in embs]
 
   center = np.mean(embs, 0)
@@ -35,6 +48,7 @@ def eval_emb_stats(candidates):
   distances = [np.linalg.norm(center-emb) for emb in embs]
   return np.mean(distances)
 
+# @timeit
 def eval_distinct_k(candidates, k):
   """The total number of k-grams divided by the total number of tokens
      over all the candidates.
@@ -53,6 +67,7 @@ def eval_distinct_k(candidates, k):
     import pdb; pdb.set_trace()
   return len(kgrams) / total
 
+# @timeit
 def eval_edit_distance(candidates):
   """The min, mean, and max pairwise edit-distance between candidates."""
   distances = []
@@ -64,6 +79,7 @@ def eval_edit_distance(candidates):
       distances.append(dist)
   return min(distances), np.mean(distances), max(distances)
 
+# @timeit
 def eval_entropy(candidates, k):
   """Entropy method which takes into account word frequency."""
   kgram_counter = collections.Counter()
@@ -73,9 +89,16 @@ def eval_entropy(candidates, k):
 
   counts = kgram_counter.values()
   s = sum(counts)
+  if s == 0:
+    # all of the candidates are shorter than k
+    return np.nan
   return (-1.0 / s) * sum(f * np.log(f / s) for f in counts)
 
 def main(opt):
+
+  bc = BertClient()
+  detokenize = MosesDetokenizer('en')
+
   all_results = {}
   for json_file in glob.glob(os.path.join(opt.dir, '*.json')):
     with open(json_file, 'r') as f:
@@ -94,7 +117,8 @@ def main(opt):
         candidates = example['pred']
 
         ex_results = {}
-        ex_results['dist_from_mean_emb'] = eval_emb_stats(candidates)
+        ex_results['dist_from_mean_emb'] = eval_emb_stats(
+            candidates, bc, detokenize)
         ex_results['num_distinct_1grams'] = eval_distinct_k(candidates, 1)
         ex_results['num_distinct_2grams'] = eval_distinct_k(candidates, 2)
         ex_results['entropy_2grams'] = eval_entropy(candidates, 2)
@@ -124,7 +148,8 @@ def main(opt):
       for key in per_experiment_keys:
         csv_line[key] = results[key]
       for key in per_example_keys:
-        csv_line[key] = np.mean([r[key] for r in results['ex_results']])
+        csv_line[key] = np.mean(
+            [r[key] for r in results['ex_results'] if r[key] != np.nan])
 
       writer.writerow(csv_line)
   print('Evaluation results written to %s' % outfile) 
@@ -136,7 +161,7 @@ if __name__ == '__main__':
       config_file_parser_class=configargparse.YAMLConfigFileParser,
       formatter_class=configargparse.ArgumentDefaultsHelpFormatter)
   group = parser.add_argument_group('Directory')
-  group.add('--dir', type=str, help='Directory containing json files.')
+  group.add('-dir', '--dir', type=str, help='Directory containing json files.')
   opt = parser.parse_args()
 
   main(opt)
