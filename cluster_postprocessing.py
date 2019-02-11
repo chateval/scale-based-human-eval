@@ -88,14 +88,65 @@ def kmeans_filtering(candidates, scores, new_count, normalize_embs):
     labels = kmeans.labels_
     r_in_cluster = [x for x in zip(candidates, scores, labels) if x[-1] == cluster_idx]
 
-    # Output all of the responses in the cluster, sorted hy likelihood.
-    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1])
+    # Output all of the responses in the cluster, sorted by likelihood.
+    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1], reverse=True)
     print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
 
     filtered_cands.append(r_in_cluster[0][0])
     filtered_scores.append(r_in_cluster[0][1])
 
   return filtered_cands, filtered_scores
+
+
+def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
+  """
+  After initial k-means clustering, ignore clusters of size <= 2, and
+  take top 2 candidates from largest clusters.
+  """
+
+  embs = get_embs(candidates, normalize_embs)
+  kmeans = KMeans(n_clusters=num_clusters).fit(embs)
+
+  
+
+  r_clusters = []
+
+  for cluster_idx in range(num_clusters):
+    labels = kmeans.labels_
+
+    r_in_cluster = [x for x in zip(candidates, scores, labels) if x[-1] == cluster_idx]
+
+    # Output all of the responses in the cluster, sorted by likelihood.
+    r_in_cluster = sorted(r_in_cluster, key=lambda r: r[1], reverse=True)
+    #print('%d in cluster %d' % (len(r_in_cluster), cluster_idx))
+
+    # Do not consider the responses from clusters of size <= 2
+    if len(r_in_cluster) > 2:
+      r_clusters.append(r_in_cluster)
+
+  # Sort clusters by size
+  r_clusters = sorted(r_clusters, key=len, reverse=True)
+
+  # Get top remaining element from each cluster, prioritizing larger clusters first,
+  # until we have the required number of items
+  filtered_cands = []
+  filtered_scores = []
+  
+  candidate_index = 0
+  while len(filtered_cands) < num_clusters:
+    for c in r_clusters:
+      try:
+        filtered_cands.append(c[candidate_index][0])
+        filtered_scores.append(c[candidate_index][1])
+
+        if len(filtered_cands) == num_clusters:
+          break
+      except IndexError:
+        continue
+    candidate_index += 1
+
+  return filtered_cands, filtered_scores
+
 
 
 def main(opt):
@@ -113,7 +164,10 @@ def main(opt):
         print('Skipping it.')
         continue
 
-      for example in experiment['results']:
+      for ex_num, example in enumerate(experiment['results']):
+        if ex_num % 10 == 0:
+          print("Clustering output: " + str(ex_num))
+        
         candidates = example['pred']
         scores = example['scores']
         candidates, scores = remove_duplicates(candidates, scores)
@@ -124,6 +178,8 @@ def main(opt):
         elif opt.method == 'distance':
           candidates, scores = distance_filtering(
               candidates, scores, opt.num_cands, False)
+        elif opt.method == 'kmeans_mod':
+          candidates, scores = kmeans_mod_filtering(candidates, scores, opt.num_cands, True)
         else:
           raise ValueError('Not a valid filtering method')
 
@@ -148,7 +204,7 @@ if __name__ == '__main__':
   group.add('--num_cands', type=int, default=10,
             help='The target number of candidates.')
   group.add('--method', type=str, default='kmeans',
-            help='One of [distance, kmeans].')
+            help='One of [distance, kmeans, kmeans_mod].')
   opt = parser.parse_args()
 
   main(opt)
