@@ -17,7 +17,7 @@ def flatten(listoflists):
 
 ## Load all json files!
 def load_directory(directory):
-    files = get_all_files(directory)[:1]
+    files = get_all_files(directory)
     filepaths = [directory + "/" + file for file in files]
 
     inputs, preds, scores, system_inds = [], [], [], []
@@ -85,5 +85,5 @@ if __name__ == '__main__':
 '''
 python3 gen_clustering_input.py \
 /data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
-hit_data/pp/input_test
+hit_data/pp/input
 '''

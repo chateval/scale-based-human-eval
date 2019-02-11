@@ -127,10 +127,6 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
   # Sort clusters by size
   r_clusters = sorted(r_clusters, key=len, reverse=True)
 
-  for cluster in r_clusters:
-    print([p[0] for p in cluster])
-  print("\n\n")
-
   # Get top remaining element from each cluster, prioritizing larger clusters first,
   # until we have the required number of items
   filtered_cands = []
