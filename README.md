@@ -12,7 +12,7 @@ to produce 10 diverse decodings from each method.
 Run
 ```
 ./run_experiments.sh 100
-python cluster_postprocessing_better.py \
+python cluster_postprocessing.py \
 --input_dir experiments/100decodes/ \
 --output_dir experiments/100to10decodes \
 --method kmeans_mod \
