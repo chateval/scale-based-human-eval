@@ -144,12 +144,6 @@ def kmeans_mod_filtering(candidates, scores, num_clusters, normalize_embs):
       except IndexError:
         continue
     candidate_index += 1
-    
-    
-  print(len(filtered_cands))
-  for fc in filtered_cands:
-    print(fc)
-  print("\n\n")
 
   return filtered_cands, filtered_scores
 
@@ -172,15 +166,11 @@ def main(opt):
 
       for ex_num, example in enumerate(experiment['results'][:5]):
         if ex_num % 10 == 0:
-          print(ex_num)
+          print("Clustering output: " + str(ex_num)_
         
         candidates = example['pred']
         scores = example['scores']
         candidates, scores = remove_duplicates(candidates, scores)
-
-        for c in candidates:
-          print(c)
-        print("\n\n")
 
         if opt.method == 'kmeans':
           candidates, scores = kmeans_filtering(
