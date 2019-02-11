@@ -166,7 +166,7 @@ def main(opt):
 
       for ex_num, example in enumerate(experiment['results'][:5]):
         if ex_num % 10 == 0:
-          print("Clustering output: " + str(ex_num)_
+          print("Clustering output: " + str(ex_num))
         
         candidates = example['pred']
         scores = example['scores']
