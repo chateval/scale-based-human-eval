@@ -164,7 +164,7 @@ def main(opt):
         print('Skipping it.')
         continue
 
-      for ex_num, example in enumerate(experiment['results'][:5]):
+      for ex_num, example in enumerate(experiment['results']):
         if ex_num % 10 == 0:
           print("Clustering output: " + str(ex_num))
         
