@@ -74,7 +74,7 @@ def output_format(inputs, preds, scores, systems, output_file):
             random.shuffle(random_inds)
 
             hit1 = random_inds[:5]
-            input1 = [inputs[i][j]] + [preds[i][j][k][k] for k in hit1] + [systems[i][j]]
+            input1 = [inputs[i][j]] + [preds[i][j][k] for k in hit1] + [systems[i][j]]
                                              
             hit2 = random_inds[5:]
             input2 = [inputs[i][j]] + [preds[i][j][k] for k in hit2] + [systems[i][j]]
@@ -83,7 +83,10 @@ def output_format(inputs, preds, scores, systems, output_file):
             mturk_input.append(input2)
 
             if c == 0:
+                print(hit1)
                 print(input1)
+                print("\n")
+                print(hit2)
                 print(input2)
 
             c += 1
