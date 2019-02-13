@@ -97,6 +97,37 @@ def output_format(inputs, preds, scores, systems, output_file):
     for j in range(len(mturk_input[0])):
         print(mturk_input[0][j][6])
 
+    rows = []
+    current_hit_id = [0 for i in range(len(mturk_input))]
+
+    c = 0
+    while min(current_index) < len(mturk_input[0]):
+        available_sents = [i for i in range(len(current_index)) \
+                             if current_index[i] == min_current_index]
+        if c < 5:
+            print(available_sents)
+        random.shuffle(available_sents)
+        current_sent_ids = available_sents[:5]
+
+        ## Debug to make sure it's working
+        if c < 5:
+            print(current_sent_ids)
+
+        row = []
+        for i in current_sent_ids:
+            current_hit = mturk_input[i][current_hit_id[i]] + [i]
+            row += current_hit
+            current_hit_id[i] += 1
+
+            if c < 5:
+                print(current_hit)
+                print("\n\n")
+        rows.append(row)
+        c += 1
+    
+    print(len(rows))
+        
+
 
 
                                 
@@ -109,11 +140,11 @@ def output_format(inputs, preds, scores, systems, output_file):
     with open(output_file, 'w', encoding='utf8') as f:
         csvwriter = csv.writer(f)
 
-        firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14' 'sys15', 'id1', \
-                    'input2', 'sys21', 'sys22', 'sys23', 'sys24' 'sys25', 'id2', \
-                    'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'id3', \
-                    'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'id4', \
-                    'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'id5']
+        firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14' 'sys15', 'sysid1', 'sentid1', \
+                    'input2', 'sys21', 'sys22', 'sys23', 'sys24' 'sys25', 'sysid2', 'sentid2', \
+                    'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'sysid3', 'sentid3', \
+                    'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'sysid4', 'sentid4', \
+                    'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'sysid5', 'sentid5']
     '''
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
