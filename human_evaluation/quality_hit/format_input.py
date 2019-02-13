@@ -86,7 +86,7 @@ def output_format(inputs, preds, scores, systems, output_file):
                     'input2', 'sys21', 'sys22', 'sys23', 'sys24' 'sys25', 'id2', \
                     'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'id3', \
                     'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'id4', \
-                    'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'id5', \
+                    'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'id5']
                     
         for i in range(len(inputs)):
             random_inds = random.shuffle([j for j in range(len(preds[i]))])
@@ -98,7 +98,7 @@ def output_format(inputs, preds, scores, systems, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
-    output_format(inputs, preds, scores, systems, output_file)
+    #output_format(inputs, preds, scores, systems, output_file)
     
     
 
