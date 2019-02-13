@@ -101,9 +101,9 @@ def output_format(inputs, preds, scores, systems, output_file):
     current_hit_id = [0 for i in range(len(mturk_input))]
 
     c = 0
-    while min(current_index) < len(mturk_input[0]):
-        available_sents = [i for i in range(len(current_index)) \
-                             if current_index[i] == min_current_index]
+    while min(current_hit_id) < len(mturk_input[0]):
+        available_sents = [i for i in range(len(current_hit_id)) \
+                             if current_hit_id[i] == min(current_hit_id)]
         if c < 5:
             print(available_sents)
         random.shuffle(available_sents)
