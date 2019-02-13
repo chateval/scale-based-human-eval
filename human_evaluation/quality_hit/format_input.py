@@ -83,8 +83,8 @@ def output_format(inputs, preds, scores, systems, output_file):
             mturk_input.append(input2)
 
             if c == 0:
-                print(input1.encode('ascii', 'ignore'))
-                print(input2.encode('ascii', 'ignore'))
+                print(str(input1).encode('ascii', 'ignore'))
+                print(str(input2).encode('ascii', 'ignore'))
 
             c += 1
 
