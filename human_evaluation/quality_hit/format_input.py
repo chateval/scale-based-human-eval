@@ -59,7 +59,7 @@ def load_directory(dir1, dir2):
     return inputs, preds, scores, systems
 
 
-def output_format(inputs, preds, scores, systems, output_file):
+def make_rows(inputs, preds, scores, systems):
     mturk_input = [[] for i in range(len(inputs[0]))]
 
     c = 0
@@ -125,7 +125,10 @@ def output_format(inputs, preds, scores, systems, output_file):
         c += 1
     
     print(len(rows))
-    
+    return rows
+
+
+def output_csv(rows, output_file)
     with open(output_file, 'w', encoding='utf8') as f:
         csvwriter = csv.writer(f)
 
@@ -140,7 +143,9 @@ def output_format(inputs, preds, scores, systems, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
-    output_format(inputs, preds, scores, systems, output_file)
+    rows = make_rows(inputs, preds, scores, systems)
+
+    output_csv(rows, output_file)
     
     
 
