@@ -128,7 +128,7 @@ def make_rows(inputs, preds, scores, systems):
     return rows
 
 
-def output_csv(rows, output_file)
+def output_csv(rows, output_file):
     with open(output_file, 'w', encoding='utf8') as f:
         csvwriter = csv.writer(f)
 
