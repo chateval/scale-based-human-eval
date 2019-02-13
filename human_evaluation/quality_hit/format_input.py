@@ -1,4 +1,10 @@
 import sys
+import os
+from os import listdir
+from os.path import isfile, join
+import json
+import random
+
 
 ## Gets name of files in a list from a directory
 def get_all_files(directory):
@@ -75,7 +81,10 @@ if __name__ == '__main__':
 
 
 '''
-python format_input.py \
+python3 format_input.py \
+/data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
+/data2/the_beamers/the_beamers_reno/experiments/100to10decodes/ \
+input/input.csv
 
 NOTE: NOT DONE!!!!
 '''
