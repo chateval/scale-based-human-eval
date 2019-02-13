@@ -79,8 +79,8 @@ def output_format(inputs, preds, scores, systems, output_file):
             hit2 = random_inds[5:]
             input2 = [inputs[i][j]] + [preds[i][j][k] for k in hit2] + [systems[i][j]]
             
-            mturk_input[i].append(input1)
-            mturk_input[i].append(input2)
+            mturk_input[j].append(input1)
+            mturk_input[j].append(input2)
 
             if c == 0:
                 print(hit1)
