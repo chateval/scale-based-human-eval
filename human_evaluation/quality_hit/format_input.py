@@ -68,7 +68,8 @@ def output_format(inputs, preds, scores, systems, output_file):
             print(preds[i][j])
             print(systems[i][j])
             
-            random_inds = random.shuffle([k for k in range(len(preds[i][j]))])
+            random_inds = [k for k in range(len(preds[i][j]))]
+            random.shuffle(random_inds)
 
             hit1 = random_inds[:5]
             input2 = [inputs[i][j]] + [preds[k] for k in hit1] + [systems[i][j]]
