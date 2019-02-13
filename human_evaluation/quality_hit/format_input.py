@@ -139,7 +139,7 @@ def output_csv(rows, output_file):
                     'input5', 'sys51', 'sys52', 'sys53', 'sys54', 'sys55', 'sysid5', 'sentid5']
         csvwriter.writerow(firstrow)
         for row in rows:
-            csvwriter.writerow(row.encode('ascii', 'ignore')
+            csvwriter.writerow(row.encode('ascii', 'ignore'))
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
