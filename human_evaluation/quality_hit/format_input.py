@@ -56,29 +56,42 @@ def load_directory(dir1, dir2):
         scores.append(scrs)
         systems.append([files[i] for j in range(len(inps))]) 
 
-    print(len(inputs))
-    print(inputs[0][0])
-    print(preds[0][0])
-    print(scores[0][0])
-    print(systems[0][0])
-
-    print(inputs[1][0])
-    print(preds[1][0])
-    print(scores[1][0])
-    print(systems[1][0])
-
-    print(inputs[2][0])
-    print(preds[2][0])
-    print(scores[2][0])
-    print(systems[2][0])
-
     return inputs, preds, scores, systems
 
 
 def output_format(inputs, preds, scores, systems, output_file):
-    random_inds = [i for i in range(len(inputs))]
-    random.shuffle(random_inds)
+    mturk_input = [[] for i in range(len(inputs[0]))]
 
+    for i in range(len(inputs)):
+        for j in range(len(inputs[i])):
+            print(input[i][j])
+            print(preds[i][j])
+            print(systems[i][j])
+            
+            random_inds = random.shuffle([k for k in range(len(preds[i][j]))])
+
+            hit1 = random_inds[:5]
+            input2 = [inputs[i][j]] + [preds[k] for k in hit1] + [systems[i][j]]
+                                             
+            hit2 = random_ins[5:]
+            input2 = [inputs[i][j]] + [preds[k] for k in hit2] + [systems[i][j]]
+            
+            mturk_input.append(input1)
+            mturk_input.append(input2)
+
+            print(input1)
+            print(input2)
+
+            c = asdf
+
+
+                                
+
+    
+            
+
+            
+    '''
     with open(output_file, 'w', encoding='utf8') as f:
         csvwriter = csv.writer(f)
 
@@ -87,13 +100,7 @@ def output_format(inputs, preds, scores, systems, output_file):
                     'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'id3', \
                     'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'id4', \
                     'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'id5']
-                    
-        for i in range(len(inputs)):
-            random_inds = random.shuffle([j for j in range(len(preds[i]))])
-
-            hit1 = random_inds[:5]               
-            hit2 = random_ins[5:]
-
+    '''
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
