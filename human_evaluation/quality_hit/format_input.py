@@ -137,6 +137,7 @@ def output_csv(rows, output_file):
                     'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'sysid3', 'sentid3', \
                     'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'sysid4', 'sentid4', \
                     'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'sysid5', 'sentid5']
+        csvwriter.writerow(firstrow)
         for row in rows:
             csvwriter.writerow(row)
 
