@@ -47,11 +47,11 @@ def load_directory(dir1, dir2):
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
             inps[j] = inps[j].replace('&#124;', "|")
-            inps[j] = inps[j].encode('ascii', 'ignore')
+            inps[j] = inps[j].decode('ascii', 'ignore')
             for k in range(len(prds[j])):
                 prds[j][k] = prds[j][k].replace('&apos;', "'")
                 prds[j][k] = prds[j][k].replace('&#124;', "'")
-                prds[j][k] = prds[j][k].encode('ascii', 'ignore')
+                prds[j][k] = prds[j][k].decode('ascii', 'ignore')
             
         inputs.append(inps)
         preds.append(prds)
