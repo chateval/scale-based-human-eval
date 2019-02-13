@@ -121,7 +121,9 @@ def output_format(inputs, preds, scores, systems, output_file):
 
             if c < 5:
                 print(current_hit)
-                print("\n\n")
+
+        if c < 5:
+            print("\n\n")
         rows.append(row)
         c += 1
     
