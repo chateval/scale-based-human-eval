@@ -64,7 +64,7 @@ def output_format(inputs, preds, scores, systems, output_file):
 
     for i in range(len(inputs)):
         for j in range(len(inputs[i])):
-            print(input[i][j])
+            print(inputs[i][j])
             print(preds[i][j])
             print(systems[i][j])
             
