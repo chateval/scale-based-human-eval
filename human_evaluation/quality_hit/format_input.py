@@ -34,6 +34,7 @@ def load_directory(dir1, dir2):
     for i, path in enumerate(filepaths):
         inps, prds, scrs = [], [], []
         with open(path) as f:
+            print(path)
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
