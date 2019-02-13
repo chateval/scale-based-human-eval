@@ -62,12 +62,14 @@ def load_directory(dir1, dir2):
 def output_format(inputs, preds, scores, systems, output_file):
     mturk_input = [[] for i in range(len(inputs[0]))]
 
+    c = 0
     for i in range(len(inputs)):
         for j in range(len(inputs[i])):
-            print(inputs[i][j])
-            print(preds[i][j])
-            print(systems[i][j])
-            
+            if c == 0:
+                print(inputs[i][j])
+                print(preds[i][j])
+                print(systems[i][j])
+                
             random_inds = [k for k in range(len(preds[i][j]))]
             random.shuffle(random_inds)
 
@@ -80,10 +82,15 @@ def output_format(inputs, preds, scores, systems, output_file):
             mturk_input.append(input1)
             mturk_input.append(input2)
 
-            print(input1)
-            print(input2)
+            if c == 0:
+                print(input1)
+                print(input2)
 
-            c = asdf
+            c += 1
+
+    print(len(mturk_input))
+    print([len(m) for m in mturk_input])
+
 
 
                                 
