@@ -130,7 +130,7 @@ def make_rows(inputs, preds, scores, systems):
 
 def output_csv(rows, output_file):
     with open(output_file, 'w', encoding='utf8') as f:
-        csvwriter = csv.writer(f)
+        csvwriter = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
 
         firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14' 'sys15', 'sysid1', 'sentid1', \
                     'input2', 'sys21', 'sys22', 'sys23', 'sys24' 'sys25', 'sysid2', 'sentid2', \
