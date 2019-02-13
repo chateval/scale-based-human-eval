@@ -4,6 +4,7 @@ from os import listdir
 from os.path import isfile, join
 import json
 import random
+import csv
 
 
 ## Gets name of files in a list from a directory
@@ -61,17 +62,43 @@ def load_directory(dir1, dir2):
     print(scores[0][0])
     print(systems[0][0])
 
-    return flatten(inputs), flatten(preds), flatten(scores), flatten(systems)
+    print(inputs[1][0])
+    print(preds[1][0])
+    print(scores[1][0])
+    print(systems[1][0])
+
+    print(inputs[2][0])
+    print(preds[2][0])
+    print(scores[2][0])
+    print(systems[2][0])
+
+    return inputs, preds, scores, systems
 
 
-    
+def output_format(inputs, preds, scores, systems, output_file):
+    random_inds = [i for i in range(len(inputs))]
+    random.shuffle(random_inds)
+
+    with open(output_file, 'w', encoding='utf8') as f:
+        csvwriter = csv.writer(f)
+
+        firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14' 'sys15', 'id1', \
+                    'input2', 'sys21', 'sys22', 'sys23', 'sys24' 'sys25', 'id2', \
+                    'input3', 'sys31', 'sys32', 'sys33', 'sys34' 'sys35', 'id3', \
+                    'input4', 'sys41', 'sys42', 'sys43', 'sys44' 'sys45', 'id4', \
+                    'input5', 'sys51', 'sys52', 'sys53', 'sys54' 'sys55', 'id5', \
+                    
+        for i in range(len(inputs)):
+            random_inds = random.shuffle([j for j in range(len(preds[i]))])
+
+            hit1 = random_inds[:5]               
+            hit2 = random_ins[5:]
 
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
-
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
-    
+    output_format(inputs, preds, scores, systems, output_file)
     
     
 
