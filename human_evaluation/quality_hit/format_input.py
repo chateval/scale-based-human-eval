@@ -94,7 +94,7 @@ def output_format(inputs, preds, scores, systems, output_file):
     print(len(mturk_input))
     print([len(m) for m in mturk_input])
 
-    for j in range(mturk_input[0]):
+    for j in range(len(mturk_input[0])):
         print(mturk_input[0][j])
 
 
