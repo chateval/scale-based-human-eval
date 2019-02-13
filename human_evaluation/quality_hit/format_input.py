@@ -105,7 +105,7 @@ def output_format(inputs, preds, scores, systems, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
-    #output_format(inputs, preds, scores, systems, output_file)
+    output_format(inputs, preds, scores, systems, output_file)
     
     
 
