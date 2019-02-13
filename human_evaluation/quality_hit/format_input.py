@@ -8,7 +8,8 @@ import random
 
 ## Gets name of files in a list from a directory
 def get_all_files(directory):
-    files = [f for f in listdir(directory) if isfile(join(directory, f))]
+    files = [f for f in listdir(directory) if isfile(join(directory, f))
+             and ".json" in f]
     return files
 
 ## Flattens a two-dimensional list   
