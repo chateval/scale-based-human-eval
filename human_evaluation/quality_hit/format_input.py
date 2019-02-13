@@ -47,11 +47,9 @@ def load_directory(dir1, dir2):
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
             inps[j] = inps[j].replace('&#124;', "|")
-            inps[j] = inps[j].decode('ascii', 'ignore')
             for k in range(len(prds[j])):
                 prds[j][k] = prds[j][k].replace('&apos;', "'")
                 prds[j][k] = prds[j][k].replace('&#124;', "'")
-                prds[j][k] = prds[j][k].decode('ascii', 'ignore')
             
         inputs.append(inps)
         preds.append(prds)
@@ -141,7 +139,7 @@ def output_csv(rows, output_file):
                     'input5', 'sys51', 'sys52', 'sys53', 'sys54', 'sys55', 'sysid5', 'sentid5']
         csvwriter.writerow(firstrow)
         for row in rows:
-            csvwriter.writerow(row)
+            csvwriter.writerow(row.encode('ascii', 'ignore')
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
