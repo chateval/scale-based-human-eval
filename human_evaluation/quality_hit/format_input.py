@@ -68,7 +68,7 @@ def load_directory(dir1, dir2):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
 
-    inputs, preds, scores, systems = load_directory(dir1, dir2)
+    inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
     
     
     
