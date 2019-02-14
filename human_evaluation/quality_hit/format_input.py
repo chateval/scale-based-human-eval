@@ -67,9 +67,15 @@ def make_rows(inputs, preds, scores, systems):
         input_current = inputs[0][j]
         preds_current = []
         systems_current = []
+
+        d = 0
         for i in range(len(preds)):
             preds_current += preds[i][j]
             systems_current += systems[i][j]
+
+            if d == 0:
+                print(preds_current)
+                print(systems_current)
 
         if c == 0:
             print(len(preds_current))
