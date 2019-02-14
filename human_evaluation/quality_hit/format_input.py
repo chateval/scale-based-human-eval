@@ -61,8 +61,7 @@ def load_directory(dir1, dir2):
 
 def make_rows(inputs, preds, scores, systems):
     mturk_input = [[] for i in range(len(inputs[0]))]
-
-    c = 0
+    
     for j in range(len(inputs[0])):
         input_current = inputs[0][j]
         preds_current = []
@@ -71,10 +70,6 @@ def make_rows(inputs, preds, scores, systems):
         for i in range(len(preds)):
             preds_current += preds[i][j]
             systems_current += systems[i][j]
-
-        if c == 0:
-            print(len(preds_current))
-            print(len(systems_current))
 
         random_inds = [k for k in range(len(preds_current))]
         random.shuffle(random_inds)
