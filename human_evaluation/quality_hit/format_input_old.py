@@ -54,7 +54,7 @@ def load_directory(dir1, dir2):
         inputs.append(inps)
         preds.append(prds)
         scores.append(scrs)
-        systems.append([files[i] for j in range(len(inps))])
+        systems.append([files[i] for j in range(len(inps))]) 
 
     return inputs, preds, scores, systems
 
@@ -63,31 +63,32 @@ def make_rows(inputs, preds, scores, systems):
     mturk_input = [[] for i in range(len(inputs[0]))]
 
     c = 0
-    for j in range(len(inputs[0])):
-        input_current = inputs[0][j]
-        preds_current = []
-        systems_current = []
-        for i in range(len(preds)):
-            preds_current += preds[i][j]
-            systems_current += systems[i][j]
+    for i in range(len(inputs)):
+        for j in range(len(inputs[i])):
+            if c == 0:
+                print(inputs[i][j])
+                print(preds[i][j])
+                print(systems[i][j])
+                
+            random_inds = [k for k in range(len(preds[i][j]))]
+            random.shuffle(random_inds)
 
-        if c == 0:
-            print(len(preds_current))
-            print(len(systems_current))
-
-        random_inds = [k for k in range(len(preds_current))]
-        random.shuffle(random_inds)
-
-        cur_start = 0
-        while cur_start < len(random_inds) - 1:
-            hit = random_inds[cur_start:cur_start+5]
-            inputy = [inputs[i]] + [preds_current[j] for j in hit] + [preds_current[j] for j in hit]
-            mturk_input[j].append(inputy)
-            cur_start += 5
+            hit1 = random_inds[:5]
+            input1 = [inputs[i][j]] + [preds[i][j][k] for k in hit1] + [systems[i][j]]
+                                             
+            hit2 = random_inds[5:]
+            input2 = [inputs[i][j]] + [preds[i][j][k] for k in hit2] + [systems[i][j]]
+            
+            mturk_input[j].append(input1)
+            mturk_input[j].append(input2)
 
             if c == 0:
-                print(hit)
-                print(inputy)
+                print(hit1)
+                print(input1)
+                print("\n")
+                print(hit2)
+                print(input2)
+
             c += 1
 
     print(len(mturk_input))
