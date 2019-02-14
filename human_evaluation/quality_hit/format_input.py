@@ -103,7 +103,7 @@ def make_rows(inputs, preds, scores, systems):
         current_sent_ids = available_sents[:5]
 
         ## Debug to make sure it's working
-        if c < 5:
+        if c < 3:
             print(current_sent_ids)
 
         row = []
@@ -116,7 +116,7 @@ def make_rows(inputs, preds, scores, systems):
                 print(current_hit)
 
         if c < 3:
-            print("\n\n")
+            print("\n")
         rows.append(row)
         c += 1
     
