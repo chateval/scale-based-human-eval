@@ -54,7 +54,7 @@ def load_directory(dir1, dir2):
         inputs.append(inps)
         preds.append(prds)
         scores.append(scrs)
-        systems.append(files[i])
+        systems.append([files[i]+"_"+str(j) for j in range(len(prds))])
 
     return inputs, preds, scores, systems
 
@@ -71,7 +71,7 @@ def make_rows(inputs, preds, scores, systems):
         d = 0
         for i in range(len(preds)):
             preds_current += preds[i][j]
-            systems_current += [systems[i] for k in range(len(preds[i][j]))]
+            systems_current += systems[i][j]
 
             if d == 0:
                 print([p.encode('ascii', 'ignore') for p in preds_current])
@@ -88,7 +88,7 @@ def make_rows(inputs, preds, scores, systems):
         cur_start = 0
         while cur_start < len(random_inds) - 1:
             hit = random_inds[cur_start:cur_start+5]
-            inputy = [input_current] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
+            inputy = [input_current] + [preds_current[k] for k in hit] + [systems_current[k] for k in hit]
             mturk_input[j].append(inputy)
             cur_start += 5
 
