@@ -43,7 +43,7 @@ def load_directory(dir1, dir2):
                 inps.append(' '.join(result_dict["input"]))
                 prds.append([" ".join(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
-                systms.append([files[i] + "_" + k for k in range(len(result_dict["scores"]))])
+                systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
