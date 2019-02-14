@@ -76,6 +76,7 @@ def make_rows(inputs, preds, scores, systems):
             if d == 0:
                 print([p.encode('ascii', 'ignore') for p in preds_current])
                 print(systems_current)
+                d += 1
 
         if c == 0:
             print(len(preds_current))
@@ -149,6 +150,8 @@ def output_csv(rows, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
+    print(systems)
+    print("\n\n\n")
     rows = make_rows(inputs, preds, scores, systems)
 
     output_csv(rows, output_file)
