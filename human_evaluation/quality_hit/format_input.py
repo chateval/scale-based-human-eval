@@ -88,7 +88,7 @@ def make_rows(inputs, preds, scores, systems):
         cur_start = 0
         while cur_start < len(random_inds) - 1:
             hit = random_inds[cur_start:cur_start+5]
-            inputy = [input_current[i]] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
+            inputy = [input_current] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
             mturk_input[j].append(inputy)
             cur_start += 5
 
@@ -150,6 +150,7 @@ def output_csv(rows, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
+    print(inputs[0])
     print(systems)
     print("\n\n\n")
     rows = make_rows(inputs, preds, scores, systems)
