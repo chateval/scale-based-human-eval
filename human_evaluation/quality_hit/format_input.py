@@ -81,7 +81,7 @@ def make_rows(inputs, preds, scores, systems):
         cur_start = 0
         while cur_start < len(random_inds) - 1:
             hit = random_inds[cur_start:cur_start+5]
-            inputy = [inputs[i]] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
+            inputy = [input_current[i]] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
             mturk_input[j].append(inputy)
             cur_start += 5
 
