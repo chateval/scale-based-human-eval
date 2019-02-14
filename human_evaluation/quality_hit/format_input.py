@@ -71,7 +71,7 @@ def make_rows(inputs, preds, scores, systems):
         d = 0
         for i in range(len(preds)):
             preds_current += preds[i][j]
-            systems_current += [systems[i] for k in range(len(preds[i][j]))
+            systems_current += [systems[i] for k in range(len(preds[i][j]))]
 
             if d == 0:
                 print([p.encode('ascii', 'ignore') for p in preds_current])
