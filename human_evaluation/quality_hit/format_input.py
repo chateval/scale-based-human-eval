@@ -36,7 +36,6 @@ def load_directory(dir1, dir2):
     for i, path in enumerate(filepaths):
         inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
-            print(path)
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
@@ -69,15 +68,9 @@ def make_rows(inputs, preds, scores, systems):
         preds_current = []
         systems_current = []
 
-        d = 0
         for i in range(len(preds)):
             preds_current += preds[i][j]
             systems_current += systems[i][j]
-
-            if d == 0:
-                print([p.encode('ascii', 'ignore') for p in preds_current])
-                print(systems_current)
-                d += 1
 
         if c == 0:
             print(len(preds_current))
@@ -93,11 +86,7 @@ def make_rows(inputs, preds, scores, systems):
             mturk_input[j].append(inputy)
             cur_start += 5
 
-            if c == 0:
-                print(hit)
-                print(inputy)
-            c += 1
-
+    print("NUMBER OF TASKS: ")
     print(len(mturk_input))
     print(sum([len(m) for m in mturk_input]))
 
@@ -108,7 +97,7 @@ def make_rows(inputs, preds, scores, systems):
     while min(current_hit_id) < len(mturk_input[0]):
         available_sents = [i for i in range(len(current_hit_id)) \
                              if current_hit_id[i] == min(current_hit_id)]
-        if c < 5:
+        if c < 3:
             print(available_sents)
         random.shuffle(available_sents)
         current_sent_ids = available_sents[:5]
@@ -123,10 +112,10 @@ def make_rows(inputs, preds, scores, systems):
             row += current_hit
             current_hit_id[i] += 1
 
-            if c < 5:
+            if c < 3:
                 print(current_hit)
 
-        if c < 5:
+        if c < 3:
             print("\n\n")
         rows.append(row)
         c += 1
@@ -157,9 +146,6 @@ def output_csv(rows, output_file):
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
     inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
-    print(inputs[0])
-    print(systems)
-    print("\n\n\n")
     rows = make_rows(inputs, preds, scores, systems)
 
     output_csv(rows, output_file)
