@@ -34,7 +34,7 @@ def load_directory(dir1, dir2):
 
     inputs, preds, scores, systems = [], [], [], []
     for i, path in enumerate(filepaths):
-        inps, prds, scrs = [], [], []
+        inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
             print(path)
             outputs = json.load(f)
@@ -43,6 +43,7 @@ def load_directory(dir1, dir2):
                 inps.append(' '.join(result_dict["input"]))
                 prds.append([" ".join(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
+                systms.append([files[i] + "_" + k for k in range(len(results_dict["scores"]))])
 
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
@@ -54,7 +55,7 @@ def load_directory(dir1, dir2):
         inputs.append(inps)
         preds.append(prds)
         scores.append(scrs)
-        systems.append([files[i]+"_"+str(j) for j in range(len(prds))])
+        systems.append(systms)
 
     return inputs, preds, scores, systems
 
