@@ -81,9 +81,11 @@ def make_rows(inputs, preds, scores, systems):
             mturk_input[j].append(inputy)
             cur_start += 5
 
+    '''
     print("NUMBER OF TASKS: ")
     print(len(mturk_input))
     print(sum([len(m) for m in mturk_input]))
+    '''
 
     rows = []
     current_hit_id = [0 for i in range(len(mturk_input))]
@@ -92,14 +94,19 @@ def make_rows(inputs, preds, scores, systems):
     while min(current_hit_id) < len(mturk_input[0]):
         available_sents = [i for i in range(len(current_hit_id)) \
                              if current_hit_id[i] == min(current_hit_id)]
+        '''
         if c < 3:
             print(available_sents)
+        '''
+        
         random.shuffle(available_sents)
         current_sent_ids = available_sents[:5]
 
+        '''
         ## Debug to make sure it's working
         if c < 3:
             print(current_sent_ids)
+        '''
 
         row = []
         for i in current_sent_ids:
@@ -107,15 +114,15 @@ def make_rows(inputs, preds, scores, systems):
             row += current_hit
             current_hit_id[i] += 1
 
+            '''
             if c < 3:
                 print(current_hit)
+            '''
 
-        if c < 3:
-            print("\n")
         rows.append(row)
         c += 1
     
-    print(len(rows))
+    #print(len(rows))
     return rows
 
 

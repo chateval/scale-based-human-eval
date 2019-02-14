@@ -10,7 +10,7 @@ ROOT_DIR=".."
 TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
 SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
 OUTPUT_DIR="experiments/${NUM_DECODES}decodes"
-MODEL="${ROOT_DIR}/models/opennmt_sample_model.pt" 
+MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_31.62_ppl_43.79_e10.pt" 
 SEED="666"
 GPU=2
 
