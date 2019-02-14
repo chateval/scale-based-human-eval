@@ -81,7 +81,7 @@ def make_rows(inputs, preds, scores, systems):
         cur_start = 0
         while cur_start < len(random_inds) - 1:
             hit = random_inds[cur_start:cur_start+5]
-            inputy = [inputs[i]] + [preds_current[j] for j in hit] + [preds_current[j] for j in hit]
+            inputy = [inputs[i]] + [preds_current[j] for j in hit] + [systems_current[j] for j in hit]
             mturk_input[j].append(inputy)
             cur_start += 5
 
@@ -131,11 +131,11 @@ def output_csv(rows, output_file):
     with open(output_file, 'w', encoding='utf8') as f:
         csvwriter = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
 
-        firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14', 'sys15', 'sysid1', 'sentid1', \
-                    'input2', 'sys21', 'sys22', 'sys23', 'sys24', 'sys25', 'sysid2', 'sentid2', \
-                    'input3', 'sys31', 'sys32', 'sys33', 'sys34', 'sys35', 'sysid3', 'sentid3', \
-                    'input4', 'sys41', 'sys42', 'sys43', 'sys44', 'sys45', 'sysid4', 'sentid4', \
-                    'input5', 'sys51', 'sys52', 'sys53', 'sys54', 'sys55', 'sysid5', 'sentid5']
+        firstrow = ['input1', 'sys11', 'sys12', 'sys13', 'sys14', 'sys15', 'sysid11', 'sysid12', 'sysid13', 'sysid14', 'sysid15', 'sentid1', \
+                    'input2', 'sys21', 'sys22', 'sys23', 'sys24', 'sys25', 'sysid21', 'sysid22', 'sysid23', 'sysid24', 'sysid25', 'sentid2', \
+                    'input3', 'sys31', 'sys32', 'sys33', 'sys34', 'sys35', 'sysid31', 'sysid32', 'sysid33', 'sysid34', 'sysid35', 'sentid3', \
+                    'input4', 'sys41', 'sys42', 'sys43', 'sys44', 'sys45', 'sysid41', 'sysid42', 'sysid43', 'sysid44', 'sysid45', 'sentid4', \
+                    'input5', 'sys51', 'sys52', 'sys53', 'sys54', 'sys55', 'sysid51', 'sysid52', 'sysid53', 'sysid54', 'sysid55', 'sentid5']
         csvwriter.writerow(firstrow)
         for row in rows:
             csvwriter.writerow([r.encode('ascii', 'ignore') for r in row])
