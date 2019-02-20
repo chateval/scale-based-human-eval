@@ -40,8 +40,8 @@ def load_directory(dir1, dir2, detokenize):
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
-                inps.append(detokenizer(result_dict["input"]))
-                prds.append([detokenizer(p) for p in result_dict["pred"]])
+                inps.append(detokenize(result_dict["input"]))
+                prds.append([detokenize(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
                 systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
