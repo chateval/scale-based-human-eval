@@ -10,7 +10,7 @@ ROOT_DIR=".."
 TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
 SOURCE_FILE="data/CMDB_prompt_subset.txt"
 OUTPUT_DIR="experiments_temp/${NUM_DECODES}decodes"
-MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_31.62_ppl_43.79_e10.pt" 
+MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_32.66_ppl_38.81_e10.pt" 
 SEED="666"
 GPU=2
 
