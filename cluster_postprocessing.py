@@ -193,6 +193,8 @@ def main(opt):
       out_json_file = os.path.join(opt.output_dir, os.path.basename(json_file))
       with open(out_json_file, 'w') as f:
         json.dump(experiment, f)
+    else:
+      print("Skipping " + json_file)
 
 
 if __name__ == '__main__':
