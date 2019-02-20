@@ -158,7 +158,7 @@ def main(opt):
     out_json_file = os.path.join(opt.output_dir, os.path.basename(json_file))
 
     ## Check to make sure file doesn't already exist
-    if not os.isfile(out_json_file):   
+    if not os.path.isfile(out_json_file):   
       with open(json_file, 'r') as f:
         try:
           experiment = json.load(f)
@@ -194,7 +194,7 @@ def main(opt):
       with open(out_json_file, 'w') as f:
         json.dump(experiment, f)
     else:
-      print("Skipping " + json_file)
+      print("SKIPPING: " + json_file)
 
 
 if __name__ == '__main__':
