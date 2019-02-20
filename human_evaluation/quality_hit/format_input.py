@@ -5,6 +5,7 @@ from os.path import isfile, join
 import json
 import random
 import csv
+from mosestokenizer import MosesDetokenizer
 
 
 ## Gets name of files in a list from a directory
@@ -19,7 +20,7 @@ def flatten(listoflists):
     return list
 
 # Load all json files
-def load_directory(dir1, dir2):
+def load_directory(dir1, dir2, detokenize):
     files1 = get_all_files(dir1)
     paths1 = [dir1 + "/" + file for file in files1]
 
@@ -39,8 +40,8 @@ def load_directory(dir1, dir2):
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
-                inps.append(' '.join(result_dict["input"]))
-                prds.append([" ".join(p) for p in result_dict["pred"]])
+                inps.append(detokenizer(result_dict["input"]))
+                prds.append([detokenizer(p) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
                 systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
@@ -147,7 +148,8 @@ def output_csv(rows, output_file):
 
 def main(system_outputs_folder, clustered_outputs_folder, output_file):
     random.seed(37)
-    inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder)
+    detokenize = MosesDetokenizer('en')
+    inputs, preds, scores, systems = load_directory(system_outputs_folder, clustered_outputs_folder, detokenize)
     rows = make_rows(inputs, preds, scores, systems)
 
     output_csv(rows, output_file)
