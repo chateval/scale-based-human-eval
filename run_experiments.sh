@@ -8,9 +8,10 @@ NUM_DECODES=$1
 BATCH_SIZE="10"
 ROOT_DIR=".."
 TRANSLATE="${ROOT_DIR}/OpenNMT-daphne/translate.py" 
-SOURCE_FILE="${ROOT_DIR}/data/dbdc_eval_minus_CIC_200rand.txt"
+SOURCE_FILE="eval_data/CMDB_prompt_subset.txt"
 OUTPUT_DIR="experiments/${NUM_DECODES}decodes"
-MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_31.62_ppl_43.79_e10.pt" 
+# MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_31.62_ppl_43.79_e10.pt" 
+MODEL="${ROOT_DIR}/models/opensubtitles_2_6_t_given_s_acc_32.66_ppl_38.81_e10.pt"
 SEED="666"
 GPU=2
 
@@ -126,7 +127,6 @@ python3 "$TRANSLATE" \
 -k_per_cand 3 \
 -gpu "${GPU}"
 
-
 echo "Diverse beam search"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
@@ -155,9 +155,8 @@ python3 "$TRANSLATE" \
 -beam_iters "${NUM_DECODES}" \
 -gpu "${GPU}"
 
-
 echo "Clustering beam search"
-## (NOTE: This takes longer because it loads in GloVe embeddings)
+# (NOTE: This takes longer because it loads in GloVe embeddings)
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
