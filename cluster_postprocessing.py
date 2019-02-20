@@ -155,40 +155,44 @@ def main(opt):
 
   all_results = {}
   for json_file in glob.glob(os.path.join(opt.input_dir, '*.json')):
-    with open(json_file, 'r') as f:
-      try:
-        experiment = json.load(f)
-        print('Processing ' + json_file)
-      except:
-        print('Error processing ' + json_file)
-        print('Skipping it.')
-        continue
-
-      for ex_num, example in enumerate(experiment['results']):
-        if ex_num % 10 == 0:
-          print("Clustering output: " + str(ex_num))
-        
-        candidates = example['pred']
-        scores = example['scores']
-        candidates, scores = remove_duplicates(candidates, scores)
-
-        if opt.method == 'kmeans':
-          candidates, scores = kmeans_filtering(
-              candidates, scores, opt.num_cands, True)
-        elif opt.method == 'distance':
-          candidates, scores = distance_filtering(
-              candidates, scores, opt.num_cands, False)
-        elif opt.method == 'kmeans_mod':
-          candidates, scores = kmeans_mod_filtering(candidates, scores, opt.num_cands, True)
-        else:
-          raise ValueError('Not a valid filtering method')
-
-        example['pred'] = candidates
-        example['scores'] = scores
-
     out_json_file = os.path.join(opt.output_dir, os.path.basename(json_file))
-    with open(out_json_file, 'w') as f:
-      json.dump(experiment, f)
+
+    ## Check to make sure file doesn't already exist
+    if not os.isfile(out_json_file):   
+      with open(json_file, 'r') as f:
+        try:
+          experiment = json.load(f)
+          print('Processing ' + json_file)
+        except:
+          print('Error processing ' + json_file)
+          print('Skipping it.')
+          continue
+
+        for ex_num, example in enumerate(experiment['results']):
+          if ex_num % 10 == 0:
+            print("Clustering output: " + str(ex_num))
+          
+          candidates = example['pred']
+          scores = example['scores']
+          candidates, scores = remove_duplicates(candidates, scores)
+
+          if opt.method == 'kmeans':
+            candidates, scores = kmeans_filtering(
+                candidates, scores, opt.num_cands, True)
+          elif opt.method == 'distance':
+            candidates, scores = distance_filtering(
+                candidates, scores, opt.num_cands, False)
+          elif opt.method == 'kmeans_mod':
+            candidates, scores = kmeans_mod_filtering(candidates, scores, opt.num_cands, True)
+          else:
+            raise ValueError('Not a valid filtering method')
+
+          example['pred'] = candidates
+          example['scores'] = scores
+
+      out_json_file = os.path.join(opt.output_dir, os.path.basename(json_file))
+      with open(out_json_file, 'w') as f:
+        json.dump(experiment, f)
 
 
 if __name__ == '__main__':
