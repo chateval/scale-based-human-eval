@@ -121,7 +121,7 @@ python3 "$TRANSLATE" \
 -beam_size "${NUM_DECODES}" \
 -n_best "${NUM_DECODES}" \
 -max_length 50 \
--block_ngram_repeat 1 \
+-block_ngram_repeat 0 \
 -replace_unk \
 -batch_size 1 \
 -k_per_cand 3 \
@@ -135,7 +135,7 @@ python3 "$TRANSLATE" \
 -beam_size "${NUM_DECODES}" \
 -n_best "${NUM_DECODES}" \
 -max_length 50 \
--block_ngram_repeat 1 \
+-block_ngram_repeat 0 \
 -replace_unk \
 -batch_size 1 \
 -hamming_penalty 0.8 \
@@ -149,7 +149,7 @@ python3 "$TRANSLATE" \
 -beam_size 5 \
 -n_best 5 \
 -max_length 50 \
--block_ngram_repeat 1 \
+-block_ngram_repeat 0 \
 -replace_unk \
 -batch_size 1 \
 -beam_iters "${NUM_DECODES}" \
@@ -164,7 +164,7 @@ python3 "$TRANSLATE" \
 -beam_size "${NUM_DECODES}" \
 -n_best "${NUM_DECODES}" \
 -max_length 50 \
--block_ngram_repeat 1 \
+-block_ngram_repeat 0 \
 -replace_unk \
 -batch_size 1 \
 -num_clusters 5 \
