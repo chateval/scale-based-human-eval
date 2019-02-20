@@ -81,11 +81,11 @@ python3 "$TRANSLATE" \
 -random_sampling_topk -1 \
 -gpu "${GPU}"
 
-echo "Random sampling, temperature=1.3"
+echo "Random sampling, temperature=0.5"
 python3 "$TRANSLATE" \
 -model "$MODEL" \
 -src "$SOURCE_FILE" \
--output "${OUTPUT_DIR}/random_sampling_temp1.3.json" \
+-output "${OUTPUT_DIR}/random_sampling_temp0.5.json" \
 -beam_size 1 \
 -max_length 50 \
 -block_ngram_repeat 0 \
@@ -93,7 +93,7 @@ python3 "$TRANSLATE" \
 -batch_size "${BATCH_SIZE}" \
 -seed "$SEED" \
 -num_random_samples "${NUM_DECODES}" \
--random_sampling_temp 1.3 \
+-random_sampling_temp 0.5 \
 -random_sampling_topk -1 \
 -gpu "${GPU}"
 
