@@ -42,7 +42,7 @@ def fix(listy, detokenize):
     
 
 # Load all json files
-def load_directory(dir1, dir2, detokenize):
+def load_directory(dir1, dir2, detokenize):    
     files1 = get_all_files(dir1)
     paths1 = [dir1 + "/" + file for file in files1]
 
@@ -55,15 +55,25 @@ def load_directory(dir1, dir2, detokenize):
     filepaths = paths1 + paths2
     files = files1 + files2
 
+    num_fixes = 0
     inputs, preds, scores, systems = [], [], [], []
+    
     for i, path in enumerate(filepaths):
         inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
-                inps.append(fix(result_dict["input"], detokenize))
-                prds.append([fix(p, detokenize) for p in result_dict["pred"]])
+                fixed_input, fix_bool = fix(result_dict["input"], detokenize)
+                inps.append(fixed_input)
+                num_fixes += fix_bool
+
+                fixed_preds = []
+                for p in result_dict["pred"]:
+                    fixed_pred, fix_bool = fix(p, detokenize)
+                    fixed_preds.append(fixed_pred)
+                    num_fixes += fix_bool
+                prds.append(fixed_preds)
                 scrs.append(result_dict["scores"])
                 systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
