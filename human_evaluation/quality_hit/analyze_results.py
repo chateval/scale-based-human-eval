@@ -1,6 +1,7 @@
 import sys
 import csv
 from itertools import combinations
+from sklearn.metrics import cohen_kappa_score
 
 def read_results(mturk_file):
     mturk_dict = dict()
@@ -44,6 +45,25 @@ def calculate_results(mturk_dict, stat_name):
                             stat[system_name][prompt_id] = dict()
                             stat[system_name][prompt_id][response_id] = [judgment]
 
+    ## Calculates inner-annotator agreement
+    annotators = [[], [], []]
+    for sys_name, prompts in stat.items():
+        for prompt_id, responses in prompts.items():
+            for response_id, judgments in responses.items():
+                if len(judgments) == 3:
+                    for i in range(len(judgments)):
+                        annotators[i].append(judgments[i])
+
+    if len(annotators[0]) > 0:
+        print(len(annotators[0]))
+        kappa1 = cohen_kappa_score(annotators[0], annotators[1])
+        kappa2 = cohen_kappa_score(annotators[0], annotators[2])
+        kappa3 = cohen_kappa_score(annotators[1], annotators[2])
+        avg_kappa = (kappa1 + kappa2 + kappa3) / 3
+        print("Inner-annotator agreement: " + str(round(avg_kappa, 3)))
+        print()
+    
+
     ## Calculates average disagreement
     diffs = []
     diff_dist = [0 for i in range(2)]
@@ -56,12 +76,10 @@ def calculate_results(mturk_dict, stat_name):
                         diffs.append(abs(judgments[c[0]] - judgments[c[1]]))
                         diff_dist[abs(judgments[c[0]] - judgments[c[1]])] += 1
 
-    '''
     try:
         print("Average disagreement: " + str(round(sum(diffs)/len(diffs), 3)))
     except ZeroDivisionError:
         a = 1
-    '''
 
     print("Pairwise Agreement: ")
     try:
@@ -87,14 +105,14 @@ def calculate_results(mturk_dict, stat_name):
                     not_done[systems.index(sys_name)] += 1
                 avg_stat[systems.index(sys_name)].append(sum(judgments)/len(judgments))
     ## Calculates overall averages
-    avg = [round(sum(s)/len(s), 3) for s in avg_stat]
+    avg = [sum(s)/len(s) for s in avg_stat]
 
     #print("DONE: " + str(done))
     #print("NOT DONE: " + str(not_done))
 
     #print("\nAVERAGES:")
-    for i in range(len(systems)):
-        print(systems[i] + ": " + str(avg[i]))
+    #for i in range(len(systems)):
+    #    print(systems[i] + ": " + str(avg[i]))
     return avg, systems
             
                 
@@ -108,20 +126,30 @@ def main(mturk_file):
     print("\n## GRAMMAR ##")
     grammar, systems = calculate_results(mturk_dict, 'grammar')
     print("\n## COHERENCE ##")
-    means, systems = calculate_results(mturk_dict, 'coherence')
+    coherence, systems = calculate_results(mturk_dict, 'coherence')
     print("\n## INTERESTING ##")
-    simps, systems = calculate_results(mturk_dict, 'interesting')
+    interesting, systems = calculate_results(mturk_dict, 'interesting')
 
     print("\n#### OVERALL STATS ####")
     for i in range(len(grammar)):
-        print(systems[i] + ": " + str(round(sum([grammar[i], means[i], simps[i]])/3, 2)))
+        group = systems[i].split("/")[0]
+        if group == "clustered":
+            cluster = "Yes"
+        else:
+            cluster = "No"
+            
+        system = systems[i].split("/")[1][:-5]
+        print(system + "\t" + cluster + "\t" + str(round(grammar[i], 3)) + "\t" + \
+              str(round(coherence[i], 3)) + "\t" + \
+              str(round(interesting[i], 3)) + "\t" + \
+              str(round(sum([grammar[i], coherence[i], interesting[i]])/3, 3)))
 
 
 if __name__ == '__main__':
-    mturk_file = 'results/Batch_3539631_batch_results.csv'
+    mturk_file = 'results/Batch_3540427_batch_results.csv'
     main(mturk_file)
 
 '''
 python analyze_results_v2.py \
-results/Batch_3539631_batch_results.csv
+results/Batch_3540427_batch_results.csv
 '''
