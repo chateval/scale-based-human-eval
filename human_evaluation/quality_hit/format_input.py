@@ -98,14 +98,16 @@ def load_directory(dir1, dir2, detokenize):
                     print()
                 c += 1
                 
-                systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
+                systms.append([files[i] + "_" + str(k) for k in range(len(sorted_scores))])
 
+        '''
         for j in range(len(inps)):
             inps[j] = inps[j].replace('&apos;', "'")
             inps[j] = inps[j].replace('&#124;', "|")
             for k in range(len(prds[j])):
                 prds[j][k] = prds[j][k].replace('&apos;', "'")
                 prds[j][k] = prds[j][k].replace('&#124;', "'")
+        '''
             
         inputs.append(inps)
         preds.append(prds)
