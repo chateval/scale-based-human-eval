@@ -26,6 +26,8 @@ def fix(listy, detokenize):
     detok = detokenize(listy)
     fixed = str(detok)
 
+    num_fixes = 0
+
     starts = ["i", "you", "he", "they", "we"]
     punctuation = ["!", "?", "."]
 
@@ -33,14 +35,13 @@ def fix(listy, detokenize):
         for p in punctuation:
             bad1 = s + p + " l"
             fixed = fixed.replace(bad1, s + "'ll")
-
+            
             bad2 = s + p + " e"
             fixed = fixed.replace(bad2, s + "'ve")
-
-    if "'r e" in fixed:
-        print(fixed)
         
-    fixed.replace("'r e", "'re")
+    fixed = fixed.replace("'r e", "'re")
+
+    
 
     if fixed != detok:
         return fixed, 1
