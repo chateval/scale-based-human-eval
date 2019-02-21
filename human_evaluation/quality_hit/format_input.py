@@ -21,7 +21,7 @@ def flatten(listoflists):
 
 def fix(listy, detokenize):
     detok = detokenize(listy)
-    fixed = str(detok_orig)
+    fixed = str(detok)
 
     starts = ["i", "you", "he", "they", "we"]
     punctuation = ["!", "?", "."]
@@ -34,8 +34,8 @@ def fix(listy, detokenize):
             bad2 = s + p + " e"
             fixed = fixed.replace(bad2, s + "'ve")
 
-    if fixed != detok_orig:
-        print(detok_orig)
+    if fixed != detok:
+        print(detok)
         print(fixed)
         print()
     return fixed
