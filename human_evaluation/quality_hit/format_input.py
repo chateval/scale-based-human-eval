@@ -7,6 +7,8 @@ import random
 import csv
 from mosestokenizer import MosesDetokenizer
 
+num_fixes = 0
+
 
 ## Gets name of files in a list from a directory
 def get_all_files(directory):
@@ -35,9 +37,7 @@ def fix(listy, detokenize):
             fixed = fixed.replace(bad2, s + "'ve")
 
     if fixed != detok:
-        print(detok)
-        print(fixed)
-        print()
+        num_fixes += 1
     return fixed
     
 
@@ -78,6 +78,8 @@ def load_directory(dir1, dir2, detokenize):
         preds.append(prds)
         scores.append(scrs)
         systems.append(systms)
+
+    print("NUMBER OF FIXES: " + str(num_fixes))
 
     return inputs, preds, scores, systems
 
