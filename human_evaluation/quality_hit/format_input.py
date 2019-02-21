@@ -21,6 +21,7 @@ def flatten(listoflists):
     list = [item for sublist in listoflists for item in sublist]
     return list
 
+## Detokenize and fix weird contractions
 def fix(listy, detokenize):
     detok = detokenize(listy)
     fixed = str(detok)
@@ -37,8 +38,9 @@ def fix(listy, detokenize):
             fixed = fixed.replace(bad2, s + "'ve")
 
     if fixed != detok:
-        num_fixes += 1
-    return fixed
+        return fixed, 1
+    else:
+        return fixed, 0
     
 
 # Load all json files
