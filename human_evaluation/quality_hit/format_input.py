@@ -20,8 +20,8 @@ def flatten(listoflists):
     return list
 
 def fix(listy, detokenize):
-    detok_orig = detokenize(listy)
-    detok = str(detok_orig)
+    detok = detokenize(listy)
+    fixed = str(detok_orig)
 
     starts = ["i", "you", "he", "they", "we"]
     punctuation = ["!", "?", "."]
@@ -29,16 +29,16 @@ def fix(listy, detokenize):
     for s in starts:
         for p in punctuation:
             bad1 = s + p + " l"
-            detok.replace(bad1, s + "'ll")
+            fixed = fixed.replace(bad1, s + "'ll")
 
             bad2 = s + p + " e"
-            detok.replace(bad2, s + "'ve")
+            fixed = fixed.replace(bad2, s + "'ve")
 
-    if detok != detok_orig:
+    if fixed != detok_orig:
         print(detok_orig)
-        print(detok)
+        print(fixed)
         print()
-    return detok
+    return fixed
     
 
 # Load all json files
@@ -190,6 +190,4 @@ python3 format_input.py \
 /data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
 /data2/the_beamers/the_beamers_reno/experiments/100to10decodes/ \
 input/input.csv
-
-NOTE: NOT DONE!!!!
 '''
