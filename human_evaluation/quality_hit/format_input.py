@@ -67,6 +67,7 @@ def load_directory(dir1, dir2, detokenize):
     inputs, preds, scores, systems = [], [], [], []
     
     for i, path in enumerate(filepaths):
+        print(path)
         c = 0
         inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
