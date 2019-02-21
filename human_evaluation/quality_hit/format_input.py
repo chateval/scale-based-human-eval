@@ -67,6 +67,7 @@ def load_directory(dir1, dir2, detokenize):
     inputs, preds, scores, systems = [], [], [], []
     
     for i, path in enumerate(filepaths):
+        c = 0
         inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
             outputs = json.load(f)
@@ -81,8 +82,21 @@ def load_directory(dir1, dir2, detokenize):
                     fixed_pred, fix_bool = fix(p, detokenize)
                     fixed_preds.append(fixed_pred)
                     num_fixes += fix_bool
-                prds.append(fixed_preds)
-                scrs.append(result_dict["scores"])
+
+                sorted_scores = sorted(result_dict["scores"], reverse=True)
+                sorted_indices = [result_dict["scores"].index(s) for s in sorted_scores]
+                sorted_preds = [fixed_preds[ind] for ind in sorted_indices]
+                prds.append(sorted_preds)
+                scrs.append(sorted_scores)
+
+                if c < 1:
+                    print(fixed_preds)
+                    print(result_dict["scores"])
+                    print(sorted_preds)
+                    print(sorted_scores)
+                    print()
+                c += 1
+                
                 systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
         for j in range(len(inps)):
@@ -210,4 +224,9 @@ python3 format_input.py \
 /data2/the_beamers/the_beamers_reno/experiments/10decodes/ \
 /data2/the_beamers/the_beamers_reno/experiments/100to10decodes/ \
 input/input.csv
+
+python3 format_input.py \
+/data2/the_beamers/the_beamers_reno/experiments_joao_model2/10decodes/ \
+/data2/the_beamers/the_beamers_reno/experiments_joao_model2/100to10decodes/ \
+input/input_joao_model2.csv
 '''
