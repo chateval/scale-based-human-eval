@@ -67,8 +67,6 @@ def load_directory(dir1, dir2, detokenize):
     inputs, preds, scores, systems = [], [], [], []
     
     for i, path in enumerate(filepaths):
-        print(path)
-        c = 0
         inps, prds, scrs, systms = [], [], [], []
         with open(path) as f:
             outputs = json.load(f)
@@ -89,25 +87,8 @@ def load_directory(dir1, dir2, detokenize):
                 sorted_preds = [fixed_preds[ind] for ind in sorted_indices]
                 prds.append(sorted_preds)
                 scrs.append(sorted_scores)
-
-                if c < 1:
-                    print(fixed_preds)
-                    print(result_dict["scores"])
-                    print(sorted_preds)
-                    print(sorted_scores)
-                    print()
-                c += 1
                 
                 systms.append([files[i] + "_" + str(k) for k in range(len(sorted_scores))])
-
-        '''
-        for j in range(len(inps)):
-            inps[j] = inps[j].replace('&apos;', "'")
-            inps[j] = inps[j].replace('&#124;', "|")
-            for k in range(len(prds[j])):
-                prds[j][k] = prds[j][k].replace('&apos;', "'")
-                prds[j][k] = prds[j][k].replace('&#124;', "'")
-        '''
             
         inputs.append(inps)
         preds.append(prds)
