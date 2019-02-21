@@ -19,6 +19,28 @@ def flatten(listoflists):
     list = [item for sublist in listoflists for item in sublist]
     return list
 
+def fix(listy, detokenize):
+    detok_orig = detokenize(listy)
+    detok = str(detok_orig)
+
+    starts = ["i", "you", "he", "they", "we"]
+    punctuation = ["!", "?", "."]
+
+    for s in starts:
+        for p in punctuation:
+            bad1 = s + p + " l"
+            detok.replace(bad1, s + "'ll")
+
+            bad2 = s + p + " e"
+            detok.replace(bad2, s + "'ve")
+
+    if detok != detok_orig:
+        print(detok_orig)
+        print(detok)
+        print()
+    return detok
+    
+
 # Load all json files
 def load_directory(dir1, dir2, detokenize):
     files1 = get_all_files(dir1)
@@ -40,8 +62,8 @@ def load_directory(dir1, dir2, detokenize):
             outputs = json.load(f)
 
             for result_dict in outputs["results"]:
-                inps.append(detokenize(result_dict["input"]))
-                prds.append([detokenize(p) for p in result_dict["pred"]])
+                inps.append(fix(result_dict["input"], detokenize))
+                prds.append([fix(p, detokenize) for p in result_dict["pred"]])
                 scrs.append(result_dict["scores"])
                 systms.append([files[i] + "_" + str(k) for k in range(len(result_dict["scores"]))])
 
