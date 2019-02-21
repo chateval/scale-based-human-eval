@@ -37,6 +37,9 @@ def fix(listy, detokenize):
             bad2 = s + p + " e"
             fixed = fixed.replace(bad2, s + "'ve")
 
+    if "'r e" in fixed:
+        print(fixed)
+        
     fixed.replace("'r e", "'re")
 
     if fixed != detok:
