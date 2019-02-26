@@ -15,11 +15,14 @@ def read_results(mturk_file):
 
 def calculate_results(mturk_dict, stat_name):
     stat = dict()
+    prompts_actual = ["hi" for i in range(100)]
 
     for rowid, row_dict in mturk_dict.items():
         for i in range(1, 6):
             prompt = row_dict["Input.input" + str(i)]
-            prompt_id = row_dict["Input.sentid" + str(i)]
+            prompt_id = int(row_dict["Input.sentid" + str(i)])
+
+            prompts_actual[prompt_id] = prompt
 
             for j in range(1, 6):
                 system_name = row_dict["Input.sysid" + str(i) + str(j)][:-2]
@@ -99,11 +102,25 @@ def calculate_results(mturk_dict, stat_name):
         for prompt_id, responses in prompts.items():
             for response_id, judgments in responses.items():
                 ## Keeps track of how many sentences are done
-                if len('judgments') == 2:
+                if len('judgments') == 3:
                     done[systems.index(sys_name)] += 1
                 else:
                     not_done[systems.index(sys_name)] += 1
                 avg_stat[systems.index(sys_name)].append(sum(judgments)/len(judgments))
+
+    ## Calculates overall average per sentence id
+    avg_by_sent_id = [[] for i in range(100)]
+    for sys_name, prompts in stat.items():
+        for prompt_id, responses in prompts.items():
+            for response_id, judgments in responses.items():
+                avg_by_sent_id[prompt_id].append(sum(judgments)/len(judgments))
+    print([len(a) for a in avg_by_sent_id])
+
+
+    avg_sent_id = [sum(a)/len(a) for a in avg_by_sent_id]
+    print(len(avg_sent_id))
+                
+
     ## Calculates overall averages
     avg = [sum(s)/len(s) for s in avg_stat]
 
@@ -113,7 +130,7 @@ def calculate_results(mturk_dict, stat_name):
     #print("\nAVERAGES:")
     #for i in range(len(systems)):
     #    print(systems[i] + ": " + str(avg[i]))
-    return avg, systems
+    return avg, systems, avg_sent_id, prompts_actual
             
                 
             
@@ -124,11 +141,11 @@ def main(mturk_file):
     mturk_dict = read_results(mturk_file)
 
     print("\n## GRAMMAR ##")
-    grammar, systems = calculate_results(mturk_dict, 'grammar')
+    grammar, systems, grammarsi, prompts = calculate_results(mturk_dict, 'grammar')
     print("\n## COHERENCE ##")
-    coherence, systems = calculate_results(mturk_dict, 'coherence')
+    coherence, systems, coherencesi, prompts = calculate_results(mturk_dict, 'coherence')
     print("\n## INTERESTING ##")
-    interesting, systems = calculate_results(mturk_dict, 'interesting')
+    interesting, systems, interestingsi, prompts = calculate_results(mturk_dict, 'interesting')
 
     print("\n#### OVERALL STATS ####")
     for i in range(len(grammar)):
@@ -145,6 +162,17 @@ def main(mturk_file):
               str(round(sum([grammar[i], coherence[i], interesting[i]])/3, 3)))
 
 
+    print("\n#### Prompts by average ####")
+
+    avg_sent_id = [(grammarsi[i] + coherencesi[i] + interestingsi[i]) / 3 for i in range(len(grammarsi))]
+
+    indices = [i[0] for i in sorted(enumerate(avg_sent_id), key=lambda x:x[1])]
+    for i in indices:
+        print(str(round(avg_sent_id[i], 4)) + "\t" + prompts[i])
+              
+
+    
+        
 if __name__ == '__main__':
     mturk_file = 'results/Batch_3540427_batch_results.csv'
     main(mturk_file)
