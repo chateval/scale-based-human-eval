@@ -48,7 +48,7 @@ def main(opt):
         for ex_num, example in enumerate(experiment['results']):
           candidates = example['pred']
           scores = example['scores']
-          candidates, scores = remove_duplicates(candidates, scores)
+          candidates, scores = remove_duplicates(candidates, scores, num_candidates)
 
           if ex_num < 3:
             print(candidates)
