@@ -27,7 +27,7 @@ to first produce 100 diverse decodings from each method, and then narrow these d
 # Instructions for running automatic evaluation.
 Run 
 ```
-python analyze_diversity.py -dir experiments/10decodes
+python analyze_diversity.py -dir experiments/100to10decodesNoPDC
 
 python analyze_diversity.py -dir experiments/100to10decodes
 ```
